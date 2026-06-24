@@ -73,7 +73,7 @@ export default function Home() {
         <div className="max-w-2xl">
           <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-6">Hello, I'm</p>
 
-          <h1 className="text-6xl md:text-7xl font-bold italic mb-6" style={{ fontStyle: "italic" }}>Nick Barth.</h1>
+          <h1 className="text-6xl md:text-7xl font-bold italic mb-6" style={{ fontFamily: "var(--font-playfair)", fontStyle: "italic", fontWeight: "600" }}>Nick Barth.</h1>
 
           <div className="w-12 h-px bg-zinc-300 dark:bg-zinc-700 mb-8"></div>
 
