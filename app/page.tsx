@@ -62,8 +62,8 @@ export default function Home() {
 
   if (professional) {
     return (
-      <div className="min-h-screen w-screen bg-white dark:bg-zinc-950 text-black dark:text-white p-8 md:p-16 relative">
-        <div className="absolute top-6 right-6 flex gap-8 text-sm font-medium">
+      <div className="min-h-screen w-screen bg-white dark:bg-zinc-950 text-black dark:text-white p-6 sm:p-8 md:p-16 relative">
+        <div className="absolute top-6 right-6 flex flex-col sm:flex-row gap-4 sm:gap-8 text-xs sm:text-sm font-medium text-right">
           <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
             Blog
           </a>
@@ -75,10 +75,10 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="max-w-2xl">
-          <h1 className="text-7xl md:text-8xl mb-8" style={{ fontFamily: "var(--font-bodoni)", fontStyle: "italic", fontWeight: "400" }}>Nick Barth</h1>
+        <div className="max-w-2xl pt-12 sm:pt-0">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 sm:mb-8" style={{ fontFamily: "var(--font-bodoni)", fontStyle: "italic", fontWeight: "400", lineHeight: "1.1" }}>Nick Barth</h1>
 
-          <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-12 leading-relaxed">
+          <p className="text-base sm:text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed">
             Growth Engineer at <a href="https://personio.com" target="_blank" className="font-medium hover:text-black dark:hover:text-white transition-colors underline">Personio</a>, based out of Utrecht — striving to solve business problems through code.
           </p>
         </div>
@@ -87,7 +87,7 @@ export default function Home() {
   }
 
   return (
-    <div className="h-screen w-screen bg-gradient-to-br from-purple-950 via-black to-blue-950 text-cyan-300 overflow-hidden flex flex-col items-center justify-center relative">
+    <div className="min-h-screen w-screen bg-gradient-to-br from-purple-950 via-black to-blue-950 text-cyan-300 overflow-x-hidden flex flex-col items-center justify-center relative p-6 sm:p-8">
       {/* Hitmarkers */}
       {hitmarkers.map((hitmarker) => (
         <div
@@ -246,20 +246,20 @@ export default function Home() {
 
       {/* Main content */}
       <div className="relative z-10 text-center max-w-5xl">
-        <h1 className="text-9xl font-black mb-2 glow jitter" style={{ fontFamily: "var(--font-outfit)", textTransform: "uppercase", letterSpacing: "0.08em", color: "#00f5ff" }}>
+        <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black mb-2 sm:mb-4 glow jitter" style={{ fontFamily: "var(--font-outfit)", textTransform: "uppercase", letterSpacing: "0.08em", color: "#00f5ff" }}>
           NICK BARTH
         </h1>
-        <div className="text-4xl font-black mb-6 scale-pulse" style={{ textTransform: "uppercase", color: "#ff006e" }}>
+        <div className="text-2xl sm:text-3xl md:text-4xl font-black mb-6 scale-pulse" style={{ textTransform: "uppercase", color: "#ff006e" }}>
           ⚡ GROWTH ENGINEER ⚡
         </div>
 
-        <p className="text-2xl mb-12 max-w-2xl mx-auto font-black" style={{ fontWeight: "bold", color: "#00f5ff" }}>
+        <p className="text-base sm:text-lg md:text-2xl mb-8 sm:mb-12 max-w-2xl mx-auto font-black px-2" style={{ fontWeight: "bold", color: "#00f5ff" }}>
           Growth Engineer at <a href="https://personio.com" target="_blank" className="text-pink-400 hover:text-cyan-300 transition-colors underline animate-pulse" style={{ textTransform: "uppercase" }}>PERSONIO</a> 💜<br/>
-          <span className="text-lg" style={{ color: "#ff006e" }}>Software engineer by trade, GTM by passion</span>
+          <span className="text-sm sm:text-base md:text-lg" style={{ color: "#ff006e" }}>Software engineer by trade, GTM by passion</span>
         </p>
 
         {/* Chaotic bouncing contact links */}
-        <div className="flex justify-center gap-16 text-3xl font-black" style={{ textTransform: "uppercase" }}>
+        <div className="flex flex-col sm:flex-row justify-center gap-6 sm:gap-12 md:gap-16 text-xl sm:text-2xl md:text-3xl font-black px-2" style={{ textTransform: "uppercase" }}>
           <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" onMouseEnter={createHitmarker} className="bounce zigzag hover:text-pink-300 transition-colors" style={{ animationDelay: "0s", color: "#00f5ff" }}>
             📝 BLOG 📝
           </a>
