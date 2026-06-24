@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Outfit, Crimson_Text } from "next/font/google";
+import { Geist, Geist_Mono, Outfit, Bodoni_Moda } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -18,10 +18,10 @@ const outfit = Outfit({
   weight: ["400", "500", "600", "700"],
 });
 
-const crimsonText = Crimson_Text({
-  variable: "--font-crimson",
+const bodoniModa = Bodoni_Moda({
+  variable: "--font-bodoni",
   subsets: ["latin"],
-  weight: ["400", "600"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} ${crimsonText.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} ${bodoniModa.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
