@@ -220,17 +220,17 @@ export default function Home() {
         }
       `}</style>
 
-      {/* Multiple spinning money signs - EVERYWHERE */}
-      <div className="absolute top-10 left-10 text-7xl spin">💰</div>
+      {/* Spinning skulls and money signs */}
+      <img src="/skull.gif" alt="skull" className="absolute top-10 left-10 w-16 h-16" />
       <div className="absolute top-20 right-20 text-8xl spin-reverse" style={{ animationDelay: "0.5s" }}>💵</div>
-      <div className="absolute bottom-20 left-20 text-7xl spin" style={{ animationDelay: "1s" }}>💸</div>
+      <img src="/skull.gif" alt="skull" className="absolute bottom-20 left-20 w-20 h-20" />
       <div className="absolute bottom-10 right-10 text-9xl spin" style={{ animationDelay: "1.5s" }}>🤑</div>
-      <div className="absolute top-1/2 left-1/4 text-7xl spin-reverse" style={{ animationDelay: "0.3s" }}>💴</div>
+      <img src="/skull.gif" alt="skull" className="absolute top-1/2 left-1/4 w-24 h-24" />
       <div className="absolute top-1/3 right-1/4 text-8xl spin" style={{ animationDelay: "1.2s" }}>💶</div>
       <div className="absolute top-1/4 left-1/3 text-6xl spin" style={{ animationDelay: "0.8s" }}>💷</div>
-      <div className="absolute bottom-1/3 right-1/3 text-7xl spin-reverse" style={{ animationDelay: "2s" }}>💹</div>
+      <img src="/skull.gif" alt="skull" className="absolute bottom-1/3 right-1/3 w-20 h-20" />
       <div className="absolute top-2/3 right-1/4 text-8xl spin" style={{ animationDelay: "0.2s" }}>💲</div>
-      <div className="absolute bottom-1/4 left-1/2 text-7xl spin-reverse" style={{ animationDelay: "1.8s" }}>🏆</div>
+      <img src="/skull.gif" alt="skull" className="absolute bottom-1/4 left-1/2 w-16 h-16" />
 
       {/* Top marquee */}
       <div className="absolute top-0 w-full bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 text-white py-3 font-black text-xl overflow-hidden">
