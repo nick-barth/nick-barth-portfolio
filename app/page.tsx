@@ -62,7 +62,7 @@ export default function Home() {
 
   if (professional) {
     return (
-      <div className="min-h-screen w-screen bg-white dark:bg-black text-black dark:text-white p-8 md:p-16 relative">
+      <div className="min-h-screen w-screen bg-white dark:bg-zinc-950 text-black dark:text-white p-8 md:p-16 relative">
         <div className="absolute top-6 right-6 flex gap-8 text-sm font-medium">
           <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
             Blog
@@ -73,17 +73,9 @@ export default function Home() {
           <a href="#" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
             Resume
           </a>
-          <button
-            onClick={() => setProfessional(false)}
-            className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
-          >
-            chaos
-          </button>
         </div>
 
         <div className="max-w-2xl">
-          <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-6">Hello, I'm</p>
-
           <h1 className="text-7xl md:text-8xl mb-8" style={{ fontFamily: "var(--font-bodoni)", fontStyle: "italic", fontWeight: "400" }}>Nick Barth</h1>
 
           <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-12 leading-relaxed">
