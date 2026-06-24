@@ -3,7 +3,7 @@
 import { useState, useRef } from "react";
 
 export default function Home() {
-  const [professional, setProfessional] = useState(false);
+  const [professional, setProfessional] = useState(true);
   const [hitmarkers, setHitmarkers] = useState<Array<{ id: number; x: number; y: number }>>([]);
   const hitmarkerIdRef = useRef(0);
 
