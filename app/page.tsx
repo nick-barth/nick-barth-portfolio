@@ -73,17 +73,14 @@ export default function Home() {
         <div className="text-center max-w-2xl">
           <h1 className="text-6xl md:text-7xl font-bold tracking-tight mb-6">Nick Barth</h1>
           <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-8">
-            Growth Engineer at <a href="https://deepnote.com" target="_blank" className="font-medium hover:text-black dark:hover:text-white transition-colors">Deepnote</a>, based in Utrecht. Building products and growing them through data, experimentation, and strategic thinking.
+            Growth Engineer at <a href="https://personio.com" target="_blank" className="font-medium hover:text-black dark:hover:text-white transition-colors">Personio</a>. Software engineer by trade, GTM by passion.
           </p>
           <div className="flex justify-center gap-8 text-sm font-medium">
-            <a href="mailto:barth.nicholas@gmail.com" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
-              Email
+            <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
+              Blog
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
+            <a href="https://linkedin.com/in/nickbarth" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
               LinkedIn
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
-              Twitter
             </a>
           </div>
         </div>
@@ -259,19 +256,17 @@ export default function Home() {
         </div>
 
         <p className="text-2xl mb-12 max-w-2xl mx-auto font-black" style={{ fontWeight: "bold", color: "#00f5ff" }}>
-          Product Engineer at <a href="https://deepnote.com" target="_blank" className="text-pink-400 hover:text-cyan-300 transition-colors underline animate-pulse" style={{ textTransform: "uppercase" }}>DEEPNOTE</a> 💜
+          Growth Engineer at <a href="https://personio.com" target="_blank" className="text-pink-400 hover:text-cyan-300 transition-colors underline animate-pulse" style={{ textTransform: "uppercase" }}>PERSONIO</a> 💜<br/>
+          <span className="text-lg" style={{ color: "#ff006e" }}>Software engineer by trade, GTM by passion</span>
         </p>
 
         {/* Chaotic bouncing contact links */}
         <div className="flex justify-center gap-16 text-3xl font-black" style={{ textTransform: "uppercase" }}>
-          <a href="mailto:barth.nicholas@gmail.com" onMouseEnter={createHitmarker} className="bounce zigzag hover:text-pink-300 transition-colors" style={{ animationDelay: "0s", color: "#00f5ff" }}>
-            📧 EMAIL 📧
+          <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" onMouseEnter={createHitmarker} className="bounce zigzag hover:text-pink-300 transition-colors" style={{ animationDelay: "0s", color: "#00f5ff" }}>
+            📝 BLOG 📝
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" onMouseEnter={createHitmarker} className="bounce scale-pulse hover:text-cyan-300 transition-colors" style={{ animationDelay: "0.2s", color: "#ff006e" }}>
+          <a href="https://linkedin.com/in/nickbarth" target="_blank" rel="noopener noreferrer" onMouseEnter={createHitmarker} className="bounce scale-pulse hover:text-cyan-300 transition-colors" style={{ animationDelay: "0.2s", color: "#ff006e" }}>
             💼 LINKEDIN 💼
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" onMouseEnter={createHitmarker} className="bounce jitter hover:text-purple-300 transition-colors" style={{ animationDelay: "0.4s", color: "#b537f2" }}>
-            𝕏 TWITTER 𝕏
           </a>
         </div>
 
