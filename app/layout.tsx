@@ -26,11 +26,11 @@ const bodoniModa = Bodoni_Moda({
 
 export const metadata: Metadata = {
   title: "Nick Barth — Product Engineer",
-  description: "Growth Engineer at Personio, based in Utrecht. I solve business problems through code.",
+  description: "Growth Engineer at Personio, based in Utrecht. Turning data into revenue.",
   keywords: "growth engineering, product strategy, product engineer, GTM",
   openGraph: {
     title: "Nick Barth — Product Engineer",
-    description: "Growth Engineer at Personio, based in Utrecht. I solve business problems through code.",
+    description: "Growth Engineer at Personio, based in Utrecht. Turning data into revenue.",
     url: "https://new-nick-barth.vercel.app",
     siteName: "Nick Barth",
     type: "website",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Nick Barth — Product Engineer",
-    description: "Growth Engineer at Personio, based in Utrecht. I solve business problems through code.",
+    description: "Growth Engineer at Personio, based in Utrecht. Turning data into revenue.",
   },
   robots: {
     index: true,
@@ -51,7 +51,6 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  canonical: "https://new-nick-barth.vercel.app",
 };
 
 export default function RootLayout({

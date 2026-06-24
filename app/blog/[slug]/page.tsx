@@ -41,7 +41,6 @@ export async function generateMetadata({
       title: post.title,
       description: post.excerpt,
     },
-    canonical: url,
   };
 }
 
