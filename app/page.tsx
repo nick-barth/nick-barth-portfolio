@@ -87,7 +87,7 @@ export default function Home() {
           <h1 className="text-6xl md:text-7xl font-bold italic mb-8" style={{ fontFamily: "var(--font-playfair)", fontStyle: "italic", fontWeight: "600" }}>Nick Barth.</h1>
 
           <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-12 leading-relaxed">
-            Growth Engineer at <a href="https://personio.com" target="_blank" className="font-medium hover:text-black dark:hover:text-white transition-colors underline">Personio</a>, based out of Utrecht — striving to solve business problems through code. In addition to honing my craft, I teach, read, write, stream, and occasionally podcast.
+            Growth Engineer at <a href="https://personio.com" target="_blank" className="font-medium hover:text-black dark:hover:text-white transition-colors underline">Personio</a>, based out of Utrecht — striving to solve business problems through code.
           </p>
         </div>
       </div>
