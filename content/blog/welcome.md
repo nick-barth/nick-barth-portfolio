@@ -15,4 +15,4 @@ I'll write about:
 - **Technical Leadership** — Scaling teams and technical systems
 - **Building in Public** — Lessons learned from shipping and iterating
 
-Feel free to reach out if you have thoughts or want to discuss ideas. You can find me on [LinkedIn](https://linkedin.com/in/nicholasbarth) or [Twitter](https://twitter.com).
+Feel free to reach out if you have thoughts or want to discuss ideas. You can find me on [LinkedIn](https://www.linkedin.com/in/nicholasbarth/) or [Email](mailto:barth.nicholas@gmail.com).
