@@ -62,7 +62,7 @@ export default function Home() {
 
   if (professional) {
     return (
-      <div className="h-screen w-screen bg-white dark:bg-black text-black dark:text-white flex flex-col items-center justify-center p-8 relative">
+      <div className="min-h-screen w-screen bg-white dark:bg-black text-black dark:text-white p-8 md:p-16 relative">
         <button
           onClick={() => setProfessional(false)}
           className="absolute top-6 right-6 text-sm font-medium hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
@@ -70,12 +70,18 @@ export default function Home() {
           chaos mode
         </button>
 
-        <div className="text-center max-w-2xl">
-          <h1 className="text-6xl md:text-7xl font-bold tracking-tight mb-6">Nick Barth</h1>
-          <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-8">
-            Growth Engineer at <a href="https://personio.com" target="_blank" className="font-medium hover:text-black dark:hover:text-white transition-colors">Personio</a>. Software engineer by trade, GTM by passion.
+        <div className="max-w-2xl">
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-6">Hello, I'm</p>
+
+          <h1 className="text-6xl md:text-7xl font-bold italic mb-6" style={{ fontStyle: "italic" }}>Nick Barth.</h1>
+
+          <div className="w-12 h-px bg-zinc-300 dark:bg-zinc-700 mb-8"></div>
+
+          <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-12 leading-relaxed">
+            Growth Engineer at <a href="https://personio.com" target="_blank" className="font-medium hover:text-black dark:hover:text-white transition-colors underline">Personio</a>, based out of Utrecht — striving to solve business problems through code. In addition to honing my craft, I teach, read, write, stream, and occasionally podcast.
           </p>
-          <div className="flex justify-center gap-8 text-sm font-medium">
+
+          <div className="flex gap-8 text-sm font-medium">
             <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
               Blog
             </a>
