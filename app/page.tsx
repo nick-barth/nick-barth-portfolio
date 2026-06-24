@@ -63,32 +63,32 @@ export default function Home() {
   if (professional) {
     return (
       <div className="min-h-screen w-screen bg-white dark:bg-black text-black dark:text-white p-8 md:p-16 relative">
-        <button
-          onClick={() => setProfessional(false)}
-          className="absolute top-6 right-6 text-sm font-medium hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
-        >
-          chaos mode
-        </button>
+        <div className="absolute top-6 right-6 flex gap-8 text-sm font-medium">
+          <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
+            Blog
+          </a>
+          <a href="https://linkedin.com/in/nickbarth" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
+            LinkedIn
+          </a>
+          <a href="#" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
+            Resume
+          </a>
+          <button
+            onClick={() => setProfessional(false)}
+            className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
+          >
+            chaos
+          </button>
+        </div>
 
         <div className="max-w-2xl">
           <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-6">Hello, I'm</p>
 
-          <h1 className="text-6xl md:text-7xl font-bold italic mb-6" style={{ fontFamily: "var(--font-playfair)", fontStyle: "italic", fontWeight: "600" }}>Nick Barth.</h1>
-
-          <div className="w-12 h-px bg-zinc-300 dark:bg-zinc-700 mb-8"></div>
+          <h1 className="text-6xl md:text-7xl font-bold italic mb-8" style={{ fontFamily: "var(--font-playfair)", fontStyle: "italic", fontWeight: "600" }}>Nick Barth.</h1>
 
           <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-12 leading-relaxed">
             Growth Engineer at <a href="https://personio.com" target="_blank" className="font-medium hover:text-black dark:hover:text-white transition-colors underline">Personio</a>, based out of Utrecht — striving to solve business problems through code. In addition to honing my craft, I teach, read, write, stream, and occasionally podcast.
           </p>
-
-          <div className="flex gap-8 text-sm font-medium">
-            <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
-              Blog
-            </a>
-            <a href="https://linkedin.com/in/nickbarth" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
-              LinkedIn
-            </a>
-          </div>
         </div>
       </div>
     );
