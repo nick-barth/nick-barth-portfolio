@@ -67,7 +67,7 @@ export default function Home() {
           <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
             Blog
           </a>
-          <a href="https://linkedin.com/in/nickbarth" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
+          <a href="https://www.linkedin.com/in/nicholasbarth/" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
             LinkedIn
           </a>
           <a href="#" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
@@ -263,7 +263,7 @@ export default function Home() {
           <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" onMouseEnter={createHitmarker} className="bounce zigzag hover:text-pink-300 transition-colors" style={{ animationDelay: "0s", color: "#00f5ff" }}>
             📝 BLOG 📝
           </a>
-          <a href="https://linkedin.com/in/nickbarth" target="_blank" rel="noopener noreferrer" onMouseEnter={createHitmarker} className="bounce scale-pulse hover:text-cyan-300 transition-colors" style={{ animationDelay: "0.2s", color: "#ff006e" }}>
+          <a href="https://www.linkedin.com/in/nicholasbarth/" target="_blank" rel="noopener noreferrer" onMouseEnter={createHitmarker} className="bounce scale-pulse hover:text-cyan-300 transition-colors" style={{ animationDelay: "0.2s", color: "#ff006e" }}>
             💼 LINKEDIN 💼
           </a>
         </div>
