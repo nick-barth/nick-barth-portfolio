@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://new-nick-barth.vercel.app/sitemap.xml

@@ -26,7 +26,32 @@ const bodoniModa = Bodoni_Moda({
 
 export const metadata: Metadata = {
   title: "Nick Barth — Product Engineer",
-  description: "Product engineer at Deepnote, based in Utrecht. I solve business problems through code.",
+  description: "Growth Engineer at Personio, based in Utrecht. I solve business problems through code.",
+  keywords: "growth engineering, product strategy, product engineer, GTM",
+  openGraph: {
+    title: "Nick Barth — Product Engineer",
+    description: "Growth Engineer at Personio, based in Utrecht. I solve business problems through code.",
+    url: "https://new-nick-barth.vercel.app",
+    siteName: "Nick Barth",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nick Barth — Product Engineer",
+    description: "Growth Engineer at Personio, based in Utrecht. I solve business problems through code.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  canonical: "https://new-nick-barth.vercel.app",
 };
 
 export default function RootLayout({
