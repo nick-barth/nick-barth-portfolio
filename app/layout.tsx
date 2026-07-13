@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Outfit, Bodoni_Moda } from "next/font/google";
 import localFont from "next/font/local";
+import ParallaxFooter from "@/components/ParallaxFooter";
 import "./globals.css";
 
 const maziusDisplay = localFont({
@@ -81,14 +82,15 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-  },
   alternates: {
     canonical: "https://new-nick-barth.vercel.app",
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
 };
 
 export default function RootLayout({
@@ -124,7 +126,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">{children}<ParallaxFooter /></body>
     </html>
   );
 }

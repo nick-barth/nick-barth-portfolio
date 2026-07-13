@@ -1,7 +1,6 @@
 import { getAllPosts } from "@/lib/blog";
 import Link from "next/link";
 import { Metadata } from "next";
-import ParallaxFooter from "@/components/ParallaxFooter";
 
 export const metadata: Metadata = {
   title: "Blog — Nick Barth",
@@ -26,7 +25,7 @@ export default function BlogPage() {
   const posts = getAllPosts();
 
   return (
-    <div className="min-h-screen w-full text-black" style={{ backgroundColor: "#f6f4ec" }}>
+    <div className="min-h-screen w-full text-black relative" style={{ backgroundColor: "#f6f4ec", zIndex: 1, position: "relative" }}>
       {/* Header */}
       <header className="w-full">
         <div className="flex justify-between items-start px-6 sm:px-8 md:px-16 py-3 sm:py-4">
@@ -119,7 +118,6 @@ export default function BlogPage() {
         </div>
       </div>
 
-      <ParallaxFooter />
     </div>
   );
 }

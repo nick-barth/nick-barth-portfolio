@@ -42,6 +42,8 @@
 
 html {
   background-color: #f6f4ec;
+  overflow-x: hidden;
+  overscroll-behavior: none;
 }
 
 body {

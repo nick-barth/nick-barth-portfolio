@@ -2,7 +2,6 @@ import { getPostBySlug } from "@/lib/blog";
 import Link from "next/link";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import ParallaxFooter from "@/components/ParallaxFooter";
 
 export async function generateMetadata({
   params,
@@ -77,7 +76,7 @@ export default async function BlogPost({
   };
 
   return (
-    <div className="min-h-screen w-full text-black" style={{ backgroundColor: "#f6f4ec" }}>
+    <div className="min-h-screen w-full text-black relative" style={{ backgroundColor: "#f6f4ec", zIndex: 1, position: "relative" }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -162,7 +161,6 @@ export default async function BlogPost({
         <div style={{ height: "120px" }} />
       </div>
 
-      <ParallaxFooter />
     </div>
   );
 }
