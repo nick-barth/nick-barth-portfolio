@@ -76,44 +76,88 @@ export default async function BlogPost({
   };
 
   return (
-    <div className="min-h-screen w-full bg-white dark:bg-zinc-950 text-black dark:text-white p-6 sm:p-8 md:p-16">
+    <div className="min-h-screen w-full text-black" style={{ backgroundColor: "#f6f4ec" }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <Link href="/blog" className="text-sm font-medium hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors mb-8 inline-block">
-        ← Back to Blog
-      </Link>
+      {/* Header */}
+      <header className="w-full">
+        <div className="flex justify-between items-start px-6 sm:px-8 md:px-16 py-3 sm:py-4">
+          <Link href="/">
+            <h1
+              className="font-black mb-2 hover:text-gray-600 transition-colors"
+              style={{
+                fontFamily: "'PP Pangaia', sans-serif",
+                fontWeight: "500",
+                lineHeight: "1.1",
+                fontSize: "32px",
+              }}
+            >
+              Nick Barth
+            </h1>
+          </Link>
 
-      <article className="max-w-2xl">
-        <h1 className="text-5xl sm:text-6xl font-bold mb-4" style={{ fontFamily: "var(--font-bodoni)", fontStyle: "italic" }}>
-          {post.title}
-        </h1>
-
-        <p className="text-sm text-zinc-500 dark:text-zinc-500 mb-8">
-          {new Date(post.date).toLocaleDateString("en-US", {
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-          })}
-        </p>
-
-        <div
-          className="prose dark:prose-invert max-w-none text-zinc-700 dark:text-zinc-300 leading-relaxed"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
-      </article>
-
-      <footer className="mt-16 text-sm text-zinc-600 dark:text-zinc-400 border-t border-zinc-200 dark:border-zinc-800 pt-8">
-        <div className="flex gap-6 mb-4">
-          <Link href="/" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">Home</Link>
-          <Link href="/blog" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">Blog</Link>
-          <a href="https://www.linkedin.com/in/nicholasbarth/" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">LinkedIn</a>
-          <a href="/nick_barth_growth_engineer.pdf" download className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">Resume</a>
+          {/* Navigation */}
+          <nav className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-right" style={{ fontFamily: '"Geist", "Geist Placeholder", sans-serif', fontSize: "16px" }}>
+            <Link href="/blog" className="hover:text-gray-600 transition-colors">
+              Blog
+            </Link>
+            <a
+              href="https://www.linkedin.com/in/nicholasbarth/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-600 transition-colors"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="/nick_barth_growth_engineer.pdf"
+              download
+              className="hover:text-gray-600 transition-colors"
+            >
+              Resume
+            </a>
+          </nav>
         </div>
-        <p>© 2026 Nick Barth. All rights reserved.</p>
-      </footer>
+      </header>
+
+      {/* Blog Content */}
+      <div className="overflow-hidden pt-12 sm:pt-16 md:pt-20">
+        <article className="px-6 sm:px-8 md:px-16 w-full max-w-3xl">
+          <h1
+            className="mb-6"
+            style={{
+              fontFamily: "'PP Pangaia', sans-serif",
+              fontSize: "52px",
+              fontWeight: "400",
+              lineHeight: "1.2",
+            }}
+          >
+            {post.title}
+          </h1>
+
+          <p style={{ fontFamily: '"Geist", "Geist Placeholder", sans-serif', fontSize: "14px", color: "#666", marginBottom: "32px" }}>
+            {new Date(post.date).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })}
+          </p>
+
+          <div
+            className="prose max-w-none"
+            style={{
+              fontFamily: '"Geist", "Geist Placeholder", sans-serif',
+              fontSize: "16px",
+              lineHeight: "1.8",
+              color: "#000",
+            }}
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+        </article>
+      </div>
     </div>
   );
 }
