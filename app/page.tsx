@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 export default function Home() {
-
   return (
     <div
       className="min-h-screen w-full text-black relative"
@@ -67,7 +66,7 @@ export default function Home() {
               lineHeight: "92px",
             }}
           >
-            Hands on go-to-market engineer who turns{" "}
+            Hands on go-to-market engineer specialised in turning{" "}
             <span style={{ color: "#7c3aed" }}>data → revenue</span>
           </div>
 
@@ -85,7 +84,8 @@ export default function Home() {
             growth systems across PLG and PLS motions. I specialize in
             connecting data, systems, and teams to optimize the customer
             journey, scale go-to-market strategies, and deliver measurable
-            revenue outcomes. Currently, I'm a GTM Engineer at Personio in Amsterdam.
+            revenue outcomes. Currently, I'm a GTM Engineer at Personio in
+            Amsterdam.
           </p>
         </div>
       </div>
