@@ -1,419 +1,162 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { Canvas } from "@react-three/fiber";
+import { Text, OrbitControls, Float } from "@react-three/drei";
+import { useRef, useEffect } from "react";
+import * as THREE from "three";
 
-export default function Home() {
-  const [professional, setProfessional] = useState(true);
-  const [hitmarkers, setHitmarkers] = useState<
-    Array<{ id: number; x: number; y: number }>
-  >([]);
-  const hitmarkerIdRef = useRef(0);
+function DataToRevenueScene() {
+  const groupRef = useRef<THREE.Group>(null);
 
-  const createHitmarker = (e: React.MouseEvent) => {
-    const x = e.clientX;
-    const y = e.clientY;
-
-    // Fire 3 hitmarkers in quick succession
-    for (let i = 0; i < 3; i++) {
-      setTimeout(() => {
-        const id = hitmarkerIdRef.current++;
-        setHitmarkers((prev) => [...prev, { id, x, y }]);
-
-        // Remove hitmarker after animation
-        setTimeout(() => {
-          setHitmarkers((prev) => prev.filter((h) => h.id !== id));
-        }, 500);
-      }, i * 80);
+  useEffect(() => {
+    if (groupRef.current) {
+      let animationFrame: number;
+      const animate = () => {
+        if (groupRef.current) {
+          groupRef.current.rotation.y += 0.002;
+        }
+        animationFrame = requestAnimationFrame(animate);
+      };
+      animate();
+      return () => cancelAnimationFrame(animationFrame);
     }
-  };
-
-  const playAirhorns = () => {
-    const airhorn = new Audio(
-      "data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAQB8AAAB9AAACABAAZGF0YQIAAAAAAA==",
-    );
-
-    // Create a quick airhorn sound using Web Audio API
-    const audioContext = new (window.AudioContext ||
-      (window as any).webkitAudioContext)();
-
-    const playAirhorn = (delay: number) => {
-      setTimeout(() => {
-        const now = audioContext.currentTime;
-        const osc = audioContext.createOscillator();
-        const gain = audioContext.createGain();
-
-        osc.connect(gain);
-        gain.connect(audioContext.destination);
-
-        // Airhorn-like frequency sweep
-        osc.frequency.setValueAtTime(800, now);
-        osc.frequency.exponentialRampToValueAtTime(200, now + 0.1);
-
-        gain.gain.setValueAtTime(0.3, now);
-        gain.gain.exponentialRampToValueAtTime(0.01, now + 0.15);
-
-        osc.start(now);
-        osc.stop(now + 0.15);
-      }, delay);
-    };
-
-    // Play 10 airhorns with spacing
-    for (let i = 0; i < 10; i++) {
-      playAirhorn(i * 150);
-    }
-
-    setProfessional(true);
-  };
-
-  if (professional) {
-    return (
-      <div className="min-h-screen w-screen bg-white dark:bg-zinc-950 text-black dark:text-white p-6 sm:p-8 md:p-16 relative">
-        <div className="absolute top-6 right-6 flex flex-col sm:flex-row gap-4 sm:gap-8 text-xs sm:text-sm font-medium text-right">
-          <a
-            href="/blog"
-            className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
-          >
-            Blog
-          </a>
-          <a
-            href="https://www.linkedin.com/in/nicholasbarth/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="/nick_barth_growth_engineer.pdf"
-            download
-            className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
-          >
-            Resume
-          </a>
-        </div>
-
-        <div className="max-w-2xl pt-12 sm:pt-0">
-          <h1
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 sm:mb-8"
-            style={{
-              fontFamily: "var(--font-mazius)",
-              fontWeight: "700",
-              lineHeight: "1.1",
-            }}
-          >
-            Nick Barth
-          </h1>
-
-          <p className="text-base sm:text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed">
-            Growth Engineer at{" "}
-            <a
-              href="https://personio.com"
-              target="_blank"
-              className="font-medium hover:text-black dark:hover:text-white transition-colors underline"
-            >
-              Personio
-            </a>
-            , based out of Utrecht, NL.
-          </p>
-        </div>
-      </div>
-    );
-  }
+  }, []);
 
   return (
-    <div className="min-h-screen w-screen bg-gradient-to-br from-purple-950 via-black to-blue-950 text-cyan-300 overflow-x-hidden flex flex-col items-center justify-center relative p-6 sm:p-8">
-      {/* Hitmarkers */}
-      {hitmarkers.map((hitmarker) => (
-        <div
-          key={hitmarker.id}
-          style={{
-            position: "fixed",
-            left: hitmarker.x,
-            top: hitmarker.y,
-            pointerEvents: "none",
-            animation: "hitmarker-pop 0.5s ease-out forwards",
-            zIndex: 9999,
-          }}
+    <group ref={groupRef}>
+      {/* DATA text */}
+      <Float speed={2} rotationIntensity={0.5} floatIntensity={1}>
+        <Text
+          position={[-3, 2, 0]}
+          fontSize={2}
+          font="/fonts/MaziusDisplay-Bold.woff2"
+          fontWeight="bold"
+          color="#000"
         >
-          <img
-            src="/hitmarker.png"
-            alt="hitmarker"
-            style={{
-              width: "40px",
-              height: "40px",
-              transform: "translate(-50%, -50%)",
-              filter:
-                "drop-shadow(0 0 2px #00f5ff) drop-shadow(0 0 4px #ff006e)",
-            }}
+          DATA
+        </Text>
+      </Float>
+
+      {/* Arrow with animation */}
+      <group>
+        <mesh position={[0, 0, 0]}>
+          <coneGeometry args={[0.4, 1.5, 32]} />
+          <meshStandardMaterial
+            color="#ff006e"
+            emissive="#ff006e"
+            emissiveIntensity={0.5}
           />
-        </div>
+        </mesh>
+        <mesh position={[0, -1.2, 0]}>
+          <cylinderGeometry args={[0.15, 0.15, 2, 32]} />
+          <meshStandardMaterial
+            color="#ff006e"
+            emissive="#ff006e"
+            emissiveIntensity={0.5}
+          />
+        </mesh>
+      </group>
+
+      {/* REVENUE text */}
+      <Float speed={2.5} rotationIntensity={0.5} floatIntensity={1}>
+        <Text
+          position={[3, -2, 0]}
+          fontSize={2}
+          font="/fonts/MaziusDisplay-Bold.woff2"
+          fontWeight="bold"
+          color="#000"
+        >
+          REVENUE
+        </Text>
+      </Float>
+
+      {/* Decorative particles */}
+      {Array.from({ length: 20 }).map((_, i) => (
+        <mesh
+          key={i}
+          position={[
+            (Math.random() - 0.5) * 10,
+            (Math.random() - 0.5) * 10,
+            (Math.random() - 0.5) * 3,
+          ]}
+        >
+          <sphereGeometry args={[0.1, 32, 32]} />
+          <meshStandardMaterial
+            color={Math.random() > 0.5 ? "#00f5ff" : "#ff006e"}
+            emissive={Math.random() > 0.5 ? "#00f5ff" : "#ff006e"}
+            emissiveIntensity={0.6}
+          />
+        </mesh>
       ))}
+    </group>
+  );
+}
 
-      {/* Animations */}
-      <style>{`
-        * {
-          outline: none !important;
-        }
-        a, button {
-          outline: none !important;
-          border: none !important;
-        }
-        @keyframes hitmarker-pop {
-          0% {
-            opacity: 1;
-            transform: translate(-50%, -50%) scale(1);
-          }
-          80% {
-            opacity: 1;
-          }
-          100% {
-            opacity: 0;
-            transform: translate(-50%, -50%) scale(1.1);
-          }
-        }
-        @keyframes scroll-left {
-          0% { transform: translateX(100%); }
-          100% { transform: translateX(-100%); }
-        }
-        @keyframes scroll-right {
-          0% { transform: translateX(-100%); }
-          100% { transform: translateX(100%); }
-        }
-        @keyframes spin {
-          0% { transform: rotate(0deg); }
-          100% { transform: rotate(360deg); }
-        }
-        @keyframes spin-reverse {
-          0% { transform: rotate(360deg); }
-          100% { transform: rotate(0deg); }
-        }
-        @keyframes bounce {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-30px); }
-        }
-        @keyframes pulse-glow {
-          0%, 100% { text-shadow: 0 0 10px #ff006e, 0 0 20px #00f5ff; }
-          50% { text-shadow: 0 0 30px #ff006e, 0 0 60px #00f5ff, 0 0 100px #b537f2; }
-        }
-        @keyframes jitter {
-          0%, 100% { transform: skew(0deg) rotate(0deg); }
-          25% { transform: skew(2deg) rotate(1deg); }
-          50% { transform: skew(-2deg) rotate(-1deg); }
-          75% { transform: skew(2deg) rotate(1deg); }
-        }
-        @keyframes zigzag {
-          0%, 100% { transform: translateX(0); }
-          25% { transform: translateX(-10px); }
-          75% { transform: translateX(10px); }
-        }
-        @keyframes scale-pulse {
-          0%, 100% { transform: scale(1); }
-          50% { transform: scale(1.3); }
-        }
-        .marquee {
-          animation: scroll-left 12s linear infinite;
-          white-space: nowrap;
-          font-size: 2rem;
-          font-weight: 900;
-          letter-spacing: 0.1em;
-        }
-        .marquee-reverse {
-          animation: scroll-right 10s linear infinite;
-          white-space: nowrap;
-          font-size: 1.5rem;
-          font-weight: 900;
-          letter-spacing: 0.1em;
-        }
-        .spin {
-          animation: spin 2s linear infinite;
-          display: inline-block;
-        }
-        .spin-reverse {
-          animation: spin-reverse 3s linear infinite;
-          display: inline-block;
-        }
-        .bounce {
-          animation: bounce 0.8s ease-in-out infinite;
-          display: inline-block;
-        }
-        .glow {
-          animation: pulse-glow 1s ease-in-out infinite;
-        }
-        .jitter {
-          animation: jitter 0.1s infinite;
-        }
-        .zigzag {
-          animation: zigzag 2s ease-in-out infinite;
-        }
-        .scale-pulse {
-          animation: scale-pulse 1.5s ease-in-out infinite;
-        }
-      `}</style>
-
-      {/* Multiple spinning money signs - EVERYWHERE */}
-      <img
-        src="/skull.gif"
-        alt="skull"
-        className="absolute top-10 left-10 w-16 h-16"
-      />
-      <img
-        src="/monster.gif"
-        alt="monster"
-        className="absolute top-20 right-20 w-20 h-20 object-contain"
-      />
-      <div
-        className="absolute bottom-20 left-20 text-7xl spin"
-        style={{ animationDelay: "1s" }}
-      >
-        💸
-      </div>
-      <div
-        className="absolute bottom-10 right-10 text-9xl spin"
-        style={{ animationDelay: "1.5s" }}
-      >
-        🤑
-      </div>
-      <div
-        className="absolute top-1/2 left-1/4 text-7xl spin-reverse"
-        style={{ animationDelay: "0.3s" }}
-      >
-        💴
-      </div>
-      <div
-        className="absolute top-1/3 right-1/4 text-8xl spin"
-        style={{ animationDelay: "1.2s" }}
-      >
-        💶
-      </div>
-      <div
-        className="absolute top-1/4 left-1/3 text-6xl spin"
-        style={{ animationDelay: "0.8s" }}
-      >
-        💷
-      </div>
-      <div
-        className="absolute bottom-1/3 right-1/3 text-7xl spin-reverse"
-        style={{ animationDelay: "2s" }}
-      >
-        💹
-      </div>
-      <div
-        className="absolute top-2/3 right-1/4 text-8xl spin"
-        style={{ animationDelay: "0.2s" }}
-      >
-        💲
-      </div>
-      <div
-        className="absolute bottom-1/4 left-1/2 text-7xl spin-reverse"
-        style={{ animationDelay: "1.8s" }}
-      >
-        🏆
-      </div>
-
-      {/* Top marquee */}
-      <div className="absolute top-0 w-full bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 text-white py-3 font-black text-xl overflow-hidden">
-        <div className="marquee-reverse" style={{ textTransform: "uppercase" }}>
-          👁️ AWARENESS 📝 SIGNUP ⚡ ACTIVATION 💰 CONVERSION 🔄 RETENTION 📈
-          EXPANSION 👁️ AWARENESS 📝 SIGNUP ⚡ ACTIVATION 💰 CONVERSION 🔄
-          RETENTION 📈 EXPANSION
-        </div>
-      </div>
-
-      {/* MAKE IT STOP button */}
-      <button
-        onClick={playAirhorns}
-        onMouseEnter={createHitmarker}
-        className="fixed bottom-8 right-8 z-50 px-8 py-4 bg-white text-black font-black text-lg rounded-lg hover:bg-yellow-300 transition-all transform hover:scale-110 shadow-lg"
-        style={{ textTransform: "uppercase" }}
-      >
-        MAKE IT STOP
-      </button>
-
-      {/* Main content */}
-      <div className="relative z-10 text-center max-w-5xl">
+export default function Home() {
+  return (
+    <div className="min-h-screen w-full bg-white dark:bg-zinc-950 text-black dark:text-white relative">
+      {/* Header */}
+      <div className="absolute top-6 left-6 sm:top-8 sm:left-8 md:top-16 md:left-16 z-10">
         <h1
-          className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black mb-2 sm:mb-4 glow jitter"
+          className="text-4xl sm:text-5xl md:text-6xl font-black mb-2"
           style={{
-            fontFamily: "var(--font-outfit)",
-            textTransform: "uppercase",
-            letterSpacing: "0.08em",
-            color: "#00f5ff",
+            fontFamily: "var(--font-mazius)",
+            fontWeight: "700",
+            lineHeight: "1.1",
           }}
         >
-          NICK BARTH
+          Nick Barth
         </h1>
-        <div
-          className="text-2xl sm:text-3xl md:text-4xl font-black mb-6 scale-pulse"
-          style={{ textTransform: "uppercase", color: "#ff006e" }}
-        >
-          ⚡ GROWTH ENGINEER ⚡
-        </div>
-
-        <p
-          className="text-base sm:text-lg md:text-2xl mb-8 sm:mb-12 max-w-2xl mx-auto font-black px-2"
-          style={{ fontWeight: "bold", color: "#00f5ff" }}
-        >
+        <p className="text-sm sm:text-base text-zinc-700 dark:text-zinc-300">
           Growth Engineer at{" "}
           <a
             href="https://personio.com"
             target="_blank"
-            className="text-pink-400 hover:text-cyan-300 transition-colors underline animate-pulse"
-            style={{ textTransform: "uppercase" }}
+            className="font-medium hover:text-black dark:hover:text-white transition-colors underline"
           >
-            PERSONIO
-          </a>{" "}
-          💜
-          <br />
-          <span
-            className="text-sm sm:text-base md:text-lg"
-            style={{ color: "#ff006e" }}
-          >
-            Software engineer by trade, GTM by passion
-          </span>
+            Personio
+          </a>
+          , based out of Utrecht, NL.
         </p>
-
-        {/* Chaotic bouncing contact links */}
-        <div
-          className="flex flex-col sm:flex-row justify-center gap-6 sm:gap-12 md:gap-16 text-xl sm:text-2xl md:text-3xl font-black px-2"
-          style={{ textTransform: "uppercase" }}
-        >
-          <a
-            href="/blog"
-            onMouseEnter={createHitmarker}
-            className="bounce zigzag hover:text-pink-300 transition-colors"
-            style={{ animationDelay: "0s", color: "#00f5ff" }}
-          >
-            📝 BLOG 📝
-          </a>
-          <a
-            href="https://www.linkedin.com/in/nicholasbarth/"
-            target="_blank"
-            rel="noopener noreferrer"
-            onMouseEnter={createHitmarker}
-            className="bounce scale-pulse hover:text-cyan-300 transition-colors"
-            style={{ animationDelay: "0.2s", color: "#ff006e" }}
-          >
-            💼 LINKEDIN 💼
-          </a>
-        </div>
-
-        {/* Extra chaos badge */}
-        <div
-          className="mt-8 text-2xl font-black spin"
-          style={{ color: "#00f5ff" }}
-        >
-          🏆 GROWTH MASTER 🏆
-        </div>
       </div>
 
-      {/* Bottom marquee */}
-      <div className="absolute bottom-0 w-full bg-gradient-to-r from-pink-500 via-purple-600 to-pink-500 text-white py-4 font-black text-2xl overflow-hidden">
-        <div className="marquee" style={{ textTransform: "uppercase" }}>
-          🎯 ONBOARDING FLOWS 🧪 A/B TESTING 📊 FUNNEL OPTIMIZATION 🔗 VIRAL
-          LOOPS 🛑 CHURN REDUCTION 🎣 ENGAGEMENT HOOKS 🎯 ONBOARDING FLOWS 🧪
-          A/B TESTING 📊 FUNNEL OPTIMIZATION
-        </div>
+      {/* Navigation */}
+      <div className="absolute top-6 right-6 sm:top-8 sm:right-8 md:top-16 md:right-16 flex flex-col sm:flex-row gap-4 sm:gap-8 text-xs sm:text-sm font-medium text-right z-10">
+        <a
+          href="/blog"
+          className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
+        >
+          Blog
+        </a>
+        <a
+          href="https://www.linkedin.com/in/nicholasbarth/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="/nick_barth_growth_engineer.pdf"
+          download
+          className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
+        >
+          Resume
+        </a>
       </div>
+
+      {/* 3D Canvas */}
+      <Canvas
+        camera={{ position: [0, 0, 8], fov: 50 }}
+        style={{ width: "100%", height: "100vh" }}
+      >
+        <ambientLight intensity={0.8} />
+        <pointLight position={[10, 10, 10]} intensity={0.5} />
+        <pointLight position={[-10, -10, 10]} intensity={0.3} color="#00f5ff" />
+        <pointLight position={[0, 0, 5]} intensity={0.4} color="#ff006e" />
+        <DataToRevenueScene />
+        <OrbitControls enableZoom={false} enablePan={false} />
+      </Canvas>
     </div>
   );
 }
