@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Outfit, Bodoni_Moda } from "next/font/google";
-import { localFont } from "next/font/local";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const maziusDisplay = localFont({
