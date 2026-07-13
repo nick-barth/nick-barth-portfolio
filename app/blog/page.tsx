@@ -1,6 +1,7 @@
 import { getAllPosts } from "@/lib/blog";
 import Link from "next/link";
 import { Metadata } from "next";
+import ParallaxFooter from "@/components/ParallaxFooter";
 
 export const metadata: Metadata = {
   title: "Blog — Nick Barth",
@@ -117,6 +118,8 @@ export default function BlogPage() {
           )}
         </div>
       </div>
+
+      <ParallaxFooter />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import { getPostBySlug } from "@/lib/blog";
 import Link from "next/link";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import ParallaxFooter from "@/components/ParallaxFooter";
 
 export async function generateMetadata({
   params,
@@ -157,7 +158,11 @@ export default async function BlogPost({
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
         </article>
+
+        <div style={{ height: "120px" }} />
       </div>
+
+      <ParallaxFooter />
     </div>
   );
 }

@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 export default function Home() {
+
   return (
     <div
       className="min-h-screen w-full text-black"
@@ -82,10 +85,36 @@ export default function Home() {
             growth systems across PLG and PLS motions. I specialize in
             connecting data, systems, and teams to optimize the customer
             journey, scale go-to-market strategies, and deliver measurable
-            revenue outcomes.
+            revenue outcomes. Currently, I'm a GTM Engineer at Personio in Amsterdam.
           </p>
         </div>
       </div>
+
+      {/* Spacing */}
+      <div style={{ height: "400px" }} />
+
+      {/* Footer */}
+      <footer className="w-full" style={{ backgroundColor: "#000" }}>
+        <div className="px-6 sm:px-8 md:px-16 py-24 sm:py-32 flex justify-between items-start">
+          <h2
+            style={{
+              fontFamily: "'PP Pangaia', sans-serif",
+              fontSize: "72px",
+              fontWeight: "400",
+              lineHeight: "1",
+              color: "#f6f4ec",
+              margin: 0,
+            }}
+          >
+            Nick Barth
+          </h2>
+          <div className="flex flex-col gap-3 text-right" style={{ fontFamily: '"Geist", "Geist Placeholder", sans-serif', fontSize: "16px", color: "#f6f4ec" }}>
+            <Link href="/blog" className="hover:text-gray-400 transition-colors">Blog</Link>
+            <a href="https://www.linkedin.com/in/nicholasbarth/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">LinkedIn</a>
+            <a href="/nick_barth_growth_engineer.pdf" download className="hover:text-gray-400 transition-colors">Resume</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

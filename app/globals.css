@@ -40,10 +40,16 @@
   }
 }
 
+html {
+  background-color: #f6f4ec;
+}
+
 body {
-  background: var(--background);
+  background: #f6f4ec;
   color: var(--foreground);
   font-family: "Geist", "Geist Placeholder", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Blog styling */
