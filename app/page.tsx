@@ -4,7 +4,9 @@ import { useState, useRef } from "react";
 
 export default function Home() {
   const [professional, setProfessional] = useState(true);
-  const [hitmarkers, setHitmarkers] = useState<Array<{ id: number; x: number; y: number }>>([]);
+  const [hitmarkers, setHitmarkers] = useState<
+    Array<{ id: number; x: number; y: number }>
+  >([]);
   const hitmarkerIdRef = useRef(0);
 
   const createHitmarker = (e: React.MouseEvent) => {
@@ -26,10 +28,13 @@ export default function Home() {
   };
 
   const playAirhorns = () => {
-    const airhorn = new Audio("data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAQB8AAAB9AAACABAAZGF0YQIAAAAAAA==");
+    const airhorn = new Audio(
+      "data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAQB8AAAB9AAACABAAZGF0YQIAAAAAAA==",
+    );
 
     // Create a quick airhorn sound using Web Audio API
-    const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+    const audioContext = new (window.AudioContext ||
+      (window as any).webkitAudioContext)();
 
     const playAirhorn = (delay: number) => {
       setTimeout(() => {
@@ -64,22 +69,51 @@ export default function Home() {
     return (
       <div className="min-h-screen w-screen bg-white dark:bg-zinc-950 text-black dark:text-white p-6 sm:p-8 md:p-16 relative">
         <div className="absolute top-6 right-6 flex flex-col sm:flex-row gap-4 sm:gap-8 text-xs sm:text-sm font-medium text-right">
-          <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
+          <a
+            href="/blog"
+            className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
+          >
             Blog
           </a>
-          <a href="https://www.linkedin.com/in/nicholasbarth/" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
+          <a
+            href="https://www.linkedin.com/in/nicholasbarth/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
+          >
             LinkedIn
           </a>
-          <a href="#" className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors">
+          <a
+            href="/nick_barth_growth_engineer.pdf"
+            download
+            className="hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors"
+          >
             Resume
           </a>
         </div>
 
         <div className="max-w-2xl pt-12 sm:pt-0">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 sm:mb-8" style={{ fontFamily: "var(--font-bodoni)", fontStyle: "italic", fontWeight: "400", lineHeight: "1.1" }}>Nick Barth</h1>
+          <h1
+            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-6 sm:mb-8"
+            style={{
+              fontFamily: "var(--font-mazius)",
+              fontWeight: "700",
+              lineHeight: "1.1",
+            }}
+          >
+            Nick Barth
+          </h1>
 
           <p className="text-base sm:text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed">
-            Growth Engineer at <a href="https://personio.com" target="_blank" className="font-medium hover:text-black dark:hover:text-white transition-colors underline">Personio</a>, based out of Utrecht — turning data into revenue.
+            Growth Engineer at{" "}
+            <a
+              href="https://personio.com"
+              target="_blank"
+              className="font-medium hover:text-black dark:hover:text-white transition-colors underline"
+            >
+              Personio
+            </a>
+            , based out of Utrecht, NL.
           </p>
         </div>
       </div>
@@ -108,7 +142,8 @@ export default function Home() {
               width: "40px",
               height: "40px",
               transform: "translate(-50%, -50%)",
-              filter: "drop-shadow(0 0 2px #00f5ff) drop-shadow(0 0 4px #ff006e)",
+              filter:
+                "drop-shadow(0 0 2px #00f5ff) drop-shadow(0 0 4px #ff006e)",
             }}
           />
         </div>
@@ -216,21 +251,71 @@ export default function Home() {
       `}</style>
 
       {/* Multiple spinning money signs - EVERYWHERE */}
-      <img src="/skull.gif" alt="skull" className="absolute top-10 left-10 w-16 h-16" />
-      <img src="/monster.gif" alt="monster" className="absolute top-20 right-20 w-20 h-20 object-contain" />
-      <div className="absolute bottom-20 left-20 text-7xl spin" style={{ animationDelay: "1s" }}>💸</div>
-      <div className="absolute bottom-10 right-10 text-9xl spin" style={{ animationDelay: "1.5s" }}>🤑</div>
-      <div className="absolute top-1/2 left-1/4 text-7xl spin-reverse" style={{ animationDelay: "0.3s" }}>💴</div>
-      <div className="absolute top-1/3 right-1/4 text-8xl spin" style={{ animationDelay: "1.2s" }}>💶</div>
-      <div className="absolute top-1/4 left-1/3 text-6xl spin" style={{ animationDelay: "0.8s" }}>💷</div>
-      <div className="absolute bottom-1/3 right-1/3 text-7xl spin-reverse" style={{ animationDelay: "2s" }}>💹</div>
-      <div className="absolute top-2/3 right-1/4 text-8xl spin" style={{ animationDelay: "0.2s" }}>💲</div>
-      <div className="absolute bottom-1/4 left-1/2 text-7xl spin-reverse" style={{ animationDelay: "1.8s" }}>🏆</div>
+      <img
+        src="/skull.gif"
+        alt="skull"
+        className="absolute top-10 left-10 w-16 h-16"
+      />
+      <img
+        src="/monster.gif"
+        alt="monster"
+        className="absolute top-20 right-20 w-20 h-20 object-contain"
+      />
+      <div
+        className="absolute bottom-20 left-20 text-7xl spin"
+        style={{ animationDelay: "1s" }}
+      >
+        💸
+      </div>
+      <div
+        className="absolute bottom-10 right-10 text-9xl spin"
+        style={{ animationDelay: "1.5s" }}
+      >
+        🤑
+      </div>
+      <div
+        className="absolute top-1/2 left-1/4 text-7xl spin-reverse"
+        style={{ animationDelay: "0.3s" }}
+      >
+        💴
+      </div>
+      <div
+        className="absolute top-1/3 right-1/4 text-8xl spin"
+        style={{ animationDelay: "1.2s" }}
+      >
+        💶
+      </div>
+      <div
+        className="absolute top-1/4 left-1/3 text-6xl spin"
+        style={{ animationDelay: "0.8s" }}
+      >
+        💷
+      </div>
+      <div
+        className="absolute bottom-1/3 right-1/3 text-7xl spin-reverse"
+        style={{ animationDelay: "2s" }}
+      >
+        💹
+      </div>
+      <div
+        className="absolute top-2/3 right-1/4 text-8xl spin"
+        style={{ animationDelay: "0.2s" }}
+      >
+        💲
+      </div>
+      <div
+        className="absolute bottom-1/4 left-1/2 text-7xl spin-reverse"
+        style={{ animationDelay: "1.8s" }}
+      >
+        🏆
+      </div>
 
       {/* Top marquee */}
       <div className="absolute top-0 w-full bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 text-white py-3 font-black text-xl overflow-hidden">
         <div className="marquee-reverse" style={{ textTransform: "uppercase" }}>
-          👁️ AWARENESS 📝 SIGNUP ⚡ ACTIVATION 💰 CONVERSION 🔄 RETENTION 📈 EXPANSION 👁️ AWARENESS 📝 SIGNUP ⚡ ACTIVATION 💰 CONVERSION 🔄 RETENTION 📈 EXPANSION
+          👁️ AWARENESS 📝 SIGNUP ⚡ ACTIVATION 💰 CONVERSION 🔄 RETENTION 📈
+          EXPANSION 👁️ AWARENESS 📝 SIGNUP ⚡ ACTIVATION 💰 CONVERSION 🔄
+          RETENTION 📈 EXPANSION
         </div>
       </div>
 
@@ -246,38 +331,87 @@ export default function Home() {
 
       {/* Main content */}
       <div className="relative z-10 text-center max-w-5xl">
-        <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black mb-2 sm:mb-4 glow jitter" style={{ fontFamily: "var(--font-outfit)", textTransform: "uppercase", letterSpacing: "0.08em", color: "#00f5ff" }}>
+        <h1
+          className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black mb-2 sm:mb-4 glow jitter"
+          style={{
+            fontFamily: "var(--font-outfit)",
+            textTransform: "uppercase",
+            letterSpacing: "0.08em",
+            color: "#00f5ff",
+          }}
+        >
           NICK BARTH
         </h1>
-        <div className="text-2xl sm:text-3xl md:text-4xl font-black mb-6 scale-pulse" style={{ textTransform: "uppercase", color: "#ff006e" }}>
+        <div
+          className="text-2xl sm:text-3xl md:text-4xl font-black mb-6 scale-pulse"
+          style={{ textTransform: "uppercase", color: "#ff006e" }}
+        >
           ⚡ GROWTH ENGINEER ⚡
         </div>
 
-        <p className="text-base sm:text-lg md:text-2xl mb-8 sm:mb-12 max-w-2xl mx-auto font-black px-2" style={{ fontWeight: "bold", color: "#00f5ff" }}>
-          Growth Engineer at <a href="https://personio.com" target="_blank" className="text-pink-400 hover:text-cyan-300 transition-colors underline animate-pulse" style={{ textTransform: "uppercase" }}>PERSONIO</a> 💜<br/>
-          <span className="text-sm sm:text-base md:text-lg" style={{ color: "#ff006e" }}>Software engineer by trade, GTM by passion</span>
+        <p
+          className="text-base sm:text-lg md:text-2xl mb-8 sm:mb-12 max-w-2xl mx-auto font-black px-2"
+          style={{ fontWeight: "bold", color: "#00f5ff" }}
+        >
+          Growth Engineer at{" "}
+          <a
+            href="https://personio.com"
+            target="_blank"
+            className="text-pink-400 hover:text-cyan-300 transition-colors underline animate-pulse"
+            style={{ textTransform: "uppercase" }}
+          >
+            PERSONIO
+          </a>{" "}
+          💜
+          <br />
+          <span
+            className="text-sm sm:text-base md:text-lg"
+            style={{ color: "#ff006e" }}
+          >
+            Software engineer by trade, GTM by passion
+          </span>
         </p>
 
         {/* Chaotic bouncing contact links */}
-        <div className="flex flex-col sm:flex-row justify-center gap-6 sm:gap-12 md:gap-16 text-xl sm:text-2xl md:text-3xl font-black px-2" style={{ textTransform: "uppercase" }}>
-          <a href="https://blog.nickbarth.com" target="_blank" rel="noopener noreferrer" onMouseEnter={createHitmarker} className="bounce zigzag hover:text-pink-300 transition-colors" style={{ animationDelay: "0s", color: "#00f5ff" }}>
+        <div
+          className="flex flex-col sm:flex-row justify-center gap-6 sm:gap-12 md:gap-16 text-xl sm:text-2xl md:text-3xl font-black px-2"
+          style={{ textTransform: "uppercase" }}
+        >
+          <a
+            href="/blog"
+            onMouseEnter={createHitmarker}
+            className="bounce zigzag hover:text-pink-300 transition-colors"
+            style={{ animationDelay: "0s", color: "#00f5ff" }}
+          >
             📝 BLOG 📝
           </a>
-          <a href="https://www.linkedin.com/in/nicholasbarth/" target="_blank" rel="noopener noreferrer" onMouseEnter={createHitmarker} className="bounce scale-pulse hover:text-cyan-300 transition-colors" style={{ animationDelay: "0.2s", color: "#ff006e" }}>
+          <a
+            href="https://www.linkedin.com/in/nicholasbarth/"
+            target="_blank"
+            rel="noopener noreferrer"
+            onMouseEnter={createHitmarker}
+            className="bounce scale-pulse hover:text-cyan-300 transition-colors"
+            style={{ animationDelay: "0.2s", color: "#ff006e" }}
+          >
             💼 LINKEDIN 💼
           </a>
         </div>
 
         {/* Extra chaos badge */}
-        <div className="mt-8 text-2xl font-black spin" style={{ color: "#00f5ff" }}>
+        <div
+          className="mt-8 text-2xl font-black spin"
+          style={{ color: "#00f5ff" }}
+        >
           🏆 GROWTH MASTER 🏆
         </div>
       </div>
 
-{/* Bottom marquee */}
+      {/* Bottom marquee */}
       <div className="absolute bottom-0 w-full bg-gradient-to-r from-pink-500 via-purple-600 to-pink-500 text-white py-4 font-black text-2xl overflow-hidden">
         <div className="marquee" style={{ textTransform: "uppercase" }}>
-          🎯 ONBOARDING FLOWS 🧪 A/B TESTING 📊 FUNNEL OPTIMIZATION 🔗 VIRAL LOOPS 🛑 CHURN REDUCTION 🎣 ENGAGEMENT HOOKS 🎯 ONBOARDING FLOWS 🧪 A/B TESTING 📊 FUNNEL OPTIMIZATION
+          🎯 ONBOARDING FLOWS 🧪 A/B TESTING 📊 FUNNEL OPTIMIZATION 🔗 VIRAL
+          LOOPS 🛑 CHURN REDUCTION 🎣 ENGAGEMENT HOOKS 🎯 ONBOARDING FLOWS 🧪
+          A/B TESTING 📊 FUNNEL OPTIMIZATION
         </div>
       </div>
     </div>

@@ -1,21 +1,15 @@
-import { getPostBySlug, getAllPosts } from "@/lib/blog";
+import { getPostBySlug } from "@/lib/blog";
 import Link from "next/link";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-export async function generateStaticParams() {
-  const posts = getAllPosts();
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
-}
-
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const post = getPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
 
   if (!post) {
     return {
@@ -23,11 +17,15 @@ export async function generateMetadata({
     };
   }
 
-  const url = `https://new-nick-barth.vercel.app/blog/${post.slug}`;
+  const url = `https://new-nick-barth.vercel.app/blog/${slug}`;
 
   return {
     title: `${post.title} — Nick Barth`,
     description: post.excerpt,
+    metadataBase: new URL("https://new-nick-barth.vercel.app"),
+    alternates: {
+      canonical: url,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -40,19 +38,50 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
+      creator: "@nickbarth",
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
-  const post = getPostBySlug(params.slug);
+export default async function BlogPost({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
 
   if (!post) {
     notFound();
   }
 
+  const url = `https://new-nick-barth.vercel.app/blog/${slug}`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      "@type": "Person",
+      name: "Nick Barth",
+      url: "https://new-nick-barth.vercel.app",
+    },
+    url,
+  };
+
   return (
-    <div className="min-h-screen w-screen bg-white dark:bg-zinc-950 text-black dark:text-white p-6 sm:p-8 md:p-16">
+    <div className="min-h-screen w-full bg-white dark:bg-zinc-950 text-black dark:text-white p-6 sm:p-8 md:p-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <Link href="/blog" className="text-sm font-medium hover:text-zinc-600 dark:hover:text-zinc-400 transition-colors mb-8 inline-block">
         ← Back to Blog
       </Link>
@@ -75,6 +104,16 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
       </article>
+
+      <footer className="mt-16 text-sm text-zinc-600 dark:text-zinc-400 border-t border-zinc-200 dark:border-zinc-800 pt-8">
+        <div className="flex gap-6 mb-4">
+          <Link href="/" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">Home</Link>
+          <Link href="/blog" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">Blog</Link>
+          <a href="https://www.linkedin.com/in/nicholasbarth/" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">LinkedIn</a>
+          <a href="/nick_barth_growth_engineer.pdf" download className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">Resume</a>
+        </div>
+        <p>© 2026 Nick Barth. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
