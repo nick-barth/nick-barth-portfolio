@@ -117,3 +117,12 @@ body {
   margin-left: 0;
   opacity: 0.8;
 }
+
+@keyframes squiggle {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

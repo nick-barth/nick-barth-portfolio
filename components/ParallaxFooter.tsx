@@ -155,15 +155,48 @@ export default function ParallaxFooter() {
           >
             <span
               style={{
-                textDecorationLine: "underline",
-                textDecorationStyle: "solid",
-                textDecorationColor: "transparent",
-                textUnderlineOffset: "6px",
-                textDecorationThickness: "3px",
-                transition: "text-decoration-color 0.4s ease-in-out, text-decoration-style 0.4s ease-in-out",
+                position: "relative",
+                display: "inline-block",
+              }}
+              onMouseEnter={(e) => {
+                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
+                if (underline) {
+                  underline.style.animation = "squiggle 0.6s ease-in-out forwards";
+                }
+              }}
+              onMouseLeave={(e) => {
+                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
+                if (underline) {
+                  underline.style.animation = "none";
+                  underline.style.strokeDashoffset = "0";
+                }
               }}
             >
               Blog
+              <svg
+                className="squiggle-underline"
+                viewBox="0 0 50 5"
+                style={{
+                  position: "absolute",
+                  bottom: "-8px",
+                  left: "0",
+                  width: "100%",
+                  height: "8px",
+                  overflow: "visible",
+                }}
+              >
+                <path
+                  d="M 0,3 Q 5,1 10,3 T 20,3 T 30,3 T 40,3 T 50,3"
+                  stroke="#7c3aed"
+                  strokeWidth="2"
+                  fill="none"
+                  strokeLinecap="round"
+                  style={{
+                    strokeDasharray: "100",
+                    strokeDashoffset: "100",
+                  }}
+                />
+              </svg>
             </span>
             <span style={{ fontSize: "16px" }}>↗</span>
           </Link>
@@ -193,15 +226,48 @@ export default function ParallaxFooter() {
           >
             <span
               style={{
-                textDecorationLine: "underline",
-                textDecorationStyle: "solid",
-                textDecorationColor: "transparent",
-                textUnderlineOffset: "6px",
-                textDecorationThickness: "3px",
-                transition: "text-decoration-color 0.4s ease-in-out, text-decoration-style 0.4s ease-in-out",
+                position: "relative",
+                display: "inline-block",
+              }}
+              onMouseEnter={(e) => {
+                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
+                if (underline) {
+                  underline.style.animation = "squiggle 0.6s ease-in-out forwards";
+                }
+              }}
+              onMouseLeave={(e) => {
+                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
+                if (underline) {
+                  underline.style.animation = "none";
+                  underline.style.strokeDashoffset = "0";
+                }
               }}
             >
               LinkedIn
+              <svg
+                className="squiggle-underline"
+                viewBox="0 0 50 5"
+                style={{
+                  position: "absolute",
+                  bottom: "-8px",
+                  left: "0",
+                  width: "100%",
+                  height: "8px",
+                  overflow: "visible",
+                }}
+              >
+                <path
+                  d="M 0,3 Q 5,1 10,3 T 20,3 T 30,3 T 40,3 T 50,3"
+                  stroke="#7c3aed"
+                  strokeWidth="2"
+                  fill="none"
+                  strokeLinecap="round"
+                  style={{
+                    strokeDasharray: "100",
+                    strokeDashoffset: "100",
+                  }}
+                />
+              </svg>
             </span>
             <span style={{ fontSize: "16px" }}>↗</span>
           </a>
@@ -230,15 +296,48 @@ export default function ParallaxFooter() {
           >
             <span
               style={{
-                textDecorationLine: "underline",
-                textDecorationStyle: "solid",
-                textDecorationColor: "transparent",
-                textUnderlineOffset: "6px",
-                textDecorationThickness: "3px",
-                transition: "text-decoration-color 0.4s ease-in-out, text-decoration-style 0.4s ease-in-out",
+                position: "relative",
+                display: "inline-block",
+              }}
+              onMouseEnter={(e) => {
+                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
+                if (underline) {
+                  underline.style.animation = "squiggle 0.6s ease-in-out forwards";
+                }
+              }}
+              onMouseLeave={(e) => {
+                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
+                if (underline) {
+                  underline.style.animation = "none";
+                  underline.style.strokeDashoffset = "0";
+                }
               }}
             >
               Resume
+              <svg
+                className="squiggle-underline"
+                viewBox="0 0 50 5"
+                style={{
+                  position: "absolute",
+                  bottom: "-8px",
+                  left: "0",
+                  width: "100%",
+                  height: "8px",
+                  overflow: "visible",
+                }}
+              >
+                <path
+                  d="M 0,3 Q 5,1 10,3 T 20,3 T 30,3 T 40,3 T 50,3"
+                  stroke="#7c3aed"
+                  strokeWidth="2"
+                  fill="none"
+                  strokeLinecap="round"
+                  style={{
+                    strokeDasharray: "100",
+                    strokeDashoffset: "100",
+                  }}
+                />
+              </svg>
             </span>
             <span style={{ fontSize: "16px" }}>↗</span>
           </a>
