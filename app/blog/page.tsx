@@ -1,5 +1,5 @@
 import { getAllPosts } from "@/lib/blog";
-import Link from "next/link";
+import StickyHeader from "@/components/StickyHeader";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -26,46 +26,7 @@ export default function BlogPage() {
 
   return (
     <div className="min-h-screen w-full text-black relative" style={{ backgroundColor: "#f6f4ec", zIndex: 1, position: "relative" }}>
-      {/* Header */}
-      <header className="w-full">
-        <div className="flex justify-between items-start px-6 sm:px-8 md:px-16 py-3 sm:py-4">
-          <Link href="/">
-            <h1
-              className="font-black mb-2 hover:text-gray-600 transition-colors"
-              style={{
-                fontFamily: "'PP Pangaia', sans-serif",
-                fontWeight: "500",
-                lineHeight: "1.1",
-                fontSize: "32px",
-              }}
-            >
-              Nick Barth
-            </h1>
-          </Link>
-
-          {/* Navigation */}
-          <nav className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-right" style={{ fontFamily: '"Geist", "Geist Placeholder", sans-serif', fontSize: "16px" }}>
-            <Link href="/blog" className="hover:text-gray-600 transition-colors">
-              Blog
-            </Link>
-            <a
-              href="https://www.linkedin.com/in/nicholasbarth/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-600 transition-colors"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="/nick_barth_growth_engineer.pdf"
-              download
-              className="hover:text-gray-600 transition-colors"
-            >
-              Resume
-            </a>
-          </nav>
-        </div>
-      </header>
+      <StickyHeader />
 
       {/* Blog Content */}
       <div className="overflow-hidden pt-12 sm:pt-16 md:pt-20">
