@@ -123,31 +123,31 @@ export default function ParallaxFooter() {
         </div>
         <div
           ref={linksRef}
-          className="flex flex-col"
+          className="flex flex-col gap-4"
           style={{
             fontFamily: '"Geist", "Geist Placeholder", sans-serif',
-            fontSize: "16px",
+            fontSize: "20px",
             color: "#f6f4ec",
             marginTop: "0",
           }}
         >
-          <Link href="/blog" className="hover:text-gray-400 transition-colors">
-            Blog
+          <Link href="/blog" className="hover:opacity-70 transition-opacity flex items-center gap-2">
+            Blog <span style={{ fontSize: "16px" }}>↗</span>
           </Link>
           <a
             href="https://www.linkedin.com/in/nicholasbarth/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-400 transition-colors"
+            className="hover:opacity-70 transition-opacity flex items-center gap-2"
           >
-            LinkedIn
+            LinkedIn <span style={{ fontSize: "16px" }}>↗</span>
           </a>
           <a
             href="/nick_barth_growth_engineer.pdf"
             download
-            className="hover:text-gray-400 transition-colors"
+            className="hover:opacity-70 transition-opacity flex items-center gap-2"
           >
-            Resume
+            Resume <span style={{ fontSize: "16px" }}>↗</span>
           </a>
         </div>
       </div>
