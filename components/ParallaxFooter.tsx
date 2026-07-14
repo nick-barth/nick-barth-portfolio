@@ -1,8 +1,56 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function ParallaxFooter() {
+  const nameRef = useRef(null);
+  const linksRef = useRef(null);
+
+  useEffect(() => {
+    if (!nameRef.current || !linksRef.current) return;
+
+    // Name parallax - comes from top
+    gsap.fromTo(
+      nameRef.current,
+      { y: -300 },
+      {
+        y: 0,
+        scrollTrigger: {
+          trigger: nameRef.current,
+          start: "top 80%",
+          end: "top 20%",
+          scrub: 1,
+          markers: false,
+        },
+      }
+    );
+
+    // Links parallax - comes from top (slower)
+    gsap.fromTo(
+      linksRef.current,
+      { y: -300 },
+      {
+        y: 0,
+        scrollTrigger: {
+          trigger: linksRef.current,
+          start: "top 80%",
+          end: "top 20%",
+          scrub: 1.2,
+          markers: false,
+        },
+      }
+    );
+
+    return () => {
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, []);
+
   return (
     <footer
       className="w-full"
@@ -11,6 +59,7 @@ export default function ParallaxFooter() {
       <div className="w-full px-6 sm:px-8 md:px-16 py-24 sm:py-32 flex justify-between items-start">
         <Link href="/">
           <h2
+            ref={nameRef}
             style={{
               fontFamily: "'PP Pangaia', sans-serif",
               fontSize: "72px",
@@ -28,6 +77,7 @@ export default function ParallaxFooter() {
           </h2>
         </Link>
         <div
+          ref={linksRef}
           className="flex flex-col"
           style={{
             fontFamily: '"Geist", "Geist Placeholder", sans-serif',
