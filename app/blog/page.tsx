@@ -1,5 +1,6 @@
 import { getAllPosts } from "@/lib/blog";
 import StickyHeader from "@/components/StickyHeader";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

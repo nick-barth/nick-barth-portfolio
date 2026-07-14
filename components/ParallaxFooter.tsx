@@ -8,9 +8,9 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function ParallaxFooter() {
-  const nameRef = useRef(null);
-  const linksRef = useRef(null);
-  const buttonRef = useRef(null);
+  const nameRef = useRef<HTMLDivElement>(null);
+  const linksRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLAnchorElement>(null);
 
   useEffect(() => {
     if (!nameRef.current || !linksRef.current || !buttonRef.current) return;
