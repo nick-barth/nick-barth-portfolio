@@ -131,21 +131,63 @@ export default function ParallaxFooter() {
             marginTop: "0",
           }}
         >
-          <Link href="/blog" className="hover:opacity-70 transition-opacity flex items-center gap-2">
+          <Link
+            href="/blog"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "8px",
+              paddingBottom: "4px",
+              borderBottom: "transparent solid 3px",
+              transition: "border-color 0.3s ease",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.borderBottomColor = "#7c3aed";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.borderBottomColor = "transparent";
+            }}
+          >
             Blog <span style={{ fontSize: "16px" }}>↗</span>
           </Link>
           <a
             href="https://www.linkedin.com/in/nicholasbarth/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:opacity-70 transition-opacity flex items-center gap-2"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "8px",
+              paddingBottom: "4px",
+              borderBottom: "transparent solid 3px",
+              transition: "border-color 0.3s ease",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.borderBottomColor = "#7c3aed";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.borderBottomColor = "transparent";
+            }}
           >
             LinkedIn <span style={{ fontSize: "16px" }}>↗</span>
           </a>
           <a
             href="/nick_barth_growth_engineer.pdf"
             download
-            className="hover:opacity-70 transition-opacity flex items-center gap-2"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "8px",
+              paddingBottom: "4px",
+              borderBottom: "transparent solid 3px",
+              transition: "border-color 0.3s ease",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.borderBottomColor = "#7c3aed";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.borderBottomColor = "transparent";
+            }}
           >
             Resume <span style={{ fontSize: "16px" }}>↗</span>
           </a>
