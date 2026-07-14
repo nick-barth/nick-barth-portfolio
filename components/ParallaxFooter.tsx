@@ -137,23 +137,35 @@ export default function ParallaxFooter() {
               display: "flex",
               alignItems: "center",
               gap: "8px",
-              textDecorationLine: "underline",
-              textDecorationStyle: "solid",
-              textDecorationColor: "transparent",
-              textUnderlineOffset: "6px",
-              textDecorationThickness: "3px",
-              transition: "text-decoration-color 0.3s ease",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.textDecorationColor = "#7c3aed";
-              e.currentTarget.style.textDecorationStyle = "wavy";
+              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              if (textSpan) {
+                textSpan.style.textDecorationColor = "#7c3aed";
+                textSpan.style.textDecorationStyle = "wavy";
+              }
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.textDecorationColor = "transparent";
-              e.currentTarget.style.textDecorationStyle = "solid";
+              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              if (textSpan) {
+                textSpan.style.textDecorationColor = "transparent";
+                textSpan.style.textDecorationStyle = "solid";
+              }
             }}
           >
-            Blog <span style={{ fontSize: "16px" }}>↗</span>
+            <span
+              style={{
+                textDecorationLine: "underline",
+                textDecorationStyle: "solid",
+                textDecorationColor: "transparent",
+                textUnderlineOffset: "6px",
+                textDecorationThickness: "3px",
+                transition: "text-decoration-color 0.4s ease-in-out, text-decoration-style 0.4s ease-in-out",
+              }}
+            >
+              Blog
+            </span>
+            <span style={{ fontSize: "16px" }}>↗</span>
           </Link>
           <a
             href="https://www.linkedin.com/in/nicholasbarth/"
@@ -163,23 +175,35 @@ export default function ParallaxFooter() {
               display: "flex",
               alignItems: "center",
               gap: "8px",
-              textDecorationLine: "underline",
-              textDecorationStyle: "solid",
-              textDecorationColor: "transparent",
-              textUnderlineOffset: "6px",
-              textDecorationThickness: "3px",
-              transition: "text-decoration-color 0.3s ease",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.textDecorationColor = "#7c3aed";
-              e.currentTarget.style.textDecorationStyle = "wavy";
+              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              if (textSpan) {
+                textSpan.style.textDecorationColor = "#7c3aed";
+                textSpan.style.textDecorationStyle = "wavy";
+              }
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.textDecorationColor = "transparent";
-              e.currentTarget.style.textDecorationStyle = "solid";
+              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              if (textSpan) {
+                textSpan.style.textDecorationColor = "transparent";
+                textSpan.style.textDecorationStyle = "solid";
+              }
             }}
           >
-            LinkedIn <span style={{ fontSize: "16px" }}>↗</span>
+            <span
+              style={{
+                textDecorationLine: "underline",
+                textDecorationStyle: "solid",
+                textDecorationColor: "transparent",
+                textUnderlineOffset: "6px",
+                textDecorationThickness: "3px",
+                transition: "text-decoration-color 0.4s ease-in-out, text-decoration-style 0.4s ease-in-out",
+              }}
+            >
+              LinkedIn
+            </span>
+            <span style={{ fontSize: "16px" }}>↗</span>
           </a>
           <a
             href="/nick_barth_growth_engineer.pdf"
@@ -188,23 +212,35 @@ export default function ParallaxFooter() {
               display: "flex",
               alignItems: "center",
               gap: "8px",
-              textDecorationLine: "underline",
-              textDecorationStyle: "solid",
-              textDecorationColor: "transparent",
-              textUnderlineOffset: "6px",
-              textDecorationThickness: "3px",
-              transition: "text-decoration-color 0.3s ease",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.textDecorationColor = "#7c3aed";
-              e.currentTarget.style.textDecorationStyle = "wavy";
+              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              if (textSpan) {
+                textSpan.style.textDecorationColor = "#7c3aed";
+                textSpan.style.textDecorationStyle = "wavy";
+              }
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.textDecorationColor = "transparent";
-              e.currentTarget.style.textDecorationStyle = "solid";
+              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              if (textSpan) {
+                textSpan.style.textDecorationColor = "transparent";
+                textSpan.style.textDecorationStyle = "solid";
+              }
             }}
           >
-            Resume <span style={{ fontSize: "16px" }}>↗</span>
+            <span
+              style={{
+                textDecorationLine: "underline",
+                textDecorationStyle: "solid",
+                textDecorationColor: "transparent",
+                textUnderlineOffset: "6px",
+                textDecorationThickness: "3px",
+                transition: "text-decoration-color 0.4s ease-in-out, text-decoration-style 0.4s ease-in-out",
+              }}
+            >
+              Resume
+            </span>
+            <span style={{ fontSize: "16px" }}>↗</span>
           </a>
         </div>
       </div>
