@@ -137,15 +137,20 @@ export default function ParallaxFooter() {
               display: "flex",
               alignItems: "center",
               gap: "8px",
-              paddingBottom: "4px",
-              borderBottom: "transparent solid 3px",
-              transition: "border-color 0.3s ease",
+              textDecorationLine: "underline",
+              textDecorationStyle: "solid",
+              textDecorationColor: "transparent",
+              textUnderlineOffset: "6px",
+              textDecorationThickness: "3px",
+              transition: "text-decoration-color 0.3s ease",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.borderBottomColor = "#7c3aed";
+              e.currentTarget.style.textDecorationColor = "#7c3aed";
+              e.currentTarget.style.textDecorationStyle = "wavy";
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.borderBottomColor = "transparent";
+              e.currentTarget.style.textDecorationColor = "transparent";
+              e.currentTarget.style.textDecorationStyle = "solid";
             }}
           >
             Blog <span style={{ fontSize: "16px" }}>↗</span>
@@ -158,15 +163,20 @@ export default function ParallaxFooter() {
               display: "flex",
               alignItems: "center",
               gap: "8px",
-              paddingBottom: "4px",
-              borderBottom: "transparent solid 3px",
-              transition: "border-color 0.3s ease",
+              textDecorationLine: "underline",
+              textDecorationStyle: "solid",
+              textDecorationColor: "transparent",
+              textUnderlineOffset: "6px",
+              textDecorationThickness: "3px",
+              transition: "text-decoration-color 0.3s ease",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.borderBottomColor = "#7c3aed";
+              e.currentTarget.style.textDecorationColor = "#7c3aed";
+              e.currentTarget.style.textDecorationStyle = "wavy";
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.borderBottomColor = "transparent";
+              e.currentTarget.style.textDecorationColor = "transparent";
+              e.currentTarget.style.textDecorationStyle = "solid";
             }}
           >
             LinkedIn <span style={{ fontSize: "16px" }}>↗</span>
@@ -178,15 +188,20 @@ export default function ParallaxFooter() {
               display: "flex",
               alignItems: "center",
               gap: "8px",
-              paddingBottom: "4px",
-              borderBottom: "transparent solid 3px",
-              transition: "border-color 0.3s ease",
+              textDecorationLine: "underline",
+              textDecorationStyle: "solid",
+              textDecorationColor: "transparent",
+              textUnderlineOffset: "6px",
+              textDecorationThickness: "3px",
+              transition: "text-decoration-color 0.3s ease",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.borderBottomColor = "#7c3aed";
+              e.currentTarget.style.textDecorationColor = "#7c3aed";
+              e.currentTarget.style.textDecorationStyle = "wavy";
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.borderBottomColor = "transparent";
+              e.currentTarget.style.textDecorationColor = "transparent";
+              e.currentTarget.style.textDecorationStyle = "solid";
             }}
           >
             Resume <span style={{ fontSize: "16px" }}>↗</span>
