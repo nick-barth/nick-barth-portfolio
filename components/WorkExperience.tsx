@@ -71,14 +71,15 @@ export default function WorkExperience() {
                   alignItems: "center",
                   justifyContent: "center",
                   flexShrink: 0,
-                  transition: "transform 0.2s ease",
                   cursor: "pointer",
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = "scale(1.1)";
+                  const img = e.currentTarget.querySelector("img") as HTMLElement;
+                  if (img) img.style.transform = "scale(1.15)";
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = "scale(1)";
+                  const img = e.currentTarget.querySelector("img") as HTMLElement;
+                  if (img) img.style.transform = "scale(1)";
                 }}
               >
                 <Image
@@ -86,7 +87,7 @@ export default function WorkExperience() {
                   alt={`${job.company} logo`}
                   width={40}
                   height={40}
-                  style={{ objectFit: "contain" }}
+                  style={{ objectFit: "contain", transition: "transform 0.2s ease" }}
                 />
               </a>
             )}
