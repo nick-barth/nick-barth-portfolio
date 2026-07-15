@@ -6,6 +6,8 @@ export default function WorkExperience() {
     {
       company: "Personio",
       image: "/images/personio-logo.png",
+      website: "https://www.personio.com",
+      firmographics: ["Series C", "HR Tech", "500+ employees"],
       description: [
         "Identified and systematized product-qualified leads, architected cross-sell motions and targeted sales automation, and built operational bridges to sales for consistent pipeline generation and compounding expansion revenue.",
         "Drove $20K cost optimization for product analytics while leveraging vendor expertise to establish the data-driven foundation, accelerate new product launch timing, and compress time-to-first-revenue.",
@@ -14,6 +16,8 @@ export default function WorkExperience() {
     {
       company: "Deepnote",
       image: "/images/deepnote-logo.svg",
+      website: "https://www.deepnote.com",
+      firmographics: ["Series A", "Data Analytics", "50-100 employees"],
       description: [
         "Drove 5x PLG revenue growth by identifying and optimizing the freemium-to-paid conversion loop and expanding land-and-expand motions.",
         "Architected integrated go-to-market infrastructure (experimentation, attribution modeling, feature flagging, customer messaging, billing, and onboarding) that became the foundation for sustainable, compounding growth.",
@@ -23,6 +27,8 @@ export default function WorkExperience() {
     {
       company: "Hireproof",
       image: "/images/hireproof-logo.svg",
+      website: "https://www.hireproof.io",
+      firmographics: ["Exited 2022", "Hiring Tech", "12-15 employees"],
       description: [
         "Scaled from $0 to $12K MRR by establishing product-market fit, architecting go-to-market systems, personally driving early revenue through direct sales, and building revenue streams across three core products. Successfully exited in 2022 while pioneering community trust through transparent public engagement.",
       ],
@@ -43,11 +49,14 @@ export default function WorkExperience() {
               display: "flex",
               alignItems: "center",
               gap: "16px",
-              marginBottom: "24px",
+              marginBottom: "16px",
             }}
           >
             {job.image && (
-              <div
+              <a
+                href={job.website}
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   backgroundColor: "#ffffff",
                   borderRadius: "12px",
@@ -56,6 +65,14 @@ export default function WorkExperience() {
                   alignItems: "center",
                   justifyContent: "center",
                   flexShrink: 0,
+                  transition: "transform 0.2s ease",
+                  cursor: "pointer",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = "scale(1.1)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = "scale(1)";
                 }}
               >
                 <Image
@@ -65,7 +82,7 @@ export default function WorkExperience() {
                   height={40}
                   style={{ objectFit: "contain" }}
                 />
-              </div>
+              </a>
             )}
             <div
               style={{
@@ -78,6 +95,26 @@ export default function WorkExperience() {
               {job.company}
             </div>
           </div>
+          {job.firmographics && (
+            <div style={{ display: "flex", gap: "8px", marginBottom: "24px", flexWrap: "wrap" }}>
+              {job.firmographics.map((tag) => (
+                <span
+                  key={tag}
+                  style={{
+                    fontFamily: '"Geist", "Geist Placeholder", sans-serif',
+                    fontSize: "12px",
+                    fontWeight: "500",
+                    backgroundColor: "#f0f0f0",
+                    color: "#666",
+                    padding: "4px 12px",
+                    borderRadius: "16px",
+                  }}
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
           <div
             style={{
               fontFamily: '"Geist", "Geist Placeholder", sans-serif',
