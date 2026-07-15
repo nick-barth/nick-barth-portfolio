@@ -1,5 +1,6 @@
 import StickyHeader from "@/components/StickyHeader";
 import WorkExperience from "@/components/WorkExperience";
+import Approach from "@/components/Approach";
 
 export default function Home() {
   return (
@@ -50,6 +51,13 @@ export default function Home() {
       <div className="overflow-hidden pt-32 sm:pt-48 md:pt-64">
         <div className="px-6 sm:px-8 md:px-16 w-full max-w-4xl">
           <WorkExperience />
+        </div>
+      </div>
+
+      {/* Approach Section */}
+      <div className="overflow-hidden pt-32 sm:pt-48 md:pt-64">
+        <div className="px-6 sm:px-8 md:px-16 w-full">
+          <Approach />
         </div>
       </div>
 
