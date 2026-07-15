@@ -53,16 +53,16 @@ const bodoniModa = Bodoni_Moda({
 });
 
 export const metadata: Metadata = {
-  title: "Nick Barth — Product Engineer",
-  description: "Growth Engineer at Personio, based in Utrecht. Turning data into revenue.",
-  keywords: "growth engineering, product strategy, product engineer, GTM, growth hacker",
+  title: "Nick Barth — GTM Engineer",
+  description: "GTM Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable go-to-market foundations.",
+  keywords: "GTM engineer, growth engineering, data-driven growth, revenue optimization, go-to-market strategy, growth systems, PLG",
   icons: {
     icon: "/favicon.svg",
   },
   metadataBase: new URL("https://new-nick-barth.vercel.app"),
   openGraph: {
-    title: "Nick Barth — Product Engineer",
-    description: "Growth Engineer at Personio, based in Utrecht. Turning data into revenue.",
+    title: "Nick Barth — GTM Engineer",
+    description: "GTM Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable go-to-market foundations.",
     url: "https://new-nick-barth.vercel.app",
     siteName: "Nick Barth",
     type: "website",
@@ -70,8 +70,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nick Barth — Product Engineer",
-    description: "Growth Engineer at Personio, based in Utrecht. Turning data into revenue.",
+    title: "Nick Barth — GTM Engineer",
+    description: "GTM Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years of impact.",
     creator: "@nickbarth",
   },
   robots: {
@@ -106,7 +106,7 @@ export default function RootLayout({
     "@type": "Person",
     name: "Nick Barth",
     url: "https://new-nick-barth.vercel.app",
-    jobTitle: "Growth Engineer",
+    jobTitle: "GTM Engineer",
     worksFor: {
       "@type": "Organization",
       name: "Personio",
@@ -115,7 +115,7 @@ export default function RootLayout({
       "https://www.linkedin.com/in/nicholasbarth/",
       "https://twitter.com/nickbarth",
     ],
-    description: "Growth Engineer at Personio, based in Utrecht. Turning data into revenue.",
+    description: "GTM Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable go-to-market foundations.",
   };
 
   return (

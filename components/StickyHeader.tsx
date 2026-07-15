@@ -65,7 +65,7 @@ export default function StickyHeader() {
         backgroundColor: `rgba(255, 255, 255, ${bgOpacity})`,
       }}
     >
-      <div className="flex justify-between items-start px-6 sm:px-8 md:px-16 py-3 sm:py-4">
+      <div className="w-full mx-auto flex justify-between items-start px-6 sm:px-8 md:px-16 py-3 sm:py-4" style={{ maxWidth: "1200px" }}>
         <div ref={nameRef}>
           <h1
             className="font-black mb-2"

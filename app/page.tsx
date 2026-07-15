@@ -4,11 +4,10 @@ import Approach from "@/components/Approach";
 
 export default function Home() {
   return (
-    <div
-      className="min-h-screen w-full text-black relative"
-      style={{ backgroundColor: "#f6f4ec", zIndex: 1, position: "relative" }}
-    >
+    <div className="min-h-screen w-full text-black relative" style={{ backgroundColor: "#f6f4ec" }}>
       <StickyHeader />
+
+      <div className="w-full mx-auto" style={{ maxWidth: "1200px" }}>
 
       {/* Main content area */}
       <div className="overflow-hidden pt-12 sm:pt-16 md:pt-20 pb-16 sm:pb-24 md:pb-32">
@@ -95,6 +94,7 @@ export default function Home() {
 
       {/* Spacing */}
       <div style={{ height: "400px" }} />
+      </div>
     </div>
   );
 }

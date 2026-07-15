@@ -65,7 +65,7 @@ export default function ParallaxFooter() {
       className="w-full"
       style={{ backgroundColor: "#000", position: "relative", zIndex: 0 }}
     >
-      <div className="w-full px-6 sm:px-8 md:px-16 py-12 sm:py-24 md:py-32 flex flex-col sm:flex-row justify-between items-start gap-8 sm:gap-0">
+      <div className="w-full mx-auto px-6 sm:px-8 md:px-16 py-12 sm:py-24 md:py-32 flex flex-col sm:flex-row justify-between items-start gap-8 sm:gap-0" style={{ maxWidth: "1200px" }}>
         <div>
           <div ref={nameRef}>
             <h2
