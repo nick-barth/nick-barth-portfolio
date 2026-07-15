@@ -128,63 +128,30 @@ export default function ParallaxFooter() {
               display: "flex",
               alignItems: "center",
               gap: "8px",
+              color: "inherit",
+              textDecoration: "none",
+            }}
+            onMouseEnter={(e) => {
+              const text = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              const arrow = e.currentTarget.querySelector(".link-arrow") as HTMLElement;
+              if (text) {
+                text.style.textDecoration = "underline";
+                text.style.textDecorationColor = "#7c3aed";
+              }
+              if (arrow) arrow.style.color = "#7c3aed";
+            }}
+            onMouseLeave={(e) => {
+              const text = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              const arrow = e.currentTarget.querySelector(".link-arrow") as HTMLElement;
+              if (text) {
+                text.style.textDecoration = "none";
+                text.style.textDecorationColor = "inherit";
+              }
+              if (arrow) arrow.style.color = "#f6f4ec";
             }}
           >
-            <span
-              style={{
-                position: "relative",
-                display: "inline-block",
-              }}
-              onMouseEnter={(e) => {
-                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
-                if (svg) {
-                  const path = svg.querySelector("path") as SVGPathElement;
-                  if (path) {
-                    path.style.animation = "squiggle 0.6s ease-in-out forwards";
-                  }
-                }
-              }}
-              onMouseLeave={(e) => {
-                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
-                if (svg) {
-                  const path = svg.querySelector("path") as SVGPathElement;
-                  if (path) {
-                    path.style.animation = "none";
-                    path.setAttribute("stroke-dashoffset", "100");
-                  }
-                }
-              }}
-            >
-              Blog
-              <svg
-                className="squiggle-underline"
-                style={{
-                  position: "absolute",
-                  bottom: "-8px",
-                  left: "0",
-                  width: "100%",
-                  height: "8px",
-                }}
-              >
-                <defs>
-                  <pattern id="squiggle-pattern-blog" x="0" y="0" width="20" height="8" patternUnits="userSpaceOnUse">
-                    <path
-                      d="M 0,3 Q 5,1 10,3 T 20,3"
-                      stroke="#7c3aed"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      style={{
-                        strokeDasharray: "100",
-                        strokeDashoffset: "100",
-                      }}
-                    />
-                  </pattern>
-                </defs>
-                <rect width="100%" height="8" fill="url(#squiggle-pattern-blog)" />
-              </svg>
-            </span>
-            <span style={{ fontSize: "16px" }}>↗</span>
+            <span>Blog</span>
+            <span className="link-arrow" style={{ fontSize: "16px", color: "#f6f4ec", transition: "color 0.3s ease" }}>↗</span>
           </Link>
           <a
             href="https://www.linkedin.com/in/nicholasbarth/"
@@ -194,77 +161,30 @@ export default function ParallaxFooter() {
               display: "flex",
               alignItems: "center",
               gap: "8px",
+              color: "inherit",
+              textDecoration: "none",
             }}
             onMouseEnter={(e) => {
-              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
-              if (textSpan) {
-                textSpan.style.textDecorationColor = "#7c3aed";
-                textSpan.style.textDecorationStyle = "wavy";
+              const text = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              const arrow = e.currentTarget.querySelector(".link-arrow") as HTMLElement;
+              if (text) {
+                text.style.textDecoration = "underline";
+                text.style.textDecorationColor = "#7c3aed";
               }
+              if (arrow) arrow.style.color = "#7c3aed";
             }}
             onMouseLeave={(e) => {
-              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
-              if (textSpan) {
-                textSpan.style.textDecorationColor = "transparent";
-                textSpan.style.textDecorationStyle = "solid";
+              const text = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              const arrow = e.currentTarget.querySelector(".link-arrow") as HTMLElement;
+              if (text) {
+                text.style.textDecoration = "none";
+                text.style.textDecorationColor = "inherit";
               }
+              if (arrow) arrow.style.color = "#f6f4ec";
             }}
           >
-            <span
-              style={{
-                position: "relative",
-                display: "inline-block",
-              }}
-              onMouseEnter={(e) => {
-                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
-                if (svg) {
-                  const path = svg.querySelector("path") as SVGPathElement;
-                  if (path) {
-                    path.style.animation = "squiggle 0.6s ease-in-out forwards";
-                  }
-                }
-              }}
-              onMouseLeave={(e) => {
-                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
-                if (svg) {
-                  const path = svg.querySelector("path") as SVGPathElement;
-                  if (path) {
-                    path.style.animation = "none";
-                    path.setAttribute("stroke-dashoffset", "100");
-                  }
-                }
-              }}
-            >
-              LinkedIn
-              <svg
-                className="squiggle-underline"
-                style={{
-                  position: "absolute",
-                  bottom: "-8px",
-                  left: "0",
-                  width: "100%",
-                  height: "8px",
-                }}
-              >
-                <defs>
-                  <pattern id="squiggle-pattern-linkedin" x="0" y="0" width="20" height="8" patternUnits="userSpaceOnUse">
-                    <path
-                      d="M 0,3 Q 5,1 10,3 T 20,3"
-                      stroke="#7c3aed"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      style={{
-                        strokeDasharray: "100",
-                        strokeDashoffset: "100",
-                      }}
-                    />
-                  </pattern>
-                </defs>
-                <rect width="100%" height="8" fill="url(#squiggle-pattern-linkedin)" />
-              </svg>
-            </span>
-            <span style={{ fontSize: "16px" }}>↗</span>
+            <span>LinkedIn</span>
+            <span className="link-arrow" style={{ fontSize: "16px", color: "#f6f4ec", transition: "color 0.3s ease" }}>↗</span>
           </a>
           <a
             href="/nick_barth_growth_engineer.pdf"
@@ -273,77 +193,30 @@ export default function ParallaxFooter() {
               display: "flex",
               alignItems: "center",
               gap: "8px",
+              color: "inherit",
+              textDecoration: "none",
             }}
             onMouseEnter={(e) => {
-              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
-              if (textSpan) {
-                textSpan.style.textDecorationColor = "#7c3aed";
-                textSpan.style.textDecorationStyle = "wavy";
+              const text = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              const arrow = e.currentTarget.querySelector(".link-arrow") as HTMLElement;
+              if (text) {
+                text.style.textDecoration = "underline";
+                text.style.textDecorationColor = "#7c3aed";
               }
+              if (arrow) arrow.style.color = "#7c3aed";
             }}
             onMouseLeave={(e) => {
-              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
-              if (textSpan) {
-                textSpan.style.textDecorationColor = "transparent";
-                textSpan.style.textDecorationStyle = "solid";
+              const text = e.currentTarget.querySelector("span:first-child") as HTMLElement;
+              const arrow = e.currentTarget.querySelector(".link-arrow") as HTMLElement;
+              if (text) {
+                text.style.textDecoration = "none";
+                text.style.textDecorationColor = "inherit";
               }
+              if (arrow) arrow.style.color = "#f6f4ec";
             }}
           >
-            <span
-              style={{
-                position: "relative",
-                display: "inline-block",
-              }}
-              onMouseEnter={(e) => {
-                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
-                if (svg) {
-                  const path = svg.querySelector("path") as SVGPathElement;
-                  if (path) {
-                    path.style.animation = "squiggle 0.6s ease-in-out forwards";
-                  }
-                }
-              }}
-              onMouseLeave={(e) => {
-                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
-                if (svg) {
-                  const path = svg.querySelector("path") as SVGPathElement;
-                  if (path) {
-                    path.style.animation = "none";
-                    path.setAttribute("stroke-dashoffset", "100");
-                  }
-                }
-              }}
-            >
-              Resume
-              <svg
-                className="squiggle-underline"
-                style={{
-                  position: "absolute",
-                  bottom: "-8px",
-                  left: "0",
-                  width: "100%",
-                  height: "8px",
-                }}
-              >
-                <defs>
-                  <pattern id="squiggle-pattern-resume" x="0" y="0" width="20" height="8" patternUnits="userSpaceOnUse">
-                    <path
-                      d="M 0,3 Q 5,1 10,3 T 20,3"
-                      stroke="#7c3aed"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      style={{
-                        strokeDasharray: "100",
-                        strokeDashoffset: "100",
-                      }}
-                    />
-                  </pattern>
-                </defs>
-                <rect width="100%" height="8" fill="url(#squiggle-pattern-resume)" />
-              </svg>
-            </span>
-            <span style={{ fontSize: "16px" }}>↗</span>
+            <span>Resume</span>
+            <span className="link-arrow" style={{ fontSize: "16px", color: "#f6f4ec", transition: "color 0.3s ease" }}>↗</span>
           </a>
         </div>
       </div>
