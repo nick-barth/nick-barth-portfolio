@@ -24,6 +24,7 @@ export default function WorkExperience() {
         "Drove 5x PLG revenue growth by identifying and optimizing the freemium-to-paid conversion loop and expanding land-and-expand motions.",
         "Architected integrated go-to-market infrastructure (experimentation, attribution modeling, feature flagging, customer messaging, billing, and onboarding) that became the foundation for sustainable, compounding growth.",
         "Built targeted sales automation for high-intent users, multiplying revenue impact through personalized outreach and feedback loops.",
+        "Developed content and performance marketing programs that accelerated user acquisition and expanded reach through high-impact campaigns and targeted distribution channels.",
       ],
     },
     {
