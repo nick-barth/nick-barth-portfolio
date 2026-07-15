@@ -74,9 +74,6 @@ export default function Home() {
                   position: "sticky",
                   top: "80px",
                   height: "fit-content",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
                 }}
               >
                 Growth

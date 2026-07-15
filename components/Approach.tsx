@@ -43,10 +43,9 @@ export default function Approach() {
           <div
             style={{
               fontFamily: "'PP Pangaia', sans-serif",
-              fontSize: "16px",
-              fontWeight: "600",
+              fontSize: "32px",
+              fontWeight: "400",
               color: "#000",
-              letterSpacing: "0.5px",
             }}
           >
             Approach
