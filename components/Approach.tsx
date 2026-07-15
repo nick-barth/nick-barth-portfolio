@@ -39,22 +39,11 @@ export default function Approach() {
             fontSize: "56px",
             fontWeight: "600",
             lineHeight: "1.2",
-            marginBottom: "24px",
             color: "#000",
           }}
         >
           Iterative. Fast. Informed.
         </div>
-        <p
-          style={{
-            fontFamily: '"Geist", "Geist Placeholder", sans-serif',
-            fontSize: "18px",
-            lineHeight: "1.6",
-            color: "#666",
-          }}
-        >
-          These principles shape how I approach growth. I believe in moving quickly, learning constantly through iteration, and letting data guide every decision.
-        </p>
       </div>
     </div>
   );
