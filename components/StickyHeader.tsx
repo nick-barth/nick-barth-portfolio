@@ -158,7 +158,7 @@ export default function StickyHeader() {
           fontSize: "16px",
         }}
       >
-        <div style={{ padding: "16px 24px", display: "flex", flexDirection: "column", gap: "16px" }}
+        <div style={{ padding: "16px 24px", display: "flex", flexDirection: "column", gap: "16px" }}>
           <a
             href="/blog"
             className="hover:text-gray-600 transition-colors"
