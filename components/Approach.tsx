@@ -15,19 +15,18 @@ export default function Approach() {
         @media (min-width: 768px) {
           .approach-container {
             display: flex;
-            align-items: center;
-            justify-content: space-between;
+            align-items: flex-start;
             gap: 48px;
             padding-top: 64px;
             padding-bottom: 64px;
             flex-direction: row;
           }
           .approach-label {
-            margin-bottom: 48px !important;
+            flex: 0 0 25%;
+            margin-bottom: 0 !important;
           }
           .approach-content {
             flex: 1;
-            max-width: 600px;
           }
           .approach-heading {
             font-size: 72px !important;
