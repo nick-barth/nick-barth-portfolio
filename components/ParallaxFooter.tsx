@@ -65,13 +65,13 @@ export default function ParallaxFooter() {
       className="w-full"
       style={{ backgroundColor: "#000", position: "relative", zIndex: 0 }}
     >
-      <div className="w-full px-6 sm:px-8 md:px-16 py-24 sm:py-32 flex justify-between items-start">
+      <div className="w-full px-6 sm:px-8 md:px-16 py-12 sm:py-24 md:py-32 flex flex-col sm:flex-row justify-between items-start gap-8 sm:gap-0">
         <div>
           <div ref={nameRef}>
             <h2
               style={{
                 fontFamily: "'PP Pangaia', sans-serif",
-                fontSize: "72px",
+                fontSize: "clamp(36px, 10vw, 72px)",
                 fontWeight: "400",
                 lineHeight: "0.9",
                 color: "#f6f4ec",
@@ -86,6 +86,7 @@ export default function ParallaxFooter() {
           <a
             ref={buttonRef}
             href="mailto:barth.nicholas@gmail.com"
+            className="hidden sm:inline-flex"
             style={{
               fontFamily: '"Geist", "Geist Placeholder", sans-serif',
               fontSize: "18px",
@@ -93,7 +94,6 @@ export default function ParallaxFooter() {
               color: "#fff",
               backgroundColor: "#7c3aed",
               textDecoration: "none",
-              display: "inline-flex",
               alignItems: "center",
               gap: "12px",
               marginTop: "24px",
@@ -119,7 +119,7 @@ export default function ParallaxFooter() {
             fontFamily: '"Geist", "Geist Placeholder", sans-serif',
             fontSize: "20px",
             color: "#f6f4ec",
-            marginTop: "0",
+            marginTop: "32px",
           }}
         >
           <Link
