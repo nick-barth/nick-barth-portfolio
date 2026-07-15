@@ -39,13 +39,24 @@ export default function WorkExperience() {
           }}
         >
           {job.image && (
-            <div style={{ marginBottom: "24px", height: "80px" }}>
+            <div
+              style={{
+                marginBottom: "24px",
+                height: "80px",
+                backgroundColor: "#ffffff",
+                borderRadius: "20px",
+                padding: "12px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "flex-start",
+              }}
+            >
               <Image
                 src={job.image}
                 alt={`${job.company} logo`}
                 width={200}
                 height={80}
-                style={{ objectFit: "contain", height: "100%" }}
+                style={{ objectFit: "contain", height: "100%", width: "auto" }}
               />
             </div>
           )}
