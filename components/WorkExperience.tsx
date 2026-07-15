@@ -1,9 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function WorkExperience() {
   const jobs = [
     {
       company: "Personio",
+      image: "/images/personio-logo.svg",
       description: [
         "Identified and systematized product-qualified leads, architected cross-sell motions and targeted sales automation, and built operational bridges to sales for consistent pipeline generation and compounding expansion revenue.",
         "Drove $20K cost optimization for product analytics while leveraging vendor expertise to establish the data-driven foundation, accelerate new product launch timing, and compress time-to-first-revenue.",
@@ -11,6 +13,7 @@ export default function WorkExperience() {
     },
     {
       company: "Deepnote",
+      image: "/images/deepnote-logo.svg",
       description: [
         "Drove 5x PLG revenue growth by identifying and optimizing the freemium-to-paid conversion loop and expanding land-and-expand motions.",
         "Architected integrated go-to-market infrastructure (experimentation, attribution modeling, feature flagging, customer messaging, billing, and onboarding) that became the foundation for sustainable, compounding growth.",
@@ -19,6 +22,7 @@ export default function WorkExperience() {
     },
     {
       company: "Hireproof",
+      image: "/images/hireproof-logo.svg",
       description: [
         "Scaled from $0 to $12K MRR by establishing product-market fit, architecting go-to-market systems, personally driving early revenue through direct sales, and building revenue streams across three core products. Successfully exited in 2022 while pioneering community trust through transparent public engagement.",
       ],
@@ -34,6 +38,17 @@ export default function WorkExperience() {
             paddingBottom: "48px",
           }}
         >
+          {job.image && (
+            <div style={{ marginBottom: "24px", height: "80px" }}>
+              <Image
+                src={job.image}
+                alt={`${job.company} logo`}
+                width={200}
+                height={80}
+                style={{ objectFit: "contain", height: "100%" }}
+              />
+            </div>
+          )}
           <div
             style={{
               fontFamily: "'PP Pangaia', sans-serif",
