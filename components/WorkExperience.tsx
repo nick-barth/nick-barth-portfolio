@@ -19,7 +19,7 @@ export default function WorkExperience() {
       company: "Deepnote",
       image: "/images/deepnote-logo.svg",
       website: "https://www.deepnote.com",
-      firmographics: ["Series A", "Data Analytics", "50-100 employees"],
+      firmographics: ["PLG", "Outbound", "Enrichment", "Signal & intent scoring", "Customer messaging", "Content & performance marketing", "Activation"],
       description: [
         "Drove 5x PLG revenue growth by identifying and optimizing the freemium-to-paid conversion loop and expanding land-and-expand motions.",
         "Architected integrated go-to-market infrastructure (experimentation, attribution modeling, feature flagging, customer messaging, billing, and onboarding) that became the foundation for sustainable, compounding growth.",
@@ -106,10 +106,11 @@ export default function WorkExperience() {
                     fontFamily: '"Geist", "Geist Placeholder", sans-serif',
                     fontSize: "12px",
                     fontWeight: "500",
-                    backgroundColor: "#000000",
-                    color: "#ffffff",
+                    backgroundColor: "#ffffff",
+                    color: "#000000",
                     padding: "4px 12px",
                     borderRadius: "6px",
+                    border: "1px solid #e0e0e0",
                   }}
                 >
                   {tag}
