@@ -31,9 +31,12 @@ export default function WorkExperience() {
       company: "Hireproof",
       image: "/images/hireproof-logo.svg",
       website: "https://www.hireproof.io",
-      firmographics: ["Exited 2022", "Hiring Tech", "12-15 employees"],
+      firmographics: ["Awareness", "Acquisition", "Activation", "Retention", "Expansion", "Monetization"],
       description: [
-        "Scaled from $0 to $12K MRR by establishing product-market fit, architecting go-to-market systems, personally driving early revenue through direct sales, and building revenue streams across three core products. Successfully exited in 2022 while pioneering community trust through transparent public engagement.",
+        "Drove awareness and acquisition through product-market fit validation, community building, and Twitch-powered public engagement that established trusted brand presence.",
+        "Built activation and retention by architecting onboarding systems and product experiences that converted free users into engaged customers.",
+        "Scaled expansion and monetization by personally driving early revenue through direct sales, establishing multiple revenue streams across three core products, and reaching $12K MRR.",
+        "Successfully exited in 2022 by pioneering transparent community engagement and establishing Hireproof as a trusted voice in hiring technology.",
       ],
     },
   ];
