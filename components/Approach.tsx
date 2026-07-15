@@ -17,7 +17,7 @@ export default function Approach() {
           style={{
             fontFamily: "'PP Pangaia', sans-serif",
             fontSize: "18px",
-            fontWeight: "400",
+            fontWeight: "600",
             marginBottom: "48px",
             color: "#000",
             letterSpacing: "0.5px",
@@ -37,7 +37,7 @@ export default function Approach() {
           style={{
             fontFamily: "'Bodoni Moda', serif",
             fontSize: "56px",
-            fontWeight: "400",
+            fontWeight: "600",
             lineHeight: "1.2",
             marginBottom: "24px",
             color: "#000",
