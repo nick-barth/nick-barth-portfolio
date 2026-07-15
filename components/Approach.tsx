@@ -43,7 +43,7 @@ export default function Approach() {
             color: "#000",
           }}
         >
-          Iterative. Fast. Informed.
+          Fast. Iterative. Informed.
         </div>
         <p
           style={{
