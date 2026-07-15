@@ -12,7 +12,7 @@ export default function WorkExperience() {
       firmographics: ["B2B", "Cross-sells", "Product-qualified leads", "Activation", "Expansion", "Sales automation"],
       description: [
         "Identified and systematized product-qualified leads, architected cross-sell motions and targeted sales automation, and built operational bridges to sales for consistent pipeline generation and compounding expansion revenue.",
-        "Drove $20K cost optimization for product analytics while leveraging vendor expertise to establish the data-driven foundation, accelerate new product launch timing, and compress time-to-first-revenue.",
+        "Drove cost optimization for product analytics while leveraging vendor expertise to establish the data-driven foundation, accelerate new product launch timing, and compress time-to-first-revenue.",
       ],
     },
     {
