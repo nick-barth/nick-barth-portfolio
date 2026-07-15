@@ -9,7 +9,7 @@ export default function WorkExperience() {
       company: "Personio",
       image: "/images/personio-logo.png",
       website: "https://www.personio.com",
-      firmographics: ["Series C", "HR Tech", "500+ employees"],
+      firmographics: ["Cross-sells", "Product-qualified leads", "Expansion", "Activation", "Analytics platform"],
       description: [
         "Identified and systematized product-qualified leads, architected cross-sell motions and targeted sales automation, and built operational bridges to sales for consistent pipeline generation and compounding expansion revenue.",
         "Drove $20K cost optimization for product analytics while leveraging vendor expertise to establish the data-driven foundation, accelerate new product launch timing, and compress time-to-first-revenue.",
@@ -106,8 +106,8 @@ export default function WorkExperience() {
                     fontFamily: '"Geist", "Geist Placeholder", sans-serif',
                     fontSize: "12px",
                     fontWeight: "500",
-                    backgroundColor: "#f0f0f0",
-                    color: "#666",
+                    backgroundColor: "#000000",
+                    color: "#ffffff",
                     padding: "4px 12px",
                     borderRadius: "16px",
                   }}
