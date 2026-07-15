@@ -36,12 +36,12 @@ export default function Home() {
               color: "#000",
             }}
           >
-            I'm a GTM Engineer with 11+ years of experience building data-driven
-            growth systems across PLG and PLS motions. I specialize in
-            connecting data, systems, and teams to optimize the customer
-            journey, scale go-to-market strategies, and deliver measurable
-            revenue outcomes. Currently, I'm a GTM Engineer at Personio in
-            Amsterdam.
+            I'm a GTM Engineer with 11+ years of experience architecting
+            data-driven growth systems and revenue infrastructure across PLG
+            and sales-led motions. I specialize in identifying revenue drivers,
+            establishing feedback loops between data and product, and building
+            sustainable go-to-market foundations that compound. Currently driving
+            outcomes at Personio in Amsterdam.
           </p>
         </div>
       </div>

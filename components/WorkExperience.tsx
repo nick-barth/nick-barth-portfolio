@@ -5,22 +5,22 @@ export default function WorkExperience() {
     {
       company: "Personio",
       description: [
-        "Established the foundation for product analytics operations, implementing cost-optimization strategies that reduced vendor expenses by approximately $20K annually.",
-        "Drew on previous vendor expertise to streamline the introduction of a new product into our lineup.",
+        "Identified and systematized product-qualified leads, architected cross-sell motions and targeted sales automation, and built operational bridges to sales for consistent pipeline generation and compounding expansion revenue.",
+        "Drove $20K cost optimization for product analytics while leveraging vendor expertise to establish the data-driven foundation, accelerate new product launch timing, and compress time-to-first-revenue.",
       ],
     },
     {
       company: "Deepnote",
       description: [
-        "Grew PLG revenue 5x, expanded land & expand motion, and ideated solutions to tap into freemium users.",
-        "Pitched, architected, and implemented experimentation/feature flagging, performance marketing, onboarding, billing, landing pages, content marketing, and attribution modeling.",
-        "Created sales automation for high intent/high velocity users.",
+        "Drove 5x PLG revenue growth by identifying and optimizing the freemium-to-paid conversion loop and expanding land-and-expand motions.",
+        "Architected integrated go-to-market infrastructure (experimentation, attribution modeling, feature flagging, customer messaging, billing, and onboarding) that became the foundation for sustainable, compounding growth.",
+        "Built targeted sales automation for high-intent users, multiplying revenue impact through personalized outreach and feedback loops.",
       ],
     },
     {
       company: "Hireproof",
       description: [
-        "Built an MVP, acquired funding, and built out the entirety of the product—three apps and a marketing website. Managed growth, marketing, press, and fundraising. Scaled from 0 to 12k MRR. Successfully exited in 2022, all while livestreaming publicly on Twitch.",
+        "Scaled from $0 to $12K MRR by establishing product-market fit, architecting go-to-market systems, personally driving early revenue through direct sales, and building revenue streams across three core products. Successfully exited in 2022 while pioneering community trust through transparent public engagement.",
       ],
     },
   ];

@@ -5,14 +5,14 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog — Nick Barth",
-  description: "Articles on scaling products, user acquisition, and data-driven decision making.",
+  description: "Articles on building sustainable growth systems, identifying revenue drivers, and establishing data-driven feedback loops.",
   metadataBase: new URL("https://new-nick-barth.vercel.app"),
   alternates: {
     canonical: "https://new-nick-barth.vercel.app/blog",
   },
   openGraph: {
     title: "Blog — Nick Barth",
-    description: "Articles on scaling products, user acquisition, and data-driven decision making.",
+    description: "Articles on building sustainable growth systems, identifying revenue drivers, and establishing data-driven feedback loops.",
     url: "https://new-nick-barth.vercel.app/blog",
     type: "website",
   },
