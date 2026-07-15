@@ -11,7 +11,9 @@ export default function StickyHeader() {
   const headerRef = useRef(null);
   const nameRef = useRef(null);
   const navRef = useRef(null);
+  const hamburgerRef = useRef(null);
   const [bgOpacity, setBgOpacity] = useState(0);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     if (!headerRef.current || !nameRef.current || !navRef.current) return;
@@ -52,6 +54,20 @@ export default function StickyHeader() {
       y: 12,
     });
 
+    // Hamburger button moves down with nav
+    if (hamburgerRef.current) {
+      gsap.to(hamburgerRef.current, {
+        scrollTrigger: {
+          trigger: "body",
+          start: "top top",
+          end: "200px top",
+          scrub: 0.3,
+          markers: false,
+        },
+        y: 12,
+      });
+    }
+
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
@@ -80,9 +96,10 @@ export default function StickyHeader() {
           </h1>
         </div>
 
+        {/* Desktop nav */}
         <nav
           ref={navRef}
-          className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-right"
+          className="hidden sm:flex flex-row gap-8 text-right"
           style={{
             fontFamily: '"Geist", "Geist Placeholder", sans-serif',
             fontSize: "16px",
@@ -107,6 +124,66 @@ export default function StickyHeader() {
             Resume
           </a>
         </nav>
+
+        {/* Mobile menu button */}
+        <button
+          ref={hamburgerRef}
+          className="sm:hidden"
+          onClick={() => setMenuOpen(!menuOpen)}
+          style={{
+            fontFamily: '"Geist", "Geist Placeholder", sans-serif',
+            fontSize: "24px",
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            color: "#000",
+            padding: 0,
+            transition: "transform 0.3s ease",
+          }}
+        >
+          {menuOpen ? "✕" : "☰"}
+        </button>
+      </div>
+
+      {/* Mobile menu drawer */}
+      <div
+        className="sm:hidden"
+        style={{
+          backgroundColor: "rgba(255, 255, 255, 0.98)",
+          borderTop: "1px solid #e0e0e0",
+          maxHeight: menuOpen ? "200px" : "0",
+          overflow: "hidden",
+          transition: "max-height 0.3s ease",
+          fontFamily: '"Geist", "Geist Placeholder", sans-serif',
+          fontSize: "16px",
+        }}
+      >
+        <div style={{ padding: "16px 24px", display: "flex", flexDirection: "column", gap: "16px" }}
+          <a
+            href="/blog"
+            className="hover:text-gray-600 transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            Blog
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nicholasbarth/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-600 transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            LinkedIn
+          </a>
+          <a
+            href="/nick_barth_growth_engineer.pdf"
+            download
+            className="hover:text-gray-600 transition-colors"
+            onClick={() => setMenuOpen(false)}
+          >
+            Resume
+          </a>
+        </div>
       </div>
     </header>
   );
