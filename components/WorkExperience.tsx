@@ -38,38 +38,45 @@ export default function WorkExperience() {
             paddingBottom: "48px",
           }}
         >
-          {job.image && (
-            <div
-              style={{
-                marginBottom: "24px",
-                height: "80px",
-                backgroundColor: "#ffffff",
-                borderRadius: "20px",
-                padding: "12px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "flex-start",
-              }}
-            >
-              <Image
-                src={job.image}
-                alt={`${job.company} logo`}
-                width={200}
-                height={80}
-                style={{ objectFit: "contain", height: "100%", width: "auto" }}
-              />
-            </div>
-          )}
           <div
             style={{
-              fontFamily: "'PP Pangaia', sans-serif",
-              fontSize: "36px",
-              fontWeight: "400",
+              display: "flex",
+              alignItems: "center",
+              gap: "16px",
               marginBottom: "24px",
-              color: "#000",
             }}
           >
-            {job.company}
+            {job.image && (
+              <div
+                style={{
+                  backgroundColor: "#ffffff",
+                  borderRadius: "12px",
+                  padding: "8px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  flexShrink: 0,
+                }}
+              >
+                <Image
+                  src={job.image}
+                  alt={`${job.company} logo`}
+                  width={50}
+                  height={50}
+                  style={{ objectFit: "contain" }}
+                />
+              </div>
+            )}
+            <div
+              style={{
+                fontFamily: "'PP Pangaia', sans-serif",
+                fontSize: "36px",
+                fontWeight: "400",
+                color: "#000",
+              }}
+            >
+              {job.company}
+            </div>
           </div>
           <div
             style={{
