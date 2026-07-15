@@ -19,7 +19,7 @@ export default function WorkExperience() {
       company: "Deepnote",
       image: "/images/deepnote-logo.svg",
       website: "https://www.deepnote.com",
-      firmographics: ["PLG", "Outbound", "Enrichment", "Signal & intent scoring", "Customer messaging", "Content", "Performance marketing", "Activation"],
+      firmographics: ["PLG", "Outbound", "Enrichment", "Signal & intent scoring", "Customer messaging", "Content marketing", "Performance marketing", "Activation"],
       description: [
         "Drove 5x PLG revenue growth by identifying and optimizing the freemium-to-paid conversion loop and expanding land-and-expand motions.",
         "Architected integrated go-to-market infrastructure (experimentation, attribution modeling, feature flagging, customer messaging, billing, and onboarding) that became the foundation for sustainable, compounding growth.",
