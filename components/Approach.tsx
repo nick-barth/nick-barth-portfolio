@@ -43,7 +43,7 @@ export default function Approach() {
             color: "#000",
           }}
         >
-          Direct. Fast. Iterative. Informed.
+          Iterative. Fast. Informed.
         </div>
         <p
           style={{
@@ -53,7 +53,7 @@ export default function Approach() {
             color: "#666",
           }}
         >
-          These principles shape how I approach growth. I believe in getting to the core of the problem quickly, acting decisively, learning constantly, and letting data guide every decision.
+          These principles shape how I approach growth. I believe in moving quickly, learning constantly through iteration, and letting data guide every decision.
         </p>
       </div>
     </div>
