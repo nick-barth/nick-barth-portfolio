@@ -47,22 +47,13 @@ export default function ParallaxFooter() {
       }
     );
 
-    // Button fades in on scroll
+    // Button fades in
     buttonRef.current.style.opacity = "0";
-    gsap.fromTo(
-      buttonRef.current,
-      { opacity: 0 },
-      {
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "footer",
-          start: "top 80%",
-          end: "top 20%",
-          scrub: 0.5,
-          markers: false,
-        },
-      }
-    );
+    gsap.to(buttonRef.current, {
+      opacity: 1,
+      duration: 1.2,
+      delay: 0.3,
+    });
 
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
@@ -138,20 +129,6 @@ export default function ParallaxFooter() {
               alignItems: "center",
               gap: "8px",
             }}
-            onMouseEnter={(e) => {
-              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
-              if (textSpan) {
-                textSpan.style.textDecorationColor = "#7c3aed";
-                textSpan.style.textDecorationStyle = "wavy";
-              }
-            }}
-            onMouseLeave={(e) => {
-              const textSpan = e.currentTarget.querySelector("span:first-child") as HTMLElement;
-              if (textSpan) {
-                textSpan.style.textDecorationColor = "transparent";
-                textSpan.style.textDecorationStyle = "solid";
-              }
-            }}
           >
             <span
               style={{
@@ -159,43 +136,52 @@ export default function ParallaxFooter() {
                 display: "inline-block",
               }}
               onMouseEnter={(e) => {
-                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
-                if (underline) {
-                  underline.style.animation = "squiggle 0.6s ease-in-out forwards";
+                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
+                if (svg) {
+                  const path = svg.querySelector("path") as SVGPathElement;
+                  if (path) {
+                    path.style.animation = "squiggle 0.6s ease-in-out forwards";
+                  }
                 }
               }}
               onMouseLeave={(e) => {
-                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
-                if (underline) {
-                  underline.style.animation = "none";
-                  underline.style.strokeDashoffset = "0";
+                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
+                if (svg) {
+                  const path = svg.querySelector("path") as SVGPathElement;
+                  if (path) {
+                    path.style.animation = "none";
+                    path.setAttribute("stroke-dashoffset", "100");
+                  }
                 }
               }}
             >
               Blog
               <svg
                 className="squiggle-underline"
-                viewBox="0 0 50 5"
                 style={{
                   position: "absolute",
                   bottom: "-8px",
                   left: "0",
                   width: "100%",
                   height: "8px",
-                  overflow: "visible",
                 }}
               >
-                <path
-                  d="M 0,3 Q 5,1 10,3 T 20,3 T 30,3 T 40,3 T 50,3"
-                  stroke="#7c3aed"
-                  strokeWidth="2"
-                  fill="none"
-                  strokeLinecap="round"
-                  style={{
-                    strokeDasharray: "100",
-                    strokeDashoffset: "100",
-                  }}
-                />
+                <defs>
+                  <pattern id="squiggle-pattern-blog" x="0" y="0" width="20" height="8" patternUnits="userSpaceOnUse">
+                    <path
+                      d="M 0,3 Q 5,1 10,3 T 20,3"
+                      stroke="#7c3aed"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      style={{
+                        strokeDasharray: "100",
+                        strokeDashoffset: "100",
+                      }}
+                    />
+                  </pattern>
+                </defs>
+                <rect width="100%" height="8" fill="url(#squiggle-pattern-blog)" />
               </svg>
             </span>
             <span style={{ fontSize: "16px" }}>↗</span>
@@ -230,43 +216,52 @@ export default function ParallaxFooter() {
                 display: "inline-block",
               }}
               onMouseEnter={(e) => {
-                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
-                if (underline) {
-                  underline.style.animation = "squiggle 0.6s ease-in-out forwards";
+                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
+                if (svg) {
+                  const path = svg.querySelector("path") as SVGPathElement;
+                  if (path) {
+                    path.style.animation = "squiggle 0.6s ease-in-out forwards";
+                  }
                 }
               }}
               onMouseLeave={(e) => {
-                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
-                if (underline) {
-                  underline.style.animation = "none";
-                  underline.style.strokeDashoffset = "0";
+                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
+                if (svg) {
+                  const path = svg.querySelector("path") as SVGPathElement;
+                  if (path) {
+                    path.style.animation = "none";
+                    path.setAttribute("stroke-dashoffset", "100");
+                  }
                 }
               }}
             >
               LinkedIn
               <svg
                 className="squiggle-underline"
-                viewBox="0 0 50 5"
                 style={{
                   position: "absolute",
                   bottom: "-8px",
                   left: "0",
                   width: "100%",
                   height: "8px",
-                  overflow: "visible",
                 }}
               >
-                <path
-                  d="M 0,3 Q 5,1 10,3 T 20,3 T 30,3 T 40,3 T 50,3"
-                  stroke="#7c3aed"
-                  strokeWidth="2"
-                  fill="none"
-                  strokeLinecap="round"
-                  style={{
-                    strokeDasharray: "100",
-                    strokeDashoffset: "100",
-                  }}
-                />
+                <defs>
+                  <pattern id="squiggle-pattern-linkedin" x="0" y="0" width="20" height="8" patternUnits="userSpaceOnUse">
+                    <path
+                      d="M 0,3 Q 5,1 10,3 T 20,3"
+                      stroke="#7c3aed"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      style={{
+                        strokeDasharray: "100",
+                        strokeDashoffset: "100",
+                      }}
+                    />
+                  </pattern>
+                </defs>
+                <rect width="100%" height="8" fill="url(#squiggle-pattern-linkedin)" />
               </svg>
             </span>
             <span style={{ fontSize: "16px" }}>↗</span>
@@ -300,43 +295,52 @@ export default function ParallaxFooter() {
                 display: "inline-block",
               }}
               onMouseEnter={(e) => {
-                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
-                if (underline) {
-                  underline.style.animation = "squiggle 0.6s ease-in-out forwards";
+                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
+                if (svg) {
+                  const path = svg.querySelector("path") as SVGPathElement;
+                  if (path) {
+                    path.style.animation = "squiggle 0.6s ease-in-out forwards";
+                  }
                 }
               }}
               onMouseLeave={(e) => {
-                const underline = e.currentTarget.querySelector(".squiggle-underline") as HTMLElement;
-                if (underline) {
-                  underline.style.animation = "none";
-                  underline.style.strokeDashoffset = "0";
+                const svg = e.currentTarget.querySelector(".squiggle-underline") as SVGSVGElement;
+                if (svg) {
+                  const path = svg.querySelector("path") as SVGPathElement;
+                  if (path) {
+                    path.style.animation = "none";
+                    path.setAttribute("stroke-dashoffset", "100");
+                  }
                 }
               }}
             >
               Resume
               <svg
                 className="squiggle-underline"
-                viewBox="0 0 50 5"
                 style={{
                   position: "absolute",
                   bottom: "-8px",
                   left: "0",
                   width: "100%",
                   height: "8px",
-                  overflow: "visible",
                 }}
               >
-                <path
-                  d="M 0,3 Q 5,1 10,3 T 20,3 T 30,3 T 40,3 T 50,3"
-                  stroke="#7c3aed"
-                  strokeWidth="2"
-                  fill="none"
-                  strokeLinecap="round"
-                  style={{
-                    strokeDasharray: "100",
-                    strokeDashoffset: "100",
-                  }}
-                />
+                <defs>
+                  <pattern id="squiggle-pattern-resume" x="0" y="0" width="20" height="8" patternUnits="userSpaceOnUse">
+                    <path
+                      d="M 0,3 Q 5,1 10,3 T 20,3"
+                      stroke="#7c3aed"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      style={{
+                        strokeDasharray: "100",
+                        strokeDashoffset: "100",
+                      }}
+                    />
+                  </pattern>
+                </defs>
+                <rect width="100%" height="8" fill="url(#squiggle-pattern-resume)" />
               </svg>
             </span>
             <span style={{ fontSize: "16px" }}>↗</span>
