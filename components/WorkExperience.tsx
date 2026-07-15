@@ -61,8 +61,8 @@ export default function WorkExperience() {
                 <Image
                   src={job.image}
                   alt={`${job.company} logo`}
-                  width={50}
-                  height={50}
+                  width={40}
+                  height={40}
                   style={{ objectFit: "contain" }}
                 />
               </div>
