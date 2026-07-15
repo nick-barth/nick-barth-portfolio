@@ -56,6 +56,9 @@ export const metadata: Metadata = {
   title: "Nick Barth — Product Engineer",
   description: "Growth Engineer at Personio, based in Utrecht. Turning data into revenue.",
   keywords: "growth engineering, product strategy, product engineer, GTM, growth hacker",
+  icons: {
+    icon: "/favicon.svg",
+  },
   metadataBase: new URL("https://new-nick-barth.vercel.app"),
   openGraph: {
     title: "Nick Barth — Product Engineer",
