@@ -18,10 +18,10 @@ export default function Home() {
               className="mb-2"
               style={{
                 fontFamily: "'PP Pangaia', sans-serif",
-                fontSize: "77px",
+                fontSize: "clamp(32px, 10vw, 77px)",
                 fontWeight: "400",
                 fontVariantLigatures: "common-ligatures",
-                lineHeight: "92px",
+                lineHeight: "1.2",
               }}
             >
               Hands on growth engineer who turns{" "}
@@ -31,10 +31,10 @@ export default function Home() {
             <p
               style={{
                 fontFamily: '"Geist", "Geist Placeholder", sans-serif',
-                fontSize: "24px",
+                fontSize: "clamp(16px, 4vw, 24px)",
                 fontWeight: "300",
                 lineHeight: "1.6",
-                marginTop: "48px",
+                marginTop: "clamp(24px, 6vw, 48px)",
                 color: "#666",
               }}
             >
