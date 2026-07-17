@@ -53,7 +53,7 @@ const bodoniModa = Bodoni_Moda({
 });
 
 export const metadata: Metadata = {
-  title: "Nick Barth — Growth Engineer",
+  title: "Nick Barth",
   description:
     "Growth Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable growth foundations.",
   keywords:
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://new-nick-barth.vercel.app"),
   openGraph: {
-    title: "Nick Barth — Growth Engineer",
+    title: "Nick Barth",
     description:
       "Growth Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable growth foundations.",
     url: "https://new-nick-barth.vercel.app",
