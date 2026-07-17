@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { useRouter, usePathname } from "next/navigation";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
@@ -12,6 +13,16 @@ export default function StickyHeader() {
   const nameRef = useRef(null);
   const navRef = useRef(null);
   const [bgOpacity, setBgOpacity] = useState(0);
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const handleNameClick = () => {
+    if (pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      router.push("/");
+    }
+  };
 
   useEffect(() => {
     if (!headerRef.current || !nameRef.current || !navRef.current) return;
@@ -66,9 +77,14 @@ export default function StickyHeader() {
       }}
     >
       <div className="w-full mx-auto flex justify-between items-start px-6 sm:px-8 md:px-16 py-3 sm:py-4" style={{ maxWidth: "1200px" }}>
-        <div ref={nameRef}>
+        <button
+          ref={nameRef}
+          onClick={handleNameClick}
+          className="mb-2 cursor-pointer hover:opacity-70 transition-opacity bg-transparent border-none p-0"
+          aria-label="Scroll to top or go home"
+        >
           <h1
-            className="font-black mb-2"
+            className="font-black"
             style={{
               fontFamily: "'PP Pangaia', sans-serif",
               fontWeight: "500",
@@ -78,7 +94,7 @@ export default function StickyHeader() {
           >
             Nick Barth
           </h1>
-        </div>
+        </button>
 
         <nav
           ref={navRef}
