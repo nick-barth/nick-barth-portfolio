@@ -16,6 +16,7 @@
     "next": "16.2.9",
     "react": "19.2.4",
     "react-dom": "19.2.4",
+    "roaarrr-browser": "^1.0.8",
     "three": "^0.185.1"
   },
   "devDependencies": {

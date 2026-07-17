@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Outfit, Bodoni_Moda } from "next/font/google";
 import localFont from "next/font/local";
 import ParallaxFooter from "@/components/ParallaxFooter";
+import { Analytics } from "@/components/Analytics";
 import "./globals.css";
 
 const maziusDisplay = localFont({
@@ -158,6 +159,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col">
+        <Analytics />
         {children}
         <ParallaxFooter />
       </body>
