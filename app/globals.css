@@ -43,6 +43,8 @@
 html {
   background-color: #f6f4ec;
   overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -51,6 +53,7 @@ body {
   font-family: "Geist", "Geist Placeholder", sans-serif;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 /* Blog styling */
