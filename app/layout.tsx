@@ -53,16 +53,19 @@ const bodoniModa = Bodoni_Moda({
 });
 
 export const metadata: Metadata = {
-  title: "Nick Barth — GTM Engineer",
-  description: "GTM Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable go-to-market foundations.",
-  keywords: "GTM engineer, growth engineering, data-driven growth, revenue optimization, go-to-market strategy, growth systems, PLG",
+  title: "Nick Barth — Growth Engineer",
+  description:
+    "Growth Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable growth foundations.",
+  keywords:
+    "growth engineer, growth engineering, data-driven growth, revenue optimization, growth strategy, growth systems, PLG",
   icons: {
     icon: "/favicon.svg",
   },
   metadataBase: new URL("https://new-nick-barth.vercel.app"),
   openGraph: {
-    title: "Nick Barth — GTM Engineer",
-    description: "GTM Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable go-to-market foundations.",
+    title: "Nick Barth — Growth Engineer",
+    description:
+      "Growth Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable growth foundations.",
     url: "https://new-nick-barth.vercel.app",
     siteName: "Nick Barth",
     type: "website",
@@ -70,8 +73,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nick Barth — GTM Engineer",
-    description: "GTM Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years of impact.",
+    title: "Nick Barth — Growth Engineer",
+    description:
+      "Growth Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years of impact.",
     creator: "@nickbarth",
   },
   robots: {
@@ -106,7 +110,7 @@ export default function RootLayout({
     "@type": "Person",
     name: "Nick Barth",
     url: "https://new-nick-barth.vercel.app",
-    jobTitle: "GTM Engineer",
+    jobTitle: "Growth Engineer",
     worksFor: {
       "@type": "Organization",
       name: "Personio",
@@ -115,7 +119,8 @@ export default function RootLayout({
       "https://www.linkedin.com/in/nicholasbarth/",
       "https://twitter.com/nickbarth",
     ],
-    description: "GTM Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable go-to-market foundations.",
+    description:
+      "Growth Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years architecting sustainable growth foundations.",
   };
 
   return (
@@ -129,7 +134,10 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="min-h-full flex flex-col">{children}<ParallaxFooter /></body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <ParallaxFooter />
+      </body>
     </html>
   );
 }

@@ -9,20 +9,37 @@ export default function WorkExperience() {
       company: "Personio",
       image: "/images/personio-logo.png",
       website: "https://www.personio.com",
-      firmographics: ["B2B", "Cross-sells", "Product-qualified leads", "Activation", "Expansion", "Sales automation"],
+      firmographics: [
+        "B2B",
+        "Cross-sells",
+        "Product-qualified leads",
+        "Activation",
+        "Expansion",
+        "Sales automation",
+      ],
       description: [
         "Identified and systematized product-qualified leads, architected cross-sell motions and targeted sales automation, and built operational bridges to sales for consistent pipeline generation and compounding expansion revenue.",
         "Drove cost optimization for product analytics while leveraging vendor expertise to establish the data-driven foundation, accelerate new product launch timing, and compress time-to-first-revenue.",
+        "Identified and removed activation bottlenecks through onboarding optimization and guided product experiences, improving user progression and establishing stronger product foundations.",
       ],
     },
     {
       company: "Deepnote",
       image: "/images/deepnote-logo.svg",
       website: "https://www.deepnote.com",
-      firmographics: ["PLG", "Outbound", "Enrichment", "Signal & intent scoring", "Customer messaging", "Content marketing", "Performance marketing", "Activation"],
+      firmographics: [
+        "PLG",
+        "Outbound",
+        "Enrichment",
+        "Signal & intent scoring",
+        "Customer messaging",
+        "Content marketing",
+        "Performance marketing",
+        "Activation",
+      ],
       description: [
         "Drove 5x PLG revenue growth by identifying and optimizing the freemium-to-paid conversion loop and expanding land-and-expand motions.",
-        "Architected integrated go-to-market infrastructure (experimentation, attribution modeling, feature flagging, customer messaging, billing, and onboarding) that became the foundation for sustainable, compounding growth.",
+        "Architected integrated growth infrastructure (experimentation, attribution modeling, feature flagging, customer messaging, billing, and onboarding) that became the foundation for sustainable, compounding growth.",
         "Built targeted sales automation for high-intent users, multiplying revenue impact through personalized outreach and feedback loops.",
         "Developed content and performance marketing programs that accelerated user acquisition and expanded reach through high-impact campaigns and targeted distribution channels.",
       ],
@@ -31,7 +48,15 @@ export default function WorkExperience() {
       company: "Hireproof",
       image: "/images/hireproof-logo.svg",
       website: "https://www.hireproof.io",
-      firmographics: ["Founder", "Awareness", "Acquisition", "Activation", "Retention", "Expansion", "Monetization"],
+      firmographics: [
+        "Founder",
+        "Awareness",
+        "Acquisition",
+        "Activation",
+        "Retention",
+        "Expansion",
+        "Monetization",
+      ],
       description: [
         "Founded Hireproof and raised capital to build a hiring platform that solved a critical gap in the market, establishing the vision and strategy for three core products.",
         "Drove awareness and acquisition through product-market fit validation, community building, and Twitch-powered public engagement that established trusted brand presence.",
@@ -75,11 +100,15 @@ export default function WorkExperience() {
                   cursor: "pointer",
                 }}
                 onMouseEnter={(e) => {
-                  const img = e.currentTarget.querySelector("img") as HTMLElement;
+                  const img = e.currentTarget.querySelector(
+                    "img",
+                  ) as HTMLElement;
                   if (img) img.style.transform = "scale(1.15)";
                 }}
                 onMouseLeave={(e) => {
-                  const img = e.currentTarget.querySelector("img") as HTMLElement;
+                  const img = e.currentTarget.querySelector(
+                    "img",
+                  ) as HTMLElement;
                   if (img) img.style.transform = "scale(1)";
                 }}
               >
@@ -88,7 +117,10 @@ export default function WorkExperience() {
                   alt={`${job.company} logo`}
                   width={40}
                   height={40}
-                  style={{ objectFit: "contain", transition: "transform 0.2s ease" }}
+                  style={{
+                    objectFit: "contain",
+                    transition: "transform 0.2s ease",
+                  }}
                 />
               </a>
             )}
@@ -104,7 +136,14 @@ export default function WorkExperience() {
             </div>
           </div>
           {job.firmographics && (
-            <div style={{ display: "flex", gap: "8px", marginBottom: "24px", flexWrap: "wrap" }}>
+            <div
+              style={{
+                display: "flex",
+                gap: "8px",
+                marginBottom: "24px",
+                flexWrap: "wrap",
+              }}
+            >
               {job.firmographics.map((tag) => (
                 <span
                   key={tag}
@@ -134,7 +173,13 @@ export default function WorkExperience() {
           >
             <ul style={{ margin: 0, padding: 0, listStyle: "none" }}>
               {job.description.map((point, idx) => (
-                <li key={idx} style={{ marginBottom: idx < job.description.length - 1 ? "12px" : undefined }}>
+                <li
+                  key={idx}
+                  style={{
+                    marginBottom:
+                      idx < job.description.length - 1 ? "12px" : undefined,
+                  }}
+                >
                   {point}
                 </li>
               ))}
