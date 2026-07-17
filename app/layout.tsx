@@ -70,13 +70,22 @@ export const metadata: Metadata = {
     siteName: "Nick Barth",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/api/og",
+        width: 1200,
+        height: 630,
+        alt: "Nick Barth",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nick Barth — Growth Engineer",
+    title: "Nick Barth",
     description:
       "Growth Engineer specializing in data-driven growth systems and revenue infrastructure. 11+ years of impact.",
     creator: "@nickbarth",
+    images: ["/api/og"],
   },
   robots: {
     index: true,
