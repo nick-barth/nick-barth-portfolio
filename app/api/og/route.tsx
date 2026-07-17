@@ -4,7 +4,7 @@ export const runtime = "edge";
 
 export async function GET() {
   const fontData = await fetch(
-    new URL("../../public/fonts/PPPangaia-Bold-BF654c530cc27f8.otf", import.meta.url)
+    "https://new-nick-barth.vercel.app/fonts/PPPangaia-Bold-BF654c530cc27f8.otf"
   ).then((res) => res.arrayBuffer());
 
   return new ImageResponse(
