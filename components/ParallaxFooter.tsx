@@ -4,9 +4,9 @@ import Link from "next/link";
 import { useInViewAnimation } from "@/hooks/useInViewAnimation";
 
 export default function ParallaxFooter() {
-  const { ref: nameRef, isInView: nameInView } = useInViewAnimation();
-  const { ref: linksRef, isInView: linksInView } = useInViewAnimation();
-  const { ref: buttonRef, isInView: buttonInView } = useInViewAnimation();
+  const { ref: nameRef, isInView: nameInView } = useInViewAnimation<HTMLDivElement>();
+  const { ref: linksRef, isInView: linksInView } = useInViewAnimation<HTMLDivElement>();
+  const { ref: buttonRef, isInView: buttonInView } = useInViewAnimation<HTMLAnchorElement>();
 
   return (
     <footer
