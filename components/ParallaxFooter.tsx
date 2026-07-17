@@ -1,71 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef } from "react";
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
+import { useInViewAnimation } from "@/hooks/useInViewAnimation";
 
 export default function ParallaxFooter() {
-  const nameRef = useRef<HTMLDivElement>(null);
-  const linksRef = useRef<HTMLDivElement>(null);
-  const buttonRef = useRef<HTMLAnchorElement>(null);
-
-  useEffect(() => {
-    if (!nameRef.current || !linksRef.current || !buttonRef.current) return;
-
-    // Name parallax - subtle effect
-    gsap.fromTo(
-      nameRef.current,
-      { y: -120 },
-      {
-        y: 0,
-        scrollTrigger: {
-          trigger: nameRef.current,
-          start: "top 80%",
-          end: "top 30%",
-          scrub: 1,
-          markers: false,
-        },
-      }
-    );
-
-    // Links parallax - subtle effect
-    gsap.fromTo(
-      linksRef.current,
-      { y: -120 },
-      {
-        y: 0,
-        scrollTrigger: {
-          trigger: linksRef.current,
-          start: "top 80%",
-          end: "top 30%",
-          scrub: 1.2,
-          markers: false,
-        },
-      }
-    );
-
-    // Button fades in
-    buttonRef.current.style.opacity = "0";
-    gsap.to(buttonRef.current, {
-      opacity: 1,
-      duration: 1.2,
-      delay: 0.3,
-    });
-
-    const handleResize = () => {
-      ScrollTrigger.refresh();
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
+  const { ref: nameRef, isInView: nameInView } = useInViewAnimation();
+  const { ref: linksRef, isInView: linksInView } = useInViewAnimation();
+  const { ref: buttonRef, isInView: buttonInView } = useInViewAnimation();
 
   return (
     <footer
@@ -74,7 +15,14 @@ export default function ParallaxFooter() {
     >
       <div className="w-full mx-auto px-6 sm:px-8 md:px-16 py-12 sm:py-24 md:py-32 flex flex-col sm:flex-row justify-between items-start gap-8 sm:gap-0" style={{ maxWidth: "1200px" }}>
         <div>
-          <div ref={nameRef}>
+          <div
+            ref={nameRef}
+            style={{
+              opacity: nameInView ? 1 : 0,
+              transform: nameInView ? "translateY(0)" : "translateY(20px)",
+              transition: "all 0.8s ease-out",
+            }}
+          >
             <h2
               style={{
                 fontFamily: "'PP Pangaia', sans-serif",
@@ -107,7 +55,9 @@ export default function ParallaxFooter() {
               padding: "14px 24px",
               borderRadius: "50px",
               cursor: "pointer",
-              transition: "background-color 0.3s ease",
+              transition: "background-color 0.3s ease, opacity 0.8s ease-out 0.2s, transform 0.8s ease-out 0.2s",
+              opacity: buttonInView ? 1 : 0,
+              transform: buttonInView ? "translateY(0)" : "translateY(20px)",
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.backgroundColor = "#6d28d9";
@@ -127,6 +77,9 @@ export default function ParallaxFooter() {
             fontSize: "20px",
             color: "#f6f4ec",
             marginTop: "32px",
+            opacity: linksInView ? 1 : 0,
+            transform: linksInView ? "translateY(0)" : "translateY(20px)",
+            transition: "all 0.8s ease-out 0.1s",
           }}
         >
           <Link

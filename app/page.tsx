@@ -68,8 +68,9 @@ export default function Home() {
           <div className="px-6 sm:px-8 md:px-16 w-full">
             <style>{`
             @media (max-width: 768px) {
-              .growth-container {
-                grid-template-columns: 1fr !important;
+              .work-grid {
+                display: flex !important;
+                flex-direction: column !important;
               }
               .growth-title {
                 position: static !important;
@@ -77,8 +78,9 @@ export default function Home() {
               }
             }
           `}</style>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: "48px" }}>
+            <div className="work-grid" style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: "48px" }}>
               <h2
+                className="growth-title"
                 style={{
                   fontFamily: "'PP Pangaia', sans-serif",
                   fontSize: "32px",

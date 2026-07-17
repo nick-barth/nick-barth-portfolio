@@ -1,6 +1,10 @@
 "use client";
 
+import { useInViewAnimation } from "@/hooks/useInViewAnimation";
+
 export default function Approach() {
+  const { ref: titleRef, isInView: titleInView } = useInViewAnimation();
+  const { ref: descRef, isInView: descInView } = useInViewAnimation();
   return (
     <div
       style={{
@@ -53,6 +57,7 @@ export default function Approach() {
 
         <div className="approach-content">
           <div
+            ref={titleRef}
             className="approach-heading"
             style={{
               fontFamily: "'Bodoni Moda', serif",
@@ -61,17 +66,24 @@ export default function Approach() {
               lineHeight: "1.2",
               marginBottom: "20px",
               color: "#000",
+              opacity: titleInView ? 1 : 0,
+              transform: titleInView ? "translateX(0)" : "translateX(-20px)",
+              transition: "all 0.8s ease-out",
             }}
           >
             Fast. Iterative. Informed.
           </div>
           <p
+            ref={descRef}
             className="approach-description"
             style={{
               fontFamily: '"Geist", "Geist Placeholder", sans-serif',
-              fontSize: "16px",
-              lineHeight: "1.6",
+              fontSize: "18px",
+              lineHeight: "1.8",
               color: "#666",
+              opacity: descInView ? 1 : 0,
+              transform: descInView ? "translateY(0)" : "translateY(20px)",
+              transition: "all 0.8s ease-out 0.2s",
             }}
           >
             Move quickly, learn constantly through iteration, and let data guide
