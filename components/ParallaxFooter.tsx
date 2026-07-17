@@ -15,32 +15,32 @@ export default function ParallaxFooter() {
   useEffect(() => {
     if (!nameRef.current || !linksRef.current || !buttonRef.current) return;
 
-    // Name parallax - comes from top
+    // Name parallax - subtle effect
     gsap.fromTo(
       nameRef.current,
-      { y: -300 },
+      { y: -120 },
       {
         y: 0,
         scrollTrigger: {
           trigger: nameRef.current,
           start: "top 80%",
-          end: "top 20%",
+          end: "top 30%",
           scrub: 1,
           markers: false,
         },
       }
     );
 
-    // Links parallax - comes from top (slower)
+    // Links parallax - subtle effect
     gsap.fromTo(
       linksRef.current,
-      { y: -300 },
+      { y: -120 },
       {
         y: 0,
         scrollTrigger: {
           trigger: linksRef.current,
           start: "top 80%",
-          end: "top 20%",
+          end: "top 30%",
           scrub: 1.2,
           markers: false,
         },
@@ -55,7 +55,14 @@ export default function ParallaxFooter() {
       delay: 0.3,
     });
 
+    const handleResize = () => {
+      ScrollTrigger.refresh();
+    };
+
+    window.addEventListener("resize", handleResize);
+
     return () => {
+      window.removeEventListener("resize", handleResize);
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
   }, []);
