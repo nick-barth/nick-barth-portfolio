@@ -53,6 +53,30 @@ export default function Home() {
                 Currently driving outcomes at Personio in Amsterdam.
               </p>
             </InViewAnimationWrapper>
+
+            <InViewAnimationWrapper animationClass="animate-fade-in-up">
+              <a
+                href="/nick_barth_resume.pdf"
+                download="nick_barth_resume.pdf"
+                style={{
+                  display: "inline-block",
+                  marginTop: "clamp(32px, 8vw, 48px)",
+                  padding: "12px 24px",
+                  backgroundColor: "#7c3aed",
+                  color: "#f6f4ec",
+                  textDecoration: "none",
+                  fontFamily: '"Geist", "Geist Placeholder", sans-serif',
+                  fontSize: "16px",
+                  fontWeight: "500",
+                  borderRadius: "4px",
+                  transition: "opacity 0.3s ease",
+                }}
+                onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.8")}
+                onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
+              >
+                Download Resume
+              </a>
+            </InViewAnimationWrapper>
           </div>
         </div>
 
@@ -87,6 +111,8 @@ export default function Home() {
                   fontWeight: "400",
                   color: "#000",
                   margin: 0,
+                  paddingTop: "clamp(48px, 12vw, 128px)",
+                  paddingBottom: "16px",
                   position: "sticky",
                   top: "75px",
                   zIndex: 20,
