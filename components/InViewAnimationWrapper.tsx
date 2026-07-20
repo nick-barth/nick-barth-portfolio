@@ -15,7 +15,14 @@ export function InViewAnimationWrapper({
   const { ref, isInView } = useInViewAnimation();
 
   return (
-    <div ref={ref} className={isInView ? animationClass : ""}>
+    <div
+      ref={ref}
+      className={isInView ? animationClass : ""}
+      style={{
+        opacity: isInView ? 1 : 0,
+        pointerEvents: isInView ? "auto" : "none",
+      }}
+    >
       {children}
     </div>
   );

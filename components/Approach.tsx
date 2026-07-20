@@ -69,6 +69,7 @@ export default function Approach() {
               opacity: titleInView ? 1 : 0,
               transform: titleInView ? "translateX(0)" : "translateX(-20px)",
               transition: "all 0.8s ease-out",
+              willChange: "opacity, transform",
             }}
           >
             Fast. Iterative. Informed.
@@ -84,6 +85,7 @@ export default function Approach() {
               opacity: descInView ? 1 : 0,
               transform: descInView ? "translateY(0)" : "translateY(20px)",
               transition: "all 0.8s ease-out 0.2s",
+              willChange: "opacity, transform",
             }}
           >
             Move quickly, learn constantly through iteration, and let data guide
