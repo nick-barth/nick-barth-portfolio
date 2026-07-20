@@ -116,7 +116,7 @@ export default function StickyHeader() {
             LinkedIn
           </a>
           <a
-            href="/nick_barth_growth_engineer.pdf"
+            href="/nick_barth_resume.pdf"
             download
             className="hover:text-gray-600 transition-colors"
           >

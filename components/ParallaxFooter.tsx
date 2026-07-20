@@ -147,7 +147,7 @@ export default function ParallaxFooter() {
             <span className="link-arrow" style={{ fontSize: "16px", color: "#f6f4ec", transition: "color 0.3s ease" }}>↗</span>
           </a>
           <a
-            href="/nick_barth_growth_engineer.pdf"
+            href="/nick_barth_resume.pdf"
             download
             style={{
               display: "flex",
