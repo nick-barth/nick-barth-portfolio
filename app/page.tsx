@@ -87,7 +87,7 @@ export default function Home() {
                   fontWeight: "400",
                   color: "#000",
                   margin: 0,
-                  paddingTop: "clamp(24px, 8vw, 80px)",
+                  paddingTop: "16px",
                   paddingBottom: "16px",
                   position: "sticky",
                   top: "75px",
