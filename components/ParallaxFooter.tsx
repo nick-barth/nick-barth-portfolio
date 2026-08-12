@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useInViewAnimation } from "@/hooks/useInViewAnimation";
 
 export default function ParallaxFooter() {
@@ -82,37 +81,6 @@ export default function ParallaxFooter() {
             transition: "all 0.8s ease-out 0.1s",
           }}
         >
-          <Link
-            href="/blog"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "8px",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-            onMouseEnter={(e) => {
-              const text = e.currentTarget.querySelector("span:first-child") as HTMLElement;
-              const arrow = e.currentTarget.querySelector(".link-arrow") as HTMLElement;
-              if (text) {
-                text.style.textDecoration = "underline";
-                text.style.textDecorationColor = "#7c3aed";
-              }
-              if (arrow) arrow.style.color = "#7c3aed";
-            }}
-            onMouseLeave={(e) => {
-              const text = e.currentTarget.querySelector("span:first-child") as HTMLElement;
-              const arrow = e.currentTarget.querySelector(".link-arrow") as HTMLElement;
-              if (text) {
-                text.style.textDecoration = "none";
-                text.style.textDecorationColor = "inherit";
-              }
-              if (arrow) arrow.style.color = "#f6f4ec";
-            }}
-          >
-            <span>Blog</span>
-            <span className="link-arrow" style={{ fontSize: "16px", color: "#f6f4ec", transition: "color 0.3s ease" }}>↗</span>
-          </Link>
           <a
             href="https://www.linkedin.com/in/nicholasbarth/"
             target="_blank"

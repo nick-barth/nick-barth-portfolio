@@ -104,9 +104,6 @@ export default function StickyHeader() {
             fontSize: "16px",
           }}
         >
-          <a href="/blog" className="hover:text-gray-600 transition-colors">
-            Blog
-          </a>
           <a
             href="https://www.linkedin.com/in/nicholasbarth/"
             target="_blank"
