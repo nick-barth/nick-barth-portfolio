@@ -1,5 +1,6 @@
 import StickyHeader from "@/components/StickyHeader";
 import WorkExperience from "@/components/WorkExperience";
+import SideProjects from "@/components/SideProjects";
 import Approach from "@/components/Approach";
 import { InViewAnimationWrapper } from "@/components/InViewAnimationWrapper";
 
@@ -100,6 +101,48 @@ export default function Home() {
               </h2>
               <div style={{ gridColumn: 2 }}>
                 <WorkExperience />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Side Projects Section */}
+        <div className="pt-32 sm:pt-48 md:pt-64">
+          <div className="px-6 sm:px-8 md:px-16 w-full">
+            <style>{`
+            @media (max-width: 768px) {
+              .projects-grid {
+                display: flex !important;
+                flex-direction: column !important;
+              }
+              .projects-title {
+                position: static !important;
+                margin-bottom: 24px !important;
+              }
+            }
+          `}</style>
+            <div className="projects-grid" style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: "48px" }}>
+              <h2
+                className="projects-title"
+                style={{
+                  fontFamily: "'PP Pangaia', sans-serif",
+                  fontSize: "32px",
+                  fontWeight: "400",
+                  color: "#000",
+                  margin: 0,
+                  paddingTop: "16px",
+                  paddingBottom: "16px",
+                  position: "sticky",
+                  top: "75px",
+                  zIndex: 20,
+                  height: "fit-content",
+                  gridColumn: 1,
+                }}
+              >
+                Side Projects
+              </h2>
+              <div style={{ gridColumn: 2 }}>
+                <SideProjects />
               </div>
             </div>
           </div>
