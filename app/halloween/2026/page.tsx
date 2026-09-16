@@ -31,7 +31,7 @@ const details = [
   },
   {
     label: "Activities",
-    value: "Costume cabinet, piñatas, apple bobbing, spooky films",
+    value: "Verkleedkist, piñatas, apple bobbing, spooky films, pumpkin painting, caramel apples",
   },
 ];
 
