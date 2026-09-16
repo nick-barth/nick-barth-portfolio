@@ -2,6 +2,7 @@ import StickyHeader from "@/components/StickyHeader";
 import WorkExperience from "@/components/WorkExperience";
 import SideProjects from "@/components/SideProjects";
 import Approach from "@/components/Approach";
+import ParallaxFooter from "@/components/ParallaxFooter";
 import { InViewAnimationWrapper } from "@/components/InViewAnimationWrapper";
 
 export default function Home() {
@@ -158,6 +159,8 @@ export default function Home() {
         {/* Spacing */}
         <div style={{ height: "400px" }} />
       </div>
+
+      <ParallaxFooter />
     </div>
   );
 }
