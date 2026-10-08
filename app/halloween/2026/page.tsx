@@ -26,12 +26,16 @@ const details = [
     value: "Welcome (not required, but encouraged)",
   },
   {
+    label: "Dinner",
+    value: "Chili & hot dogs — 6 PM",
+  },
+  {
     label: "Trick-or-treat",
     value: "Around 7 PM",
   },
   {
     label: "Activities",
-    value: "Verkleedkist, piñatas, apple bobbing, spooky films, pumpkin painting, caramel apples",
+    value: "Verkleedkist, apple bobbing, spooky films, pumpkin painting, caramel apples",
   },
 ];
 
