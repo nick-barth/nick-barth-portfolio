@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T16:29:49.786Z",
+  "generatedAt": "2026-11-06T16:46:13.817Z",
   "runsPerPrompt": 1,
   "prompts": 45,
   "answers": 135,
@@ -452,6 +452,288 @@
           }
         }
       ],
+      "notablePages": [
+        {
+          "page": "kassazaak.nl/horeca",
+          "url": "https://www.kassazaak.nl/horeca/",
+          "note": "POS comparison page for hospitality",
+          "answers": 0.05185185185185185,
+          "count": 7,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "lightspeedhq.nl/kassasysteem/amsterdam",
+          "url": "https://www.lightspeedhq.nl/kassasysteem/amsterdam/",
+          "note": "Lightspeed's own Amsterdam landing page",
+          "answers": 0.014814814814814815,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026",
+          "url": "https://bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026/",
+          "note": "Lightspeed vs unTill comparison article",
+          "answers": 0.014814814814814815,
+          "count": 2,
+          "engines": [
+            "gemini"
+          ]
+        }
+      ],
+      "topPages": [
+        {
+          "page": "fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/gastronomie",
+          "url": "https://www.fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/gastronomie/?utm_source=openai",
+          "answers": 0.0962962962962963,
+          "count": 13,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "de.mobiletransaction.org/kassensysteme-fuer-gastronomie",
+          "url": "https://de.mobiletransaction.org/kassensysteme-fuer-gastronomie/",
+          "answers": 0.08888888888888889,
+          "count": 12,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-voor-kleine-horeca-in-2026-vergelijk-de-7-populairste-systemen",
+          "url": "https://www.mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-voor-kleine-horeca-in-2026-vergelijk-de-7-populairste-systemen",
+          "answers": 0.06666666666666667,
+          "count": 9,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/blog/beste-kassasysteem-horeca",
+          "url": "https://bedrijfssoftwaregids.nl/blog/beste-kassasysteem-horeca/",
+          "answers": 0.05925925925925926,
+          "count": 8,
+          "engines": [
+            "perplexity",
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "ordio.com/insights/ratgeber/kassensystem-gastronomie-vergleich",
+          "url": "https://www.ordio.com/insights/ratgeber/kassensystem-gastronomie-vergleich",
+          "answers": 0.05925925925925926,
+          "count": 8,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "kassazaak.nl/horeca",
+          "url": "https://www.kassazaak.nl/horeca/",
+          "answers": 0.05185185185185185,
+          "count": 7,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "twelve.eu/blog/kassasysteem-horeca",
+          "url": "https://www.twelve.eu/blog/kassasysteem-horeca",
+          "answers": 0.05185185185185185,
+          "count": 7,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "cegid.com/ib/es/productos/tpv-hosteleria-software-restaurantes",
+          "url": "https://www.cegid.com/ib/es/productos/tpv-hosteleria-software-restaurantes/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 6,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "shiftbase.com/nl/blog/beste-kassasysteem",
+          "url": "https://www.shiftbase.com/nl/blog/beste-kassasysteem",
+          "answers": 0.044444444444444446,
+          "count": 6,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "kassensystemevergleich.de/gastronomie-registrierkassen-und-kassensysteme",
+          "url": "https://www.kassensystemevergleich.de/gastronomie-registrierkassen-und-kassensysteme/",
+          "answers": 0.044444444444444446,
+          "count": 6,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "nl.mobiletransaction.org/kassasystemen-voor-horeca",
+          "url": "https://nl.mobiletransaction.org/kassasystemen-voor-horeca/",
+          "answers": 0.044444444444444446,
+          "count": 6,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "hitsystems.es/blog/Los-10-Mejores-TPV-para-Hosteler%C3%ADa-en-Espa%C3%B1a-2025",
+          "url": "https://hitsystems.es/blog/Los-10-Mejores-TPV-para-Hosteler%C3%ADa-en-Espa%C3%B1a-2025/",
+          "answers": 0.044444444444444446,
+          "count": 6,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "lymon.es/blog/tpv-ranking",
+          "url": "https://www.lymon.es/blog/tpv-ranking",
+          "answers": 0.044444444444444446,
+          "count": 6,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "stelorder.com/blog/mejores-programas-tpv",
+          "url": "https://www.stelorder.com/blog/mejores-programas-tpv/",
+          "answers": 0.037037037037037035,
+          "count": 5,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "tradingtwins.com/de/kassensystem/vergleich",
+          "url": "https://www.tradingtwins.com/de/kassensystem/vergleich",
+          "answers": 0.037037037037037035,
+          "count": 5,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem",
+          "url": "https://www.fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem/",
+          "answers": 0.037037037037037035,
+          "count": 5,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "gastronovi.com/produkte/point-of-sale/kassensystem",
+          "url": "https://www.gastronovi.com/produkte/point-of-sale/kassensystem/?utm_source=openai",
+          "answers": 0.037037037037037035,
+          "count": 5,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
+          "page": "orderbird.com/de/blog/kassensystem-gastronomie-vergleich",
+          "url": "https://www.orderbird.com/de/blog/kassensystem-gastronomie-vergleich",
+          "answers": 0.037037037037037035,
+          "count": 5,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "lightspeedhq.com/es/tpv/restaurant",
+          "url": "https://www.lightspeedhq.com/es/tpv/restaurant/?utm_source=openai",
+          "answers": 0.02962962962962963,
+          "count": 4,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/categories/kassasystemen",
+          "url": "https://bedrijfssoftwaregids.nl/categories/kassasystemen/",
+          "answers": 0.02962962962962963,
+          "count": 4,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "lightspeedhq.nl/kassasysteem/restaurant",
+          "url": "https://www.lightspeedhq.nl/kassasysteem/restaurant/",
+          "answers": 0.02962962962962963,
+          "count": 4,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "barbrain.com/blog/kassensystem-gastronomie-vergleich",
+          "url": "https://www.barbrain.com/blog/kassensystem-gastronomie-vergleich",
+          "answers": 0.02962962962962963,
+          "count": 4,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "gesetze-im-internet.de/kassensichv/BJNR351500017.html",
+          "url": "https://www.gesetze-im-internet.de/kassensichv/BJNR351500017.html?utm_source=openai",
+          "answers": 0.02962962962962963,
+          "count": 4,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
+          "page": "platevio.com/nl",
+          "url": "https://www.platevio.com/nl/",
+          "answers": 0.02962962962962963,
+          "count": 4,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "qamarero.com/blog/mejores-tpv-restaurantes",
+          "url": "https://qamarero.com/blog/mejores-tpv-restaurantes/",
+          "answers": 0.02962962962962963,
+          "count": 4,
+          "engines": [
+            "perplexity"
+          ]
+        }
+      ],
       "sources": {
         "all": [
           {
@@ -482,30 +764,21 @@
             }
           },
           {
-            "domain": "lightspeedhq.com",
-            "answers": 0.1259259259259259,
-            "split": {
-              "NL": 0,
-              "ES": 0.08888888888888889,
-              "DE": 0.037037037037037035
-            }
-          },
-          {
-            "domain": "orderbird.com",
-            "answers": 0.1259259259259259,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.1259259259259259
-            }
-          },
-          {
             "domain": "untill.nl",
             "answers": 0.11851851851851852,
             "split": {
               "NL": 0.11851851851851852,
               "ES": 0,
               "DE": 0
+            }
+          },
+          {
+            "domain": "orderbird.com",
+            "answers": 0.11851851851851852,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.11851851851851852
             }
           },
           {
@@ -542,6 +815,15 @@
               "NL": 0.05925925925925926,
               "ES": 0,
               "DE": 0.044444444444444446
+            }
+          },
+          {
+            "domain": "lightspeedhq.com",
+            "answers": 0.1037037037037037,
+            "split": {
+              "NL": 0,
+              "ES": 0.08888888888888889,
+              "DE": 0.014814814814814815
             }
           }
         ],
@@ -731,15 +1013,6 @@
         ],
         "gemini": [
           {
-            "domain": "mobiletransaction.org",
-            "answers": 0.3111111111111111,
-            "split": {
-              "NL": 0.13333333333333333,
-              "ES": 0,
-              "DE": 0.17777777777777778
-            }
-          },
-          {
             "domain": "mpluskassa.nl",
             "answers": 0.24444444444444444,
             "split": {
@@ -785,6 +1058,15 @@
             }
           },
           {
+            "domain": "de.mobiletransaction.org",
+            "answers": 0.17777777777777778,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.17777777777777778
+            }
+          },
+          {
             "domain": "fuer-gruender.de",
             "answers": 0.17777777777777778,
             "split": {
@@ -812,12 +1094,12 @@
             }
           },
           {
-            "domain": "lightspeedhq.com",
-            "answers": 0.15555555555555556,
+            "domain": "lightspeedhq.nl",
+            "answers": 0.13333333333333333,
             "split": {
-              "NL": 0,
-              "ES": 0.06666666666666667,
-              "DE": 0.08888888888888889
+              "NL": 0.1111111111111111,
+              "ES": 0,
+              "DE": 0.022222222222222223
             }
           }
         ]
@@ -1200,6 +1482,286 @@
           }
         }
       ],
+      "notablePages": [
+        {
+          "page": "kassazaak.nl/horeca",
+          "url": "https://www.kassazaak.nl/horeca/",
+          "note": "POS comparison page for hospitality",
+          "answers": 0.15555555555555556,
+          "count": 7,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "lightspeedhq.nl/kassasysteem/amsterdam",
+          "url": "https://www.lightspeedhq.nl/kassasysteem/amsterdam/",
+          "note": "Lightspeed's own Amsterdam landing page",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026",
+          "url": "https://bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026/",
+          "note": "Lightspeed vs unTill comparison article",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "gemini"
+          ]
+        }
+      ],
+      "topPages": [
+        {
+          "page": "mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-voor-kleine-horeca-in-2026-vergelijk-de-7-populairste-systemen",
+          "url": "https://www.mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-voor-kleine-horeca-in-2026-vergelijk-de-7-populairste-systemen",
+          "answers": 0.2,
+          "count": 9,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/blog/beste-kassasysteem-horeca",
+          "url": "https://bedrijfssoftwaregids.nl/blog/beste-kassasysteem-horeca/",
+          "answers": 0.17777777777777778,
+          "count": 8,
+          "engines": [
+            "perplexity",
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "kassazaak.nl/horeca",
+          "url": "https://www.kassazaak.nl/horeca/",
+          "answers": 0.15555555555555556,
+          "count": 7,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "twelve.eu/blog/kassasysteem-horeca",
+          "url": "https://www.twelve.eu/blog/kassasysteem-horeca",
+          "answers": 0.15555555555555556,
+          "count": 7,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "shiftbase.com/nl/blog/beste-kassasysteem",
+          "url": "https://www.shiftbase.com/nl/blog/beste-kassasysteem",
+          "answers": 0.13333333333333333,
+          "count": 6,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "nl.mobiletransaction.org/kassasystemen-voor-horeca",
+          "url": "https://nl.mobiletransaction.org/kassasystemen-voor-horeca/",
+          "answers": 0.13333333333333333,
+          "count": 6,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/categories/kassasystemen",
+          "url": "https://bedrijfssoftwaregids.nl/categories/kassasystemen/",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "lightspeedhq.nl/kassasysteem/restaurant",
+          "url": "https://www.lightspeedhq.nl/kassasysteem/restaurant/",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "platevio.com/nl",
+          "url": "https://www.platevio.com/nl/",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "dashmote.com/restaurant-technology/netherlands/amsterdam",
+          "url": "https://dashmote.com/restaurant-technology/netherlands/amsterdam",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt",
+            "perplexity"
+          ]
+        },
+        {
+          "page": "untill.nl",
+          "url": "https://untill.nl/?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "lightspeedhq.nl/kassasysteem/restaurant/prijzen",
+          "url": "https://www.lightspeedhq.nl/kassasysteem/restaurant/prijzen/?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
+          "page": "zettle.com/nl/prijsstelling",
+          "url": "https://www.zettle.com/nl/prijsstelling?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
+          "page": "sorank.com/nl/geo-seo-blog/beste-kassasoftware",
+          "url": "https://www.sorank.com/nl/geo-seo-blog/beste-kassasoftware",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "kassavoorhoreca.com",
+          "url": "https://www.kassavoorhoreca.com/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-in-2025-een-eerlijke-vergelijking-voor-horeca-retail-en-speciaalzaken",
+          "url": "https://www.mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-in-2025-een-eerlijke-vergelijking-voor-horeca-retail-en-speciaalzaken",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "tebi.com/nl/kassasysteem",
+          "url": "https://www.tebi.com/nl/kassasysteem?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "untill.nl/oplossingen/keukenmanagement",
+          "url": "https://untill.nl/oplossingen/keukenmanagement/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "lightspeedhq.nl/kassasysteem/restaurant/bar-en-club",
+          "url": "https://www.lightspeedhq.nl/kassasysteem/restaurant/bar-en-club/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "kassasystemen.nl/producten/untill-kassasysteem",
+          "url": "https://kassasystemen.nl/producten/untill-kassasysteem/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "nappkin.nl",
+          "url": "https://www.nappkin.nl/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "lightspeedhq.nl/kassasysteem/amsterdam",
+          "url": "https://www.lightspeedhq.nl/kassasysteem/amsterdam/",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "ccv.eu/nl/branches/mkb/horeca",
+          "url": "https://www.ccv.eu/nl/branches/mkb/horeca",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "mpluskassa.nl/bakkerij",
+          "url": "https://www.mpluskassa.nl/bakkerij",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/blog/beste-software-bakkerij-2026",
+          "url": "https://bedrijfssoftwaregids.nl/blog/beste-software-bakkerij-2026/",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        }
+      ],
       "sources": {
         "all": [
           {
@@ -1506,7 +2068,7 @@
             }
           },
           {
-            "domain": "mobiletransaction.org",
+            "domain": "nl.mobiletransaction.org",
             "answers": 0.4,
             "split": {
               "NL": 0.4,
@@ -1977,6 +2539,274 @@
               "DE": 0
             }
           }
+        }
+      ],
+      "notablePages": [
+        {
+          "page": "kassazaak.nl/horeca",
+          "url": "https://www.kassazaak.nl/horeca/",
+          "note": "POS comparison page for hospitality",
+          "answers": 0,
+          "count": 0,
+          "engines": []
+        },
+        {
+          "page": "lightspeedhq.nl/kassasysteem/amsterdam",
+          "url": "https://www.lightspeedhq.nl/kassasysteem/amsterdam/",
+          "note": "Lightspeed's own Amsterdam landing page",
+          "answers": 0,
+          "count": 0,
+          "engines": []
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026",
+          "url": "https://bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026/",
+          "note": "Lightspeed vs unTill comparison article",
+          "answers": 0,
+          "count": 0,
+          "engines": []
+        }
+      ],
+      "topPages": [
+        {
+          "page": "cegid.com/ib/es/productos/tpv-hosteleria-software-restaurantes",
+          "url": "https://www.cegid.com/ib/es/productos/tpv-hosteleria-software-restaurantes/?utm_source=openai",
+          "answers": 0.13333333333333333,
+          "count": 6,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "hitsystems.es/blog/Los-10-Mejores-TPV-para-Hosteler%C3%ADa-en-Espa%C3%B1a-2025",
+          "url": "https://hitsystems.es/blog/Los-10-Mejores-TPV-para-Hosteler%C3%ADa-en-Espa%C3%B1a-2025/",
+          "answers": 0.13333333333333333,
+          "count": 6,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "lymon.es/blog/tpv-ranking",
+          "url": "https://www.lymon.es/blog/tpv-ranking",
+          "answers": 0.13333333333333333,
+          "count": 6,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "stelorder.com/blog/mejores-programas-tpv",
+          "url": "https://www.stelorder.com/blog/mejores-programas-tpv/",
+          "answers": 0.1111111111111111,
+          "count": 5,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "lightspeedhq.com/es/tpv/restaurant",
+          "url": "https://www.lightspeedhq.com/es/tpv/restaurant/?utm_source=openai",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "qamarero.com/blog/mejores-tpv-restaurantes",
+          "url": "https://qamarero.com/blog/mejores-tpv-restaurantes/",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "squareup.com/es/es/pricing",
+          "url": "https://squareup.com/es/es/pricing?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "squareup.com/es/es/point-of-sale/restaurants",
+          "url": "https://squareup.com/es/es/point-of-sale/restaurants?country_redirection=true&utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt",
+            "perplexity"
+          ]
+        },
+        {
+          "page": "bancsabadell.com/bsnacional/es/empresas/tpv/tpv-hosteleria",
+          "url": "https://www.bancsabadell.com/bsnacional/es/empresas/tpv/tpv-hosteleria/?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt",
+            "perplexity"
+          ]
+        },
+        {
+          "page": "squareup.com/es/es/point-of-sale/restaurants/bars",
+          "url": "https://squareup.com/es/es/point-of-sale/restaurants/bars",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "squareup.com/es/es/point-of-sale/restaurants/pricing",
+          "url": "https://squareup.com/es/es/point-of-sale/restaurants/pricing",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "cincodias.elpais.com/legal/2026-10-15/hacienda-vuelve-a-aplazar-verifactu-hasta-octubre-de-2028.html",
+          "url": "https://cincodias.elpais.com/legal/2026-10-15/hacienda-vuelve-a-aplazar-verifactu-hasta-octubre-de-2028.html?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
+          "page": "hackceleration.com/es/labs/mejor/software-tpv",
+          "url": "https://hackceleration.com/es/labs/mejor/software-tpv",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "bancsabadell.com/bsnacional/es/blog/como-elegir-el-tpv-para-tu-negocio-y-aceptar-pagos-con-tarjeta",
+          "url": "https://www.bancsabadell.com/bsnacional/es/blog/como-elegir-el-tpv-para-tu-negocio-y-aceptar-pagos-con-tarjeta/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "finantres.com/tpv-hosteleria",
+          "url": "https://finantres.com/tpv-hosteleria/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "bbva.es/empresas/productos/tpv/tpv-hosteleria.html",
+          "url": "https://www.bbva.es/empresas/productos/tpv/tpv-hosteleria.html",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "squareup.com/es/es/solutions/hospitality",
+          "url": "https://squareup.com/es/es/solutions/hospitality",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "ingenieriademenu.com/software-tpv-hosteleria",
+          "url": "https://ingenieriademenu.com/software-tpv-hosteleria/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "gesmule.com/blog/mejor-tpv-restaurantes-guia-definitiva",
+          "url": "https://www.gesmule.com/blog/mejor-tpv-restaurantes-guia-definitiva",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "tpvmadrid.es/tpv-hosteleria-madrid",
+          "url": "https://tpvmadrid.es/tpv-hosteleria-madrid/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "tipsitpv.com/tpv-madrid",
+          "url": "https://tipsitpv.com/tpv-madrid/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "squareup.com/es/es/solutions/bakery",
+          "url": "https://squareup.com/es/es/solutions/bakery?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "lightspeedhq.com/es/tpv/restaurant/cafeteria",
+          "url": "https://www.lightspeedhq.com/es/tpv/restaurant/cafeteria/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "perplexity"
+          ]
+        },
+        {
+          "page": "lightspeedhq.com/es/tpv/restaurant/order-anywhere",
+          "url": "https://www.lightspeedhq.com/es/tpv/restaurant/order-anywhere/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "bouzondigital.com/es/blog/mejores-tpv-restaurantes-espana",
+          "url": "https://www.bouzondigital.com/es/blog/mejores-tpv-restaurantes-espana/",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
         }
       ],
       "sources": {
@@ -2758,15 +3588,288 @@
           }
         }
       ],
+      "notablePages": [
+        {
+          "page": "kassazaak.nl/horeca",
+          "url": "https://www.kassazaak.nl/horeca/",
+          "note": "POS comparison page for hospitality",
+          "answers": 0,
+          "count": 0,
+          "engines": []
+        },
+        {
+          "page": "lightspeedhq.nl/kassasysteem/amsterdam",
+          "url": "https://www.lightspeedhq.nl/kassasysteem/amsterdam/",
+          "note": "Lightspeed's own Amsterdam landing page",
+          "answers": 0,
+          "count": 0,
+          "engines": []
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026",
+          "url": "https://bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026/",
+          "note": "Lightspeed vs unTill comparison article",
+          "answers": 0,
+          "count": 0,
+          "engines": []
+        }
+      ],
+      "topPages": [
+        {
+          "page": "fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/gastronomie",
+          "url": "https://www.fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/gastronomie/?utm_source=openai",
+          "answers": 0.28888888888888886,
+          "count": 13,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "de.mobiletransaction.org/kassensysteme-fuer-gastronomie",
+          "url": "https://de.mobiletransaction.org/kassensysteme-fuer-gastronomie/",
+          "answers": 0.26666666666666666,
+          "count": 12,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "ordio.com/insights/ratgeber/kassensystem-gastronomie-vergleich",
+          "url": "https://www.ordio.com/insights/ratgeber/kassensystem-gastronomie-vergleich",
+          "answers": 0.17777777777777778,
+          "count": 8,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "kassensystemevergleich.de/gastronomie-registrierkassen-und-kassensysteme",
+          "url": "https://www.kassensystemevergleich.de/gastronomie-registrierkassen-und-kassensysteme/",
+          "answers": 0.13333333333333333,
+          "count": 6,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "tradingtwins.com/de/kassensystem/vergleich",
+          "url": "https://www.tradingtwins.com/de/kassensystem/vergleich",
+          "answers": 0.1111111111111111,
+          "count": 5,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem",
+          "url": "https://www.fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem/",
+          "answers": 0.1111111111111111,
+          "count": 5,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "gastronovi.com/produkte/point-of-sale/kassensystem",
+          "url": "https://www.gastronovi.com/produkte/point-of-sale/kassensystem/?utm_source=openai",
+          "answers": 0.1111111111111111,
+          "count": 5,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
+          "page": "orderbird.com/de/blog/kassensystem-gastronomie-vergleich",
+          "url": "https://www.orderbird.com/de/blog/kassensystem-gastronomie-vergleich",
+          "answers": 0.1111111111111111,
+          "count": 5,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "barbrain.com/blog/kassensystem-gastronomie-vergleich",
+          "url": "https://www.barbrain.com/blog/kassensystem-gastronomie-vergleich",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "gesetze-im-internet.de/kassensichv/BJNR351500017.html",
+          "url": "https://www.gesetze-im-internet.de/kassensichv/BJNR351500017.html?utm_source=openai",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
+          "page": "omr.com/de/reviews/contenthub/beste-kassensysteme-8-tools-die-wirklich-kassieren",
+          "url": "https://omr.com/de/reviews/contenthub/beste-kassensysteme-8-tools-die-wirklich-kassieren",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "barbrain.com/blog/software-gastronomie",
+          "url": "https://www.barbrain.com/blog/software-gastronomie",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "tabres.com/de/articles/best-tools-for-hospitality-management",
+          "url": "https://tabres.com/de/articles/best-tools-for-hospitality-management?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "gastronovi.com/produkte/gaesteservice/bestellsystem",
+          "url": "https://www.gastronovi.com/produkte/gaesteservice/bestellsystem/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "kassensystemevergleich.de/kassensysteme-bars",
+          "url": "https://www.kassensystemevergleich.de/kassensysteme-bars/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "orderbird.com/de/kassensystem-restaurant",
+          "url": "https://www.orderbird.com/de/kassensystem-restaurant?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
+          "page": "gastronovi.com/preise/preisuebersicht",
+          "url": "https://www.gastronovi.com/preise/preisuebersicht/?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
+          "page": "orderbird.com/de/blog/kaufberatung-kassensystem-gastronomie",
+          "url": "https://www.orderbird.com/de/blog/kaufberatung-kassensystem-gastronomie",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "orderbird.com/de/kassensystem-cafe",
+          "url": "https://www.orderbird.com/de/kassensystem-cafe?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "handelsblatt.com/geschaeftskonto/kartenzahlung",
+          "url": "https://www.handelsblatt.com/geschaeftskonto/kartenzahlung/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "perplexity"
+          ]
+        },
+        {
+          "page": "lightspeedhq.de/kassensystem/restaurant",
+          "url": "https://www.lightspeedhq.de/kassensystem/restaurant/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "resmio.com/preise",
+          "url": "https://www.resmio.com/preise/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "k-series-support.lightspeedhq.com/hc/de/articles/1260800124209-Unterst%C3%BCtzte-Hardware",
+          "url": "https://k-series-support.lightspeedhq.com/hc/de/articles/1260800124209-Unterst%C3%BCtzte-Hardware?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "k-series-support.lightspeedhq.com/hc/de/articles/4407511552155-Erstellen-und-Verwalten-von-Rezepten",
+          "url": "https://k-series-support.lightspeedhq.com/hc/de/articles/4407511552155-Erstellen-und-Verwalten-von-Rezepten?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "payone.com/DE-de/ueber-uns/insights/kassensysteme-cafe",
+          "url": "https://www.payone.com/DE-de/ueber-uns/insights/kassensysteme-cafe",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        }
+      ],
       "sources": {
         "all": [
           {
             "domain": "orderbird.com",
-            "answers": 0.37777777777777777,
+            "answers": 0.35555555555555557,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.37777777777777777
+              "DE": 0.35555555555555557
             }
           },
           {
@@ -2797,12 +3900,30 @@
             }
           },
           {
+            "domain": "de.mobiletransaction.org",
+            "answers": 0.26666666666666666,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.26666666666666666
+            }
+          },
+          {
             "domain": "ready2order.com",
             "answers": 0.2222222222222222,
             "split": {
               "NL": 0,
               "ES": 0,
               "DE": 0.2222222222222222
+            }
+          },
+          {
+            "domain": "k-series-support.lightspeedhq.com",
+            "answers": 0.17777777777777778,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.17777777777777778
             }
           },
           {
@@ -2830,24 +3951,6 @@
               "NL": 0,
               "ES": 0,
               "DE": 0.17777777777777778
-            }
-          },
-          {
-            "domain": "mobiletransaction.org",
-            "answers": 0.17777777777777778,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.17777777777777778
-            }
-          },
-          {
-            "domain": "vectron-systems.com",
-            "answers": 0.15555555555555556,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.15555555555555556
             }
           }
         ],
@@ -3046,7 +4149,7 @@
             }
           },
           {
-            "domain": "mobiletransaction.org",
+            "domain": "de.mobiletransaction.org",
             "answers": 0.5333333333333333,
             "split": {
               "NL": 0,
@@ -3061,15 +4164,6 @@
               "NL": 0,
               "ES": 0,
               "DE": 0.5333333333333333
-            }
-          },
-          {
-            "domain": "orderbird.com",
-            "answers": 0.4,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.4
             }
           },
           {
@@ -3091,6 +4185,15 @@
             }
           },
           {
+            "domain": "orderbird.com",
+            "answers": 0.3333333333333333,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.3333333333333333
+            }
+          },
+          {
             "domain": "ready2order.com",
             "answers": 0.3333333333333333,
             "split": {
@@ -3100,7 +4203,7 @@
             }
           },
           {
-            "domain": "lightspeedhq.com",
+            "domain": "k-series-support.lightspeedhq.com",
             "answers": 0.26666666666666666,
             "split": {
               "NL": 0,

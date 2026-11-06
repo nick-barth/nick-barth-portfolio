@@ -114,7 +114,7 @@
           "eu-startups.com",
           "adyen.com",
           "capitalg.com",
-          "apple.com"
+          "apps.apple.com"
         ]
       }
     }
@@ -170,7 +170,7 @@
           "kassazaak.nl",
           "lightspeedhq.nl",
           "horecatweepuntnul.nl",
-          "mobiletransaction.org",
+          "nl.mobiletransaction.org",
           "bedrijfssoftwaregids.nl"
         ]
       }
@@ -231,7 +231,7 @@
           "oliverpos.com",
           "tabres.com",
           "mpluskassa.nl",
-          "mobiletransaction.org",
+          "nl.mobiletransaction.org",
           "azutech.nl"
         ]
       }
@@ -750,7 +750,7 @@
         ],
         "sources": [
           "conciar.com",
-          "apicbase.com",
+          "get.apicbase.com",
           "mpluskassa.nl",
           "eijsink.nl",
           "gastronovi.com"
@@ -1656,7 +1656,7 @@
           "Loyverse"
         ],
         "sources": [
-          "apple.com",
+          "apps.apple.com",
           "loyverse.com",
           "ingenieriademenu.com",
           "cegid.com",
@@ -1760,7 +1760,7 @@
         ],
         "sources": [
           "kassensystemevergleich.de",
-          "mobiletransaction.org",
+          "de.mobiletransaction.org",
           "fuer-gruender.de",
           "synori.de",
           "flour.io"
@@ -1821,7 +1821,7 @@
         "sources": [
           "kassensystemevergleich.de",
           "tillhub.de",
-          "mobiletransaction.org",
+          "de.mobiletransaction.org",
           "kassensysteme.pro",
           "dish.co"
         ]
@@ -1882,7 +1882,7 @@
         ],
         "sources": [
           "kassensystemevergleich.de",
-          "mobiletransaction.org",
+          "de.mobiletransaction.org",
           "orderbird.com",
           "gruenderkueche.de",
           "tradingtwins.com"
@@ -1943,7 +1943,7 @@
           "fuer-gruender.de",
           "kassen-nuernberg.de",
           "kassensystemevergleich.de",
-          "mobiletransaction.org"
+          "de.mobiletransaction.org"
         ]
       }
     }
@@ -2056,7 +2056,7 @@
         ],
         "sources": [
           "fuer-gruender.de",
-          "mobiletransaction.org",
+          "de.mobiletransaction.org",
           "kassensystemevergleich.de",
           "3pos.de",
           "payone.com"
@@ -2158,7 +2158,7 @@
         ],
         "sources": [
           "orderbird.com",
-          "mobiletransaction.org",
+          "de.mobiletransaction.org",
           "kassensystemevergleich.de",
           "omr.com",
           "pos-vergleich.de"
@@ -2397,7 +2397,7 @@
           "orderlyze.com",
           "flatpay.com",
           "kassensystemevergleich.de",
-          "lightspeedhq.com",
+          "k-series-support.lightspeedhq.com",
           "youtube.com"
         ]
       }
@@ -2454,7 +2454,7 @@
           "dr-gerald-wetzel.de",
           "baldeggersortec.ch",
           "rezeptrechner.de",
-          "transgourmet.de"
+          "service.transgourmet.de"
         ]
       }
     }
@@ -2515,7 +2515,7 @@
           "kassensystemevergleich.de",
           "kassensystem-vergleich.com",
           "fuer-gruender.de",
-          "mobiletransaction.org"
+          "de.mobiletransaction.org"
         ]
       }
     }

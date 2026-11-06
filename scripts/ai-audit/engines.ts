@@ -235,7 +235,7 @@ const gemini: Engine = {
       };
     };
     const plain = await ask(p.prompt);
-    if (plain.citations.length) return { ...plain, searched: true, nudged: false };
+    if (plain.citations.length) return { ...plain, citations: await resolveRedirects(plain.citations), searched: true, nudged: false };
     const nudged = await ask(`${p.prompt} ${NUDGE[p.lang] ?? NUDGE.en}`);
     // Both calls are billed, so the answer carries their combined usage
     const both: Usage = {
@@ -245,12 +245,44 @@ const gemini: Engine = {
       searches: plain.usage.searches + nudged.usage.searches,
     };
     return nudged.citations.length
-      ? { ...nudged, usage: both, searched: false, nudged: true }
+      ? { ...nudged, citations: await resolveRedirects(nudged.citations), usage: both, searched: false, nudged: true }
       : { ...plain, usage: both, searched: false, nudged: false };
   },
 };
 
 export const engines: Engine[] = [chatgpt, perplexity, gemini];
+
+/**
+ * Gemini cites vertexaisearch.cloud.google.com redirect links that expire after a while;
+ * follow each one (no body is downloaded) to keep the real page URL.
+ */
+export async function resolveRedirects(citations: Answer["citations"]): Promise<Answer["citations"]> {
+  return Promise.all(
+    citations.map(async (c) => {
+      if (!c.url.includes("vertexaisearch.cloud.google.com")) return c;
+      try {
+        const res = await fetch(c.url, { redirect: "manual", signal: AbortSignal.timeout(10_000) });
+        const to = res.headers.get("location");
+        return to ? { url: to, title: c.title } : c;
+      } catch {
+        return c;
+      }
+    }),
+  );
+}
+
+/** Page key for counting citations: host + path, no www, query, hash or trailing slash. */
+export function pageOf(url: string): string {
+  try {
+    const u = new URL(url);
+    const host = u.hostname.replace(/^www\./, "");
+    // YouTube's page identity is in the query (?v=…), so keep it there
+    const video = /(^|\.)youtube\.com$/.test(host) && u.searchParams.get("v");
+    return `${host}${u.pathname.replace(/\/+$/, "")}${video ? `?v=${video}` : ""}`;
+  } catch {
+    return url;
+  }
+}
 
 /** Registrable-ish domain for a citation, e.g. "www.capterra.nl/x" → "capterra.nl". */
 export function domainOf(c: { url: string; title?: string }): string {

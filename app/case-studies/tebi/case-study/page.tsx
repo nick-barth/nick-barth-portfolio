@@ -55,7 +55,7 @@ export default function CaseStudyPage() {
             {s.intro && <p className={`mt-4 max-w-[870px] ${body} text-cream/80`}>{s.intro}</p>}
             <div className="mt-10 grid gap-5 md:grid-cols-3">
               {s.parts.map((p) => (
-                <Card key={p.label} className={`min-w-0 text-espresso ${p.wide ? "md:col-span-3" : ""}`}>
+                <Card key={p.label} className={`min-w-0 text-espresso ${p.wide ? "md:col-span-3" : p.double ? "md:col-span-2" : ""}`}>
                   <h3 className="font-display text-[26px] font-medium leading-[1.2] tracking-[-0.05em]">{p.label}</h3>
                   <div className={`mt-3 ${body}`}>
                     {p.content ?? <p className="text-espresso/45">{p.ask}</p>}

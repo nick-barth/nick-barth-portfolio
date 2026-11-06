@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Logo } from "../_components/logo";
 
 export type Engine = "chatgpt" | "perplexity" | "gemini";
 
@@ -35,22 +36,29 @@ function Cell({ r }: { r: EngineResult }) {
   if (!r) return <span className="text-espresso/30">—</span>;
   if (r.tebiMentioned)
     return (
-      <span className="rounded-md bg-butter px-2 py-0.5 text-xs font-medium text-espresso">
-        Tebi {r.mentionRate !== undefined && r.mentionRate < 1 ? `${Math.round(r.mentionRate * 100)}%` : "✓"}
+      <span className="inline-flex items-center gap-1.5 rounded-md bg-butter px-2 py-1 text-xs font-medium text-espresso">
+        <Logo className="h-3 w-auto" />
+        {r.mentionRate !== undefined && r.mentionRate < 1 && <span>{Math.round(r.mentionRate * 100)}%</span>}
       </span>
     );
   return <span className="text-xs text-espresso/70">{r.recommended.slice(0, 2).join(", ") || "No brands"}</span>;
 }
 
 /** AI-audit results grid with a market filter. Use it inside a part's `content` in content.tsx. */
-export function AuditTable({ prompts }: { prompts: AuditPrompt[] }) {
+export function AuditTable({ prompts, runsPerPrompt = 1 }: { prompts: AuditPrompt[]; runsPerPrompt?: number }) {
   const markets = ["All", ...new Set(prompts.map((p) => p.market))];
-  const [market, setMarket] = useState("All");
+  // Opens on NL (Tebi's home market); falls back to All if there are no NL prompts
+  const [market, setMarket] = useState(markets.includes("NL") ? "NL" : "All");
   const rows = prompts.filter((p) => market === "All" || p.market === market);
 
   const answers = rows.flatMap((p) => engines.map((e) => p.results[e.id]));
   const run = answers.filter(Boolean);
-  const mentioned = run.filter((r) => r?.tebiMentioned).length;
+  // Count actual answers: each prompt × engine cell holds `runsPerPrompt` answers
+  const totalAnswers = run.length * runsPerPrompt;
+  const mentioned = run.reduce(
+    (n, r) => n + Math.round((r?.mentionRate ?? (r?.tebiMentioned ? 1 : 0)) * runsPerPrompt),
+    0,
+  );
 
   return (
     <div>
@@ -71,7 +79,7 @@ export function AuditTable({ prompts }: { prompts: AuditPrompt[] }) {
             <>Not run yet · {rows.length} prompts × {engines.length} engines</>
           ) : (
             <>
-              Tebi named in at least half the runs for <strong>{mentioned}</strong> of {run.length} prompt × engine pairs
+              Tebi named in <strong>{mentioned}</strong> of {totalAnswers} answers · {Math.round((mentioned / Math.max(totalAnswers, 1)) * 100)}%
               {run.length < answers.length && <> ({answers.length - run.length} still to run)</>}
             </>
           )}

@@ -20,7 +20,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { setTimeout as sleep } from "node:timers/promises";
 import { join, resolve } from "node:path";
 import { detectBrands, unmatchedCapitalised } from "./brands";
-import { domainOf, engines, HttpError, type Answer, type Engine, type EngineId, type Prompt, type Usage } from "./engines";
+import { domainOf, engines, HttpError, pageOf, resolveRedirects, type Answer, type Engine, type EngineId, type Prompt, type Usage } from "./engines";
 
 const DIR = import.meta.dirname;
 const readJson = async (path: string) => JSON.parse(await readFile(path, "utf8"));
@@ -135,6 +135,8 @@ async function withRetry<T>(fn: () => Promise<T>, tries = 4): Promise<T> {
 
 type PricePeriod = { model: string; from: string; inputPerM: number; cachedInputPerM?: number; outputPerM: number; searchPer1k: number };
 const pricing: Record<string, PricePeriod[]> = await readJson(join(DIR, "pricing.json"));
+/** Pages to always report on the page, whether or not they make the top list */
+const notable: { url: string; note?: string }[] = await readJson(join(DIR, "notable.json")).catch(() => []);
 
 /** USD for one answer: the API's own figure if it reports one, else usage × the price in force that day. */
 function priceOf(engine: EngineId, model: string | undefined, usage: Usage | undefined, day: string) {
@@ -214,9 +216,16 @@ console.log("");
 const promptIds = new Set(prompts.map((p) => p.id));
 let activeIds = new Set(active.map((e) => e.id));
 let rows: Row[] = saved
-  ? (saved.rows as Row[])
-      .filter((r) => promptIds.has(r.promptId) && activeIds.has(r.engine))
-      .map((r) => (r.ok ? { ...r, ...score(r.text, r.citations) } : r))
+  ? await Promise.all(
+      (saved.rows as Row[])
+        .filter((r) => promptIds.has(r.promptId) && activeIds.has(r.engine))
+        .map(async (r) => {
+          if (!r.ok) return r;
+          // Backfill: resolve Gemini redirect links saved before resolution existed
+          const citations = await resolveRedirects(r.citations);
+          return { ...r, citations, ...score(r.text, citations) };
+        }),
+    )
   : (
       await Promise.all(
         active.map((e) =>
@@ -457,6 +466,36 @@ if (complete) {
           // Each market's contribution to that share (sums to it), for the stacked bars
           split: Object.fromEntries(subsets.map(([key, sub]) => [key, splitByMarket(sub, (r) => r.brands.includes(brand))])),
         })),
+        // Pages pinned in notable.json: always reported, with their counts (even if zero)
+        notablePages: notable.map((n) => {
+          const key = pageOf(n.url);
+          const hits = rs.filter((r) => r.citations.some((c) => pageOf(c.url) === key));
+          return {
+            page: key,
+            url: n.url,
+            note: n.note,
+            answers: hits.length / Math.max(rs.length, 1),
+            count: hits.length,
+            engines: [...new Set(hits.map((r) => r.engine))],
+          };
+        }),
+        // Most-cited individual pages (all engines), with which engines cited them
+        topPages: (() => {
+          const byPage = new Map<string, { url: string; answers: Set<string>; engines: Set<string> }>();
+          for (const r of rs)
+            for (const c of r.citations) {
+              if (c.url.includes("vertexaisearch.cloud.google.com")) continue; // unresolved
+              const key = pageOf(c.url);
+              const e = byPage.get(key) ?? { url: c.url, answers: new Set(), engines: new Set() };
+              e.answers.add(`${r.promptId}|${r.engine}|${r.run}`);
+              e.engines.add(r.engine);
+              byPage.set(key, e);
+            }
+          return [...byPage.entries()]
+            .map(([page, e]) => ({ page, url: e.url, answers: e.answers.size / rs.length, count: e.answers.size, engines: [...e.engines] }))
+            .sort((a, b) => b.count - a.count || b.engines.length - a.engines.length)
+            .slice(0, 25);
+        })(),
         // Top cited domains as a share of answers, for all engines and for each engine
         sources: Object.fromEntries(
           subsets.map(([key, sub]) => [
