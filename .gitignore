@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI audit raw answers (large; daily runs keep them as workflow artifacts)
+scripts/ai-audit/results/

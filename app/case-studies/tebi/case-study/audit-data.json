@@ -1,0 +1,894 @@
+[
+  {
+    "id": "nl-1",
+    "market": "NL",
+    "lang": "nl",
+    "prompt": "Wat is het beste kassasysteem voor een wijnbar in Amsterdam?",
+    "gloss": "Best POS for a wine bar in Amsterdam?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0.3333333333333333,
+        "recommended": [
+          "Lightspeed",
+          "unTill",
+          "MplusKASSA",
+          "Zenchef",
+          "Formitable"
+        ],
+        "sources": [
+          "lightspeedhq.nl",
+          "untillair.nl",
+          "mpluskassa.nl",
+          "belastingdienst.nl",
+          "eijsink.nl"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Lightspeed",
+          "MplusKASSA",
+          "unTill"
+        ],
+        "sources": [
+          "sorank.com",
+          "klearly.eu",
+          "bedrijfssoftwaregids.nl",
+          "lightspeedhq.nl",
+          "shiftbase.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": true,
+        "mentionRate": 1,
+        "recommended": [
+          "Lightspeed",
+          "Tebi",
+          "Formitable",
+          "MplusKASSA",
+          "Booq"
+        ],
+        "sources": [
+          "tebi.com",
+          "kassazaak.nl",
+          "lightspeedhq.nl",
+          "kassavoorhoreca.com",
+          "mpluskassa.nl"
+        ]
+      }
+    }
+  },
+  {
+    "id": "nl-2",
+    "market": "NL",
+    "lang": "en",
+    "prompt": "What's the best POS for a wine bar in Amsterdam?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": true,
+        "mentionRate": 0.6666666666666666,
+        "recommended": [
+          "Lightspeed",
+          "unTill",
+          "MplusKASSA",
+          "Tebi",
+          "CCV"
+        ],
+        "sources": [
+          "mpluskassa.nl",
+          "lp.trivecgroup.com",
+          "lightspeedhq.nl",
+          "untillair.nl",
+          "tebi.com"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Lightspeed"
+        ],
+        "sources": [
+          "therestauranthq.com",
+          "eliteteqpos.com",
+          "bottlepos.com",
+          "getquantic.com",
+          "shopify.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": true,
+        "mentionRate": 1,
+        "recommended": [
+          "Lightspeed",
+          "Tebi",
+          "Formitable",
+          "unTill",
+          "MplusKASSA"
+        ],
+        "sources": [
+          "tebi.com",
+          "20tabs.nl",
+          "kassavoorhoreca.com",
+          "horecatweepuntnul.nl",
+          "kassazaak.nl"
+        ]
+      }
+    }
+  },
+  {
+    "id": "nl-3",
+    "market": "NL",
+    "lang": "nl",
+    "prompt": "Wat is een goed alternatief voor Lightspeed voor horeca, zonder contract?",
+    "gloss": "Good Lightspeed alternative for hospitality, no contract?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": true,
+        "mentionRate": 1,
+        "recommended": [
+          "Tebi",
+          "SumUp",
+          "Square",
+          "Lightspeed",
+          "Zettle"
+        ],
+        "sources": [
+          "tebi.com",
+          "spont.nl",
+          "flowpos.nl",
+          "sumup.com",
+          "10key.nl"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "SumUp",
+          "unTill",
+          "Zettle"
+        ],
+        "sources": [
+          "menubly.com",
+          "bedrijfssoftwaregids.nl",
+          "tabres.com",
+          "unitouch.eu",
+          "capterra.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Lightspeed",
+          "Square",
+          "SumUp",
+          "unTill",
+          "Zettle"
+        ],
+        "sources": [
+          "spont.nl",
+          "conciar.com",
+          "bedrijfssoftwaregids.nl",
+          "mobiletransaction.org",
+          "oliverpos.com"
+        ]
+      }
+    }
+  },
+  {
+    "id": "nl-4",
+    "market": "NL",
+    "lang": "nl",
+    "prompt": "Welk kassasysteem heeft reserveringen en een keukenscherm in één systeem?",
+    "gloss": "Which POS has reservations and a kitchen display in one system?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0.3333333333333333,
+        "recommended": [
+          "DISH POS",
+          "Booq",
+          "Eijsink",
+          "unTill",
+          "Lightspeed"
+        ],
+        "sources": [
+          "spont.nl",
+          "rezvion.nl",
+          "desklypos.nl",
+          "dish.co",
+          "dinnerpos.nl"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Jimani",
+          "Xootle"
+        ],
+        "sources": [
+          "jimani.online",
+          "horecawebservice.nl",
+          "bedrijfssoftwaregids.nl",
+          "unitouch.eu",
+          "platevio.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "DISH POS",
+          "Booq",
+          "Eijsink",
+          "Formitable",
+          "unTill"
+        ],
+        "sources": [
+          "dish.co",
+          "untill.nl",
+          "guestit.nl",
+          "lightspeedhq.nl",
+          "horecava.nl"
+        ]
+      }
+    }
+  },
+  {
+    "id": "nl-5",
+    "market": "NL",
+    "lang": "nl",
+    "prompt": "Wat kost een kassasysteem voor een café per maand?",
+    "gloss": "What does a POS for a café cost per month?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "SumUp",
+          "Zettle",
+          "unTill",
+          "Lightspeed",
+          "CCV"
+        ],
+        "sources": [
+          "untill.nl",
+          "lightspeedhq.nl",
+          "ccv.eu",
+          "mpluskassa.nl",
+          "10key.nl"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [],
+        "sources": [
+          "paysafe.com",
+          "merchants.doordash.com",
+          "horecaflix.com",
+          "tabres.com",
+          "retailpresso.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0.3333333333333333,
+        "recommended": [
+          "Lightspeed",
+          "SumUp",
+          "CCV",
+          "unTill",
+          "Twelve"
+        ],
+        "sources": [
+          "eijsink.nl",
+          "20tabs.nl",
+          "mobiletransaction.org",
+          "lightspeedhq.nl",
+          "bedrijfssoftwaregids.nl"
+        ]
+      }
+    }
+  },
+  {
+    "id": "nl-6",
+    "market": "NL",
+    "lang": "nl",
+    "prompt": "Hoe verlaag ik de pinkosten in mijn restaurant?",
+    "gloss": "How do I lower card fees in my restaurant?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [],
+        "sources": []
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [],
+        "sources": [
+          "klearly.eu",
+          "kutlerri.ai",
+          "alacarte.direct",
+          "culistock.com",
+          "clearcogs.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "SumUp",
+          "Zettle",
+          "CCV",
+          "Buckaroo",
+          "Formitable"
+        ],
+        "sources": [
+          "klearly.eu",
+          "eijsink.nl",
+          "untill.nl",
+          "cashdesk.nl",
+          "procent.com"
+        ]
+      }
+    }
+  },
+  {
+    "id": "nl-7",
+    "market": "NL",
+    "lang": "nl",
+    "prompt": "Ik open een koffiebar in Utrecht. Welk kassasysteem en welke pinautomaat heb ik nodig?",
+    "gloss": "Opening a coffee bar in Utrecht — which till and card terminal?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "unTill",
+          "Lightspeed",
+          "SumUp",
+          "Zettle",
+          "CCV"
+        ],
+        "sources": [
+          "zettle.com",
+          "lightspeedhq.nl",
+          "ccv.eu",
+          "belastingdienst.nl",
+          "untillair.nl"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "CCV",
+          "Buckaroo",
+          "unTill",
+          "Lightspeed"
+        ],
+        "sources": [
+          "buckaroo.nl",
+          "boekhouder.nl",
+          "rabobank.nl",
+          "cikam.nl",
+          "platevio.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": true,
+        "mentionRate": 1,
+        "recommended": [
+          "Lightspeed",
+          "Tebi",
+          "Zettle",
+          "SumUp",
+          "CCV"
+        ],
+        "sources": [
+          "dish.co",
+          "kassazaak.nl",
+          "mobiletransaction.org",
+          "twelve.eu",
+          "kassavoorhoreca.com"
+        ]
+      }
+    }
+  },
+  {
+    "id": "es-1",
+    "market": "ES",
+    "lang": "es",
+    "prompt": "¿Cuál es el mejor TPV para un restaurante en Madrid?",
+    "gloss": "Best POS for a restaurant in Madrid?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Revo",
+          "Ágora",
+          "Last.app",
+          "Square",
+          "Lightspeed"
+        ],
+        "sources": [
+          "squareup.com",
+          "last.app",
+          "boe.es",
+          "cegid.com",
+          "sede.agenciatributaria.gob.es"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Ágora",
+          "Qamarero",
+          "Last.app",
+          "Square",
+          "Revo"
+        ],
+        "sources": [
+          "hackceleration.com",
+          "fos.consulting",
+          "makro.es",
+          "qamarero.com",
+          "rankia.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Ágora",
+          "Revo",
+          "CoverManager",
+          "Last.app",
+          "Glop"
+        ],
+        "sources": [
+          "hitsystems.es",
+          "comercialtpv.com",
+          "lymon.es",
+          "stelorder.com",
+          "gesmule.com"
+        ]
+      }
+    }
+  },
+  {
+    "id": "es-2",
+    "market": "ES",
+    "lang": "es",
+    "prompt": "¿Qué TPV para bar es compatible con Verifactu?",
+    "gloss": "Which bar POS is Verifactu-compliant?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Hiopos",
+          "Revo",
+          "Ágora",
+          "ICG",
+          "Glop"
+        ],
+        "sources": [
+          "boe.es",
+          "agorapos.com",
+          "verifactu.camarero10.com",
+          "www3.agenciatributaria.gob.es",
+          "sede.agenciatributaria.gob.es"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Hiopos",
+          "Qamarero",
+          "Ideiatek",
+          "OfiBarman",
+          "Glop"
+        ],
+        "sources": [
+          "amazon.es",
+          "ideiatek.net",
+          "verifactu.best",
+          "facturascripts.com",
+          "verifactu2027.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Ágora",
+          "ICG",
+          "Tipsi TPV",
+          "Hiopos",
+          "Glop"
+        ],
+        "sources": [
+          "reixmor.com",
+          "hellocash.es",
+          "ninjatpv.com",
+          "tipsitpv.com",
+          "agorapos.com"
+        ]
+      }
+    }
+  },
+  {
+    "id": "es-3",
+    "market": "ES",
+    "lang": "es",
+    "prompt": "Alternativas a TheFork sin comisión por comensal",
+    "gloss": "TheFork alternatives with no per-cover commission",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "TheFork",
+          "CoverManager",
+          "Zenchef",
+          "SevenRooms",
+          "Resos"
+        ],
+        "sources": [
+          "resmio.com",
+          "tableo.com",
+          "resdiary.com",
+          "exploretock.com",
+          "sevenrooms.com"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Restoo",
+          "TheFork",
+          "Kitking",
+          "CoverManager",
+          "Zenchef"
+        ],
+        "sources": [
+          "mesabot.es",
+          "taula.ai",
+          "foodyservice.com",
+          "eatsqr.com",
+          "resos.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "TheFork",
+          "CoverManager",
+          "Zenchef",
+          "Restoo",
+          "Resos"
+        ],
+        "sources": [
+          "hackceleration.com",
+          "fraxuo.com",
+          "restauran.tech",
+          "recipetor.com",
+          "mesabot.es"
+        ]
+      }
+    }
+  },
+  {
+    "id": "es-4",
+    "market": "ES",
+    "lang": "es",
+    "prompt": "Voy a abrir un bar en Madrid, ¿qué TPV necesito?",
+    "gloss": "Opening a bar in Madrid — which POS do I need?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Square",
+          "SumUp",
+          "Revo",
+          "Ágora",
+          "Zettle"
+        ],
+        "sources": [
+          "sede.agenciatributaria.gob.es",
+          "boe.es",
+          "squareup.com",
+          "bizum.com",
+          "apps.apple.com"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [],
+        "sources": [
+          "blog.platomico.com",
+          "lexpress-franchise.com",
+          "hellocash.es",
+          "makro.es",
+          "infoautonomos.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Square",
+          "Ágora",
+          "SumUp",
+          "Glop",
+          "Last.app"
+        ],
+        "sources": [
+          "consultoraprincipado.com",
+          "takemyorder.es",
+          "hitsystems.es",
+          "lymon.es",
+          "alegra.com"
+        ]
+      }
+    }
+  },
+  {
+    "id": "es-5",
+    "market": "ES",
+    "lang": "es",
+    "prompt": "¿Cuál es el mejor sistema de reservas para restaurantes sin comisiones?",
+    "gloss": "Best restaurant reservation system without commissions?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Zenchef",
+          "CoverManager",
+          "SevenRooms",
+          "Tablein",
+          "TheFork"
+        ],
+        "sources": [
+          "zenchef.com",
+          "covermanager.com",
+          "resdiary.com",
+          "sevenrooms.com",
+          "resmio.com"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Resos",
+          "Zenchef",
+          "Qamarero",
+          "CoverManager"
+        ],
+        "sources": [
+          "restaurantbookingsystem.com",
+          "europeanpurpose.com",
+          "viteunetable.com",
+          "cegid.com",
+          "qamarero.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "TheFork",
+          "OpenTable",
+          "CoverManager",
+          "Zenchef",
+          "Resos"
+        ],
+        "sources": [
+          "hackceleration.com",
+          "nexorasuite.app",
+          "agorapos.com",
+          "ingenieriademenu.com",
+          "kavasoft.app"
+        ]
+      }
+    }
+  },
+  {
+    "id": "es-6",
+    "market": "ES",
+    "lang": "es",
+    "prompt": "TPV para cafetería con pedidos y pago con QR en la mesa",
+    "gloss": "Café POS with QR ordering and pay-at-table",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Square",
+          "Revo",
+          "Lightspeed",
+          "Ágora",
+          "Hiopos"
+        ],
+        "sources": [
+          "squareup.com",
+          "support.revoxef.works",
+          "glop.es",
+          "sede.agenciatributaria.gob.es",
+          "agorapos.com"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Mesero",
+          "SumUp",
+          "Lymon",
+          "Lightspeed",
+          "TPVHostel"
+        ],
+        "sources": [
+          "lightspeedhq.com",
+          "mesero-tpv.es",
+          "lymon.es",
+          "gastrosystem.app",
+          "facturascripts.com"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Square",
+          "Last.app",
+          "Ágora",
+          "Revo",
+          "Tipsi TPV"
+        ],
+        "sources": [
+          "squareup.com",
+          "tipsitpv.com",
+          "sercosan.com",
+          "last.app",
+          "glop.es"
+        ]
+      }
+    }
+  },
+  {
+    "id": "es-7",
+    "market": "ES",
+    "lang": "es",
+    "prompt": "¿Cuánto cuesta un TPV para hostelería al mes?",
+    "gloss": "How much does a hospitality POS cost per month?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "SumUp",
+          "Zettle",
+          "Ágora",
+          "Square",
+          "Revo"
+        ],
+        "sources": [
+          "sumup.com",
+          "caixabank.es",
+          "tim.es",
+          "bbva.es",
+          "agorapos.com"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [],
+        "sources": [
+          "tabres.com",
+          "menuthere.com",
+          "lightspeedhq.com",
+          "ventatpv.com",
+          "hitsystems.es"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Square",
+          "SumUp"
+        ],
+        "sources": [
+          "itaula.es",
+          "foodeo.es",
+          "deisoft.es",
+          "foodtic.com",
+          "squareup.com"
+        ]
+      }
+    }
+  },
+  {
+    "id": "es-8",
+    "market": "ES",
+    "lang": "es",
+    "prompt": "¿Qué TPV usan los restaurantes pequeños en España en lugar de Lightspeed?",
+    "gloss": "What POS do small restaurants in Spain use instead of Lightspeed?",
+    "results": {
+      "chatgpt": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Lightspeed",
+          "Ágora",
+          "Revo",
+          "Glop",
+          "Hiopos"
+        ],
+        "sources": [
+          "agorapos.com",
+          "squareup.com",
+          "cegid.com",
+          "glop.es",
+          "hiopos.com"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Ágora",
+          "Revo",
+          "Glop",
+          "Last.app",
+          "Square"
+        ],
+        "sources": [
+          "hackceleration.com",
+          "bouzondigital.com",
+          "menumigo.com",
+          "rankia.com",
+          "chefbusiness.co"
+        ]
+      },
+      "gemini": {
+        "tebiMentioned": false,
+        "mentionRate": 0,
+        "recommended": [
+          "Lightspeed",
+          "Square",
+          "SumUp",
+          "Ágora",
+          "Glop"
+        ],
+        "sources": [
+          "hitsystems.es",
+          "lymon.es",
+          "stelorder.com",
+          "ingenieriademenu.com",
+          "softwaredoit.es"
+        ]
+      }
+    }
+  }
+]

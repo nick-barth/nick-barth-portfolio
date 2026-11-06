@@ -1,0 +1,32 @@
+{
+  "_note": "USD list prices used to estimate cost from reported usage. Perplexity reports exact cost per request, so it isn't listed. Each engine is a list of price periods; the latest `from` date on or before the run date applies. Free allowances (e.g. Gemini's 5,000 free searches a month) are NOT subtracted, so estimates are an upper bound.",
+  "chatgpt": [
+    {
+      "model": "gpt-5",
+      "from": "2025-08-07",
+      "inputPerM": 1.25,
+      "cachedInputPerM": 0.125,
+      "outputPerM": 10,
+      "searchPer1k": 10,
+      "source": "developers.openai.com/api/docs/pricing, checked 2026-11-06 (web search: reasoning models incl. gpt-5)"
+    }
+  ],
+  "gemini": [
+    {
+      "model": "gemini-3.8-flash",
+      "from": "2026-01-01",
+      "inputPerM": 0.75,
+      "outputPerM": 3.75,
+      "searchPer1k": 14,
+      "source": "aistudio.google.com/docs/pricing, checked 2026-11-06 (paid tier; thinking billed as output; 5,000 free searches/month not subtracted)"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "from": "2027-01-01",
+      "inputPerM": 1.5,
+      "outputPerM": 7.5,
+      "searchPer1k": 14,
+      "source": "aistudio.google.com/docs/pricing, checked 2026-11-06 (announced price from 1 Jan 2027)"
+    }
+  ]
+}
