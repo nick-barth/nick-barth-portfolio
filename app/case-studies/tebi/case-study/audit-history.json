@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "date": "2026-11-06",
+    "generatedAt": "2026-11-06T16:29:49.786Z",
+    "runsPerPrompt": 1,
+    "prompts": 45,
+    "answers": 135,
+    "tebiMentioned": 0.08148148148148149,
+    "engines": {
+      "chatgpt": {
+        "mentioned": 0.08888888888888889,
+        "namedFirst": 0.022222222222222223,
+        "cited": 0.06666666666666667
+      },
+      "perplexity": {
+        "mentioned": 0.022222222222222223,
+        "namedFirst": 0,
+        "cited": 0
+      },
+      "gemini": {
+        "mentioned": 0.13333333333333333,
+        "namedFirst": 0.044444444444444446,
+        "cited": 0.06666666666666667
+      }
+    },
+    "markets": {
+      "All": {
+        "tebi": 0.08148148148148149,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.5851851851851851
+        }
+      },
+      "NL": {
+        "tebi": 0.2222222222222222,
+        "tebiRank": 8,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.7555555555555555
+        }
+      },
+      "ES": {
+        "tebi": 0.022222222222222223,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Square",
+          "share": 0.6
+        }
+      },
+      "DE": {
+        "tebi": 0,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.6
+        }
+      }
+    },
+    "costUsd": 8.038176750000003
+  }
+]

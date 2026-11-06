@@ -124,7 +124,9 @@ async function withRetry<T>(fn: () => Promise<T>, tries = 4): Promise<T> {
     } catch (err) {
       const retryable = !(err instanceof HttpError) || ((err.status === 429 || err.status >= 500) && !err.isQuota);
       if (!retryable || i >= tries) throw err;
-      await sleep(2 ** i * 1000 + Math.random() * 500);
+      // Honour the provider's Retry-After (capped at a minute), else exponential backoff
+      const asked = err instanceof HttpError ? err.retryAfterMs : undefined;
+      await sleep(asked !== undefined ? Math.min(asked, 60_000) + 250 : 2 ** i * 1000 + Math.random() * 500);
     }
   }
 }
@@ -217,7 +219,7 @@ let rows: Row[] = saved
   : (
       await Promise.all(
         active.map((e) =>
-          pool(prompts.flatMap((p) => Array.from({ length: runs }, (_, r) => () => runOne(e, p, r + 1))), CONCURRENCY),
+          pool(prompts.flatMap((p) => Array.from({ length: runs }, (_, r) => () => runOne(e, p, r + 1))), e.concurrency ?? CONCURRENCY),
         ),
       )
     ).flat();

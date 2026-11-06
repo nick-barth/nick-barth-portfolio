@@ -52,6 +52,8 @@ export type Engine = {
   label: string;
   /** Env var that must be set for this engine to run */
   keyVar: string;
+  /** Max requests in flight at once (default 3 in run.ts) */
+  concurrency?: number;
   run: (p: Prompt) => Promise<Answer>;
 };
 
@@ -64,8 +66,18 @@ async function post(url: string, body: unknown, headers: Record<string, string>)
     body: JSON.stringify(body),
     signal: AbortSignal.timeout(180_000),
   });
-  if (!res.ok) throw new HttpError(res.status, await res.text());
+  if (!res.ok) throw new HttpError(res.status, await res.text(), retryAfter(res.headers));
   return res.json() as Promise<any>;
+}
+
+/** Retry-After is either seconds or an HTTP date. */
+export function retryAfter(headers: Headers | undefined): number | undefined {
+  const v = headers?.get("retry-after");
+  if (!v) return undefined;
+  const secs = Number(v);
+  if (Number.isFinite(secs)) return secs * 1000;
+  const at = Date.parse(v);
+  return Number.isFinite(at) ? Math.max(0, at - Date.now()) : undefined;
 }
 
 async function get(url: string) {
@@ -75,7 +87,12 @@ async function get(url: string) {
 }
 
 export class HttpError extends Error {
-  constructor(public status: number, public body: string) {
+  constructor(
+    public status: number,
+    public body: string,
+    /** From the Retry-After header, when the provider sent one */
+    public retryAfterMs?: number,
+  ) {
     super(`HTTP ${status}: ${body.slice(0, 300)}`);
   }
   /** Out of credit or quota: waiting won't help, unlike a short-term rate limit */
@@ -132,6 +149,8 @@ const perplexity: Engine = {
   id: "perplexity",
   label: "Perplexity",
   keyVar: "PERPLEXITY_API_KEY",
+  // Low usage tiers allow very few requests per second (shared across keys); go one at a time
+  concurrency: 1,
   async run(p) {
     const effort = env("PERPLEXITY_EFFORT", "fast");
     // maxRetries 0: run.ts owns retries so every engine backs off the same way
@@ -151,7 +170,7 @@ const perplexity: Engine = {
       };
       return { model: res.model ?? `effort:${effort}`, text: res.output_text ?? "", citations, usage };
     } catch (err) {
-      if (err instanceof APIError && err.status) throw new HttpError(err.status, err.message);
+      if (err instanceof APIError && err.status) throw new HttpError(err.status, err.message, retryAfter(err.headers));
       throw err;
     }
   },
