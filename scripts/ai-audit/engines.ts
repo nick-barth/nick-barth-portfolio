@@ -101,19 +101,32 @@ export class HttpError extends Error {
   }
 }
 
-/* ChatGPT — OpenAI Responses API with the web search tool */
+/*
+ * ChatGPT — OpenAI Responses API with the web search tool.
+ * Defaults keep it cheap: gpt-5-mini at low reasoning effort (the GPT-5 family can't use
+ * web search at "minimal") and a low search context. gpt-5 at default effort averaged
+ * ~5 searches and ~$0.12 per answer; override with OPENAI_MODEL / OPENAI_REASONING /
+ * OPENAI_SEARCH_CONTEXT in .env.
+ */
 const chatgpt: Engine = {
   id: "chatgpt",
   label: "ChatGPT",
   keyVar: "OPENAI_API_KEY",
   async run(p) {
-    const model = env("OPENAI_MODEL", "gpt-5");
+    const model = env("OPENAI_MODEL", "gpt-5-mini");
     const json = await post(
       "https://api.openai.com/v1/responses",
       {
         model,
         input: p.prompt,
-        tools: [{ type: "web_search", user_location: { type: "approximate", country: p.country, city: p.city } }],
+        reasoning: { effort: env("OPENAI_REASONING", "low") },
+        tools: [
+          {
+            type: "web_search",
+            search_context_size: env("OPENAI_SEARCH_CONTEXT", "low"),
+            user_location: { type: "approximate", country: p.country, city: p.city },
+          },
+        ],
       },
       { Authorization: `Bearer ${env("OPENAI_API_KEY")}` },
     );

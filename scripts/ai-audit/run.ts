@@ -140,9 +140,10 @@ const pricing: Record<string, PricePeriod[]> = await readJson(join(DIR, "pricing
 function priceOf(engine: EngineId, model: string | undefined, usage: Usage | undefined, day: string) {
   if (!usage) return { costUsd: null, costSource: "unpriced" as const };
   if (usage.reportedCostUsd !== undefined) return { costUsd: usage.reportedCostUsd, costSource: "reported" as const };
+  // Most specific model first ("gpt-5-mini" before "gpt-5"), then the latest price period
   const period = (pricing[engine] ?? [])
     .filter((p) => model?.startsWith(p.model) && p.from <= day)
-    .sort((a, b) => b.from.localeCompare(a.from))[0];
+    .sort((a, b) => b.model.length - a.model.length || b.from.localeCompare(a.from))[0];
   if (!period) return { costUsd: null, costSource: "unpriced" as const };
   const cached = usage.cachedInputTokens ?? 0;
   const cost =
