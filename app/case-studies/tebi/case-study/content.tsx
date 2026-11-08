@@ -152,8 +152,6 @@ function PopupMerchant() {
   return (
     <div className="space-y-2">
       <p>Pop-ups, new openings and weekend-only or seasonal venues in Amsterdam&apos;s scene.</p>
-      <p className="text-espresso/70">Right now: a run to plan, a host to find, a till that&apos;s cheap when it&apos;s quiet.</p>
-      <p className="text-espresso/70">Attention: Instagram, and the venues that host them.</p>
     </div>
   );
 }
@@ -162,10 +160,6 @@ function PopupChannel() {
   return (
     <div className="space-y-2">
       <p>Instagram DMs from Tebi, sent by hand by an intern.</p>
-      <p className="text-espresso/70">
-        Targets come from the network above: who Tebi&apos;s customers follow and mention, filtered to venues that run a till.
-      </p>
-      <p className="text-espresso/70">Competitors buy ads. Nobody DMs the pop-up.</p>
     </div>
   );
 }
@@ -174,12 +168,12 @@ function PopupMessage() {
   return (
     <div className="space-y-2">
       <p className="font-display text-lg font-medium leading-snug tracking-[-0.02em]">
-        “Zag dat Kantine Kees in the making is 👀 Barracuda draait op Tebi. Geen contract, gewoon je iPad, en €0 per maand
-        onder €10K omzet. Zin om te zien hoe?”
+        “Kantine Kees ziet er klaar voor uit 🔥 Zullen we je kassa regelen? Barracuda draait al op Tebi. Geen contract, gewoon
+        je iPad. Let&apos;s go?”
       </p>
       <p className="text-sm text-espresso/60">
-        Saw Kantine Kees is in the making. Barracuda runs on Tebi. No contract, just your iPad, €0 a month under €10K. Want
-        to see how?
+        Kantine Kees looks ready. Shall we sort your till? Barracuda already runs on Tebi. No contract, just your iPad.
+        Let&apos;s go?
       </p>
     </div>
   );

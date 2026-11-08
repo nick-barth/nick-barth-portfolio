@@ -55,6 +55,14 @@ function parseCsv(text: string): Record<string, string>[] {
 const clean = (h: string) => h.replace(/^@/, "").toLowerCase();
 
 type Profile = { name?: string; biography?: string; website?: string; followers_count?: number; media_count?: number; latest_post?: string; error?: string };
+// Recent posts read by mentions.ts (newest first): used for each venue's latest post link
+const postsByHandle: Record<string, { posts: { permalink: string; timestamp: string }[] }> =
+  JSON.parse(await readFile(join(DIR, "posts.json"), "utf8").catch(() => "{}"));
+// embeds.json: per venue, the newest post whose Instagram embed actually renders (checked
+// headlessly; null = embedding off). Falls back to the newest post for unchecked venues.
+const embeds: Record<string, string | null> = JSON.parse(await readFile(join(DIR, "embeds.json"), "utf8").catch(() => "{}"));
+const latestPermalink = (h: string) => (h in embeds ? embeds[h] : (postsByHandle[h]?.posts?.[0]?.permalink ?? null));
+
 const profiles: Record<string, Profile> = JSON.parse(await readFile(join(DIR, "enrich.json"), "utf8").catch(() => "{}"));
 
 const ACTIVE_DAYS = 183;
@@ -235,7 +243,7 @@ const ranked = [...targets.values()].sort((a, b) => b.score - a.score || b.follo
 const graph = {
   generatedAt: new Date().toISOString(),
   seeds: seeds.map((s) => ({ handle: clean(s.handle), name: s.name || s.handle, why: s.why, followers: ranked.filter((t) => t.follows.includes(clean(s.handle))).length, ...xy(clean(s.handle)) })),
-  targets: ranked.map((t) => ({ ...t, ...xy(t.handle) })),
+  targets: ranked.map((t) => ({ ...t, latestPermalink: latestPermalink(t.handle), ...xy(t.handle) })),
   // Edge direction follows Instagram: from the account that follows to the one followed
   edges: [
     ...ranked.flatMap((t) =>

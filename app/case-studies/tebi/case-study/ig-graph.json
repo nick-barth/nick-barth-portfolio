@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T06:11:06.881Z",
+  "generatedAt": "2026-11-08T08:26:41.073Z",
   "seeds": [
     {
       "handle": "esra.amsterdam",
@@ -74,8 +74,49 @@
       "followers": 10091,
       "bio": "wine import // hosting pop-ups & events\n@ode.binnenstad opening soon\n@bodega.restobar & @zomer.bar are closed🍷📦",
       "latestPost": "2026-10-21T12:48:59+0000",
+      "latestPermalink": "https://www.instagram.com/p/Demq0KqDKKN/",
       "x": -94,
       "y": -11
+    },
+    {
+      "handle": "troppogiovane",
+      "name": "TROPPO GIOVANE",
+      "type": "",
+      "neighbourhood": "",
+      "openingSoon": false,
+      "posts": 319,
+      "follows": [
+        "cafebinnenvisser",
+        "esra.amsterdam",
+        "restaurant_barracuda_amsterdam"
+      ],
+      "relations": {
+        "cafebinnenvisser": "following",
+        "esra.amsterdam": "following",
+        "restaurant_barracuda_amsterdam": "following"
+      },
+      "score": 9,
+      "notes": "city to check",
+      "popup": false,
+      "partTime": false,
+      "active": true,
+      "posFit": true,
+      "mentionedBy": [
+        "klaproosamsterdam",
+        "europa.rest",
+        "het_brokantje_amsterdam",
+        "troppobottleshop",
+        "rondo.restaurant",
+        "sichuan_territory"
+      ],
+      "layer": "follow",
+      "amsterdam": false,
+      "followers": 7535,
+      "bio": "",
+      "latestPost": "2026-11-06T15:08:21+0000",
+      "latestPermalink": null,
+      "x": 107,
+      "y": -56
     },
     {
       "handle": "zuiverwijnen",
@@ -112,46 +153,9 @@
       "followers": 9235,
       "bio": "Natural wine importers (🇳🇱 & 🇧🇪) + wine shop (🇪🇺)\n— Check the website or get in touch for B2B\n— Stop by @zuiver.bar for a glass!",
       "latestPost": "2026-11-06T12:41:21+0000",
+      "latestPermalink": null,
       "x": -30,
       "y": 219
-    },
-    {
-      "handle": "troppogiovane",
-      "name": "TROPPO GIOVANE",
-      "type": "",
-      "neighbourhood": "",
-      "openingSoon": false,
-      "posts": 319,
-      "follows": [
-        "cafebinnenvisser",
-        "esra.amsterdam",
-        "restaurant_barracuda_amsterdam"
-      ],
-      "relations": {
-        "cafebinnenvisser": "following",
-        "esra.amsterdam": "following",
-        "restaurant_barracuda_amsterdam": "following"
-      },
-      "score": 8,
-      "notes": "city to check",
-      "popup": false,
-      "partTime": false,
-      "active": true,
-      "posFit": true,
-      "mentionedBy": [
-        "klaproosamsterdam",
-        "europa.rest",
-        "het_brokantje_amsterdam",
-        "troppobottleshop",
-        "rondo.restaurant"
-      ],
-      "layer": "follow",
-      "amsterdam": false,
-      "followers": 7535,
-      "bio": "",
-      "latestPost": "2026-11-06T15:08:21+0000",
-      "x": 107,
-      "y": -56
     },
     {
       "handle": "kantine_kees",
@@ -178,6 +182,7 @@
       "followers": 1331,
       "bio": "Rebuilding the reputation of Dutch food.\nDeli & Proeflokaal in the making · pop-ups, tastings, catering, culinary tours\n📍 Amsterdam",
       "latestPost": "2026-09-30T09:31:11+0000",
+      "latestPermalink": "https://www.instagram.com/p/Dd6BHC1IGOp/",
       "x": -193,
       "y": 375
     },
@@ -210,6 +215,7 @@
       "followers": 2668,
       "bio": "🔥Ambachtelijke rokerij van Niels Muller\n🐟 Gerookte delicatessen & eigenwijze smaakmakers\n📚Rookbijbel | 🍽️ Pop-up diners\nDe shop is open ⬇️",
       "latestPost": "2026-11-03T15:56:17+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfSQQVJAtVM/",
       "x": -92,
       "y": -227
     },
@@ -238,8 +244,44 @@
       "followers": 6547,
       "bio": "Sichuan Territory 蜀地\nZeedijk 40 @sfamsterdam \nOpening 27/28 November \nReservations open this Sunday",
       "latestPost": "2026-11-05T12:17:48+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfXA17IDCqZ/",
       "x": -291,
       "y": 418
+    },
+    {
+      "handle": "bottleshop.ams",
+      "name": "Bottleshop",
+      "type": "wine shop",
+      "neighbourhood": "",
+      "openingSoon": false,
+      "posts": 256,
+      "follows": [
+        "restaurant_barracuda_amsterdam",
+        "kometenbrood"
+      ],
+      "relations": {
+        "restaurant_barracuda_amsterdam": "following",
+        "kometenbrood": "following"
+      },
+      "score": 5,
+      "notes": "Amsterdam (in handle/name)",
+      "popup": false,
+      "partTime": false,
+      "active": true,
+      "posFit": true,
+      "mentionedBy": [
+        "cosmotacos.ams",
+        "kade.noord",
+        "outpost_zandvoort"
+      ],
+      "layer": "follow",
+      "amsterdam": true,
+      "followers": 24579,
+      "bio": "Winebar & neighborhood resto. \nElevating Traditional Mexican Flavors.",
+      "latestPost": "2026-10-28T17:09:01+0000",
+      "latestPermalink": "https://www.instagram.com/reel/DfC7ntvOnl1/",
+      "x": -138,
+      "y": 41
     },
     {
       "handle": "kamer.bar",
@@ -271,6 +313,7 @@
       "followers": 10683,
       "bio": "kamer // bar & kitchen\nopen tuesday - saturday from 18.00\nclosed sunday - monday\ndinner reservations via website ↓",
       "latestPost": "2026-10-28T18:56:04+0000",
+      "latestPermalink": "https://www.instagram.com/p/Dd_PvXAitLy/",
       "x": -80,
       "y": 22
     },
@@ -305,6 +348,7 @@
       "followers": 9078,
       "bio": "",
       "latestPost": "2026-11-03T08:26:20+0000",
+      "latestPermalink": "https://www.instagram.com/reel/DfRcZaWNUIS/",
       "x": -86,
       "y": 94
     },
@@ -337,6 +381,7 @@
       "followers": 2787,
       "bio": "Helaas gehackt, maar we zijn terug!\nCafé Restaurant de Watermeterfabriek \nDinsdag t/m Zondag: Ontbijt | Lunch | Diner \nReserveer via de link in Bio",
       "latestPost": "2026-11-06T06:00:05+0000",
+      "latestPermalink": "https://www.instagram.com/reel/DfWVsQqu0Dq/",
       "x": -184,
       "y": -57
     },
@@ -371,6 +416,7 @@
       "followers": 66523,
       "bio": "Do: 15.00 - 01.00\nVr: 15.00 - 03.00\nZa: 15.00 - 03.00",
       "latestPost": "2026-11-07T09:51:11+0000",
+      "latestPermalink": "https://www.instagram.com/p/Dfb5pwzl-r1/",
       "x": 24,
       "y": 177
     },
@@ -405,6 +451,7 @@
       "followers": 12095,
       "bio": "snacks & wines \n7 days a week\nwalk in only",
       "latestPost": "2026-11-06T17:00:04+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfXBESsohtJ/",
       "x": -168,
       "y": -159
     },
@@ -437,6 +484,7 @@
       "followers": 2762,
       "bio": "TACOS TACOS TACOS\nBY @elomarsanchezlopez \nPOP UP 17/5 AT WILHELMINA CAFE  \nFAMILY @cafebinnenvisser",
       "latestPost": "2024-12-29T09:48:58+0000",
+      "latestPermalink": "https://www.instagram.com/p/DEKGcTpoFVD/",
       "x": 42,
       "y": 144
     },
@@ -465,6 +513,7 @@
       "followers": 9246,
       "bio": "Scandinavian × Indonesian food & culture\nPop-ups, events & creative collaborations.\nA project by @ellinor.strinnholm",
       "latestPost": "2026-10-18T10:30:28+0000",
+      "latestPermalink": "https://www.instagram.com/p/DeoeQApjM_J/",
       "x": -273,
       "y": 276
     },
@@ -493,6 +542,7 @@
       "followers": 5320,
       "bio": "🏳️‍🌈☕️🍾🥐🌞🫒\nKoffie | wijn | broodjes  | snacks \nvr 10:00–18:00\nza 10:00-18:00\nzo 10:00-18:00\nReserveren:\nInfo@noorderparkcafe.nl",
       "latestPost": "2026-09-15T12:22:53+0000",
+      "latestPermalink": "https://www.instagram.com/p/Dfd_z4HDM1-/",
       "x": -500,
       "y": -177
     },
@@ -519,6 +569,7 @@
         "sebonsa.ams"
       ],
       "layer": "mention",
+      "latestPermalink": "https://www.instagram.com/p/DeZE6CjjQaq/",
       "x": -300,
       "y": 121
     },
@@ -545,6 +596,7 @@
         "dime.slice"
       ],
       "layer": "mention",
+      "latestPermalink": "https://www.instagram.com/reel/DfXDmSRgKuW/",
       "x": -175,
       "y": 42
     },
@@ -577,6 +629,7 @@
       "followers": 31409,
       "bio": "bakery | pastries | sandwiches | coffee | books\noud west | westerpark | de pijp | de molen\n7 days a week | 08:00 till 15:00\nfamily @cafebinnenvisser",
       "latestPost": "2026-11-07T11:00:02+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfcBiBPDJiC/",
       "x": 174,
       "y": 23
     },
@@ -609,6 +662,7 @@
       "followers": 24728,
       "bio": "Open for dinner Wednesday to Sunday\nOpen for lunch Saturday and Sunday\nEpic wine cellar and organic food.",
       "latestPost": "2026-11-03T10:55:01+0000",
+      "latestPermalink": "https://www.instagram.com/reel/DfRtToAoa3d/",
       "x": 111,
       "y": 118
     },
@@ -641,6 +695,7 @@
       "followers": 6415,
       "bio": "breakfast, lunch, evening snacks, late-night drinks and the occasional tosti\nfrom 8am on weekdays\nfrom 9am in weekends",
       "latestPost": "2026-11-06T14:18:22+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfWujH2CBkJ/",
       "x": 18,
       "y": 71
     },
@@ -673,6 +728,7 @@
       "followers": 9262,
       "bio": "Open voor diner ma, woe - vrij (18:00)\nOpen voor lunch en diner za - zo (12:00)",
       "latestPost": "2026-11-07T09:18:04+0000",
+      "latestPermalink": null,
       "x": 37,
       "y": -159
     },
@@ -705,6 +761,7 @@
       "followers": 15863,
       "bio": "Rijsel is ontstaan vanuit passie voor de Franse keuken met een knipoog naar Vlaanderen 🍴🍷\nMaandag t/m Vrijdag vanaf 18.00",
       "latestPost": "2026-11-02T09:56:28+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfPCP-eIw9r/",
       "x": 6,
       "y": -32
     },
@@ -737,6 +794,7 @@
       "followers": 10708,
       "bio": "Diner dagelijks vanaf 18:00. Open for dinner, daily from 18:00. \n📞+31204210699\n📬 info@gebr-hartering.nl\nReservations: online",
       "latestPost": "2026-05-04T08:34:20+0000",
+      "latestPermalink": "https://www.instagram.com/p/DX6PoPgDMWi/",
       "x": -78,
       "y": 200
     },
@@ -769,6 +827,7 @@
       "followers": 14815,
       "bio": "dinsdag t/m zondag vanaf 17:30 Aambeeldstraat 30 Amsterdam-Noord  \nreserveer 020-6365170 of via:",
       "latestPost": "2026-11-06T16:32:53+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfaCz9hNGQ9/",
       "x": -61,
       "y": -125
     },
@@ -801,40 +860,9 @@
       "followers": 13478,
       "bio": "Italiaans restaurant & Bar Dancing \nGeopend van woensdag t/m zondag\n☎️: +316 42 89 73 01\n✉️: info@klaproosamsterdam.nl",
       "latestPost": "2026-11-07T12:00:43+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfcIVfLN5HN/",
       "x": -202,
       "y": 138
-    },
-    {
-      "handle": "bottleshop.ams",
-      "name": "Bottleshop",
-      "type": "wine shop",
-      "neighbourhood": "",
-      "openingSoon": false,
-      "posts": 256,
-      "follows": [
-        "restaurant_barracuda_amsterdam",
-        "kometenbrood"
-      ],
-      "relations": {
-        "restaurant_barracuda_amsterdam": "following",
-        "kometenbrood": "following"
-      },
-      "score": 3,
-      "notes": "Amsterdam (in handle/name)",
-      "popup": false,
-      "partTime": false,
-      "active": true,
-      "posFit": true,
-      "mentionedBy": [
-        "cosmotacos.ams"
-      ],
-      "layer": "follow",
-      "amsterdam": true,
-      "followers": 24579,
-      "bio": "Winebar & neighborhood resto. \nElevating Traditional Mexican Flavors.",
-      "latestPost": "2026-10-28T17:09:01+0000",
-      "x": -138,
-      "y": 41
     },
     {
       "handle": "cafewu.ams",
@@ -865,6 +893,7 @@
       "followers": 15256,
       "bio": "Chinese-inspired café & listening + wine bar\n•••\nopen tuesday to saturday from 18:00\nalways space for walk-in or reserve via link.",
       "latestPost": "2026-11-04T14:00:00+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfUn0FxDjED/",
       "x": -94,
       "y": -153
     },
@@ -897,6 +926,7 @@
       "followers": 41330,
       "bio": "🍽  Choux opening hours\nTue - Sat 18:00-0:00\n🍾 @zuiverwijnen\n🧂@621ferments",
       "latestPost": "2026-10-05T11:00:04+0000",
+      "latestPermalink": "https://www.instagram.com/p/DeG8Q8jAHln/",
       "x": 33,
       "y": 6
     },
@@ -929,6 +959,7 @@
       "followers": 23099,
       "bio": "resto • bar • space \neast asian & european flavors | wed to sun\nbook for dinner or lunch, walk-in for drinks\nspace | available seven days a week 🪷",
       "latestPost": "2026-11-05T09:40:44+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfWu3gajaqG/",
       "x": -46,
       "y": 97
     },
@@ -959,6 +990,7 @@
       "followers": 5403,
       "bio": "NY STYLE SLICE SHOP ☆\nAt the foodcourt of @kade.noord",
       "latestPost": "2026-11-07T08:49:32+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfbycjssaMm/",
       "x": -182,
       "y": -4
     },
@@ -991,6 +1023,7 @@
       "followers": 18577,
       "bio": "Fine food, fine wine. We also serve pizza \nWednesday - Thursday from 18.00 \nFriday from 16.00\nSaturday - Sunday from 13.00\n@europa.rest\n@benelux.bar",
       "latestPost": "2026-11-06T14:00:03+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfZxaIzDIby/",
       "x": -17,
       "y": 48
     },
@@ -1023,6 +1056,7 @@
       "followers": 2038,
       "bio": "Fine (Natural) Wine Store by @troppogiovane import. EU shipping.\n———\nOpening Hours:\nTue - Fri:\t12:00 - 19:30\nSat:\t\t\t10:30 - 19:30",
       "latestPost": "2023-11-30T12:49:00+0000",
+      "latestPermalink": "https://www.instagram.com/p/C0RVDPzIcsh/",
       "x": -37,
       "y": 201
     },
@@ -1055,6 +1089,7 @@
       "followers": 1588,
       "bio": "@zuiverwijnen wine bar!\nwed-thu from 17:00\nfriday from 16:00\nDe Ruijterkade 143\n1011AC Amsterdam",
       "latestPost": "2026-10-30T12:27:31+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfHlLyaDCaV/",
       "x": -43,
       "y": -64
     },
@@ -1085,6 +1120,7 @@
       "followers": 12719,
       "bio": "* Michelin - 16/20 G&M                                        - Ambachtsman van het jaar 2021\n- 50Best Discovery - OAD",
       "latestPost": "2026-02-10T16:13:12+0000",
+      "latestPermalink": null,
       "x": -437,
       "y": -130
     },
@@ -1115,6 +1151,7 @@
       "followers": 439,
       "bio": "Temporarily asleep",
       "latestPost": "2025-11-06T13:16:41+0000",
+      "latestPermalink": null,
       "x": -26,
       "y": -447
     },
@@ -1143,6 +1180,7 @@
       "followers": 4165,
       "bio": "⭐️ Charcuterieën om nooit te vergeten\nOpen: vrijdag van 10-18, zaterdag van 10-17.\n📍Hoendiepstraat 2 | 1079 LT | Amsterdam",
       "latestPost": "2026-10-23T10:47:06+0000",
+      "latestPermalink": "https://www.instagram.com/p/De1XVk1taao/",
       "x": -100,
       "y": 388
     },
@@ -1173,6 +1211,7 @@
       "followers": 807,
       "bio": "De Viskot op reis. Zondag 23 augustus in het buiten restaurant van VRR! @vrr.rest @sander_overeinder.\n@jburkunk @woordvis",
       "latestPost": "2026-03-22T11:02:09+0000",
+      "latestPermalink": null,
       "x": 1,
       "y": -417
     },
@@ -1201,6 +1240,7 @@
       "followers": 25151,
       "bio": "dinner by @glabr.a (fri), @nikis.thattukada & @learamaswamy (sat)\nfri 18:00 - 03:00\nsat 18:00 - 02:00\n•\nprogram, reservations & more below 🔻",
       "latestPost": "2026-11-04T13:44:37+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfUl-3yDRqp/",
       "x": -342,
       "y": -178
     },
@@ -1229,6 +1269,7 @@
       "followers": 46234,
       "bio": "Canteen | Breakfast & Lunch, Sat – Sun\nCulinary Studio | In-House or On-Location Events\nShop | Tea, Tea Tools & More\nSister of @fonda.amsterdam",
       "latestPost": "2026-10-28T10:45:08+0000",
+      "latestPermalink": "https://www.instagram.com/reel/DfCPN8fxqMR/",
       "x": 305,
       "y": 338
     },
@@ -1257,6 +1298,7 @@
       "followers": 5157,
       "bio": "100% Halal\nSaturday Ganzenhoef market 12:00-17:00",
       "latestPost": "2026-11-07T10:12:54+0000",
+      "latestPermalink": "https://www.instagram.com/reel/Dfb8A5-uelm/",
       "x": -348,
       "y": 333
     },
@@ -1285,8 +1327,41 @@
       "followers": 33808,
       "bio": "Club & Restaurant\nOpen: Friday & Saturday",
       "latestPost": "2026-11-06T12:20:30+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfZl8kSDZq5/",
       "x": -405,
       "y": -41
+    },
+    {
+      "handle": "treesamsterdam",
+      "name": "Trees",
+      "type": "",
+      "neighbourhood": "",
+      "openingSoon": false,
+      "posts": 194,
+      "follows": [
+        "restaurant_barracuda_amsterdam"
+      ],
+      "relations": {
+        "restaurant_barracuda_amsterdam": "following"
+      },
+      "score": 3,
+      "notes": "Amsterdam (in handle/name)",
+      "popup": false,
+      "partTime": false,
+      "active": true,
+      "posFit": true,
+      "mentionedBy": [
+        "klaproosamsterdam",
+        "outpost_zandvoort"
+      ],
+      "layer": "follow",
+      "amsterdam": true,
+      "followers": 11450,
+      "bio": "restaurant tue - sat \nbar thu - sat \ninfo@treesamsterdam.nl\nfamily of @gertrudeamsterdam & @cafetoussaint",
+      "latestPost": "2026-11-06T16:10:04+0000",
+      "latestPermalink": null,
+      "x": -222,
+      "y": 311
     },
     {
       "handle": "wijnwinkel.dekaaf",
@@ -1315,6 +1390,7 @@
       "followers": 1276,
       "bio": "natural wine shop / tastings\namsterdam \nthu / fri 15:00 - 18:30\nsat 12:00 - 18:30\nwine shop @buurtcafe.detros",
       "latestPost": "2026-11-06T11:42:54+0000",
+      "latestPermalink": null,
       "x": 434,
       "y": -146
     },
@@ -1342,6 +1418,7 @@
         "zuiver.bar"
       ],
       "layer": "mention",
+      "latestPermalink": null,
       "x": -69,
       "y": 127
     },
@@ -1368,6 +1445,7 @@
         "bottleshop.ams"
       ],
       "layer": "mention",
+      "latestPermalink": "https://www.instagram.com/p/DZaAFS9sIdZ/",
       "x": -268,
       "y": 22
     },
@@ -1394,6 +1472,7 @@
         "benelux.bar"
       ],
       "layer": "mention",
+      "latestPermalink": "https://www.instagram.com/reel/DfXmA0PsKPg/",
       "x": -360,
       "y": 42
     },
@@ -1424,6 +1503,7 @@
       "followers": 28916,
       "bio": "Coffee- & wine bar • Amsterdam Oost\nCoffee from @lacabracoffee, Scandinavian buns, sandwiches, wine & snacks.\nOpen 7 days per week",
       "latestPost": "2026-10-04T06:43:42+0000",
+      "latestPermalink": "https://www.instagram.com/p/DeEBK2kDoaw/",
       "x": 81,
       "y": -85
     },
@@ -1454,6 +1534,7 @@
       "followers": 82912,
       "bio": "sourdough bread & bakery \nand vibrant coffees\nsince 2017\n📍Berlin:   ACID Mitte & P-Berg\n📍Madrid: ACID Cafe, Bakehouse & Shop\n.\n.\nour🍷project @gotawine",
       "latestPost": "2026-11-07T14:00:02+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfcWIOpEff5/",
       "x": -20,
       "y": 29
     },
@@ -1484,6 +1565,7 @@
       "followers": 4823,
       "bio": "Permanently closed. Thank you all for your love and support",
       "latestPost": "2024-09-27T10:53:56+0000",
+      "latestPermalink": "https://www.instagram.com/p/DAav8tioITR/",
       "x": -145,
       "y": 58
     },
@@ -1514,6 +1596,7 @@
       "followers": 14697,
       "bio": "Taqueria tucked away in Amsterdam Noord.                                    Est. in November 2019 by @buck.7.8         \n 13+👨‍🍳 👩‍🍳 in Gault&Millau",
       "latestPost": "2026-11-02T17:00:31+0000",
+      "latestPermalink": "https://www.instagram.com/reel/DfPyvRfIuT6/",
       "x": -210,
       "y": 71
     },
@@ -1544,6 +1627,7 @@
       "followers": 66708,
       "bio": "Celebrating our love for plantbased pastries 🥐 \nRequests / orders : Info@bakkerijfunk.com\nLocations: Antwerp South & Antwerp Berchem\nNo reservations 💙",
       "latestPost": "2026-11-06T10:05:15+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfZWd8tDZUP/",
       "x": 22,
       "y": -70
     },
@@ -1574,6 +1658,7 @@
       "followers": 24359,
       "bio": "A sourdough bakery with character - born from chefs, baked for neighbours, with no shortcuts and just honest flavour.\nOpen everyday - Amsterdam",
       "latestPost": "2026-11-07T08:16:00+0000",
+      "latestPermalink": "https://www.instagram.com/p/Dfbut6pFWMX/",
       "x": -21,
       "y": -64
     },
@@ -1604,6 +1689,7 @@
       "followers": 12357,
       "bio": "Natural wine bar / bistro extraordinaire\nReservations through website.",
       "latestPost": "2026-10-30T15:55:02+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfH8_PsDdoZ/",
       "x": -30,
       "y": 70
     },
@@ -1634,6 +1720,7 @@
       "followers": 12375,
       "bio": "APERITIVO AND DANCING\nFRIDAY & SATURDAY FROM 17.00\nHOSTING @eurosoft.cafe WED-SUN",
       "latestPost": "2026-09-16T14:00:05+0000",
+      "latestPermalink": "https://www.instagram.com/p/DdV_KeYNAJZ/",
       "x": -202,
       "y": 11
     },
@@ -1664,6 +1751,7 @@
       "followers": 1090,
       "bio": "",
       "latestPost": "2026-10-30T13:50:02+0000",
+      "latestPermalink": null,
       "x": -119,
       "y": -175
     },
@@ -1694,6 +1782,7 @@
       "followers": 19493,
       "bio": "neighbourhood bistro\nnatural wine / comfort food\nwalk-in or reserve a table\nlunch and dinner 7/7 (12:00)\n🍽️ @turbo.amsterdam\n🍷 @wijnwinkel.dekaaf",
       "latestPost": "2026-11-02T10:53:44+0000",
+      "latestPermalink": "https://www.instagram.com/p/De4Y9vhiras/",
       "x": -24,
       "y": -83
     },
@@ -1724,6 +1813,7 @@
       "followers": 19881,
       "bio": "𝕄𝕒 - 𝟙𝟞.𝟘𝟘 𝕥𝕠𝕥 𝟘𝟙.𝟘𝟘\n𝔻𝕚 - 𝕘𝕖𝕤𝕝𝕠𝕥𝕖𝕟\n𝕎𝕠𝕖 - 𝟙𝟞.𝟘𝟘 𝕥𝕠𝕥 𝟘𝟙.𝟘𝟘\n𝔻𝕠 - 𝟙𝟞.𝟘𝟘 𝕥𝕠𝕥 𝟘𝟙.𝟘𝟘\n𝕍𝕣𝕚𝕛 - 𝟙𝟞.𝟘𝟘 𝕥𝕠𝕥 𝟘𝟙.𝟘𝟘\nℤ𝕒 - 𝟙𝟛.𝟘𝟘 𝕥𝕠𝕥 𝟘𝟙.𝟘𝟘\nℤ𝕠 - 𝟙𝟛.𝟘𝟘 𝕥𝕠𝕥 𝟚𝟙.𝟘𝟘",
       "latestPost": "2026-10-28T17:00:05+0000",
+      "latestPermalink": "https://www.instagram.com/p/De_4kxKNA_P/",
       "x": -48,
       "y": 17
     },
@@ -1754,6 +1844,7 @@
       "followers": 11289,
       "bio": "@dekleinebes 👀\n𝒐𝒏𝒍𝒚 𝒓𝒆𝒔𝒗 𝟔+👥\n𝐝𝐢𝐜𝐡𝐭 𝐨𝐩 𝐝𝐢\n𝐯𝐚𝐧𝐚𝐟 𝟏𝟐:𝟎𝟎 𝐥𝐮𝐧𝐜𝐡\n𝐯𝐚𝐧𝐚𝐟 𝟏𝟖:𝟎𝟎 𝐞𝐞𝐧 𝐰𝐚𝐫𝐦𝐞 𝐦𝐚𝐚𝐥𝐭𝐢𝐣𝐝 \n𝐳𝐚𝐭 & 𝐦𝐚 𝐯𝐚𝐧𝐚𝐟 𝟏𝟎:𝟎𝟎 𝐨𝐧𝐭𝐛𝐢𝐣𝐭 / 𝐛𝐫𝐮𝐧𝐜𝐡\n𝐁𝐨𝐨𝐦𝐬𝐭𝐫𝐚𝐚𝐭 𝟒𝟏 𝐉𝐨𝐫𝐝𝐚𝐚𝐧",
       "latestPost": "2026-11-06T15:45:13+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfZ8uo6s5sB/",
       "x": -139,
       "y": -183
     },
@@ -1784,6 +1875,7 @@
       "followers": 2618,
       "bio": "- New à la carte every 2 weeks\n- Daily changing 3 course menu\n- Homemade and local produce\n- Own wine import \n🌱",
       "latestPost": "2026-11-07T14:08:39+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfcW9vYiFki/",
       "x": -192,
       "y": 98
     },
@@ -1814,6 +1906,7 @@
       "followers": 59539,
       "bio": "GUESTHOUSE KITCHEN SHOP\nIn the heart of Amsterdam\nOpen 7 days a week \nBook your room or table online\n@kitchenatcarmen",
       "latestPost": "2026-11-06T07:52:37+0000",
+      "latestPermalink": null,
       "x": -54,
       "y": 117
     },
@@ -1844,6 +1937,7 @@
       "followers": 11017,
       "bio": "Currently enjoying Autumn. \nCulinary Workspace \nOpen Thursday-Saturday \n@europizza.rest \n@benelux.bar",
       "latestPost": "2026-11-06T16:17:53+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfaBHJZCChH/",
       "x": 10,
       "y": 217
     },
@@ -1874,6 +1968,7 @@
       "followers": 1259,
       "bio": "VINTAGE & FINDS \nHERENSTRAAT 24 AMSTERDAM ♥️ \nSHOP CLOSED!",
       "latestPost": "2023-12-13T12:47:37+0000",
+      "latestPermalink": "https://www.instagram.com/p/CukBCvQIym8/",
       "x": 34,
       "y": 213
     },
@@ -1904,6 +1999,7 @@
       "followers": 3658,
       "bio": "👩🏻‍🍳&📸&🖋 Tamara Ivanović\nBalkan inspired recipes.\nCatering. Events. Workshops. \nCookbook ZURE-KERSEN-HART available in NL.",
       "latestPost": "2026-11-07T09:06:27+0000",
+      "latestPermalink": "https://www.instagram.com/reel/Dfb0GBVOf4_/",
       "x": -130,
       "y": -159
     },
@@ -1934,6 +2030,7 @@
       "followers": 1500,
       "bio": "Handelt in olijfolie, olijven, azijn, mosterd en meer.\nWinkel op zaterdag 11:00-16:00 voor particulieren.\n🅲🅷🅴🅲🅺 🆈🅾🆄🆁 🅾🅸🅻",
       "latestPost": "2026-03-03T12:28:51+0000",
+      "latestPermalink": "https://www.instagram.com/p/DVbBPtMjHYw/",
       "x": -172,
       "y": 84
     },
@@ -1964,6 +2061,7 @@
       "followers": 29372,
       "bio": "@50toppizza 7°🇪🇺 36°🌍 \n@thebestpizzawards 30\n@gamberorossointernational 🍕 🍕 🍕 \nEveryday from 5:30pm. Walk-in spaces every day! Reserve via our website",
       "latestPost": "2026-09-17T13:28:52+0000",
+      "latestPermalink": "https://www.instagram.com/p/DdY-BdWCGFV/",
       "x": 49,
       "y": 50
     },
@@ -1994,6 +2092,7 @@
       "followers": 4638,
       "bio": "Rondo Restaurant\nPlanciusstraat 49, Amsterdam\nwoe-za vanaf 17:00",
       "latestPost": "2026-11-06T14:18:18+0000",
+      "latestPermalink": "https://www.instagram.com/reel/DfZzZuuOCGc/",
       "x": -62,
       "y": 4
     },
@@ -2024,6 +2123,7 @@
       "followers": 54192,
       "bio": "Baked goods & Specialty coffee | Open daily 8-17\nVisit our Deli shop: @saintjeandeli",
       "latestPost": "2026-11-04T06:31:44+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfT0YC-gXrX/",
       "x": 35,
       "y": -83
     },
@@ -2054,6 +2154,7 @@
       "followers": 6453,
       "bio": "Desem en alles wat goed met brood samen gaat\nOpen Tuesday - Saturday from 9:00 - 15:00 & Sunday Brunch 10.00 - 14.30\n@stadsbakkerij_as @vrr.rest",
       "latestPost": "2026-05-09T12:19:11+0000",
+      "latestPermalink": "https://www.instagram.com/p/DYHhyxPDv3H/",
       "x": -169,
       "y": 10
     },
@@ -2084,6 +2185,7 @@
       "followers": 4316,
       "bio": "Something’s brewing again…\n🍻",
       "latestPost": "2024-01-19T14:47:58+0000",
+      "latestPermalink": "https://www.instagram.com/p/C2SSaXLoIHC/",
       "x": -205,
       "y": 30
     },
@@ -2114,6 +2216,7 @@
       "followers": 19362,
       "bio": "Maandag t/m zaterdag geopend, met lunch op vrijdag en zaterdag!\n@toscaninideli \n@capri_enoteca 11 november",
       "latestPost": "2026-10-31T16:00:16+0000",
+      "latestPermalink": "https://www.instagram.com/p/DfKiUPcsw9e/",
       "x": -23,
       "y": 10
     },
@@ -2144,6 +2247,7 @@
       "followers": 6677,
       "bio": "we’ve CLOSED our doors, see you soon! ♥️🍋 \nkeep an eye on @sebonsa.ams",
       "latestPost": "2025-10-17T08:41:54+0000",
+      "latestPermalink": "https://www.instagram.com/p/DP524kfiNxW/",
       "x": -87,
       "y": -181
     },
@@ -2172,6 +2276,7 @@
       "followers": 2610,
       "bio": "Georgian flavours in Amsterdam \nshared plates • natural wines \nTue – Thu l 18:00\nFri - Sat  I 17:00 - late \n📍Eerste Anjeliersdwarsstraat 6",
       "latestPost": "2026-11-03T17:58:27+0000",
+      "latestPermalink": null,
       "x": 2,
       "y": -452
     },
@@ -2200,6 +2305,7 @@
       "followers": 30344,
       "bio": "Voor de stad en haar makers: BAJES is open",
       "latestPost": "2026-11-06T17:35:29+0000",
+      "latestPermalink": null,
       "x": -391,
       "y": -203
     },
@@ -2228,6 +2334,7 @@
       "followers": 1607,
       "bio": "CLOSED",
       "latestPost": "2024-06-25T09:48:27+0000",
+      "latestPermalink": null,
       "x": -220,
       "y": 362
     },
@@ -2256,6 +2363,7 @@
       "followers": 3897,
       "bio": "WK OP GROOT SCHERM 🧡\nCOCKTAILS • KARAOKE • CYPRIOTISCH ETEN\nWoe t/m zat geopend\nFeestje, verjaardag of borrel? Mail naar info@bar-karakter.nl of DM",
       "latestPost": "2026-10-22T12:07:49+0000",
+      "latestPermalink": null,
       "x": -33,
       "y": -474
     },
@@ -2284,6 +2392,7 @@
       "followers": 1752,
       "bio": "Lokaal voor bier en wijn.\nAdmiraal de Ruijterweg 273 A Amsterdam  info@barvergist.nl\n06- 29361642",
       "latestPost": "2026-11-07T14:12:25+0000",
+      "latestPermalink": null,
       "x": -34,
       "y": -433
     },
@@ -2312,6 +2421,7 @@
       "followers": 1077,
       "bio": "BURNING BREAD. AMSTERDAM. EST. 2023",
       "latestPost": null,
+      "latestPermalink": null,
       "x": -473,
       "y": -134
     },
@@ -2340,6 +2450,7 @@
       "followers": 16521,
       "bio": "Wednesday to Saturday from 18:00",
       "latestPost": "2026-10-30T15:10:49+0000",
+      "latestPermalink": null,
       "x": -227,
       "y": 375
     },
@@ -2370,6 +2481,7 @@
       "followers": 7215,
       "bio": "a pop-up by @sebonsa.ams 🎲🪅♥️\nwe’ve closed our doors, until we meet again!",
       "latestPost": "2025-09-30T07:16:09+0000",
+      "latestPermalink": null,
       "x": -12,
       "y": -446
     },
@@ -2400,6 +2512,7 @@
       "followers": 2087,
       "bio": "",
       "latestPost": "2026-09-25T15:54:19+0000",
+      "latestPermalink": null,
       "x": 27,
       "y": -443
     },
@@ -2428,6 +2541,7 @@
       "followers": 2622,
       "bio": "Specialty Coffeeshop in Vienna\nOfficial Shop of @fuerthkaffee\nTue - Fri 8 - 6\nSat/Sun 9 - 6\nAlso visit @diemarkthummel",
       "latestPost": "2025-10-02T14:38:45+0000",
+      "latestPermalink": null,
       "x": -448,
       "y": -190
     },
@@ -2456,6 +2570,7 @@
       "followers": 4069,
       "bio": "Zoutkeetsplein 1h, Amsterdam\nLunch and dinner, snacks and drinks\ndo-zat 12:00-00:00\nzo - 12:00-20:00\nFor groups over 6 contact us",
       "latestPost": "2026-11-03T14:28:31+0000",
+      "latestPermalink": null,
       "x": -16,
       "y": -476
     },
@@ -2484,8 +2599,40 @@
       "followers": 880,
       "bio": "Sandwiches | Specialty coffees | Homemade drinks\nMON - SUN : 9 AM - 4 PM",
       "latestPost": "2026-04-13T09:08:23+0000",
+      "latestPermalink": null,
       "x": -420,
       "y": -68
+    },
+    {
+      "handle": "cafebeurreamsterdam",
+      "name": "Café Beurre",
+      "type": "cafe",
+      "neighbourhood": "",
+      "openingSoon": false,
+      "posts": 422,
+      "follows": [
+        "kometenbrood"
+      ],
+      "relations": {
+        "kometenbrood": "following"
+      },
+      "score": 2,
+      "notes": "Amsterdam (in handle/name)",
+      "popup": false,
+      "partTime": false,
+      "active": true,
+      "posFit": true,
+      "mentionedBy": [
+        "outpost_zandvoort"
+      ],
+      "layer": "follow",
+      "amsterdam": true,
+      "followers": 12745,
+      "bio": "walk-ins & reservations\n7 days a week from 18:00 - closing\nfamily of @petitpecheamsterdam\nspecial request? email or dm info@cafebeurreamsterdanm.nl",
+      "latestPost": "2026-10-27T17:59:21+0000",
+      "latestPermalink": null,
+      "x": -372,
+      "y": -158
     },
     {
       "handle": "cafekadijk",
@@ -2512,6 +2659,7 @@
       "followers": 699,
       "bio": "🌶 Onze keuken is elke dag open van 17:00 tot 22:00\n🌶 Wij serveren Indisch eten🍤🍲\n🌶 Wij doen niet aan reserveringen, maar kom gezellig langs💫",
       "latestPost": "2026-08-02T10:37:46+0000",
+      "latestPermalink": null,
       "x": -413,
       "y": -145
     },
@@ -2540,6 +2688,7 @@
       "followers": 10374,
       "bio": "Monday to Thursday: 14:30 - 00:00\nFriday and Saturday: 12:00 - 01:00\nSunday:  12:00 - 22:00\ncasual dining/drinks 🍿 @florafilmtheater",
       "latestPost": "2026-10-23T16:07:14+0000",
+      "latestPermalink": null,
       "x": -249,
       "y": 308
     },
@@ -2568,6 +2717,7 @@
       "followers": 3690,
       "bio": "speciality coffee & fine food\nwalk in everyday from 9 to 6",
       "latestPost": null,
+      "latestPermalink": null,
       "x": -371,
       "y": -186
     },
@@ -2598,6 +2748,7 @@
       "followers": 4660,
       "bio": "koffie • ontbijt • lunch • borrel • diner \n💙gezelligste buurtcafé van amsterdam oost💙",
       "latestPost": "2026-11-05T17:25:01+0000",
+      "latestPermalink": null,
       "x": 42,
       "y": -412
     },
@@ -2626,6 +2777,7 @@
       "followers": 2302,
       "bio": "OPENING TIMES\nmo 17h\ntue closed\nwed closed\nthu 17h\nfri 17h\nsat 12h\nsun 12h\nWitte de Withstraat 102",
       "latestPost": "2026-11-05T14:08:28+0000",
+      "latestPermalink": null,
       "x": -486,
       "y": -127
     },
@@ -2654,6 +2806,7 @@
       "followers": 1863,
       "bio": "Brasserie de Vluchthaven\n- 99% biologisch\n- 100% eerlijk\n@ Zijpe 1, Bruinisse\nTel. 0111-481228\nEmail: info@devluchthaven.nl\nReserveren kan via:",
       "latestPost": "2026-09-29T13:16:15+0000",
+      "latestPermalink": null,
       "x": -278,
       "y": 326
     },
@@ -2682,6 +2835,7 @@
       "followers": 632,
       "bio": "DIKK\nHelaas gesloten sinds 31 mei 2024, zie onze laatste post.",
       "latestPost": "2024-05-22T07:15:55+0000",
+      "latestPermalink": null,
       "x": -386,
       "y": -149
     },
@@ -2710,6 +2864,7 @@
       "followers": 3244,
       "bio": "Reserveren kan op www.eetcafevanbeeren.nl, maar gewoon even binnen lopen kan ook ❤️. Open van 16 tot 01.00.",
       "latestPost": "2026-10-29T10:01:04+0000",
+      "latestPermalink": null,
       "x": 11,
       "y": -484
     },
@@ -2738,6 +2893,7 @@
       "followers": 3462,
       "bio": "Ricardo’s, authentiek Surinaams genieten sinds 2007! Amsterdam en Almere.",
       "latestPost": "2023-06-20T18:20:59+0000",
+      "latestPermalink": null,
       "x": -279,
       "y": 366
     },
@@ -2766,6 +2922,7 @@
       "followers": 4297,
       "bio": "Wine & Food",
       "latestPost": "2024-05-10T17:46:08+0000",
+      "latestPermalink": null,
       "x": 271,
       "y": 373
     },
@@ -2794,6 +2951,7 @@
       "followers": 210,
       "bio": "Come and eat ramen with us @ Korte Papaverweg 17 (Kometen Brood Café) from 19:00 - late on Friday and Saturday",
       "latestPost": "2022-10-21T19:33:22+0000",
+      "latestPermalink": null,
       "x": -398,
       "y": -164
     },
@@ -2822,8 +2980,40 @@
       "followers": 1152,
       "bio": "Your friendly neighborhood cafe. Come and drink good coffee, eat lunch, have a chat or tell a good dad joke\n- Mon-Fri:8:00h-16:30h\n- Wknd:9:00h-17:00h",
       "latestPost": "2026-10-03T12:32:08+0000",
+      "latestPermalink": null,
       "x": -400,
       "y": -192
+    },
+    {
+      "handle": "gertrudeamsterdam",
+      "name": "Gertrude",
+      "type": "",
+      "neighbourhood": "",
+      "openingSoon": false,
+      "posts": 180,
+      "follows": [
+        "cafebinnenvisser"
+      ],
+      "relations": {
+        "cafebinnenvisser": "following"
+      },
+      "score": 2,
+      "notes": "Amsterdam (in handle/name)",
+      "popup": false,
+      "partTime": false,
+      "active": true,
+      "posFit": true,
+      "mentionedBy": [
+        "outpost_zandvoort"
+      ],
+      "layer": "follow",
+      "amsterdam": true,
+      "followers": 18063,
+      "bio": "dinner tue - sun\nlunch sat - sun\nfamily of @treesamsterdam & @cafetoussaint",
+      "latestPost": "2026-11-04T14:20:39+0000",
+      "latestPermalink": null,
+      "x": 260,
+      "y": 349
     },
     {
       "handle": "hburger.amsterdam",
@@ -2850,6 +3040,7 @@
       "followers": 2271,
       "bio": "Opening hours: Monday to Sunday 16.30-22.00",
       "latestPost": "2022-06-26T15:18:50+0000",
+      "latestPermalink": null,
       "x": 232,
       "y": 347
     },
@@ -2878,6 +3069,7 @@
       "followers": 987,
       "bio": "Bakkerij | Desem Brood | Franse Baguette | Pastries",
       "latestPost": "2024-10-31T17:49:55+0000",
+      "latestPermalink": null,
       "x": -456,
       "y": -92
     },
@@ -2906,6 +3098,7 @@
       "followers": 5209,
       "bio": "Closed",
       "latestPost": null,
+      "latestPermalink": null,
       "x": -459,
       "y": -139
     },
@@ -2934,6 +3127,7 @@
       "followers": 13901,
       "bio": "Café on corner Prinsengracht & Prinsenstraat\nOpen 7 days a week \nDining Room: @christiaansmit.amsterdam",
       "latestPost": "2026-11-02T11:46:32+0000",
+      "latestPermalink": null,
       "x": -461,
       "y": -79
     },
@@ -2962,6 +3156,7 @@
       "followers": 436,
       "bio": "Lets give these products a second chance! \nNow you can make a reservation for you lunch. Link below! \n📍Amsterdam West @contactamsterdam",
       "latestPost": "2022-08-16T05:38:20+0000",
+      "latestPermalink": null,
       "x": -395,
       "y": -93
     },
@@ -2990,6 +3185,7 @@
       "followers": 551,
       "bio": "Seafoodbar in the Foodhallen Amsterdam.",
       "latestPost": "2022-11-05T15:46:37+0000",
+      "latestPermalink": null,
       "x": -296,
       "y": 348
     },
@@ -3018,6 +3214,7 @@
       "followers": 420,
       "bio": "Welcome at Will's micro Bakery @willemijnderks \nHome baker since 2020\nInspired by bakers from all over the world, working together with local MILLS",
       "latestPost": "2021-10-11T10:56:22+0000",
+      "latestPermalink": null,
       "x": -414,
       "y": -172
     },
@@ -3046,6 +3243,7 @@
       "followers": 622,
       "bio": "North-Eastern Chinese Eatery specialized in Dongbei dishes 🥟\n📍Albert Cuypstraat 65, Amsterdam \n📍Gedempte Burgwal 36, Den Haag",
       "latestPost": "2024-01-25T14:55:57+0000",
+      "latestPermalink": null,
       "x": -241,
       "y": 372
     },
@@ -3074,6 +3272,7 @@
       "followers": 3563,
       "bio": "African Cuisine by @alleslifestyle\nLocation: popping up somewhere soon\nomokaamsterdam@gmail.com",
       "latestPost": "2026-10-08T14:28:35+0000",
+      "latestPermalink": null,
       "x": -239,
       "y": 394
     },
@@ -3102,6 +3301,7 @@
       "followers": 1237,
       "bio": "100% sourdough microbakery\nFresh bread & pastries every Thu/ Fri, order through link in bio\nLooking for a new location for Pao+Maska bakery in Ams",
       "latestPost": "2026-09-27T07:07:19+0000",
+      "latestPermalink": null,
       "x": 24,
       "y": -430
     },
@@ -3130,6 +3330,7 @@
       "followers": 3692,
       "bio": "Maandag t/m vrijdag van 17:00-01:00\nZaterdag en zondag van 16:00-01:00\n1e Constantijn Huygensstraat 15\n📞 020 6166166\nReserveer online",
       "latestPost": "2026-11-06T18:38:20+0000",
+      "latestPermalink": null,
       "x": -421,
       "y": -134
     },
@@ -3158,6 +3359,7 @@
       "followers": 1628,
       "bio": "🇪🇸 café at Rembrandtpark\nWed-Sat 10-21, Sun 10-18\nNo reservations\nWednesday Paella!\nWe have Jeu de Boules\nFrom former 🇪🇸 restaurant @parallelamsterdam",
       "latestPost": "2026-07-09T12:39:51+0000",
+      "latestPermalink": null,
       "x": 15,
       "y": -415
     },
@@ -3186,6 +3388,7 @@
       "followers": 87,
       "bio": "a summer wine & pintxos pop up \nby @cafebinnenvisser at @bakkerijlouf de pijp\nthursday - saturday every week | 16:00-22:00\njuly & august",
       "latestPost": "2025-07-22T14:42:32+0000",
+      "latestPermalink": null,
       "x": 217,
       "y": 346
     },
@@ -3214,6 +3417,7 @@
       "followers": 32160,
       "bio": "DAPHNE is open\nA restaurant by @frederikbillebrahe\nOpen daily 11.30 — 00.00",
       "latestPost": "2026-11-06T18:38:09+0000",
+      "latestPermalink": null,
       "x": 253,
       "y": 336
     },
@@ -3242,6 +3446,7 @@
       "followers": 781,
       "bio": "Moderne-Europese keuken 🍽️\nGevestigd in de @vangendthallen 🌱\nDeuren open voor het einde van het jaar.\nWil je bij ons werken? Klik dan op de link ↓",
       "latestPost": "2026-10-05T15:10:58+0000",
+      "latestPermalink": null,
       "x": -221,
       "y": 387
     },
@@ -3270,6 +3475,7 @@
       "followers": 380,
       "bio": "Gaat verder als @apollonia.rest",
       "latestPost": "2022-08-15T19:09:50+0000",
+      "latestPermalink": null,
       "x": -432,
       "y": -104
     },
@@ -3298,6 +3504,7 @@
       "followers": 6776,
       "bio": "Your Algerian hidden gem in Amsterdam 🇩🇿\nWednesday  - Sunday \n12:00 - 20:30",
       "latestPost": "2025-05-08T14:29:07+0000",
+      "latestPermalink": null,
       "x": 251,
       "y": 372
     },
@@ -3326,6 +3533,7 @@
       "followers": 2698,
       "bio": "A wooden house in the jungle. Connected to the forest and farmlands of Umadawa, Pejeng Kangin, Bali\nBy Tijn & @raisakingma",
       "latestPost": "2026-09-29T06:25:00+0000",
+      "latestPermalink": null,
       "x": 246,
       "y": 348
     },
@@ -3354,6 +3562,7 @@
       "followers": 678,
       "bio": "Coffeebar & lunchroom.\nNatuurwijn & delicatessen \nRidderstraat 13, Hattem.",
       "latestPost": "2026-07-04T12:23:22+0000",
+      "latestPermalink": null,
       "x": -438,
       "y": -68
     },
@@ -3382,6 +3591,7 @@
       "followers": 1956,
       "bio": "~ wij zijn permanent gesloten.",
       "latestPost": "2025-12-10T17:31:48+0000",
+      "latestPermalink": null,
       "x": -409,
       "y": -95
     },
@@ -3410,6 +3620,7 @@
       "followers": 9466,
       "bio": "",
       "latestPost": "2026-07-16T00:13:23+0000",
+      "latestPermalink": null,
       "x": -254,
       "y": 321
     },
@@ -3438,38 +3649,9 @@
       "followers": 1622,
       "bio": "GESLOTEN",
       "latestPost": "2023-08-12T10:51:31+0000",
+      "latestPermalink": null,
       "x": -462,
       "y": -164
-    },
-    {
-      "handle": "treesamsterdam",
-      "name": "Trees",
-      "type": "",
-      "neighbourhood": "",
-      "openingSoon": false,
-      "posts": 194,
-      "follows": [
-        "restaurant_barracuda_amsterdam"
-      ],
-      "relations": {
-        "restaurant_barracuda_amsterdam": "following"
-      },
-      "score": 2,
-      "notes": "Amsterdam (in handle/name)",
-      "popup": false,
-      "partTime": false,
-      "active": true,
-      "posFit": true,
-      "mentionedBy": [
-        "klaproosamsterdam"
-      ],
-      "layer": "follow",
-      "amsterdam": true,
-      "followers": 11450,
-      "bio": "restaurant tue - sat \nbar thu - sat \ninfo@treesamsterdam.nl\nfamily of @gertrudeamsterdam & @cafetoussaint",
-      "latestPost": "2026-11-06T16:10:04+0000",
-      "x": -222,
-      "y": 311
     },
     {
       "handle": "turbo.amsterdam",
@@ -3498,6 +3680,7 @@
       "followers": 21709,
       "bio": "SMALL PLATES, COCKTAILS, WINE\nmon - fri | 17:00 - late\nsat - sun | 12:00 - late\nneighbour @buurtcafe.detros \n📍 Reinwardtstraat 1",
       "latestPost": "2026-11-06T10:56:24+0000",
+      "latestPermalink": null,
       "x": 366,
       "y": -149
     },
@@ -3526,6 +3709,7 @@
       "followers": 100551,
       "bio": "🍪 Elke dag geopend\n🕰️ Vanaf 10 uur tot de koek op is!",
       "latestPost": "2026-07-25T08:01:02+0000",
+      "latestPermalink": null,
       "x": 387,
       "y": -131
     },
@@ -3554,8 +3738,40 @@
       "followers": 21912,
       "bio": "📍8-10 Exmouth Market\nWednesday - Saturday 12-14:30 \nTuesday - Saturday 17:30-22:00",
       "latestPost": "2026-11-05T11:30:03+0000",
+      "latestPermalink": null,
       "x": -21,
       "y": -434
+    },
+    {
+      "handle": "wijnwinkel",
+      "name": "Wijnwinkel",
+      "type": "wine shop",
+      "neighbourhood": "",
+      "openingSoon": false,
+      "posts": 639,
+      "follows": [
+        "cafebinnenvisser"
+      ],
+      "relations": {
+        "cafebinnenvisser": "following"
+      },
+      "score": 2,
+      "notes": "city to check",
+      "popup": false,
+      "partTime": false,
+      "active": true,
+      "posFit": true,
+      "mentionedBy": [
+        "outpost_zandvoort"
+      ],
+      "layer": "follow",
+      "amsterdam": false,
+      "followers": 15715,
+      "bio": "",
+      "latestPost": "2026-10-31T08:58:40+0000",
+      "latestPermalink": null,
+      "x": 224,
+      "y": 358
     },
     {
       "handle": "zjeitu.amsterdam",
@@ -3582,6 +3798,7 @@
       "followers": 732,
       "bio": "Pop-up dinners & more \nPart of @kurashi.collective",
       "latestPost": "2025-01-30T17:30:00+0000",
+      "latestPermalink": null,
       "x": 289,
       "y": 371
     },
@@ -3608,6 +3825,7 @@
         "klaproosamsterdam"
       ],
       "layer": "mention",
+      "latestPermalink": null,
       "x": -52,
       "y": 77
     },
@@ -3634,6 +3852,7 @@
         "sebonsa.ams"
       ],
       "layer": "mention",
+      "latestPermalink": null,
       "x": -210,
       "y": 53
     },
@@ -3661,6 +3880,7 @@
         "toscaninirestaurant"
       ],
       "layer": "mention",
+      "latestPermalink": null,
       "x": -72,
       "y": -36
     },
@@ -3687,6 +3907,7 @@
         "sebonsa.ams"
       ],
       "layer": "mention",
+      "latestPermalink": null,
       "x": -145,
       "y": 102
     },
@@ -3713,6 +3934,7 @@
         "rookt.amsterdam"
       ],
       "layer": "mention",
+      "latestPermalink": null,
       "x": -137,
       "y": -284
     },
@@ -3741,6 +3963,7 @@
       "followers": 53917,
       "bio": "Natural wine bar and shop in east London. \nKitchen open hours: \nWednesday - Friday 6-9pm\nSaturday 2-9pm\nNo corkage Sunday & Monday",
       "latestPost": "2026-11-04T14:46:54+0000",
+      "latestPermalink": null,
       "x": 268,
       "y": 323
     },
@@ -3769,6 +3992,7 @@
       "followers": 5014,
       "bio": "Buurtbakkerij + galerie Rotterdam West. Bio en lokaal. Open: woe, don, vrij van 8-15 uur,zat van 9-15 uur.Dit najaar openen we op het Middellandplein!",
       "latestPost": "2026-11-05T17:07:40+0000",
+      "latestPermalink": null,
       "x": -446,
       "y": -141
     },
@@ -3797,6 +4021,7 @@
       "followers": 10940,
       "bio": "Artisanal bakery by @amadouly located on the lower level in Chelsea Market. Open Weds - Sun 9am-6pm.",
       "latestPost": "2025-06-11T14:46:28+0000",
+      "latestPermalink": null,
       "x": -383,
       "y": -86
     },
@@ -3825,6 +4050,7 @@
       "followers": 15543,
       "bio": "Panes de masa madre y bollería artesanal con materias primas ecológicas y de proximidad.",
       "latestPost": "2026-11-06T09:00:57+0000",
+      "latestPermalink": null,
       "x": -404,
       "y": -113
     },
@@ -3853,6 +4079,7 @@
       "followers": 4587,
       "bio": "Where the glass is always half full\nClosed for now - stay tuned",
       "latestPost": "2024-11-30T08:00:16+0000",
+      "latestPermalink": null,
       "x": -448,
       "y": -82
     },
@@ -3881,6 +4108,7 @@
       "followers": 6834,
       "bio": "Open every day - 09.00\nBreakfast | Lunch | Dinner | Drinks | Events | Expo | Workspace",
       "latestPost": "2026-11-02T11:09:59+0000",
+      "latestPermalink": null,
       "x": -387,
       "y": -177
     },
@@ -3909,6 +4137,7 @@
       "followers": 3386,
       "bio": "Café - Brood - Patisserie - Winkel\n#bakhuysamsterdam",
       "latestPost": "2026-07-15T10:17:24+0000",
+      "latestPermalink": null,
       "x": -445,
       "y": -203
     },
@@ -3937,6 +4166,7 @@
       "followers": 2885,
       "bio": "• Croissants, patisserie & koffie\n• To stay & take-away\n• Donderdag t/m zondag 8:30 tot 16:00 geopend",
       "latestPost": "2026-11-07T10:11:55+0000",
+      "latestPermalink": null,
       "x": -485,
       "y": -141
     },
@@ -3965,6 +4195,7 @@
       "followers": 5002,
       "bio": "Desembakkerij & café \n🥖Bakkerij MAS, Newtonstraat 101, woe t/m za: 8.30 - 16\n🥐MAS Atelier, Pretoriusstraat 33, woe t/m za: 8.30 - 15 & zo: 9 - 14",
       "latestPost": "2026-11-07T08:13:21+0000",
+      "latestPermalink": null,
       "x": -356,
       "y": -105
     },
@@ -3993,6 +4224,7 @@
       "followers": 10458,
       "bio": "WINE BAR\nCLOSED, KEEP AN EYE OUT FOR POP-UPS IN THE FUTURE.",
       "latestPost": "2026-02-21T12:11:28+0000",
+      "latestPermalink": null,
       "x": -381,
       "y": -133
     },
@@ -4021,6 +4253,7 @@
       "followers": 11773,
       "bio": "Hungry for more • this is my soul\nNo boundaries • only movement\nEach location a new • unique place\nMore info: dm or info@hungry-lewis.be",
       "latestPost": "2025-09-24T15:37:44+0000",
+      "latestPermalink": null,
       "x": -432,
       "y": -167
     },
@@ -4049,6 +4282,7 @@
       "followers": 1542,
       "bio": "Gesloten",
       "latestPost": "2023-11-13T13:37:00+0000",
+      "latestPermalink": null,
       "x": -373,
       "y": -144
     },
@@ -4077,6 +4311,7 @@
       "followers": 4457,
       "bio": "We bring the ever-lively, no-strings-attached hospitality of Tel Aviv markets to Amsterdam.\n🐟 Open from Wednesday until Saturday from 18:00.",
       "latestPost": "2023-05-13T15:55:40+0000",
+      "latestPermalink": null,
       "x": -354,
       "y": -88
     },
@@ -4105,6 +4340,7 @@
       "followers": 3100,
       "bio": "Waar wij zijn?\n👉Zonneplein 18 in Noord \n👉Reinier Claeszenstraat 4 in West",
       "latestPost": "2026-11-06T15:25:27+0000",
+      "latestPermalink": null,
       "x": -429,
       "y": -79
     },
@@ -4133,6 +4369,7 @@
       "followers": 3792,
       "bio": "Nederlands eerste vrouwensportsbar [Women’s Sports Bar]\nVoor iedereen ❤️🏳️‍🌈\nRotterdam\nHelp ons openen in december 👇",
       "latestPost": "2026-11-04T14:29:30+0000",
+      "latestPermalink": null,
       "x": -252,
       "y": 399
     },
@@ -4161,6 +4398,7 @@
       "followers": 19229,
       "bio": "Ciao amore 🌹 Your new favorite Italian.\nBook your table now! ✨",
       "latestPost": "2026-11-06T07:31:31+0000",
+      "latestPermalink": null,
       "x": -481,
       "y": -103
     },
@@ -4189,6 +4427,7 @@
       "followers": 9171,
       "bio": "All day, Turkish brunch and lunch!\nOpen Wed-Sun, 09:00-16:00\nReserve your table by visiting the link👇🏻",
       "latestPost": "2026-11-06T08:50:52+0000",
+      "latestPermalink": null,
       "x": -21,
       "y": -420
     },
@@ -4217,6 +4456,7 @@
       "followers": 22369,
       "bio": "🍷🥢 Open Tue to Sat 6pm - 12am 🌙                                   \nDM or 📞  3937240706",
       "latestPost": "2026-11-03T13:58:51+0000",
+      "latestPermalink": null,
       "x": 271,
       "y": 387
     },
@@ -4245,6 +4485,7 @@
       "followers": 8816,
       "bio": "French/Mediteranian Seafood kitchen.   🦐🐟🦪🦞🦀\nOne Michelin ⭐️ à la carte restaurant by @group212.amsterdam",
       "latestPost": "2026-11-04T18:04:57+0000",
+      "latestPermalink": null,
       "x": -266,
       "y": 362
     },
@@ -4273,6 +4514,7 @@
       "followers": 5890,
       "bio": "À la carte bar & bistro met terras op ‘t Zuid\n🍽 wo-do-vr 17-24u, za 12-24u en zo 12-23u\n📨 info@bistromonroe.be\n👨‍👩‍👧‍👦🥳👨‍👩‍👦 groepen & events",
       "latestPost": "2026-11-07T10:00:20+0000",
+      "latestPermalink": null,
       "x": -417,
       "y": -106
     },
@@ -4301,6 +4543,7 @@
       "followers": 4083,
       "bio": "Michelin | 1 star\nGault&Millau | 15\nChef Jimmy Collodoro\nBraine-le-château BE",
       "latestPost": "2026-11-05T21:47:51+0000",
+      "latestPermalink": null,
       "x": -380,
       "y": -100
     },
@@ -4329,6 +4572,7 @@
       "followers": 7104,
       "bio": "Mardi - Samedi : 8h00-20h00\nDimanche : 8h00-13h00",
       "latestPost": "2026-10-30T18:00:31+0000",
+      "latestPermalink": null,
       "x": 405,
       "y": -129
     },
@@ -4357,6 +4601,7 @@
       "followers": 9910,
       "bio": "Sourdough NY bagels\nCanadian owned 🇨🇦\nHandrolled, boiled & baked daily\n7 days a week\nDe Pijp 📍\nJordaan 📍",
       "latestPost": "2026-09-15T10:39:47+0000",
+      "latestPermalink": null,
       "x": -10,
       "y": -460
     },
@@ -4385,6 +4630,7 @@
       "followers": 32063,
       "bio": "01.01.2027 The First Dance",
       "latestPost": "2026-11-05T15:03:23+0000",
+      "latestPermalink": null,
       "x": -425,
       "y": -155
     },
@@ -4413,6 +4659,7 @@
       "followers": 16133,
       "bio": "French bakery in Amsterdam! 🥖🥐☕️\nBrioches, croissants, pains au chocolat, bread, coffee and more. 🧡\nOpen Wed-Fri: 8:00-17:30, Sat-Sun: 9:00-17:00",
       "latestPost": "2026-11-06T09:15:44+0000",
+      "latestPermalink": null,
       "x": -362,
       "y": -135
     },
@@ -4441,6 +4688,7 @@
       "followers": 825,
       "bio": "✨ Sourdough wonderland of @martine.janzen 🇳🇱\n🌾 Bakes for fun with great ambitions\n♥️ I don't do failures. Every attempt is a succes on its own",
       "latestPost": "2025-02-17T21:20:18+0000",
+      "latestPermalink": null,
       "x": -480,
       "y": -154
     },
@@ -4469,6 +4717,7 @@
       "followers": 4377,
       "bio": "Dik belegde broodjes zoals ‘t hoort.\nWij smeren al sinds 1974.\n📍Van Woustraat 20\n📍Spui 8\nCatering? Stuur ons een DM.",
       "latestPost": "2026-11-06T16:20:18+0000",
+      "latestPermalink": null,
       "x": -446,
       "y": -102
     },
@@ -4497,6 +4746,7 @@
       "followers": 2738,
       "bio": "Café AMI, your new favourite restaurant.\nLunch, dinner & drinks.",
       "latestPost": "2026-09-25T15:59:19+0000",
+      "latestPermalink": null,
       "x": -477,
       "y": -117
     },
@@ -4525,6 +4775,7 @@
       "followers": 5551,
       "bio": "Drinks | Vinyl | Food \n🌞Wed, Thurs, Sun 16-1\n🍸Fri 16-3\n🪩Sat 16-3\n@sammiessandwichshop 11-4 Wed-Sun\n🫂 Family @sonoor.bar \n🎶 Store @store.bakeliet",
       "latestPost": "2026-11-06T10:27:24+0000",
+      "latestPermalink": null,
       "x": -395,
       "y": -79
     },
@@ -4553,6 +4804,7 @@
       "followers": 2559,
       "bio": "28/12/2024 last service 🫶",
       "latestPost": "2024-12-28T11:22:20+0000",
+      "latestPermalink": null,
       "x": -370,
       "y": -124
     },
@@ -4581,36 +4833,9 @@
       "followers": 5962,
       "bio": "Since 2018🤟\n#cafesaar\nOPEN MON - FRI FROM 5PM \n& SAT AT 12🍷🧀",
       "latestPost": "2026-11-05T13:36:50+0000",
+      "latestPermalink": null,
       "x": -237,
       "y": 359
-    },
-    {
-      "handle": "cafebeurreamsterdam",
-      "name": "Café Beurre",
-      "type": "cafe",
-      "neighbourhood": "",
-      "openingSoon": false,
-      "posts": 422,
-      "follows": [
-        "kometenbrood"
-      ],
-      "relations": {
-        "kometenbrood": "following"
-      },
-      "score": 1,
-      "notes": "Amsterdam (in handle/name)",
-      "popup": false,
-      "partTime": false,
-      "active": true,
-      "posFit": true,
-      "mentionedBy": [],
-      "layer": "follow",
-      "amsterdam": true,
-      "followers": 12745,
-      "bio": "walk-ins & reservations\n7 days a week from 18:00 - closing\nfamily of @petitpecheamsterdam\nspecial request? email or dm info@cafebeurreamsterdanm.nl",
-      "latestPost": "2026-10-27T17:59:21+0000",
-      "x": -372,
-      "y": -158
     },
     {
       "handle": "cafekompleet",
@@ -4637,6 +4862,7 @@
       "followers": 3750,
       "bio": "een eetcafé voor de buurt\nelke dag geopend van 10 tot laat",
       "latestPost": "2026-11-07T11:51:30+0000",
+      "latestPermalink": null,
       "x": 10,
       "y": -428
     },
@@ -4665,6 +4891,7 @@
       "followers": 13068,
       "bio": "elke dag open vanaf 11:00\ndiner - dinsdag t/m zaterdag\n🫳 zuurdesem en focaccia te koop van dinsdag t/m zondag",
       "latestPost": "2026-11-05T15:41:08+0000",
+      "latestPermalink": null,
       "x": -223,
       "y": 336
     },
@@ -4693,6 +4920,7 @@
       "followers": 1859,
       "bio": "❤️ Jouw favoriete café aan het Vondelpark \n🍻 Ma t/m Vr: 15:00 | Za & Zo: 11:00\n🧠 Pubquiz op Ma & Wo (international) vanaf 19:00",
       "latestPost": "2026-11-04T14:53:22+0000",
+      "latestPermalink": null,
       "x": -401,
       "y": -178
     },
@@ -4721,6 +4949,7 @@
       "followers": 11655,
       "bio": "italian restaurant & hotel\nfamily @cafebinnenvisser\n- \nopen 7/7\nlunch on sat & sun \nonline reservations & walk in \nbook a room on our website",
       "latestPost": "2026-11-06T11:00:02+0000",
+      "latestPermalink": null,
       "x": 225,
       "y": 334
     },
@@ -4749,6 +4978,7 @@
       "followers": 22838,
       "bio": "Italian Trattoria | 1200 - 0100\nLunch, Dinner and Aperitivo.\nReservations via website or walk-in\nGroup bookings please email to info@ceppis.nl",
       "latestPost": "2026-11-03T11:48:20+0000",
+      "latestPermalink": null,
       "x": 401,
       "y": -142
     },
@@ -4777,6 +5007,7 @@
       "followers": 53321,
       "bio": "A Charcoal Fish Shop by @mrniland\nClosed. For Now.",
       "latestPost": "2024-03-31T03:14:29+0000",
+      "latestPermalink": null,
       "x": -271,
       "y": 339
     },
@@ -4805,6 +5036,7 @@
       "followers": 15062,
       "bio": "",
       "latestPost": "2026-10-22T11:13:56+0000",
+      "latestPermalink": null,
       "x": -419,
       "y": -199
     },
@@ -4833,6 +5065,7 @@
       "followers": 3810,
       "bio": "Mariscos y Arroces en la Barceloneta\nAbierto todos los días",
       "latestPost": "2026-11-06T12:55:41+0000",
+      "latestPermalink": null,
       "x": -262,
       "y": 304
     },
@@ -4861,6 +5094,7 @@
       "followers": 17038,
       "bio": "Mexican taqueria, Thursday till Sunday\nbefore and after dinner you can visit our mezcaleria next door  @tula.cantina\nWalk-ins welcome",
       "latestPost": "2026-11-04T17:00:57+0000",
+      "latestPermalink": null,
       "x": -400,
       "y": -150
     },
@@ -4889,6 +5123,7 @@
       "followers": 7613,
       "bio": "A unique, floating restaurant, bar and gallery space.\n-\n Chef patron @inaki_bolumburu",
       "latestPost": "2024-11-12T15:41:23+0000",
+      "latestPermalink": null,
       "x": -444,
       "y": -116
     },
@@ -4917,6 +5152,7 @@
       "followers": 21035,
       "bio": "Creative Culinary Studio\nCatering & Production\nThe restaurant → @copain.restaurant\nBy @frederiekebloem chef @ivanbeusink",
       "latestPost": "2026-10-26T16:01:36+0000",
+      "latestPermalink": null,
       "x": -452,
       "y": -68
     },
@@ -4945,6 +5181,7 @@
       "followers": 35154,
       "bio": "Mindful gastronomy & curated sounds\n@michelinguide: ⭐️\nRestaurant Wed - Sun\nListening bar: Wed - Sat \nChef: @deonlygeorgie_ \nSommelier: @mohamedaous",
       "latestPost": "2026-11-07T10:28:45+0000",
+      "latestPermalink": null,
       "x": -406,
       "y": -71
     },
@@ -4973,6 +5210,7 @@
       "followers": 18284,
       "bio": "🥪Sandwiches filled with homemade ingredients\n⏰ Wed-Sun 11:00-17:00 (Mon-Tue closed)\n🍴 Catering or private dining, get in contact ⬇️",
       "latestPost": "2026-11-03T07:18:25+0000",
+      "latestPermalink": null,
       "x": -47,
       "y": -417
     },
@@ -5001,6 +5239,7 @@
       "followers": 3467,
       "bio": "Hét café-restaurant van de NDSM\nIedere dag open van vroeg tot laat",
       "latestPost": "2026-11-06T15:16:23+0000",
+      "latestPermalink": null,
       "x": -384,
       "y": -191
     },
@@ -5029,6 +5268,7 @@
       "followers": 2037,
       "bio": "Interior design studio for cafés, karaokebooths, bathrooms & everything in between. Sharing our own projects + interior inspiration.",
       "latestPost": "2023-10-18T17:17:57+0000",
+      "latestPermalink": null,
       "x": 242,
       "y": 390
     },
@@ -5057,6 +5297,7 @@
       "followers": 1617,
       "bio": "Importeur van bijzondere, gastronomische wijnen. \nSpecialist in de Jura & Corsica.\n👇",
       "latestPost": "2026-11-06T08:00:32+0000",
+      "latestPermalink": null,
       "x": 38,
       "y": -427
     },
@@ -5085,6 +5326,7 @@
       "followers": 5614,
       "bio": "A casual music and wine bar in Amsterdam. Celebrating the simple pleasures;  wine, music & delicate food. Walk ins only.",
       "latestPost": "2026-11-05T11:17:09+0000",
+      "latestPermalink": null,
       "x": -382,
       "y": -117
     },
@@ -5113,6 +5355,7 @@
       "followers": 8620,
       "bio": "🍕 Pizza romana\n👌 Dun, knapperig en gemaakt om te delen\n🥂 Jouw bruisende plek in de buurt sinds 2009\n•\n📍Door heel Nederland",
       "latestPost": "2026-11-07T13:00:23+0000",
+      "latestPermalink": null,
       "x": -453,
       "y": -153
     },
@@ -5141,6 +5384,7 @@
       "followers": 113219,
       "bio": "Music | Art | Culture | Food",
       "latestPost": "2025-11-13T10:07:44+0000",
+      "latestPermalink": null,
       "x": 281,
       "y": 318
     },
@@ -5169,6 +5413,7 @@
       "followers": 3011,
       "bio": "☀️ Terras met uitzicht op de Amstel\n🕗 Elke dag 08:00 uur open\n🍷 Ontbijt | Lunch | Diner | Borrel",
       "latestPost": "2026-10-30T17:14:42+0000",
+      "latestPermalink": null,
       "x": -416,
       "y": -120
     },
@@ -5197,6 +5442,7 @@
       "followers": 13280,
       "bio": "🇹🇷 Best Lahmacun in Amsterdam!\n🌯Traditional Turkish Food\n📍Located in Amsterdam\n  - Rozengracht 148\n  - Overtoom 85",
       "latestPost": "2026-09-01T10:00:09+0000",
+      "latestPermalink": null,
       "x": 39,
       "y": -398
     },
@@ -5225,6 +5471,7 @@
       "followers": 3099,
       "bio": "Importeur van sprekende, zuivere en spannende Italiaanse wijnen.\nVan kleine, toonaangevende wijnmakers.\nAmsterdam Oost, dal 1990.",
       "latestPost": "2026-11-06T10:15:07+0000",
+      "latestPermalink": null,
       "x": -34,
       "y": -413
     },
@@ -5253,6 +5500,7 @@
       "followers": 11441,
       "bio": "OG handrolled, freshly boiled and baked bagels in Amsterdam!",
       "latestPost": "2026-10-31T16:43:49+0000",
+      "latestPermalink": null,
       "x": 462,
       "y": -136
     },
@@ -5281,6 +5529,7 @@
       "followers": 24888,
       "bio": "FOCACCIA COMIN’ ATCHA\nHandmade Focaccia Genovese\nZero Waste Kitchen\n🕙 Wed-Sun 11:00-17:00 (or until sold out)\n☎️0618677693\nmarketing @asianconsulting_",
       "latestPost": "2026-11-04T13:00:25+0000",
+      "latestPermalink": null,
       "x": -451,
       "y": -128
     },
@@ -5309,6 +5558,7 @@
       "followers": 41525,
       "bio": "maandag - zaterdag 08:00-18:00\nzondag 08:00-16:00\n🥪 @fort.negen.sandwichbar",
       "latestPost": "2026-11-06T09:41:41+0000",
+      "latestPermalink": null,
       "x": 420,
       "y": -141
     },
@@ -5337,6 +5587,7 @@
       "followers": 51961,
       "bio": "🇦🇷 Desde 1989\n☕🍽️ Restaurante | Cafetería | Pastelería | Lunch\n📞 4763-2303 | 4721-9051 | 11-7082-8524\n🕒 Lunes a Sab de 7-21hs Domingo de 8-20hs",
       "latestPost": "2026-11-06T21:47:15+0000",
+      "latestPermalink": null,
       "x": -226,
       "y": 350
     },
@@ -5365,6 +5616,7 @@
       "followers": 6917,
       "bio": "Your funky Mexican Cantina\n*You can now order your delivery via Uber or take away by phone*\nOpen Tuesday till Saturday from 18:00-22:00",
       "latestPost": "2020-09-01T10:16:50+0000",
+      "latestPermalink": null,
       "x": 256,
       "y": 311
     },
@@ -5393,36 +5645,9 @@
       "followers": 8668,
       "bio": "Gave aims to revitalize our coffeehouse culture with a contemporary twist that preserves values from our history. 📞 +90 (548) 888 42 83",
       "latestPost": "2026-08-20T05:41:45+0000",
+      "latestPermalink": null,
       "x": 25,
       "y": -466
-    },
-    {
-      "handle": "gertrudeamsterdam",
-      "name": "Gertrude",
-      "type": "",
-      "neighbourhood": "",
-      "openingSoon": false,
-      "posts": 180,
-      "follows": [
-        "cafebinnenvisser"
-      ],
-      "relations": {
-        "cafebinnenvisser": "following"
-      },
-      "score": 1,
-      "notes": "Amsterdam (in handle/name)",
-      "popup": false,
-      "partTime": false,
-      "active": true,
-      "posFit": true,
-      "mentionedBy": [],
-      "layer": "follow",
-      "amsterdam": true,
-      "followers": 18063,
-      "bio": "dinner tue - sun\nlunch sat - sun\nfamily of @treesamsterdam & @cafetoussaint",
-      "latestPost": "2026-11-04T14:20:39+0000",
-      "x": 260,
-      "y": 349
     },
     {
       "handle": "gorgolunchroom",
@@ -5449,6 +5674,7 @@
       "followers": 3635,
       "bio": "Wed–Sun | 10:00–17:00\nNeither East nor West\nReimagining the flavors of Anatolia for today",
       "latestPost": "2026-11-07T09:47:27+0000",
+      "latestPermalink": null,
       "x": -2,
       "y": -479
     },
@@ -5477,6 +5703,7 @@
       "followers": 3145,
       "bio": "Cooks, eats and explores. 🦞                                  @jetdebruijn\nPrivate chef in Amsterdam • say hi: DM",
       "latestPost": "2026-11-05T17:00:02+0000",
+      "latestPermalink": null,
       "x": -467,
       "y": -151
     },
@@ -5505,6 +5732,7 @@
       "followers": 16454,
       "bio": "Everything is handmade💚\nFrench pastries🥐Specialty coffee ☕️\nWhen are we open?Tue-Fri 8:00-14:00\nClosed sat-sun-mon\n@_maxime_papin @fragilefood_studio",
       "latestPost": "2026-10-19T08:19:26+0000",
+      "latestPermalink": null,
       "x": -395,
       "y": -137
     },
@@ -5533,6 +5761,7 @@
       "followers": 11512,
       "bio": "🎨 Kleurrijk terras aan het water\n☀️ 7 dagen in de week open\n⛵️ Exclusieve verhuur @hannekesboot\n🎷 Elke zondag livemuziek (14:00-17:00)",
       "latestPost": "2026-11-06T16:04:32+0000",
+      "latestPermalink": null,
       "x": -357,
       "y": -119
     },
@@ -5561,6 +5790,7 @@
       "followers": 15220,
       "bio": "Bar · Restaurant · Events · Rooftop\nDe ruige schoonheid van de haven.\nMa - za 17:00 - 01:00 \nza - zo 12:00 - 01:00\nReserveer via de link ↓",
       "latestPost": "2026-11-05T10:46:38+0000",
+      "latestPermalink": null,
       "x": -406,
       "y": -204
     },
@@ -5589,6 +5819,7 @@
       "followers": 4055,
       "bio": "Woensdag t/m zondag open vanaf 16.00 tot zolang het gezellig is!",
       "latestPost": "2026-11-02T17:11:27+0000",
+      "latestPermalink": null,
       "x": -273,
       "y": 378
     },
@@ -5617,6 +5848,7 @@
       "followers": 9649,
       "bio": "Everything, all day. Gelegen midden op het dorpsplein van de iconische NDSM werf. 🍺We’ve got you🍔",
       "latestPost": "2026-11-04T07:30:07+0000",
+      "latestPermalink": null,
       "x": -411,
       "y": -159
     },
@@ -5645,6 +5877,7 @@
       "followers": 15790,
       "bio": "Vins vivants, slowfood, dîners, fêtes \nLundi au samedi, de 18h à 23h\nPas de réservations\nDeuxième adresse : @ivresse.au.fracsud",
       "latestPost": "2026-10-27T13:47:25+0000",
+      "latestPermalink": null,
       "x": 239,
       "y": 362
     },
@@ -5673,6 +5906,7 @@
       "followers": 3081133,
       "bio": "Finding the best food & experiences on earth 🌎 \n@yeschefguides @yescheffoodfest @yeschefreserve @yeschef.supply @yeschefrunclub @yeschefgroup",
       "latestPost": "2026-11-06T23:20:25+0000",
+      "latestPermalink": null,
       "x": 428,
       "y": -112
     },
@@ -5701,6 +5935,7 @@
       "followers": 25904,
       "bio": "KATSUSANDO, DONBURI & MORE.\n📍 @sidewalk_kitchens SENMON 専門\n📍 @mercatoisola IZAKAYA 居酒屋\n🏯 @glovo_it",
       "latestPost": "2026-11-06T16:21:00+0000",
+      "latestPermalink": null,
       "x": -415,
       "y": -82
     },
@@ -5729,6 +5964,7 @@
       "followers": 3951,
       "bio": "De huiskamer van Vinkeveen\n☕️ 6 dagen open 9-16u\n☕️ Ontbijt • Taart • Lunch \n☕️ Dinsdags dicht\n🍷 De Goede Avond / private dining voor groepen",
       "latestPost": "2026-10-31T17:02:35+0000",
+      "latestPermalink": null,
       "x": -412,
       "y": -186
     },
@@ -5757,6 +5993,7 @@
       "followers": 12166,
       "bio": "Italian dining in Amsterdam\nServing lunch & dinner\nGroup bookings & events welcome\nReserve your table via the link below",
       "latestPost": "2026-11-06T17:30:49+0000",
+      "latestPermalink": null,
       "x": -348,
       "y": -137
     },
@@ -5785,6 +6022,7 @@
       "followers": 952,
       "bio": "La Douzaine - Oesters & Wijn & Zo\nJavastraat 143h\nWoe-Do : 15:00- 21:30 +/-\nVrij -Zat : 12:00 - 22:30 +/-\nZondag: 12:00 - 20:00 +/-\nÀ bientôt",
       "latestPost": "2026-08-21T09:01:24+0000",
+      "latestPermalink": null,
       "x": -35,
       "y": -458
     },
@@ -5813,6 +6051,7 @@
       "followers": 12100,
       "bio": "Just good ass Fried chicken, vibes and Cocktails!!! Location: Sarphatipark 4, De Pijp, Amsterdam.",
       "latestPost": "2025-05-17T15:34:11+0000",
+      "latestPermalink": null,
       "x": -249,
       "y": 384
     },
@@ -5841,6 +6080,7 @@
       "followers": 27169,
       "bio": "PAIN AU LEVAIN et VIN NATUREL\nAMSTERDAM\nMon-Thu 8:30-17:00\nFriday 8:30-18:00\nSat 10:00-17:00\n@florencegramende @constantijnvanstirum \n@la_maletrie",
       "latestPost": "2026-11-06T13:54:31+0000",
+      "latestPermalink": null,
       "x": 376,
       "y": -139
     },
@@ -5869,6 +6109,7 @@
       "followers": 2785,
       "bio": "🏢 Kantoorverzamelgebouw vol creatievelingen \n📍 Parnassusweg 126, 1076 AT Amsterdam\n👩‍💻 Ruimte huren in Lokaal Lokaal?  @temporarypalaces.ams",
       "latestPost": "2025-11-11T15:31:44+0000",
+      "latestPermalink": null,
       "x": -371,
       "y": -200
     },
@@ -5897,6 +6138,7 @@
       "followers": 6537,
       "bio": "Restaurant & bar \nWeekdays: open from 11.00\nWeekends: open from 10.30",
       "latestPost": "2026-11-05T09:00:50+0000",
+      "latestPermalink": null,
       "x": -288,
       "y": 316
     },
@@ -5925,6 +6167,7 @@
       "followers": 902,
       "bio": "🇭🇺 Hungarian wine importer in the NL 📍Amsterdam\n🌱Biodynamic, organic and natural wines from Hungary \n🍇 Local grapes varieties \n🍷 Webshop 👇",
       "latestPost": "2026-02-09T16:49:44+0000",
+      "latestPermalink": null,
       "x": 29,
       "y": -416
     },
@@ -5953,6 +6196,7 @@
       "followers": 57865,
       "bio": "Unique Smashburgers, locally sourced\n📍 Amsterdam, 2 locations\n📍 Antwerp\nFresh & homemade until sold out 🍔 #34 BEST WORLDWIDE @worldbestburgerplaces",
       "latestPost": "2026-10-28T11:11:13+0000",
+      "latestPermalink": null,
       "x": 407,
       "y": -103
     },
@@ -5981,6 +6225,7 @@
       "followers": 2773,
       "bio": "🌱Speciality coffee on a cozy corner in Amsterdam. Our kitchen is permanently closed!",
       "latestPost": "2026-10-31T18:30:41+0000",
+      "latestPermalink": null,
       "x": 3,
       "y": -466
     },
@@ -6009,6 +6254,7 @@
       "followers": 4720,
       "bio": "🌮TACOS🌮TACOS🌮TACOS🌮\nOpen Every Day from 17.30\nEvery Thursday €5 margaritas all night long for dining guests 🪩",
       "latestPost": "2026-10-24T19:40:53+0000",
+      "latestPermalink": null,
       "x": -237,
       "y": 341
     },
@@ -6037,6 +6283,7 @@
       "followers": 1696,
       "bio": "Steenoven pizza's in Amsterdam Noord /\nWood fired oven pizzas  in the north of Amsterdam",
       "latestPost": "2026-06-19T12:35:16+0000",
+      "latestPermalink": null,
       "x": -431,
       "y": -205
     },
@@ -6065,6 +6312,7 @@
       "followers": 49935,
       "bio": "Pastries, bread, and joyful bakes made with premium ingredients and expert techniques.\nMon-Fri: 7-7, Sat: 7:30-7, Sun: 7:30-6",
       "latestPost": "2026-10-26T14:10:53+0000",
+      "latestPermalink": null,
       "x": -440,
       "y": -178
     },
@@ -6093,6 +6341,7 @@
       "followers": 5908,
       "bio": "🔥Brunch & Bloody Mary’s\n⚓️Sailing Sat & Sun\n📍Herengracht 124\n“The only Brunch Boat in the World”",
       "latestPost": "2025-08-06T10:03:14+0000",
+      "latestPermalink": null,
       "x": -392,
       "y": -107
     },
@@ -6121,6 +6370,7 @@
       "followers": 6747,
       "bio": "🇨🇾 First Cyprus bakery in Amsterdam\n🪑 Take a seat and sip your coffee\n🥐 Daily homemade bakes • Cozy vibes • Soft tunes",
       "latestPost": "2026-10-31T07:15:16+0000",
+      "latestPermalink": null,
       "x": -49,
       "y": -457
     },
@@ -6149,6 +6399,7 @@
       "followers": 643,
       "bio": "MOST is the one-stop shop for all things audible, creating award-winning music & sound for short-form media from the heart of Amsterdam. 🎵+🎥 =✨",
       "latestPost": "2026-09-03T11:35:00+0000",
+      "latestPermalink": null,
       "x": -447,
       "y": -166
     },
@@ -6177,6 +6428,7 @@
       "followers": 2031,
       "bio": "British savoury pies, reimagined - handmade in Amsterdam 🥧\nTUE - SAT 11:00 - 18:00\n💌Get in touch at info@mpies.nl",
       "latestPost": "2026-11-06T15:21:26+0000",
+      "latestPermalink": null,
       "x": -268,
       "y": 317
     },
@@ -6205,6 +6457,7 @@
       "followers": 3211,
       "bio": "specialty coffee, natural wine, baked goods \nweekdays 8-4\nweekend 8.30-5                                                 📍Postjesweg 98, Amsterdam",
       "latestPost": "2026-11-04T12:35:12+0000",
+      "latestPermalink": null,
       "x": -464,
       "y": -123
     },
@@ -6233,6 +6486,7 @@
       "followers": 7838,
       "bio": "🍝Make pasta, make friends!\n🇮🇹New pasta shop in town🇮🇹\n📍Dapperstraat 40h, Amsterdam\n🤌🏻Pasta or pizza workshop?",
       "latestPost": "2026-11-06T16:55:09+0000",
+      "latestPermalink": null,
       "x": -430,
       "y": -118
     },
@@ -6261,6 +6515,7 @@
       "followers": 4337,
       "bio": "Distilleerderij met proeflokaal. \nJenevers, likeuren, whisky’s en meer.\nOpeningstijden:\n- di t/m vrij: 15u - 20u\n- za en zo: 13u - 20u",
       "latestPost": "2026-09-10T14:50:38+0000",
+      "latestPermalink": null,
       "x": 49,
       "y": -436
     },
@@ -6289,6 +6544,7 @@
       "followers": 11413,
       "bio": "Cultural café, restaurant and hangout\nSustainable and local\nReservations and more👇",
       "latestPost": "2026-10-27T11:00:02+0000",
+      "latestPermalink": null,
       "x": -432,
       "y": -143
     },
@@ -6317,6 +6573,7 @@
       "followers": 3970,
       "bio": "‘O’ is part of @fenix \nCafé | Tue - Sun 10:00 - 17:00\nClosed on Mondays",
       "latestPost": "2026-10-20T12:57:05+0000",
+      "latestPermalink": null,
       "x": -24,
       "y": -488
     },
@@ -6345,6 +6602,7 @@
       "followers": 3561,
       "bio": "Cuisine française 🍴🍷\nThe french bistro in Jordaan\nAmsterdam📍 \n06.55.95.85.83 ☎️",
       "latestPost": "2026-10-10T08:20:21+0000",
+      "latestPermalink": null,
       "x": 261,
       "y": 363
     },
@@ -6373,6 +6631,7 @@
       "followers": 5065,
       "bio": "Taste the authenticity at Pazzi Amsterdam❤️ \nPazzi West • Pazzi Oost • Pazzi Jordaan • Pazzi Pijp • Pazzi Westerpark",
       "latestPost": "2026-11-05T11:00:12+0000",
+      "latestPermalink": null,
       "x": 229,
       "y": 396
     },
@@ -6401,6 +6660,7 @@
       "followers": 13579,
       "bio": "🥐 Tarts, Viennoiseries, Coffee, Masterclasses\n📍Haarlemmerstraat 80 (⏱10-18)\n📍Foodhallen, Bellamyplein 51 \n📧 bonjour@petitgateau.nl for requests!",
       "latestPost": "2026-10-09T17:22:18+0000",
+      "latestPermalink": null,
       "x": -457,
       "y": -111
     },
@@ -6429,6 +6689,7 @@
       "followers": 3212,
       "bio": "Slow Food , organic Italian restaurant in the Amsterdam city center",
       "latestPost": "2026-10-29T11:28:59+0000",
+      "latestPermalink": null,
       "x": -201,
       "y": 342
     },
@@ -6457,6 +6718,7 @@
       "followers": 29902,
       "bio": "🛥️ Jouw hangout aan het IJ\n🎵 Muziek, workshops, events\nOntdek nu 👇",
       "latestPost": "2026-11-06T15:55:02+0000",
+      "latestPermalink": null,
       "x": -469,
       "y": -176
     },
@@ -6485,6 +6747,7 @@
       "followers": 3558,
       "bio": "Ma - zo vanaf 10.00!\n🏠 @bonnie.amsterdam @arie.amsterdam @deneefvanfred @moos.amsterdam",
       "latestPost": "2026-10-27T10:34:08+0000",
+      "latestPermalink": null,
       "x": -383,
       "y": -71
     },
@@ -6513,6 +6776,7 @@
       "followers": 11880,
       "bio": "Organic sourdough bakery & restaurant\n.\nWednesday - Sunday 9.00 - 15.00\n.",
       "latestPost": "2026-10-01T11:59:51+0000",
+      "latestPermalink": null,
       "x": -455,
       "y": -177
     },
@@ -6541,6 +6805,7 @@
       "followers": 150965,
       "bio": "Open: Lunch Tue,Thu,Fri,Sat,Sun Dinner Mon-Sun Michelin ⭐️-OAD 87-Theworldbestchefs98 #Owner Chef @atsushitanaka360\nwww.atsushitanaka.com",
       "latestPost": "2026-11-03T16:53:04+0000",
+      "latestPermalink": null,
       "x": 248,
       "y": 323
     },
@@ -6569,6 +6834,7 @@
       "followers": 19742,
       "bio": "Lundi et mardi soir et du mercredi au vendredi midi et soir. Reservation via le site ou par téléphone.",
       "latestPost": "2026-04-17T12:57:20+0000",
+      "latestPermalink": null,
       "x": 230,
       "y": 320
     },
@@ -6597,6 +6863,7 @@
       "followers": 5968,
       "bio": "KWIEKWIE Surinaamse keuken. \nPermanent gesloten 🩷",
       "latestPost": "2025-12-11T13:26:33+0000",
+      "latestPermalink": null,
       "x": -248,
       "y": 350
     },
@@ -6625,6 +6892,7 @@
       "followers": 4564,
       "bio": "Sister restaurant to @littlecollinsamsterdam\nModern Italian-ish\nwed-sat 17:30 till late",
       "latestPost": "2026-11-05T16:55:56+0000",
+      "latestPermalink": null,
       "x": 13,
       "y": -443
     },
@@ -6653,6 +6921,7 @@
       "followers": 11910,
       "bio": "Tuesday - Saturday: Lunch & dinner\nSunday: Lunch only!",
       "latestPost": "2026-11-06T16:34:08+0000",
+      "latestPermalink": null,
       "x": -293,
       "y": 362
     },
@@ -6681,6 +6950,7 @@
       "followers": 11696,
       "bio": "Monday - Saturday [18:00 - 01:00]\nSeasonal ingredients, open-fire cooking with an amazing selection of wines - all in a historical setting.",
       "latestPost": "2026-11-06T13:06:26+0000",
+      "latestPermalink": null,
       "x": 267,
       "y": 337
     },
@@ -6709,6 +6979,7 @@
       "followers": 8238,
       "bio": "Seizoenskeuken in Amsterdam\nFrans-Nederlands met wereldse invloeden\nDagelijks open vanaf 18:00",
       "latestPost": "2026-11-06T09:00:46+0000",
+      "latestPermalink": null,
       "x": -467,
       "y": -101
     },
@@ -6737,6 +7008,7 @@
       "followers": 11789,
       "bio": "Het kleine zusje van @restaurantbreda\nWij serveren voor lunch en diner een Chef’s menu met seizoensgebonden gerechten.",
       "latestPost": "2025-04-05T15:36:50+0000",
+      "latestPermalink": null,
       "x": 279,
       "y": 361
     },
@@ -6765,6 +7037,7 @@
       "followers": 4538,
       "bio": "• Chef’s Table Restaurant\n• Winelist for Winelovers\n📍 Echt, Limburg, the Netherlands\n@michelinguide \n@gaultmillaunederland 14/20\n@lekker500",
       "latestPost": "2026-11-03T16:30:04+0000",
+      "latestPermalink": null,
       "x": -9,
       "y": -427
     },
@@ -6793,6 +7066,7 @@
       "followers": 9663,
       "bio": "Jacob Bontiusplaats 1, Amsterdam\nma - zo 12:00 - laat\nZien we je snel? Reserveren via:",
       "latestPost": "2026-11-04T16:33:06+0000",
+      "latestPermalink": null,
       "x": -229,
       "y": 323
     },
@@ -6821,6 +7095,7 @@
       "followers": 9587,
       "bio": "☕️ 🥐 Homemade bakery & Coffeeshop \nCatering & BtB \nOPEN TUES to FRID 8:30-17:00\nOPEN SAT to SUND 9:00-17:30\n📍34 rue Notre Dame de Lorette 75009 PARIS",
       "latestPost": "2026-11-06T12:51:00+0000",
+      "latestPermalink": null,
       "x": -407,
       "y": -131
     },
@@ -6849,6 +7124,7 @@
       "followers": 11124,
       "bio": "Mooie gerechten, goede wijnen. \nOngedwongen sfeer\n   \nSVH Meestergastheer 🏆\nGastheer van het jaar 🏆\nGault&Millau 15,5\n@chefhermans & @bjornvanaalst",
       "latestPost": "2026-11-03T09:00:11+0000",
+      "latestPermalink": null,
       "x": -366,
       "y": -96
     },
@@ -6877,6 +7153,7 @@
       "followers": 21072,
       "bio": "Classic and comfortable Mediterranean food\ncustom catering • dinners • events • food styling",
       "latestPost": "2026-11-07T10:30:03+0000",
+      "latestPermalink": null,
       "x": 277,
       "y": 347
     },
@@ -6905,6 +7182,7 @@
       "followers": 16453,
       "bio": "",
       "latestPost": "2026-11-03T16:40:09+0000",
+      "latestPermalink": null,
       "x": -276,
       "y": 392
     },
@@ -6933,6 +7211,7 @@
       "followers": 2601,
       "bio": "Bio buurtwinkel & café in Amsterdam Noord aan het spreeuwenpark\nDi tm zo: 10:00 - 16:00",
       "latestPost": "2026-10-17T17:29:56+0000",
+      "latestPermalink": null,
       "x": -439,
       "y": -155
     },
@@ -6961,6 +7240,7 @@
       "followers": 11020,
       "bio": "A plant-focused experience with meat and fish as optional extras.",
       "latestPost": "2026-11-04T11:05:57+0000",
+      "latestPermalink": null,
       "x": -462,
       "y": -190
     },
@@ -6989,6 +7269,7 @@
       "followers": 14337,
       "bio": "• di t/m za vanaf 18:00 \n• 020 337 9680 \n• Info@scheepskameel.nl \n• Gault-Millau punten 14,5|20\n• Bib-Gourmand 2024\n• Wijnen verkrijgbaar @wijnkameel",
       "latestPost": "2026-11-06T10:28:15+0000",
+      "latestPermalink": null,
       "x": -360,
       "y": -149
     },
@@ -7017,6 +7298,7 @@
       "followers": 5880,
       "bio": "small owner run winebar/restaurant\nbig plates!, small menu & (natural) wines🤝🏼 \nwed&thu 17-23, fri 17-00 & sat 13-22",
       "latestPost": "2026-10-29T17:00:25+0000",
+      "latestPermalink": null,
       "x": -3,
       "y": -404
     },
@@ -7045,6 +7327,7 @@
       "followers": 13663,
       "bio": "BETHNAL GREEN @threecolts\nLEYTON @williamthefourthleyton\nBOOKINGS - PRE-ORDER👇\nOPEN 7 DAYS",
       "latestPost": "2026-11-07T09:30:01+0000",
+      "latestPermalink": null,
       "x": 448,
       "y": -136
     },
@@ -7073,6 +7356,7 @@
       "followers": 1891,
       "bio": "📍Nieuwe Spiegelstraat 2a hs, 1017 DE\nLocal brands, Dutch design\nBased in the Amsterdam art district \nGifts for all ages",
       "latestPost": "2026-07-24T19:49:13+0000",
+      "latestPermalink": null,
       "x": 451,
       "y": -150
     },
@@ -7101,6 +7385,7 @@
       "followers": 11930,
       "bio": "Homestyle Cooking. Walk-ins welcome, reservations on our site. Groups over 7, email hello@stacksdiner.com. @stacksdeli for pizza, sandwiches & sweets.",
       "latestPost": "2026-11-05T11:49:30+0000",
+      "latestPermalink": null,
       "x": -262,
       "y": 389
     },
@@ -7129,6 +7414,7 @@
       "followers": 688,
       "bio": "Premium sushi take-out and delivery. Only homemade and the best products are used.",
       "latestPost": "2026-08-31T18:29:07+0000",
+      "latestPermalink": null,
       "x": -244,
       "y": 295
     },
@@ -7157,6 +7443,7 @@
       "followers": 7351,
       "bio": "🍣| Your go-to place for takeaway sushi \n📍| Based in Amsterdam\n*Order now on the website!",
       "latestPost": "2026-11-06T08:30:09+0000",
+      "latestPermalink": null,
       "x": -262,
       "y": 349
     },
@@ -7185,6 +7472,7 @@
       "followers": 10106,
       "bio": "Matcha-powered l Boba-fueled\n🕛 Daily 12-8pm\n📍 Ams De Pijp Albert Cuypstraat 61\n📍 Utrecht CS Foodcourt, platform 5/7\n📍 Ams CS Main tunnel, platform 7/8",
       "latestPost": "2026-10-28T14:03:30+0000",
+      "latestPermalink": null,
       "x": 396,
       "y": -94
     },
@@ -7213,6 +7501,7 @@
       "followers": 15216,
       "bio": "Wear better. Buy less.\nA curated designer wardrobe to rent, buy & style. \nBased in Amsterdam\n↓ Discover online or visit our showroom",
       "latestPost": "2026-11-04T13:39:11+0000",
+      "latestPermalink": null,
       "x": 14,
       "y": -401
     },
@@ -7241,6 +7530,7 @@
       "followers": 8330,
       "bio": "🇬🇧 Comfort food & drinks\n🍽 English Breakfast - Pastries - Pies - Sunday Roast\n🗓️Open from 8.30 till 23 (closed on Tuesdays) \n🥪Shop&Deli down the road!",
       "latestPost": "2026-10-30T21:33:47+0000",
+      "latestPermalink": null,
       "x": -252,
       "y": 364
     },
@@ -7269,6 +7559,7 @@
       "followers": 4018,
       "bio": "The Good Companion\nFishbar in Amsterdam's Jordaan district\nOpen for lunch and dinner\nThursday, Friday & Saturday 13:00-0:00\nWeekly events and specials",
       "latestPost": "2026-11-06T13:38:38+0000",
+      "latestPermalink": null,
       "x": -304,
       "y": 370
     },
@@ -7297,6 +7588,7 @@
       "followers": 36171,
       "bio": "🪸 @secretgarden_amsterdam \n🪸 Where Mediterranean elegance embraces Japanese refinement \n🪸 Live music on Wed/Thu/Fri/Sat/sun",
       "latestPost": "2026-11-07T08:29:01+0000",
+      "latestPermalink": null,
       "x": -242,
       "y": 328
     },
@@ -7325,6 +7617,7 @@
       "followers": 4546,
       "bio": "Deli, picklery and fermentery in Amsterdam. Fresh comfort food, handcrafted PICKLES, KOMBUCHA & WATERKEFIR since 2015.\nC.Van Eesterenlaan 21-23",
       "latestPost": "2026-10-14T12:53:27+0000",
+      "latestPermalink": null,
       "x": -23,
       "y": -464
     },
@@ -7353,6 +7646,7 @@
       "followers": 28876,
       "bio": "A third generation trattoria & bar by @dara.klein \nDinner Mon - Sat\nLunch Thu - Sun\nAlways room for walk ins at the bar\nBook via the link below",
       "latestPost": "2026-11-06T08:48:43+0000",
+      "latestPermalink": null,
       "x": -291,
       "y": 377
     },
@@ -7381,6 +7675,7 @@
       "followers": 18525,
       "bio": "Peace of Toki\n8-17 Mon- Fri\n9-17 Sat-Sun\nNo DM, pls e-mail hi@toki-times.com",
       "latestPost": "2026-08-27T12:50:58+0000",
+      "latestPermalink": null,
       "x": 239,
       "y": 334
     },
@@ -7409,6 +7704,7 @@
       "followers": 22943,
       "bio": "La tradizione si pratica non si inventa \n📍Via San Felice 50/A - Bologna\n📞Per chi ha già una prenotazione: 3371405430 \nPer prenotare \n⇩",
       "latestPost": "2026-11-03T11:31:36+0000",
+      "latestPermalink": null,
       "x": -394,
       "y": -123
     },
@@ -7437,6 +7733,7 @@
       "followers": 31337,
       "bio": "a Milano dal 1976, dal 15 Maggio 2026 anche all' @abidoruresort a Porto Rotondo\n★\n @pescatorelobsterbar next door since 2018",
       "latestPost": "2026-09-01T12:19:54+0000",
+      "latestPermalink": null,
       "x": -258,
       "y": 335
     },
@@ -7465,6 +7762,7 @@
       "followers": 2948,
       "bio": "Unique selection of natural wines for your restaurant or home. Visit our webshop! EU DELIVERY. **based in Rotterdam 💚",
       "latestPost": "2026-11-05T12:06:46+0000",
+      "latestPermalink": null,
       "x": -45,
       "y": -442
     },
@@ -7493,6 +7791,7 @@
       "followers": 26816,
       "bio": "Open Thursday — Monday\nNO RESERVATIONS",
       "latestPost": "2026-11-06T12:55:07+0000",
+      "latestPermalink": null,
       "x": -212,
       "y": 349
     },
@@ -7521,6 +7820,7 @@
       "followers": 17871,
       "bio": "NDSM, bij de pont, met uitzicht op het IJ\nBar • Restaurant • Terras • Panoramadek • Events\n09:00 - 23:00, vr/za tot 00:00\nReserveer, of plan je event",
       "latestPost": "2026-11-07T08:20:04+0000",
+      "latestPermalink": null,
       "x": -426,
       "y": -179
     },
@@ -7549,6 +7849,7 @@
       "followers": 12829,
       "bio": "Weteringschans 171\nma, di, wo: 17:30-22:00\ndo, vr, za, zo: 12:00-14:00 / 18:00-22:00",
       "latestPost": "2026-11-04T10:15:06+0000",
+      "latestPermalink": null,
       "x": 0,
       "y": -438
     },
@@ -7577,6 +7878,7 @@
       "followers": 4481,
       "bio": "Gerenommeerd, gewaardeerd en al 25 jaar een begrip in Amsterdam en daarbuiten. Voor ons is alleen de meest verse vis en schaaldieren goed genoeg.",
       "latestPost": "2026-11-07T11:00:22+0000",
+      "latestPermalink": null,
       "x": -276,
       "y": 352
     },
@@ -7605,6 +7907,7 @@
       "followers": 530,
       "bio": "🐟 Foodfestival \n📍 Scheveningen",
       "latestPost": "2023-10-05T09:31:08+0000",
+      "latestPermalink": null,
       "x": -260,
       "y": 375
     },
@@ -7633,6 +7936,7 @@
       "followers": 14055,
       "bio": "A tropical oasis 🏝 in the ❤️ of Amsterdam\nCome over for some Surinamese inspired food and tons of good vibes 🇸🇷\nOpened from 11:00 till 23:00/01:00/03:00",
       "latestPost": "2026-11-04T16:39:36+0000",
+      "latestPermalink": null,
       "x": -433,
       "y": -191
     },
@@ -7661,6 +7965,7 @@
       "followers": 55182,
       "bio": "Bakery and Seasonal Pasta\nopen every day\nOld Market Hall, Helsinki\nHerttoniemi @way_herttoniemi \nAlso, @m_a_u_k_k_u",
       "latestPost": "2026-11-07T08:34:09+0000",
+      "latestPermalink": null,
       "x": -374,
       "y": -172
     },
@@ -7689,6 +7994,7 @@
       "followers": 7437,
       "bio": "0% BULLSHIT 100% GLORY\nbrood, gebak, koffie, ontbijt & lunch\nwoensdag - zondag | 9:00 - 14:00u",
       "latestPost": "2026-10-31T09:19:10+0000",
+      "latestPermalink": null,
       "x": -423,
       "y": -94
     },
@@ -7717,36 +8023,9 @@
       "followers": 7142,
       "bio": "Word wijnboer door 10 druivenstokken te pachten. Je leert, werkt, en drinkt jouw zelfgemaakte wijn.\n🎓Dr Elaine Ingham Soil Food Web\n🎓WSET3",
       "latestPost": "2026-11-04T11:19:03+0000",
+      "latestPermalink": null,
       "x": -285,
       "y": 339
-    },
-    {
-      "handle": "wijnwinkel",
-      "name": "Wijnwinkel",
-      "type": "wine shop",
-      "neighbourhood": "",
-      "openingSoon": false,
-      "posts": 639,
-      "follows": [
-        "cafebinnenvisser"
-      ],
-      "relations": {
-        "cafebinnenvisser": "following"
-      },
-      "score": 1,
-      "notes": "city to check",
-      "popup": false,
-      "partTime": false,
-      "active": true,
-      "posFit": true,
-      "mentionedBy": [],
-      "layer": "follow",
-      "amsterdam": false,
-      "followers": 15715,
-      "bio": "",
-      "latestPost": "2026-10-31T08:58:40+0000",
-      "x": 224,
-      "y": 358
     },
     {
       "handle": "wildezwijnenrestaurant",
@@ -7773,6 +8052,7 @@
       "followers": 4743,
       "bio": ">   Modern Dutch restaurant\n>   Every Sunday at noon: KIBBELING!\n>   Dinner daily. Lunch Sun. Closed Wed. \n>   Big terrace - Dinner - Lunch - Groups",
       "latestPost": "2026-10-30T11:35:45+0000",
+      "latestPermalink": null,
       "x": -370,
       "y": -110
     },
@@ -7801,6 +8081,7 @@
       "followers": 10836,
       "bio": "lunch - dinner - pastries",
       "latestPost": "2026-10-28T13:09:13+0000",
+      "latestPermalink": null,
       "x": -385,
       "y": -163
     },
@@ -7829,6 +8110,7 @@
       "followers": 4799,
       "bio": "",
       "latestPost": "2026-10-07T08:01:54+0000",
+      "latestPermalink": null,
       "x": 15,
       "y": -457
     },
@@ -7857,6 +8139,7 @@
       "followers": 17127,
       "bio": "Rooftop Bar · Restaurant · Club \nContact us for private hire www.yellowhouse.amsterdam",
       "latestPost": "2026-11-05T19:13:38+0000",
+      "latestPermalink": null,
       "x": -437,
       "y": -91
     },
@@ -7883,6 +8166,7 @@
         "europa.rest"
       ],
       "layer": "mention",
+      "latestPermalink": null,
       "x": 50,
       "y": 200
     },
@@ -7909,6 +8193,7 @@
         "bureauwijnoost"
       ],
       "layer": "mention",
+      "latestPermalink": null,
       "x": -151,
       "y": -248
     },
@@ -7935,6 +8220,7 @@
         "rookt.amsterdam"
       ],
       "layer": "mention",
+      "latestPermalink": null,
       "x": -138,
       "y": -216
     },
@@ -7961,6 +8247,7 @@
         "zero.zero.store"
       ],
       "layer": "mention",
+      "latestPermalink": null,
       "x": 317,
       "y": -70
     }
@@ -7978,16 +8265,6 @@
     },
     {
       "from": "cafebinnenvisser",
-      "to": "zuiverwijnen",
-      "kind": "follow"
-    },
-    {
-      "from": "restaurant_barracuda_amsterdam",
-      "to": "zuiverwijnen",
-      "kind": "follow"
-    },
-    {
-      "from": "cafebinnenvisser",
       "to": "troppogiovane",
       "kind": "follow"
     },
@@ -7999,6 +8276,16 @@
     {
       "from": "restaurant_barracuda_amsterdam",
       "to": "troppogiovane",
+      "kind": "follow"
+    },
+    {
+      "from": "cafebinnenvisser",
+      "to": "zuiverwijnen",
+      "kind": "follow"
+    },
+    {
+      "from": "restaurant_barracuda_amsterdam",
+      "to": "zuiverwijnen",
       "kind": "follow"
     },
     {
@@ -8019,6 +8306,16 @@
     {
       "from": "restaurant_barracuda_amsterdam",
       "to": "sichuan_territory",
+      "kind": "follow"
+    },
+    {
+      "from": "restaurant_barracuda_amsterdam",
+      "to": "bottleshop.ams",
+      "kind": "follow"
+    },
+    {
+      "from": "kometenbrood",
+      "to": "bottleshop.ams",
       "kind": "follow"
     },
     {
@@ -8237,16 +8534,6 @@
       "kind": "follow"
     },
     {
-      "from": "restaurant_barracuda_amsterdam",
-      "to": "bottleshop.ams",
-      "kind": "follow"
-    },
-    {
-      "from": "kometenbrood",
-      "to": "bottleshop.ams",
-      "kind": "follow"
-    },
-    {
       "from": "esra.amsterdam",
       "to": "cafewu.ams",
       "kind": "follow"
@@ -8354,6 +8641,11 @@
     {
       "from": "kometenbrood",
       "to": "sissis.amsterdam",
+      "kind": "follow"
+    },
+    {
+      "from": "restaurant_barracuda_amsterdam",
+      "to": "treesamsterdam",
       "kind": "follow"
     },
     {
@@ -8673,6 +8965,11 @@
     },
     {
       "from": "kometenbrood",
+      "to": "cafebeurreamsterdam",
+      "kind": "follow"
+    },
+    {
+      "from": "kometenbrood",
       "to": "cafekadijk",
       "kind": "follow"
     },
@@ -8729,6 +9026,11 @@
     {
       "from": "kometenbrood",
       "to": "gentleplacecoffee",
+      "kind": "follow"
+    },
+    {
+      "from": "cafebinnenvisser",
+      "to": "gertrudeamsterdam",
       "kind": "follow"
     },
     {
@@ -8842,11 +9144,6 @@
       "kind": "follow"
     },
     {
-      "from": "restaurant_barracuda_amsterdam",
-      "to": "treesamsterdam",
-      "kind": "follow"
-    },
-    {
       "from": "zero.zero.store",
       "to": "turbo.amsterdam",
       "kind": "follow"
@@ -8859,6 +9156,11 @@
     {
       "from": "esra.amsterdam",
       "to": "vesper.restaurant",
+      "kind": "follow"
+    },
+    {
+      "from": "cafebinnenvisser",
+      "to": "wijnwinkel",
       "kind": "follow"
     },
     {
@@ -9022,11 +9324,6 @@
       "kind": "follow"
     },
     {
-      "from": "kometenbrood",
-      "to": "cafebeurreamsterdam",
-      "kind": "follow"
-    },
-    {
       "from": "esra.amsterdam",
       "to": "cafekompleet",
       "kind": "follow"
@@ -9164,11 +9461,6 @@
     {
       "from": "esra.amsterdam",
       "to": "gavecoffee",
-      "kind": "follow"
-    },
-    {
-      "from": "cafebinnenvisser",
-      "to": "gertrudeamsterdam",
       "kind": "follow"
     },
     {
@@ -9582,11 +9874,6 @@
       "kind": "follow"
     },
     {
-      "from": "cafebinnenvisser",
-      "to": "wijnwinkel",
-      "kind": "follow"
-    },
-    {
       "from": "kometenbrood",
       "to": "wildezwijnenrestaurant",
       "kind": "follow"
@@ -9619,6 +9906,36 @@
     {
       "from": "zomer.bar",
       "to": "sebonsa.ams",
+      "kind": "mention"
+    },
+    {
+      "from": "klaproosamsterdam",
+      "to": "troppogiovane",
+      "kind": "mention"
+    },
+    {
+      "from": "europa.rest",
+      "to": "troppogiovane",
+      "kind": "mention"
+    },
+    {
+      "from": "het_brokantje_amsterdam",
+      "to": "troppogiovane",
+      "kind": "mention"
+    },
+    {
+      "from": "troppobottleshop",
+      "to": "troppogiovane",
+      "kind": "mention"
+    },
+    {
+      "from": "rondo.restaurant",
+      "to": "troppogiovane",
+      "kind": "mention"
+    },
+    {
+      "from": "sichuan_territory",
+      "to": "troppogiovane",
       "kind": "mention"
     },
     {
@@ -9657,33 +9974,23 @@
       "kind": "mention"
     },
     {
-      "from": "klaproosamsterdam",
-      "to": "troppogiovane",
-      "kind": "mention"
-    },
-    {
-      "from": "europa.rest",
-      "to": "troppogiovane",
-      "kind": "mention"
-    },
-    {
-      "from": "het_brokantje_amsterdam",
-      "to": "troppogiovane",
-      "kind": "mention"
-    },
-    {
-      "from": "troppobottleshop",
-      "to": "troppogiovane",
-      "kind": "mention"
-    },
-    {
-      "from": "rondo.restaurant",
-      "to": "troppogiovane",
-      "kind": "mention"
-    },
-    {
       "from": "esra.amsterdam",
       "to": "rookt.amsterdam",
+      "kind": "mention"
+    },
+    {
+      "from": "cosmotacos.ams",
+      "to": "bottleshop.ams",
+      "kind": "mention"
+    },
+    {
+      "from": "kade.noord",
+      "to": "bottleshop.ams",
+      "kind": "mention"
+    },
+    {
+      "from": "outpost_zandvoort",
+      "to": "bottleshop.ams",
       "kind": "mention"
     },
     {
@@ -9719,11 +10026,6 @@
     {
       "from": "dime.slice",
       "to": "kade.noord",
-      "kind": "mention"
-    },
-    {
-      "from": "cosmotacos.ams",
-      "to": "bottleshop.ams",
       "kind": "mention"
     },
     {
@@ -9772,6 +10074,16 @@
       "kind": "mention"
     },
     {
+      "from": "klaproosamsterdam",
+      "to": "treesamsterdam",
+      "kind": "mention"
+    },
+    {
+      "from": "outpost_zandvoort",
+      "to": "treesamsterdam",
+      "kind": "mention"
+    },
+    {
       "from": "buurtcafe.detros",
       "to": "wijnwinkel.dekaaf",
       "kind": "mention"
@@ -9807,18 +10119,28 @@
       "kind": "mention"
     },
     {
+      "from": "outpost_zandvoort",
+      "to": "cafebeurreamsterdam",
+      "kind": "mention"
+    },
+    {
       "from": "cafe.r.de.rosa",
       "to": "dapper.cafe",
       "kind": "mention"
     },
     {
-      "from": "klaproosamsterdam",
-      "to": "treesamsterdam",
+      "from": "outpost_zandvoort",
+      "to": "gertrudeamsterdam",
       "kind": "mention"
     },
     {
       "from": "buurtcafe.detros",
       "to": "turbo.amsterdam",
+      "kind": "mention"
+    },
+    {
+      "from": "outpost_zandvoort",
+      "to": "wijnwinkel",
       "kind": "mention"
     },
     {

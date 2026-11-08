@@ -14,3 +14,12 @@ Who follows Amsterdam's "cool" venues, to find new venues to message.
    - `notes`: anything useful
    Skip personal accounts. A venue following three seeds gets three rows.
 3. Run `bun scripts/ig-graph/build.ts` — writes the graph and ranked target list for the case study page.
+
+## Instagram lookups (optional, needs META_ACCESS_TOKEN + IG_USER_ID in .env)
+
+- `bun scripts/ig-graph/enrich.ts [--mentions]` — profiles (bio, followers, posts, last post) into enrich.json
+- `bun scripts/ig-graph/mentions.ts [--core]` — recent posts into posts.json, caption mentions into mentions.json
+- embeds.json — per venue, a recent post whose embed actually renders (checked with a headless
+  browser; `null` means the account has embedding turned off)
+
+enrich.json, posts.json and mentions.json stay local (gitignored): they include people's handles.
