@@ -98,7 +98,8 @@ function Bar({ name, value, highlight, tooltip, segments }: {
               <span
                 key={s.key}
                 className={i === stacked.length - 1 ? "rounded-r-[4px]" : ""}
-                style={{ flexGrow: s.value, flexBasis: 0, background: s.color }}
+                // Normalised: flex-grow values summing below 1 would leave the bar part-empty
+                style={{ flexGrow: s.value / value, flexBasis: 0, background: s.color }}
               />
             ))}
           </span>
@@ -236,10 +237,6 @@ export function AuditResults({ summary, prompts }: { summary: AuditSummary; prom
 
       {/* Detail: the table view */}
       <div>
-        <p className="font-display text-xl font-medium tracking-[-0.02em]">Every prompt</p>
-        <p className="mt-1 mb-5 text-sm text-espresso/60">
-          {`Tebi mention rate across ${summary.runsPerPrompt} runs, or the top brands when Tebi wasn't named.`}
-        </p>
         <AuditTable prompts={prompts} runsPerPrompt={summary.runsPerPrompt} />
       </div>
 

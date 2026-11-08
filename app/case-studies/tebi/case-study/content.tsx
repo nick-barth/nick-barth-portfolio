@@ -84,27 +84,21 @@ function ActContent() {
       <div className="space-y-3">
         <p>
           <strong>1. Build on a solid base.</strong>{" "}
-          tebi.com already has AI crawlers in (?) and has an llms.txt. A few quick wins:
+          tebi.com has a sound SEO foundation, with room to strengthen it further.
         </p>
-        <ul className="list-disc space-y-1 pl-5 text-[15px] text-espresso/80">
-          <li>FAQ and article schema on the blog and comparison pages, so AI can quote them directly</li>
-          <li>A unique title and H1 on every page, including the translated ones</li>
-          <li>Comparison pages (?)</li>
-        </ul>
       </div>
 
       <div className="space-y-3">
         <p>
           <strong>2. Local pages </strong> in each market&apos;s language, answering the questions owners ask AI.           <Link href="/case-studies/tebi/local" className="border-b border-espresso/40 hover:border-espresso">
             Prototype: 105 generated pages
-          </Link>.  Then we would focus on guides.
+          </Link>. Then we would focus on comparison pages, then guides.
         </p>
       </div>
 
       <div className="space-y-3">
         <p>
-          <strong>3. Get listed where AI looks.</strong>{" "}
-          These comparison sites run on affiliate marketing, so Tebi needs an affiliate programme to get listed.
+          <strong>3. Get listed where AI looks.</strong>
         </p>
         <div className="grid gap-5 pt-1 sm:grid-cols-3">
         {markets.map((mk) => (
@@ -150,7 +144,7 @@ function TrackContent() {
       </li>
       <li>
         <strong>SEO as a proxy.</strong> AI answers lean on pages that rank, so track rankings and impressions for the target
-        questions in Google Search Console and Bing Webmaster Tools.
+        questions in GSC.
       </li>
     </ul>
   );
@@ -403,7 +397,6 @@ export const sections: Section[] = [
     tone: "wine",
     num: "02",
     title: "Untapped acquisition opportunity",
-    intro: "Pop-ups and part-time venues in Amsterdam, found through Tebi's own customers on Instagram.",
     parts: [
       { label: "The network", ask: "", content: <VenueGraph data={igGraph as VenueGraphData} />, wide: true },
       { label: "The merchant", ask: "Who they are, what's on their mind this month, and where their attention goes.", content: <PopupMerchant /> },

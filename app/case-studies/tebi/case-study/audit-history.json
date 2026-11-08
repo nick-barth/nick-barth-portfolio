@@ -58,5 +58,65 @@
       }
     },
     "costUsd": 8.038176750000003
+  },
+  {
+    "date": "2026-11-08",
+    "generatedAt": "2026-11-08T13:26:42.224Z",
+    "runsPerPrompt": 1,
+    "prompts": 45,
+    "answers": 135,
+    "tebiMentioned": 0.044444444444444446,
+    "engines": {
+      "chatgpt": {
+        "mentioned": 0.06666666666666667,
+        "namedFirst": 0,
+        "cited": 0
+      },
+      "perplexity": {
+        "mentioned": 0.022222222222222223,
+        "namedFirst": 0,
+        "cited": 0
+      },
+      "gemini": {
+        "mentioned": 0.044444444444444446,
+        "namedFirst": 0.022222222222222223,
+        "cited": 0.022222222222222223
+      }
+    },
+    "markets": {
+      "All": {
+        "tebi": 0.044444444444444446,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.5481481481481482
+        }
+      },
+      "NL": {
+        "tebi": 0.13333333333333333,
+        "tebiRank": 9,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.6888888888888889
+        }
+      },
+      "ES": {
+        "tebi": 0,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Revo",
+          "share": 0.4888888888888889
+        }
+      },
+      "DE": {
+        "tebi": 0,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.6
+        }
+      }
+    },
+    "costUsd": 3.092033349999999
   }
 ]
