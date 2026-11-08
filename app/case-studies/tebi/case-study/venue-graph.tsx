@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { suggestedDm } from "./dm";
 
 /*
  * Network of Amsterdam venues around Tebi's own customers (scripts/ig-graph). Positions are
- * precomputed by build.ts. Colour: seeds espresso, till leads raspberry (#b04a6e, always
+ * precomputed by build.ts. Colour: seeds espresso, leads raspberry (#b04a6e, always
  * labelled), venues linked to 2+ seeds blue (#3a6ea5), single-seed venues recessive grey.
  * Grey is below 3:1 on purpose (background); the lists below are the readable table view.
  *
@@ -12,8 +13,12 @@ import { useEffect, useState } from "react";
  * a detail card. Close with ×, Esc or a click on empty space.
  */
 
+/** How build.ts scores a venue (scripts/ig-graph/build.ts) */
+const SCORE_HELP =
+  "Lead score: Tebi customers who follow them + customers who mention them, +3 pop-up, +3 opening soon, +2 weekend or seasonal, +1 under 60 posts";
+
 type Seed = { handle: string; name: string; followers: number; x: number; y: number };
-type Venue = {
+export type Venue = {
   handle: string; name: string; type: string; follows: string[]; score: number; notes: string; x: number; y: number;
   popup?: boolean; openingSoon?: boolean; partTime?: boolean; bio?: string; mentionedBy?: string[];
   layer?: "follow" | "mention"; followers?: number | null; posts?: number | null; latestPost?: string | null;
@@ -30,7 +35,7 @@ const fmt = (n: number) => (n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1
 const firstLine = (bio = "") => bio.split("\n").map((l) => l.trim()).filter(Boolean)[0] ?? "";
 const date = (iso: string) => new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
 /**
- * Till leads: pop-ups, openings and part-time venues (weekend-only or seasonal). All need a
+ * Leads: pop-ups, openings and part-time venues (weekend-only or seasonal). All need a
  * till that's cheap when quiet and has no contract. These are the targets.
  */
 const isNew = (v: Venue) => !!(v.popup || v.openingSoon || v.partTime);
@@ -38,17 +43,6 @@ const leadKind = (v: Venue) => (v.popup ? "Pop-up" : v.openingSoon ? "Opening so
 const fill = (v: Venue) => (isNew(v) ? POPUP : v.follows.length >= 2 ? CORE : SINGLE);
 const r = (k: number) => 3 + k * 2.5;
 const nodeR = (v: Venue) => (isNew(v) ? Math.max(r(v.follows.length), 9) : r(v.follows.length));
-
-/** First DM, by kind of lead: upbeat, naming the Tebi venue they're connected to. */
-function suggestedDm(v: Venue, via: string | undefined) {
-  const hook = v.popup
-    ? `${v.name} ziet er klaar voor uit 🔥`
-    : v.openingSoon
-      ? `${v.name} gaat bijna open 🔥`
-      : `Alleen open als het druk is? Slim 🔥`;
-  const proof = via ? ` ${via} draait al op Tebi.` : "";
-  return `${hook} Zullen we je kassa regelen?${proof} Geen contract, gewoon je iPad. Let's go?`;
-}
 
 export function VenueGraph({ data }: { data: VenueGraphData }) {
   const [hovered, setHovered] = useState<string | null>(null);
@@ -105,12 +99,12 @@ export function VenueGraph({ data }: { data: VenueGraphData }) {
       <div className="flex flex-wrap items-center justify-between gap-4 text-sm">
         <p className="text-espresso/70">
           {data.seeds.length} Tebi customers · {data.targets.length} Amsterdam venues · {core.length} linked to 2+ ·{" "}
-          <strong className="text-[#b04a6e]">{leads.length} till leads</strong>
+          <strong className="text-[#b04a6e]">{leads.length} leads</strong>
         </p>
         <ul aria-label="Legend" className="flex flex-wrap gap-4">
           {[
             [ESPRESSO, "Tebi customer"],
-            [POPUP, "Till lead"],
+            [POPUP, "Lead"],
             [CORE, "Linked to 2+"],
             [SINGLE, "Linked to 1"],
           ].map(([c, l]) => (
@@ -125,7 +119,6 @@ export function VenueGraph({ data }: { data: VenueGraphData }) {
           </li>
         </ul>
       </div>
-      <p className="mt-1 text-xs text-espresso/50">Hover to preview, click a venue for details.</p>
 
       <figure className="relative mt-3 overflow-hidden rounded-xl bg-white">
         <svg
@@ -199,7 +192,7 @@ export function VenueGraph({ data }: { data: VenueGraphData }) {
             );
           })}
 
-          {/* Labels: venues linked to 3+ customers, and every till lead */}
+          {/* Labels: venues linked to 3+ customers, and every lead */}
           {data.targets.filter((t) => t.follows.length >= 3 || isNew(t)).map((t) => (
             <text
               key={`l-${t.handle}`}
@@ -269,7 +262,7 @@ export function VenueGraph({ data }: { data: VenueGraphData }) {
                 <p className="text-xs text-espresso/50">@{selSeed.handle}</p>
                 <p className="mt-4 text-sm">
                   Linked to <strong>{data.targets.filter((t) => t.follows.includes(selSeed.handle)).length}</strong> venues,
-                  including <strong>{leads.filter((t) => t.follows.includes(selSeed.handle) || t.mentionedBy?.includes(selSeed.handle)).length}</strong> till leads.
+                  including <strong>{leads.filter((t) => t.follows.includes(selSeed.handle) || t.mentionedBy?.includes(selSeed.handle)).length}</strong> leads.
                 </p>
               </div>
             )}
@@ -293,7 +286,11 @@ export function VenueGraph({ data }: { data: VenueGraphData }) {
 
                 {selVenue.bio && <p className="mt-3 line-clamp-6 whitespace-pre-line text-sm text-espresso/80">{selVenue.bio}</p>}
 
-                <dl className="mt-4 grid grid-cols-3 gap-2 border-y border-stone py-3 text-center">
+                <dl className="mt-4 grid grid-cols-4 gap-2 border-y border-stone py-3 text-center">
+                  <div title={SCORE_HELP}>
+                    <dt className="text-[11px] text-espresso/50">Lead score</dt>
+                    <dd className="font-medium tabular-nums">{selVenue.score}</dd>
+                  </div>
                   <div>
                     <dt className="text-[11px] text-espresso/50">Followers</dt>
                     <dd className="font-medium tabular-nums">{selVenue.followers != null ? fmt(selVenue.followers) : "–"}</dd>
@@ -317,6 +314,15 @@ export function VenueGraph({ data }: { data: VenueGraphData }) {
                   )}
                 </div>
 
+                {isNew(selVenue) && (
+                  <div className="mt-4 rounded-xl bg-cream p-3">
+                    <p className="text-[11px] uppercase tracking-wide text-espresso/50">Suggested DM</p>
+                    <p className="mt-1 text-sm leading-snug">
+                      {suggestedDm(selVenue, seedName[selVenue.follows[0]] ?? (selVenue.mentionedBy?.[0] && seedName[selVenue.mentionedBy[0]]))}
+                    </p>
+                  </div>
+                )}
+
                 {selVenue.latestPermalink && (
                   <div className="mt-4">
                     <p className="text-[11px] uppercase tracking-wide text-espresso/50">From their Instagram</p>
@@ -330,25 +336,21 @@ export function VenueGraph({ data }: { data: VenueGraphData }) {
                     />
                   </div>
                 )}
-
-                {isNew(selVenue) && (
-                  <div className="mt-4 rounded-xl bg-cream p-3">
-                    <p className="text-[11px] uppercase tracking-wide text-espresso/50">Suggested DM</p>
-                    <p className="mt-1 text-sm leading-snug">
-                      {suggestedDm(selVenue, seedName[selVenue.follows[0]] ?? (selVenue.mentionedBy?.[0] && seedName[selVenue.mentionedBy[0]]))}
-                    </p>
-                  </div>
-                )}
               </div>
             )}
           </aside>
         )}
       </figure>
 
-      {/* Till leads to message: the DM list */}
+      {/* Leads to message: the DM list */}
       {leads.length > 0 && (
         <div className="mt-6">
-          <p className="text-sm text-espresso/60">Till leads to message</p>
+          <p className="text-sm text-espresso/60">Leads to message</p>
+          <p className="mt-1 max-w-[760px] text-xs leading-relaxed text-espresso/50">
+            Lead score: 1 point for every Tebi customer who follows them and every one who mentions them in a post, +3 for a
+            pop-up, +3 for opening soon, +2 for weekend or seasonal, +1 for a new account (under 60 posts). Pop-up, opening and
+            season are read from their Instagram name and bio.
+          </p>
           <ul className="mt-2 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {leads.map((t) => (
               <li key={t.handle} className="min-w-0">
@@ -368,6 +370,9 @@ export function VenueGraph({ data }: { data: VenueGraphData }) {
                   <span className="block text-xs text-espresso/50">
                     @{t.handle}
                     <span className="ml-2 rounded bg-[#b04a6e]/10 px-1.5 py-0.5 text-[#b04a6e]">{leadKind(t)}</span>
+                    <span title={SCORE_HELP} className="ml-1.5 rounded border border-stone bg-white px-1.5 py-px tabular-nums text-espresso/70">
+                      Score {t.score}
+                    </span>
                   </span>
                   {firstLine(t.bio) && <span className="mt-2 line-clamp-2 block text-sm text-espresso/75">“{firstLine(t.bio)}”</span>}
                 </button>
@@ -381,7 +386,12 @@ export function VenueGraph({ data }: { data: VenueGraphData }) {
       <div className="mt-6">
         <p className="text-sm text-espresso/60">Linked to the most Tebi customers</p>
         <ol className="mt-2 grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
-          {core.filter((t) => !isNew(t)).slice(0, 15).map((t, i) => (
+          {core
+            .filter((t) => !isNew(t))
+            // Ranked by the number shown: how many Tebi customers follow them
+            .toSorted((a, b) => b.follows.length - a.follows.length)
+            .slice(0, 15)
+            .map((t, i) => (
             <li key={t.handle} className="min-w-0">
               <button
                 onClick={() => toggle(t.handle)}

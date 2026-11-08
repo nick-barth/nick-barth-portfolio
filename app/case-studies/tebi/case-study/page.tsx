@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Footer } from "../_components/footer";
 import { Nav } from "../_components/nav";
-import { Button } from "../_components/ui";
 import { Card } from "./blocks";
 import { hero, sections, type Tone } from "./content";
+import { SmoothLink } from "./smooth-link";
 
 export const metadata: Metadata = {
   title: "Case study — Tebi Growth Marketer · Nick Barth",
@@ -28,12 +28,28 @@ export default function CaseStudyPage() {
       <main className="px-3 md:px-5">
         {/* Hero */}
         <section className="pt-[150px] md:pt-[200px]">
-          <h1 className="font-display text-[44px] font-medium leading-none tracking-[-0.05em] md:text-[64px]">{hero.title}</h1>
-          <p className={`mt-6 max-w-[870px] ${body}`}>{hero.subtitle}</p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Button href="#context" variant="espresso">Read the answers</Button>
-            <Button href="/case-studies/tebi" arrow>Explore the site</Button>
-          </div>
+          <p className="text-sm text-espresso/60">Nick Barth · 💹 Growth 💹 · November 2026</p>
+          <h1 className="mt-4 max-w-[1100px] font-display text-[48px] font-medium leading-[0.95] tracking-[-0.05em] md:text-[88px]">
+            {hero.title}
+          </h1>
+          {/* The three challenges, in their panel colours */}
+          <nav aria-label="Challenges" className="mt-12 grid gap-3 md:grid-cols-3">
+            {sections
+              .filter((s) => s.num)
+              .map((s) => (
+                <SmoothLink
+                  key={s.id}
+                  href={`#${s.id}`}
+                  className={`group flex min-h-[132px] flex-col justify-between rounded-[18px] p-5 text-cream transition-transform hover:-translate-y-0.5 ${tones[s.tone]}`}
+                >
+                  <span className="text-sm text-cream/70">{s.num}</span>
+                  <span className="flex items-end justify-between gap-3 font-display text-2xl font-medium leading-tight tracking-[-0.03em]">
+                    {s.title}
+                    <span aria-hidden className="text-cream/60 transition-transform group-hover:translate-y-0.5">↓</span>
+                  </span>
+                </SmoothLink>
+              ))}
+          </nav>
         </section>
 
         {/* One coloured panel per challenge (colours from Tebi's brief deck, panel from their
@@ -42,7 +58,7 @@ export default function CaseStudyPage() {
           <section
             key={s.id}
             id={s.id}
-            className={`scroll-mt-28 rounded-3xl p-6 text-cream md:p-[50px] ${tones[s.tone]} ${i === 0 ? "mt-[90px]" : "mt-5"}`}
+            className={`scroll-mt-28 rounded-3xl p-6 text-cream md:p-[50px] ${tones[s.tone]} ${i === 0 ? "mt-[90px]" : "mt-5"} ${i === sections.length - 1 ? "mb-[90px]" : ""}`}
           >
             <div className="flex items-start gap-4">
               {s.num && (
@@ -66,14 +82,6 @@ export default function CaseStudyPage() {
           </section>
         ))}
 
-        {/* Sign-off, like "Start flowing with Tebi today." */}
-        <section className="flex flex-col items-start justify-between gap-6 py-[90px] md:flex-row md:items-center">
-          <h2 className="font-display text-4xl font-medium tracking-[-0.03em]">Thanks for reading.</h2>
-          <div className="flex gap-3">
-            <Button href="/case-studies/tebi" arrow>Explore the site</Button>
-            <Button href="https://www.linkedin.com/in/nicholasbarth/" variant="espresso">LinkedIn</Button>
-          </div>
-        </section>
       </main>
       <Footer />
     </>

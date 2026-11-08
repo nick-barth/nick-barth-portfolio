@@ -231,9 +231,6 @@ export function AuditResults({ summary, prompts }: { summary: AuditSummary; prom
               );
             })}
           </ul>
-          {!sources.some((s) => /(^|\.)tebi\.com$/.test(s.domain)) && (
-            <p className="mt-3 text-sm text-espresso/60">tebi.com isn&apos;t in the top {sources.length}.</p>
-          )}
         </figure>
       </div>
 

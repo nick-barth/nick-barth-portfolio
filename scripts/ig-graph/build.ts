@@ -9,7 +9,7 @@
  * Profiles from enrich.json (Instagram Business Discovery) add bio, posts and followers,
  * and flag pop-ups, venues opening soon and confirmed-Amsterdam ones.
  *
- * exclude.csv lists accounts judged by hand not to be till leads; they're dropped.
+ * exclude.csv lists accounts judged by hand not to be leads; they're dropped.
  *
  * Target score = seeds connected (social proof) + 3 if pop-up + 3 if opening soon
  *   + 2 if part-time (weekend-only or seasonal)
@@ -142,7 +142,7 @@ for (const [h, t] of targets) {
   if (!t.active) t.openingSoon = false;
   t.posFit = !PERSON.test(firstBioLine(t.bio)) && (!NON_POS.test(t.bio) || SELLS.test(t.bio) || t.popup || t.openingSoon);
   t.partTime = t.active && isPartTime(t.bio);
-  if (!t.posFit) { t.popup = false; t.openingSoon = false; t.partTime = false; } // not a till lead, whatever the bio says
+  if (!t.posFit) { t.popup = false; t.openingSoon = false; t.partTime = false; } // not a lead, whatever the bio says
   if (t.popup && !t.type) t.type = "pop-up";
   t.score = t.follows.length + (t.popup ? 3 : 0) + (t.openingSoon ? 3 : 0) + (t.posts !== null && t.posts < 60 ? 1 : 0);
 }
@@ -210,7 +210,7 @@ for (const t of targets.values()) {
   const k = t.follows.length;
   const pull = k === 1 ? 1.45 : Math.max(0.1, 0.8 - 0.2 * (k - 2));
   const h = hash(t.handle), ang = (h % 360) * (Math.PI / 180), jit = 10 + (h % 40);
-  // Labelled: venues linked to 3+ seeds, and every till lead (they're named in the graph)
+  // Labelled: venues linked to 3+ seeds, and every lead (they're named in the graph)
   const lead = t.popup || t.openingSoon || t.partTime;
   pos.set(t.handle, { x: cx * pull + Math.cos(ang) * jit, y: cy * pull + Math.sin(ang) * jit, r: nodeR(k), fixed: false, label: k >= 3 || lead });
 }
@@ -255,7 +255,7 @@ const graph = {
 await writeFile(OUT, JSON.stringify(graph, null, 2) + "\n");
 
 console.log(`${graph.seeds.length} seeds · ${ranked.length} venues (${mentionAdded} found via mentions) · ${graph.edges.length} links`);
-console.log(`Following 2+ seeds: ${ranked.filter((t) => t.follows.length >= 2).length} · pop-ups: ${ranked.filter((t) => t.popup).length} · opening soon: ${ranked.filter((t) => t.openingSoon).length} · enriched: ${ranked.filter((t) => t.followers !== null).length} · active (posted in ${ACTIVE_DAYS}d): ${ranked.filter((t) => t.active).length} · part-time: ${ranked.filter((t) => t.partTime).length} · not a till lead: ${ranked.filter((t) => !t.posFit).length} · excluded by hand: ${excluded.size}`);
+console.log(`Following 2+ seeds: ${ranked.filter((t) => t.follows.length >= 2).length} · pop-ups: ${ranked.filter((t) => t.popup).length} · opening soon: ${ranked.filter((t) => t.openingSoon).length} · enriched: ${ranked.filter((t) => t.followers !== null).length} · active (posted in ${ACTIVE_DAYS}d): ${ranked.filter((t) => t.active).length} · part-time: ${ranked.filter((t) => t.partTime).length} · not a lead: ${ranked.filter((t) => !t.posFit).length} · excluded by hand: ${excluded.size}`);
 console.log("Top targets:");
 for (const t of ranked.slice(0, 10)) console.log(`  ${String(t.score).padStart(2)}  @${t.handle}  follows ${t.follows.length}${t.popup ? " · POP-UP" : ""}${t.openingSoon ? " · opening soon" : ""}`);
 console.log(`Wrote ${OUT.replace(/.*\/app\//, "app/")}`);

@@ -7,6 +7,7 @@ import auditData from "./audit-data.json";
 import auditSummary from "./audit-summary.json";
 // Written by `bun scripts/ig-graph/build.ts` from the hand-collected Instagram lists
 import igGraph from "./ig-graph.json";
+import { suggestedDm, suggestedDmEn } from "./dm";
 import { VenueGraph, type VenueGraphData } from "./venue-graph";
 
 const audit = auditData as AuditPrompt[];
@@ -23,7 +24,6 @@ const audit = auditData as AuditPrompt[];
 
 export const hero = {
   title: "Growth Marketer case study",
-  subtitle: "My answers to Tebi's three challenges, built inside a working recreation of tebi.com.",
 };
 
 /** Pages the engines cited for Dutch owners' questions, from the 6 Nov 2026 run */
@@ -83,20 +83,27 @@ function ActContent() {
     <div className="space-y-6">
       <div className="space-y-3">
         <p>
-          <strong>1. Local pages</strong> at <code className="font-mono text-sm">/{"{market}"}/{"{city}"}/{"{venue type}"}</code>, in
-          each market&apos;s language, answering the questions owners ask AI.
+          <strong>1. Build on a solid base.</strong>{" "}
+          tebi.com already has AI crawlers in (?) and has an llms.txt. A few quick wins:
         </p>
+        <ul className="list-disc space-y-1 pl-5 text-[15px] text-espresso/80">
+          <li>FAQ and article schema on the blog and comparison pages, so AI can quote them directly</li>
+          <li>A unique title and H1 on every page, including the translated ones</li>
+          <li>Comparison pages (?)</li>
+        </ul>
+      </div>
+
+      <div className="space-y-3">
         <p>
-          <Link href="/case-studies/tebi/local" className="border-b border-espresso/40 hover:border-espresso">
+          <strong>2. Local pages </strong> in each market&apos;s language, answering the questions owners ask AI.           <Link href="/case-studies/tebi/local" className="border-b border-espresso/40 hover:border-espresso">
             Prototype: 105 generated pages
-          </Link>{" "}
-          <span className="text-espresso/60">(7 markets × 3 cities × 5 venue types)</span>
+          </Link>.  Then we would focus on guides.
         </p>
       </div>
 
       <div className="space-y-3">
         <p>
-          <strong>2. Get listed where AI looks.</strong>{" "}
+          <strong>3. Get listed where AI looks.</strong>{" "}
           These comparison sites run on affiliate marketing, so Tebi needs an affiliate programme to get listed.
         </p>
         <div className="grid gap-5 pt-1 sm:grid-cols-3">
@@ -131,6 +138,9 @@ function TrackContent() {
   return (
     <ul className="space-y-3">
       <li>
+        <strong>Run the AI audit daily.</strong> The same 45 questions in ChatGPT, Perplexity and Gemini.
+      </li>
+      <li>
         <strong>UTM source.</strong> ChatGPT tags its links (<code className="font-mono text-sm">utm_source=chatgpt.com</code> /{" "}
         <code className="font-mono text-sm">openai</code>); group these with AI referrers in GA4.
       </li>
@@ -159,43 +169,95 @@ function PopupMerchant() {
 function PopupChannel() {
   return (
     <div className="space-y-2">
-      <p>Instagram DMs from Tebi, sent by hand by an intern.</p>
+      <p>Instagram DMs from Tebi, sent by hand.</p>
     </div>
   );
 }
 
+/** One example first DM per kind of lead, built from real leads with the graph's own template. */
+const dmExamples: { kind: string; handle: string }[] = [
+  { kind: "Pop-up", handle: "rookt.amsterdam" },
+  { kind: "Opening soon", handle: "sichuan_territory" },
+  { kind: "Weekend / seasonal", handle: "noorderpark_cafe" },
+];
+
 function PopupMessage() {
+  const graph = igGraph as VenueGraphData;
+  const seedName = Object.fromEntries(graph.seeds.map((x) => [x.handle, x.name]));
   return (
-    <div className="space-y-2">
-      <p className="font-display text-lg font-medium leading-snug tracking-[-0.02em]">
-        “Kantine Kees ziet er klaar voor uit 🔥 Zullen we je kassa regelen? Barracuda draait al op Tebi. Geen contract, gewoon
-        je iPad. Let&apos;s go?”
-      </p>
-      <p className="text-sm text-espresso/60">
-        Kantine Kees looks ready. Shall we sort your till? Barracuda already runs on Tebi. No contract, just your iPad.
-        Let&apos;s go?
-      </p>
+    <div className="grid gap-6 md:grid-cols-3">
+      {dmExamples.map((ex) => {
+        const v = graph.targets.find((t) => t.handle === ex.handle);
+        if (!v) return null;
+        return (
+          <div key={ex.handle}>
+            <span className="rounded bg-[#b04a6e]/10 px-1.5 py-0.5 text-xs text-[#b04a6e]">{ex.kind}</span>
+            <p className="mt-1.5 font-display text-[17px] font-medium leading-snug tracking-[-0.02em]">
+              “{suggestedDm(v, seedName[v.follows[0]])}”
+            </p>
+            <p className="mt-1 text-sm text-espresso/60">{suggestedDmEn(v, seedName[v.follows[0]])}</p>
+          </div>
+        );
+      })}
     </div>
   );
 }
+
+/** Who does what, week by week: the brief asks for both the teams and the 2–3 week path. */
+const launchWeeks: { week: string; title: string; steps: { team: string; task: string }[] }[] = [
+  {
+    week: "Week 1",
+    title: "Prep",
+    steps: [
+      { team: "Sales", task: "Load the leads into HubSpot, skip venues already on Tebi" },
+      { team: "Account managers", task: "Get the OK from the 5 customers to be named in DMs" },
+      { team: "Product marketing", task: "Sign off the Dutch DM copy and the claims (€0 under €10K, no contract)" },
+      { team: "Design (optional)", task: "A simple pop-up landing page with a demo link per DM" },
+    ],
+  },
+  {
+    week: "Week 2",
+    title: "Go live",
+    steps: [
+      { team: "Me", task: "Send 5 DMs a day by hand from Tebi's account, log every contact in HubSpot" },
+      { team: "Sales", task: "Book a demo within 24 hours of a reply" },
+    ],
+  },
+  {
+    week: "Week 3",
+    title: "Follow up and learn",
+    steps: [
+      { team: "Me + Sales", task: "Follow up once, run the demos, share a weekly readout" },
+      { team: "Me", task: "Start the next batch from the customers' followers lists" },
+    ],
+  },
+];
 
 function PopupLaunch() {
   return (
-    <ul className="space-y-1.5">
-      <li><strong>Week 1:</strong> target list from the network, checked against Tebi&apos;s CRM; DM templates signed off by product marketing</li>
-      <li><strong>Week 2:</strong> intern sends 10 DMs a day, each with its own demo link</li>
-      <li><strong>Week 3:</strong> follow-ups, sales runs the demos</li>
-    </ul>
+    <div className="grid gap-4 sm:grid-cols-3">
+      {launchWeeks.map((w) => (
+        <div key={w.week} className="rounded-xl bg-cream p-4">
+          <p className="font-medium">{w.title}</p>
+          <ul className="mt-3 space-y-2.5">
+            {w.steps.map((st) => (
+              <li key={st.task} className="text-[14px] leading-snug">
+                <span className="block text-xs font-medium text-[#b04a6e]">{st.team}</span>
+                {st.task}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
   );
 }
 
 function PopupSuccess() {
   return (
     <div className="space-y-3">
-      <p className="text-espresso/70">First pass, from 5 customers&apos; profiles: 15 till leads.</p>
       <ul className="space-y-1.5">
         <li>15 DMs, 5+ replies, 3 demos, 1 live</li>
-        <li>Then the customers&apos; followers lists: 150 DMs, 10 demos, 3 live</li>
       </ul>
     </div>
   );
@@ -203,13 +265,98 @@ function PopupSuccess() {
 
 /* ---------- 02 Backup plan: Sligro ---------- */
 
+const sligroPlan = [
+  {
+    q: "Why Sligro",
+    a: "Business-only wholesaler. Independent owners still do their own stock run, with costs on their mind, and no POS brand is in the store.",
+  },
+  { q: "The merchant", a: "Independent cafés and restaurants in Amsterdam that shop at Sligro themselves." },
+  { q: "The channel", a: "A stand at the Amsterdam Sligro checkouts on busy mornings. Bidfood if Sligro says no." },
+  {
+    q: "The message",
+    a: "“Je weet wat je hier betaalt. Weet je ook wat het je oplevert?” Scan your receipt, get a free cost check per dish.",
+  },
+  { q: "The launch", a: "Two mornings at one store, me and one sales rep. Every scan and demo logged in HubSpot." },
+  {
+    q: "Success",
+    a: "50 scans, 10 demos, 2 live. The pooled, anonymous prices become an Amsterdam horeca price index for Tebi to publish.",
+  },
+];
+
 function SligroBackup() {
   return (
-    <p>
-      Ads at Sligro&apos;s Amsterdam checkouts, plus a stand on busy mornings: only businesses shop there, and owners are in
-      buying mode. Message: “Je weet wat je hier betaalt. Weet je ook wat het je oplevert?” If Sligro won&apos;t sell space
-      inside, try car-park banners and trolley ads, or Bidfood. Success is demos from the Sligro QR code at under €600 each.
-    </p>
+    <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+      {sligroPlan.map(({ q, a }) => (
+        <div key={q}>
+          <p className="font-medium">{q}</p>
+          <p className="mt-1.5 text-[15px] leading-relaxed text-espresso/80">{a}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+type Experiment = { links?: { label: string; href: string }[]; rows: [string, string][] };
+
+const experiments: Record<"tools" | "referral" | "openings", Experiment> = {
+  tools: {
+    links: [
+      { label: "Rustige maand? Dan betaal je niks.", href: "/case-studies/tebi/tools/seizoen" },
+      { label: "Wat kost pinnen je echt?", href: "/case-studies/tebi/tools/pinkosten" },
+      { label: "Wat kost je gerecht?", href: "/case-studies/tebi/tools/gerecht" },
+    ],
+    rows: [
+      ["Hypothesis", "People who care about money will prompt for tools.  This means they are almost always going to be ICP."],
+      ["Build", "10 calculators, matching what Toast, Lightspeed and Bedrijfssoftwaregids offer: seasonal subscription, card fees, POS cost, POS chooser, cost per dish, break-even, labour cost, prime cost, profit margin, tip split. "],
+      ["Cost", "15 minutes of design & content eyeballs 👁️👄👁️. Two days implementation time."],
+      ["Double down", "1,000 uses, or AEO saturation."],
+      ["Stop", "Can't stop, won't stop"],
+      ["Team", "Marketing"],
+    ],
+  },
+  referral: {
+    rows: [
+      ["Hypothesis", "Tebi already has a strong referral programme, and it works (?). Most customers just don't think to share their code. A nudge and a ready Instagram DM would get more of them to do it."],
+      ["Build", "Each customer gets a short list of venues from their own Instagram network that aren't on Tebi, with their code and a ready Instagram DM. Sent after a strong week, by email or by their account manager."],
+      ["Cost", "The existing rewards, nothing new. A day to pull each customer's venue list, a day to set up the email."],
+      ["Double down", "Twice as many referrals a month as before the nudge."],
+      ["Stop", "No more referrals than usual after 6 weeks."],
+      ["Team", "Account managers, Sales."],
+    ],
+  },
+  openings: {
+    rows: [
+      ["Hypothesis", "A new operating permit application means a venue is weeks from opening and hasn't committed to software yet.  We will likely be the first to reach them, and their inbox won't be red very often, so having an encouraging message from Tebi is hype."],
+      ["Build", "A daily scrape of Amsterdam's new permit applications in the Gemeenteblad. Each address gets matched to the venue's Instagram, then an Instagram DM from Tebi (same flow as challenge 02), logged in HubSpot."],
+      ["Cost", "€0 for the data, a day to set up the scraperino."],
+      ["Double down", "1 in 5 new applications books a demo. Then add Rotterdam, Utrecht and The Hague."],
+      ["Stop", "Most applications turn out to be takeovers that keep their POS, or chains that buy centrally."],
+      ["Team", "Me, Sales."],
+    ],
+  },
+};
+
+function ExperimentCard({ links, rows }: Experiment) {
+  return (
+    <div className="space-y-5">
+      {links && (
+        <div className="flex flex-wrap gap-2">
+          {links.map((l) => (
+            <Link key={l.href} href={l.href} className="rounded-lg bg-cream px-3 py-1.5 text-sm font-medium hover:bg-stone">
+              {l.label} →
+            </Link>
+          ))}
+        </div>
+      )}
+      <dl className="grid gap-x-6 gap-y-4 md:grid-cols-3">
+        {rows.map(([k, v]) => (
+          <div key={k}>
+            <dt className="text-sm text-espresso/60">{k}</dt>
+            <dd className="mt-0.5 text-[15px] leading-relaxed">{v}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
   );
 }
 
@@ -241,17 +388,6 @@ const experiment = "Hypothesis, what you'd build and how long, cost, the result 
 
 export const sections: Section[] = [
   {
-    id: "context",
-    tone: "espresso",
-    title: "Where we are today",
-    intro: "A read of the numbers Tebi shared.",
-    parts: [
-      { label: "What the numbers say", ask: "What the data Tebi shared tells you.", content: null },
-      { label: "Where I'd dig in", ask: "What's messy or incomplete, and what you'd check first.", content: null },
-      { label: "What I'm assuming", ask: "The reasonable assumptions you'd make to move on.", content: null },
-    ],
-  },
-  {
     id: "ai-answers",
     tone: "slate",
     num: "01",
@@ -271,9 +407,9 @@ export const sections: Section[] = [
     parts: [
       { label: "The network", ask: "", content: <VenueGraph data={igGraph as VenueGraphData} />, wide: true },
       { label: "The merchant", ask: "Who they are, what's on their mind this month, and where their attention goes.", content: <PopupMerchant /> },
-      { label: "The channel", ask: "Where you'd reach them, and why it's an untapped opportunity.", content: <PopupChannel /> },
-      { label: "The message", ask: "What you'd say, in their words: the actual headline or first line.", content: <PopupMessage /> },
-      { label: "The launch", ask: "Who you'd work with across product marketing, design, sales or local teams, and how it goes live in 2–3 weeks.", content: <PopupLaunch /> },
+      { label: "The channel", ask: "Where you'd reach them, and why it's an untapped opportunity.", content: <PopupChannel />, double: true },
+      { label: "The message", ask: "What you'd say, in their words: the actual headline or first line.", content: <PopupMessage />, wide: true },
+      { label: "The launch", ask: "Who you'd work with across product marketing, design, sales or local teams, and how it goes live in 2–3 weeks.", content: <PopupLaunch />, double: true },
       { label: "Success", ask: "What would tell you it's working after 30 days.", content: <PopupSuccess /> },
       { label: "Backup plan", ask: "", content: <SligroBackup />, wide: true },
     ],
@@ -283,12 +419,11 @@ export const sections: Section[] = [
     tone: "olive",
     num: "03",
     title: "Your first 60 days",
-    intro: "Three acquisition experiments, each as a mini project overview, and the order you'd run them in.",
+    intro: "AEO tools, a referral push, and venues about to open.",
     parts: [
-      { label: "Experiment A", ask: experiment, content: null },
-      { label: "Experiment B", ask: experiment, content: null },
-      { label: "Experiment C", ask: experiment, content: null },
-      { label: "The order", ask: "The order you'd run them in, and why.", content: null, wide: true },
+      { label: "AEO Tools", ask: experiment, content: <ExperimentCard {...experiments.tools} />, wide: true },
+      { label: "Referral push", ask: experiment, content: <ExperimentCard {...experiments.referral} />, wide: true },
+      { label: "Venues about to open", ask: experiment, content: <ExperimentCard {...experiments.openings} />, wide: true },
     ],
   },
 ];
