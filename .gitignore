@@ -42,3 +42,8 @@ next-env.d.ts
 
 # AI audit raw answers (large; kept locally only)
 scripts/ai-audit/results/
+
+# Instagram raw lookups (captions and handles, incl. people) stay local; only the filtered venue graph is committed
+scripts/ig-graph/enrich.json
+scripts/ig-graph/posts.json
+scripts/ig-graph/mentions.json

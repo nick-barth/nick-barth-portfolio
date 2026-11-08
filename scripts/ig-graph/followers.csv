@@ -1,0 +1,358 @@
+seed_handle,relation,follower_handle,venue_name,type,neighbourhood,opening_soon,posts,notes
+cafebinnenvisser,following,oficina.amsterdam,Oficina,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,carmen.amsterdam,CARMEN,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,sabatoamsterdam,Sabato,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,barcentraalamsterdam,Bar Centraal,bar,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,calisto.ams,calisto,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,gertrudeamsterdam,Gertrude,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,pazziamsterdam,Pazzi,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,wilhelminacafe.ams,wilhelmina cafe,cafe,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,alain.amsterdam,Alain.Amsterdam,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,restaurantentrepotams,Restaurant Entrepot,restaurant,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,skatecafeamsterdam,Skatecafe,cafe,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,ruedalger.amsterdam,ruedalger,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,het_brokantje_amsterdam,Het Brokantje,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,klaproosamsterdam,Klaproos,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,cafemodernamsterdam,Café Modern,cafe,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,zjeitu.amsterdam,zjeitu,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,hburger.amsterdam,H. Burger,restaurant,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,cafedelinden.ams,Café De Linden,cafe,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,cornerstore.ams,cornerstore,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,dec.amsterdam,dec.amsterdam,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,deschoolamsterdam,De School,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,pintxospopup.ams,Pintxos pop-up,pop-up,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,cosmotacos.ams,Cosmo Tacos,restaurant,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,soifamsterdam,SOiF,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,goldencockamsterdam,Golden Cock,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,fiasco.amsterdam,FIASCO,,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,obistro_amsterdam,ô bistro,restaurant,,,,Amsterdam (in handle/name)
+cafebinnenvisser,following,tweeprinsen,cafe twee prinsen,cafe,,,,city to check
+cafebinnenvisser,following,restaurantdaphne,DAPHNE,restaurant,,,,city to check
+cafebinnenvisser,following,bakkerijlouf,louf,bakery,,,,city to check
+cafebinnenvisser,following,europa.rest,Restaurant Europa,restaurant,,,,city to check
+cafebinnenvisser,following,4850nl,4850,,,,,city to check
+cafebinnenvisser,following,chouxrestaurant,Choux,restaurant,,,,city to check
+cafebinnenvisser,following,europizza.rest,Euro Pizza Restaurant,restaurant,,,,city to check
+cafebinnenvisser,following,hotel_de_goudfazant,Hotel de Goudfazant,restaurant,,,,city to check
+cafebinnenvisser,following,restaurant_cuisine,CUISINE,restaurant,,,,city to check
+cafebinnenvisser,following,restaurant_at,Restaurant A.T,restaurant,,,,city to check
+cafebinnenvisser,following,107_e5,107 Wine Shop & Bar,wine bar,,,,city to check
+cafebinnenvisser,following,restaurantkleinbreda,Restaurant Klein BREDA,restaurant,,,,city to check
+cafebinnenvisser,following,gebrhartering,Restaurant Gebr. Hartering,restaurant,,,,city to check
+cafebinnenvisser,following,wijnwinkel,Wijnwinkel,wine shop,,,,city to check
+cafebinnenvisser,following,troppogiovane,TROPPO GIOVANE,,,,,city to check
+cafebinnenvisser,following,troppobottleshop,Troppo Giovane Wine Store,wine shop,,,,city to check
+cafebinnenvisser,following,bakrestaurant,BAK restaurant,restaurant,,,,city to check
+cafebinnenvisser,following,cafe_remouillage,remouillage,cafe,,,,city to check
+cafebinnenvisser,following,acid.cafe,ACID,cafe,,,,city to check
+cafebinnenvisser,following,achttienuurbbq,Achttien uur bar-b-que,restaurant,,,,city to check
+cafebinnenvisser,following,frida.cantina,Frida,restaurant,,,,city to check
+cafebinnenvisser,following,rumahharuku,Rumah Haruku,,,,,city to check
+cafebinnenvisser,following,bicchierinobar,Bicchierino Bar,bar,,,,city to check
+cafebinnenvisser,following,ivresse.lacave,ivresse.lacave,wine bar,,,,city to check
+cafebinnenvisser,following,toki.times,TOKI,,,,,city to check
+cafebinnenvisser,following,zuiverwijnen,Zuiver Wijnen,wine shop,,,,city to check
+cafebinnenvisser,following,ijsvaneerdenburg,ijsvaneerdenburg,,,,,city to check
+zero.zero.store,following,flos_ams,Flo's Amsterdam,,,,,Amsterdam (in handle/name)
+zero.zero.store,following,nnea_ams,nNea pizza,restaurant,,,,Amsterdam (in handle/name)
+zero.zero.store,following,spiegelamsterdam,Spiegel Amsterdam,,,,,Amsterdam (in handle/name)
+zero.zero.store,following,turbo.amsterdam,turbo,,,,,Amsterdam (in handle/name)
+zero.zero.store,following,bakkerijlouf,louf,bakery,,,,city to check
+zero.zero.store,following,boulangeriemiemie,MieMie,bakery,,,,city to check
+zero.zero.store,following,fort.negen,Fort Negen,,,,,city to check
+zero.zero.store,following,wijnwinkel.dekaaf,De Kaaf,wine shop,,,,city to check
+zero.zero.store,following,buurtcafe.detros,Buurtcafé De Tros,cafe,,,,city to check
+zero.zero.store,following,bakkerijwolf,Bakkerij Wolf,bakery,,,,city to check
+zero.zero.store,following,vanstapele,Van Stapele Koekmakerij,bakery,,,,city to check
+zero.zero.store,following,levainetlevin,levain et le vin,bakery,,,,city to check
+zero.zero.store,following,bakkerijfunk,Bakkerij Funk,bakery,,,,city to check
+zero.zero.store,following,ceppis.trattoria,Ceppi's,restaurant,,,,city to check
+zero.zero.store,following,maijardsmashburgers,Maijard Dutch Smashburgers,restaurant,,,,city to check
+zero.zero.store,following,teaguysnl,Tea Guys,cafe,,,,city to check
+zero.zero.store,following,saintjeanbakery,SAINT-JEAN,bakery,,,,city to check
+zero.zero.store,following,shortroadpizza,SHORT ROAD PIZZA,restaurant,,,,city to check
+zero.zero.store,following,jacksdiningroom,Jack's Dining Room,restaurant,,,,city to check
+esra.amsterdam,following,tweeprinsen,cafe twee prinsen,cafe,,,,also followed by another seed
+esra.amsterdam,following,4850nl,4850,,,,,also followed by another seed
+esra.amsterdam,following,chouxrestaurant,Choux,restaurant,,,,also followed by another seed
+esra.amsterdam,following,troppogiovane,TROPPO GIOVANE,,,,,also followed by another seed
+esra.amsterdam,following,cafe_remouillage,remouillage,cafe,,,,also followed by another seed
+esra.amsterdam,following,cafemodernamsterdam,Café Modern,cafe,,,,also followed by another seed
+esra.amsterdam,following,cafedelinden.ams,Café De Linden,cafe,,,,also followed by another seed
+esra.amsterdam,following,bakrestaurant,BAK restaurant,restaurant,,,,also followed by another seed
+esra.amsterdam,following,kometenbrood,Kometen Brood & Café,bakery,,,,seed (Tebi customer)
+esra.amsterdam,following,restaurant_barracuda_amsterdam,Restaurant Barracuda Amsterdam,restaurant,,,,seed (Tebi customer)
+esra.amsterdam,following,amra.amsterdam,AMRA,,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,september.amsterdam,september amsterdam,,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,patioamsterdam,Patio Amsterdam,,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,belly.pepper,Belly Pepper Amsterdam,,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,mltamsterdam,MLT Bakery & Coffee,cafe,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,thecollectives.amsterdam,The Collectives,,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,cafewu.ams,Café Wu,cafe,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,veneur.ams,VENEUR,,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,winestories.ams,WINESTORIES,wine bar,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,maracuya.amsterdam,Maracuyá,,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,rookt.amsterdam,ROOKT,restaurant,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,davies_amsterdam,Davie's Amsterdam,,,,,Amsterdam (in handle/name)
+esra.amsterdam,following,barvergist,Bar Vergist,bar,,,,city to check
+esra.amsterdam,following,breadwinnerbagels,Breadwinner Bagels,bakery,,,,city to check
+esra.amsterdam,following,restaurantnotable,Restaurant Notable,restaurant,,,,city to check
+esra.amsterdam,following,vesper.restaurant,Vesper,restaurant,,,,city to check
+esra.amsterdam,following,bureauwijnnoord,Bureau Wijn Noord,wine bar,,,,city to check
+esra.amsterdam,following,bureauwijnwest,Bureau Wijn West,wine bar,,,,city to check
+esra.amsterdam,following,bureauwijnoost,Bureau Wijn Oost,wine bar,,,,city to check
+esra.amsterdam,following,cafe.iep,cafe.iep,cafe,,,,city to check
+esra.amsterdam,following,gorgolunchroom,Gorgo Lunchroom,cafe,,,,city to check
+esra.amsterdam,following,toscaninirestaurant,Caffè Toscanini,restaurant,,,,city to check
+esra.amsterdam,following,eetcafe.vanbeeren,Eetcafé Van Beeren,cafe,,,,city to check
+esra.amsterdam,following,paomaska,pão + maska bakery,bakery,,,,city to check
+esra.amsterdam,following,deviskot,De Viskot,restaurant,,,,city to check
+esra.amsterdam,following,cafe.r.de.rosa,café R. de Rosa,cafe,,,,city to check
+esra.amsterdam,following,o_anatoliancafe,O - Anatolian Café,cafe,,,,city to check
+esra.amsterdam,following,cafekompleet,Café Kompleet,cafe,,,,city to check
+esra.amsterdam,following,kamer.bar,kamer,bar,,,,city to check
+esra.amsterdam,following,ladouzaine.nl,La Douzaine,restaurant,,,,city to check
+esra.amsterdam,following,degeluksdruif,De Geluksdruif,wine shop,,,,city to check
+esra.amsterdam,following,tuurlijkwijnen,Tuurlijk!wijnen,wine shop,,,,city to check
+esra.amsterdam,following,magwijnen,MAG Wijnen,wine shop,,,,city to check
+esra.amsterdam,following,effendylahmacuncafe,Effendy Lahmacun Cafe,cafe,,,,city to check
+esra.amsterdam,following,rondo.restaurant,Rondo Restaurant,restaurant,,,,city to check
+esra.amsterdam,following,cafe_parlotte,Café Parlotte,cafe,,,,city to check
+esra.amsterdam,following,enoteca_sprezzatura,Enoteca Sprezzatura,wine bar,,,,city to check
+esra.amsterdam,following,restaurant.brio,BRIO,restaurant,,,,city to check
+esra.amsterdam,following,inatkantine,INAT kantine,restaurant,,,,city to check
+esra.amsterdam,following,thulls.nl,Thull's Deli,,,,,city to check
+esra.amsterdam,following,caferijsel,Café Rijsel,restaurant,,,,city to check
+esra.amsterdam,following,barkarakter,KARAKTER,bar,,,,city to check
+esra.amsterdam,following,zuiver.bar,Zuiver Bar,bar,,,,city to check
+esra.amsterdam,following,gavecoffee,Gave,cafe,,,,city to check
+esra.amsterdam,following,eten.inhettveld,Eten in 't veld,restaurant,,,,city to check
+esra.amsterdam,following,dapper.cafe,Dapper,cafe,,,,city to check
+esra.amsterdam,following,zomer.bar,zomer bar,bar,,,,city to check
+esra.amsterdam,following,bodega.restobar,BODEGA,restaurant,,,,city to check
+esra.amsterdam,following,nieuwe_diep,Proeflokaal 't Nieuwe Diep,bar,,,,city to check
+esra.amsterdam,following,dewatermeterfabriek1916,De Watermeterfabriek,,,,,city to check
+restaurant_barracuda_amsterdam,following,zuiverwijnen,Zuiver Wijnen,wine shop,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,kamer.bar,kamer,bar,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,toscaninirestaurant,Caffè Toscanini,restaurant,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,europa.rest,Restaurant Europa,restaurant,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,nnea_ams,nNea pizza,restaurant,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,troppogiovane,TROPPO GIOVANE,,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,cafe_parlotte,Café Parlotte,cafe,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,caferijsel,Café Rijsel,restaurant,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,dewatermeterfabriek1916,De Watermeterfabriek,,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,hotel_de_goudfazant,Hotel de Goudfazant,restaurant,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,skatecafeamsterdam,Skatecafe,cafe,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,rondo.restaurant,Rondo Restaurant,restaurant,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,het_brokantje_amsterdam,Het Brokantje,,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,zuiver.bar,Zuiver Bar,bar,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,klaproosamsterdam,Klaproos,,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,gebrhartering,Restaurant Gebr. Hartering,restaurant,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,troppobottleshop,Troppo Giovane Wine Store,wine shop,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,cafe_remouillage,remouillage,cafe,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,bakrestaurant,BAK restaurant,restaurant,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,cosmotacos.ams,Cosmo Tacos,restaurant,,,,also followed by another seed
+restaurant_barracuda_amsterdam,following,kometenbrood,,,,,,seed (Tebi customer)
+restaurant_barracuda_amsterdam,following,esra.amsterdam,,,,,,seed (Tebi customer)
+restaurant_barracuda_amsterdam,following,cafecressamsterdam,Café Cress,cafe,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,sushi.ikigai.amsterdam,Ikigai Amsterdam,restaurant,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,tavernoamsterdam,TAVERNO,restaurant,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,hetdorp.amsterdam,HET DORP,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,mpies.ams,M Pies,bakery,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,roestamsterdam,Roest,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,bacalar.amsterdam,Bacalar,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,omoka_amsterdam,Omoka,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,thecottageamsterdam,The Cottage Amsterdam,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,bistrodefles_amsterdam,BISTRO DE FLES,restaurant,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,thesiren_amsterdam,THE SIREN,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,bottleshop.ams,Bottleshop,wine shop,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,meeuwig_amsterdam,Meeuwig,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,qskitchen.amsterdam,Qskitchen,restaurant,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,sebonsa.ams,sebonsa amsterdam,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,tewatashi.ams,TEWATASHI,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,encounter.ams,The Encounter,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,bistrodelamerams,Bistro de la Mer,restaurant,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,treesamsterdam,Trees,,,,,Amsterdam (in handle/name)
+restaurant_barracuda_amsterdam,following,fritesde.mer,Frites de Mer,,,,,city to check
+restaurant_barracuda_amsterdam,following,tiella_trattoria,tiella_trattoria,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,zizoucoffee,Zizou Coffee,cafe,,,,city to check
+restaurant_barracuda_amsterdam,following,restaurantmotief,Restaurant Motief,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,barlenie,Lenie,bar,,,,city to check
+restaurant_barracuda_amsterdam,following,depasteibakkerij,De Pasteibakkerij,bakery,,,,city to check
+restaurant_barracuda_amsterdam,following,kafekontrast,Kafé Kontrast,cafe,,,,city to check
+restaurant_barracuda_amsterdam,following,salon_des_amateurs,Salon des Amateurs,bar,,,,city to check
+restaurant_barracuda_amsterdam,following,sushinoord,Sushi Noord,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,trattoriadelpescatore,Trattoria del Pescatore,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,pianeta_terra_restaurant,Pianeta Terra,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,haute_mess_hall,Haute Mess,,,,,city to check
+restaurant_barracuda_amsterdam,following,twerftje,'T WERFTJE,,,,,city to check
+restaurant_barracuda_amsterdam,following,cheriff_restaurant,Cheriff Restaurant,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,benelux.bar,BENELUX BAR,bar,,,,city to check
+restaurant_barracuda_amsterdam,following,devluchthaven,Brasserie de Vluchthaven,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,dime.slice,DIME SLICE,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,kantine_kees,Kantine Kees,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,sichuan_territory,Sichuan Territory Restaurant,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,thegoodcompanionnl,The Good Companion,bar,,,,city to check
+restaurant_barracuda_amsterdam,following,wijntuinronja,Wijntuin Ronja,wine bar,,,,city to check
+restaurant_barracuda_amsterdam,following,cafe.saar,café SAAR,cafe,,,,city to check
+restaurant_barracuda_amsterdam,following,caferestaurant.flora,Café Restaurant Flora,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,restaurantdomenica,Restaurant Domenica,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,noordoosteethuis,Noord-Oost Eethuis,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,masmais.taqueria,MasMais Taqueria,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,louielouie.nl,Louie Louie,,,,,city to check
+restaurant_barracuda_amsterdam,following,ladybird.fc,LADYBIRD FRIED CHICKEN,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,visaandeschelde,Restaurant Visaandeschelde,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,stacksdiner,Stacks Diner,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,caferestaurantmetro,café restaurant metro,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,visschnl,VISSCH,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,eetricardos,Ricardo's,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,apollonia.rest,Apollonia,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,newdraver_restaurant,New Draver Restaurant,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,restaurant_kwiekwie,KWIEKWIE,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,bar.pekel,Bar Pekel,bar,,,,city to check
+restaurant_barracuda_amsterdam,following,charcoal.fish,Charcoal Fish,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,merdunordfoodhallen,MER DU NORD,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,stadsbakkerij_as,Stadsbakkerij As,bakery,,,,city to check
+restaurant_barracuda_amsterdam,following,fredyrestobar,Fredy,restaurant,,,,city to check
+restaurant_barracuda_amsterdam,following,tonton.noord,TonTon Noord,,,,,city to check
+kometenbrood,following,carmen.amsterdam,CARMEN,,,,,also followed by another seed
+kometenbrood,following,benelux.bar,BENELUX BAR,bar,,,,also followed by another seed
+kometenbrood,following,tavernoamsterdam,TAVERNO,restaurant,,,,also followed by another seed
+kometenbrood,following,cafecressamsterdam,Café Cress,cafe,,,,also followed by another seed
+kometenbrood,following,tweeprinsen,cafe twee prinsen,cafe,,,,also followed by another seed
+kometenbrood,following,cafe.r.de.rosa,café R. de Rosa,cafe,,,,also followed by another seed
+kometenbrood,following,dime.slice,DIME SLICE,restaurant,,,,also followed by another seed
+kometenbrood,following,bakkerijlouf,louf,bakery,,,,also followed by another seed
+kometenbrood,following,bureauwijnoost,Bureau Wijn Oost,wine bar,,,,also followed by another seed
+kometenbrood,following,barcentraalamsterdam,Bar Centraal,bar,,,,also followed by another seed
+kometenbrood,following,bacalar.amsterdam,Bacalar,,,,,also followed by another seed
+kometenbrood,following,inatkantine,INAT kantine,restaurant,,,,also followed by another seed
+kometenbrood,following,europizza.rest,Euro Pizza Restaurant,restaurant,,,,also followed by another seed
+kometenbrood,following,cafewu.ams,Café Wu,cafe,,,,also followed by another seed
+kometenbrood,following,buurtcafe.detros,Buurtcafé De Tros,cafe,,,,also followed by another seed
+kometenbrood,following,caferijsel,Café Rijsel,restaurant,,,,also followed by another seed
+kometenbrood,following,dewatermeterfabriek1916,De Watermeterfabriek,,,,,also followed by another seed
+kometenbrood,following,hotel_de_goudfazant,Hotel de Goudfazant,restaurant,,,,also followed by another seed
+kometenbrood,following,skatecafeamsterdam,Skatecafe,cafe,,,,also followed by another seed
+kometenbrood,following,bottleshop.ams,Bottleshop,wine shop,,,,also followed by another seed
+kometenbrood,following,klaproosamsterdam,Klaproos,,,,,also followed by another seed
+kometenbrood,following,saintjeanbakery,SAINT-JEAN,bakery,,,,also followed by another seed
+kometenbrood,following,stadsbakkerij_as,Stadsbakkerij As,bakery,,,,also followed by another seed
+kometenbrood,following,meeuwig_amsterdam,Meeuwig,,,,,also followed by another seed
+kometenbrood,following,sebonsa.ams,sebonsa amsterdam,,,,,also followed by another seed
+kometenbrood,following,cafe_remouillage,remouillage,cafe,,,,also followed by another seed
+kometenbrood,following,gebrhartering,Restaurant Gebr. Hartering,restaurant,,,,also followed by another seed
+kometenbrood,following,cafemodernamsterdam,Café Modern,cafe,,,,also followed by another seed
+kometenbrood,following,rookt.amsterdam,ROOKT,restaurant,,,,also followed by another seed
+kometenbrood,following,cafedelinden.ams,Café De Linden,cafe,,,,also followed by another seed
+kometenbrood,following,cornerstore.ams,cornerstore,,,,,also followed by another seed
+kometenbrood,following,acid.cafe,ACID,cafe,,,,also followed by another seed
+kometenbrood,following,zomer.bar,zomer bar,bar,,,,also followed by another seed
+kometenbrood,following,bakkerijfunk,Bakkerij Funk,bakery,,,,also followed by another seed
+kometenbrood,following,bakkerijwolf,Bakkerij Wolf,bakery,,,,also followed by another seed
+kometenbrood,following,apollonia.rest,Apollonia,restaurant,,,,also followed by another seed
+kometenbrood,following,esra.amsterdam,,,,,,seed (Tebi customer)
+kometenbrood,following,zero.zero.store,,,,,,seed (Tebi customer)
+kometenbrood,following,restaurant_barracuda_amsterdam,,,,,,seed (Tebi customer)
+kometenbrood,following,bajes.amsterdam,Bajes Amsterdam,,,,,Amsterdam (in handle/name)
+kometenbrood,following,de.salon.amsterdam,De Salon,,,,,Amsterdam (in handle/name)
+kometenbrood,following,cafe_ami_amsterdam,Café AMI,cafe,,,,Amsterdam (in handle/name)
+kometenbrood,following,foufownoord,Fou Fow (noord),restaurant,,,,Amsterdam (in handle/name)
+kometenbrood,following,matto_noord,Matto Noord,,,,,Amsterdam (in handle/name)
+kometenbrood,following,most.amsterdam,MOST,,,,,Amsterdam (in handle/name)
+kometenbrood,following,mundi.amsterdam,mundi,,,,,Amsterdam (in handle/name)
+kometenbrood,following,grammes_ams,Grammes Amsterdam,,,,,Amsterdam (in handle/name)
+kometenbrood,following,copainamsterdam,Copain,,,,,Amsterdam (in handle/name)
+kometenbrood,following,sissis.amsterdam,Sissi's Amsterdam,,,,,Amsterdam (in handle/name)
+kometenbrood,following,waterkantamsterdam,Waterkant,bar,,,,Amsterdam (in handle/name)
+kometenbrood,following,yellowhouse.amsterdam,Yellow House,,,,,Amsterdam (in handle/name)
+kometenbrood,following,kikkie.amsterdam,Kikkie van de Prinsensluis,,,,,Amsterdam (in handle/name)
+kometenbrood,following,debaanderij.ams,Café Restaurant De Baanderij,restaurant,,,,Amsterdam (in handle/name)
+kometenbrood,following,sans.noord,Sans,,,,,Amsterdam (in handle/name)
+kometenbrood,following,mills_bakery.ams,MILLS Bakery,bakery,,,,Amsterdam (in handle/name)
+kometenbrood,following,vandewerf.amsterdam,Bar Restaurant Van de Werf,restaurant,,,,Amsterdam (in handle/name)
+kometenbrood,following,cafe_kosmosamsterdam,Cafe Kosmos,cafe,,,,Amsterdam (in handle/name)
+kometenbrood,following,focacceriaamsterdam,Focacceria Amsterdam,bakery,,,,Amsterdam (in handle/name)
+kometenbrood,following,batch.ams,BATCH BAKERY,bakery,,,,Amsterdam (in handle/name)
+kometenbrood,following,pastisamsterdam,Pastis Amsterdam,restaurant,,,,Amsterdam (in handle/name)
+kometenbrood,following,cafebeurreamsterdam,Café Beurre,cafe,,,,Amsterdam (in handle/name)
+kometenbrood,following,chateauamsterdam,Chateau Amsterdam,,,,,Amsterdam (in handle/name)
+kometenbrood,following,pllek_amsterdam,Pllek,restaurant,,,,Amsterdam (in handle/name)
+kometenbrood,following,denada.amsterdam,De Nada,,,,,Amsterdam (in handle/name)
+kometenbrood,following,cafeacoteamsterdam,CAFÉ a Côté,cafe,,,,Amsterdam (in handle/name)
+kometenbrood,following,murmur.ams,murmur,,,,,Amsterdam (in handle/name)
+kometenbrood,following,badhuis.ams,Badhuis Amsterdam,,,,,Amsterdam (in handle/name)
+kometenbrood,following,dikk.amsterdam,DIKK,,,,,Amsterdam (in handle/name)
+kometenbrood,following,breakfastclub_amsterdam,Breakfast Club,cafe,,,,Amsterdam (in handle/name)
+kometenbrood,following,ijveramsterdam,IJver,,,,,Amsterdam (in handle/name)
+kometenbrood,following,contrast.amsterdam,Contrast,,,,,Amsterdam (in handle/name)
+kometenbrood,following,brioche_amsterdam,brioche. amsterdam,bakery,,,,Amsterdam (in handle/name)
+kometenbrood,following,lacontessaamsterdam,La Contessa Amsterdam,,,,,Amsterdam (in handle/name)
+kometenbrood,following,nicostrattoria,Nico's Trattoria,restaurant,,,,Amsterdam (in handle/name)
+kometenbrood,following,cue_amsterdam,CUE,,,,,Amsterdam (in handle/name)
+kometenbrood,following,gourjet.amsterdam,Gourjet,,,,,Amsterdam (in handle/name)
+kometenbrood,following,bellogios.amsterdam,Bello Gio's by the River,restaurant,,,,Amsterdam (in handle/name)
+kometenbrood,following,lokaallokaal.amsterdam,Lokaal Lokaal,,,,,Amsterdam (in handle/name)
+kometenbrood,following,thebarleyroomamsterdam,The Barley Room,bar,,,,Amsterdam (in handle/name)
+kometenbrood,following,barfiskamsterdam,BAR FISK,bar,,,,Amsterdam (in handle/name)
+kometenbrood,following,karaatamsterdam,Karaat Amsterdam,,,,,Amsterdam (in handle/name)
+kometenbrood,following,restauranthemelsemodder,Hemelse Modder Amsterdam,restaurant,,,,Amsterdam (in handle/name)
+kometenbrood,following,noorderlicht.ndsm,Noorderlicht NDSM,cafe,,,,Amsterdam (in handle/name)
+kometenbrood,following,lftovramsterdam,LFTOVR,,,,,Amsterdam (in handle/name)
+kometenbrood,following,petitgateauamsterdam,Patisserie Française,bakery,,,,Amsterdam (in handle/name)
+kometenbrood,following,bakhuys,Bakhuys Amsterdam,bakery,,,,Amsterdam (in handle/name)
+kometenbrood,following,rommedoe_noord,Rommedoe,,,,,Amsterdam (in handle/name)
+kometenbrood,following,scheepskameel,Scheepskameel,restaurant,,,,city to check
+kometenbrood,following,cafe.pek,PEK,cafe,,,,city to check
+kometenbrood,following,way_bakery,WAY,bakery,,,,city to check
+kometenbrood,following,hijkoopbakker,Bakker Hijkoop,bakery,,,,city to check
+kometenbrood,following,gentleplacecoffee,Gentle Place Specialty Coffee,cafe,,,,city to check
+kometenbrood,following,cafekadijk,Café Kadijk,cafe,,,,city to check
+kometenbrood,following,junebakerynl,June Bakery,bakery,,,,city to check
+kometenbrood,following,sec.marche,Sec Marché,,,,,city to check
+kometenbrood,following,wek_desembakkerij,wèk desembakkerij,bakery,,,,city to check
+kometenbrood,following,cafe.comet,cafe.comet,cafe,,,,city to check
+kometenbrood,following,cafeunfiltered,unfiltered,cafe,,,,city to check
+kometenbrood,following,bistromonroe,Bistro Monroe,restaurant,,,,city to check
+kometenbrood,following,savage.restaurant,Savage,restaurant,,,,city to check
+kometenbrood,following,companiobakery,Companio Bakery,bakery,,,,city to check
+kometenbrood,following,bistrotdunord,Bistrot Du Nord,restaurant,,,,city to check
+kometenbrood,following,bakkerenboon,Bakker & Boon,bakery,,,,city to check
+kometenbrood,following,aapnootbrood,Aap Noot Brood,bakery,,,,city to check
+kometenbrood,following,wachtlokaal,Het Wachtlokaal,,,,,city to check
+kometenbrood,following,saamrestaurant,SAAM Restaurant,restaurant,,,,city to check
+kometenbrood,following,pompernikkel_restaurant,Pompernikkel,restaurant,,,,city to check
+kometenbrood,following,depizzabakkers,De Pizzabakkers,restaurant,,,,city to check
+kometenbrood,following,cafeschinkelhaven,Café Schinkelhaven,cafe,,,,city to check
+kometenbrood,following,koffiehuisdegoedemorgen,Koffiehuis de Goede Morgen,cafe,,,,city to check
+kometenbrood,following,cafe.felperlaan,Felperlaan,cafe,,,,city to check
+kometenbrood,following,bakkerij_mas,Bakkerij MAS,bakery,,,,city to check
+kometenbrood,following,amasacafe,AMASA,cafe,,,,city to check
+kometenbrood,following,broodje.popov,Broodje Popov,,,,,city to check
+kometenbrood,following,mielbakery,Miel Bakery,bakery,,,,city to check
+kometenbrood,following,barkauffmann,Kauffmann,bar,,,,city to check
+kometenbrood,following,bistroracine,Bistro Racine,restaurant,,,,city to check
+kometenbrood,following,katsusanderia,Katsusanderia,restaurant,,,,city to check
+kometenbrood,following,boulangeriemamiche,MAMICHE,bakery,,,,city to check
+kometenbrood,following,polly.goudvisch,Polly,cafe,,,,city to check
+kometenbrood,following,deysbreeker,Café-Restaurant De Ysbreeker,restaurant,,,,city to check
+kometenbrood,following,coba.taqueria,COBA Taqueria,restaurant,,,,city to check
+kometenbrood,following,cafekeppler,Cafe Keppler,cafe,,,,city to check
+kometenbrood,following,wildezwijnenrestaurant,restaurant WILDE ZWIJNEN,restaurant,,,,city to check
+kometenbrood,following,wilsbakerycafe,Wils Bakery Café,bakery,,,,city to check
+kometenbrood,following,hannekesboom,Hannekes Boom,bar,,,,city to check
+kometenbrood,following,cafe.bakeliet,Café Bakeliet,cafe,,,,city to check
+kometenbrood,following,trattoriadame,Trattoria Da Me,restaurant,,,,city to check
+kometenbrood,following,helling_7,Helling 7,,,,,city to check
+kometenbrood,following,debakkerette,De Bakkerette,bakery,,,,city to check
+kometenbrood,following,bar.cult,CULT,bar,,,,city to check
+kometenbrood,following,aobar.nl,AO 青 Bar,bar,,,,city to check
+kometenbrood,following,missgs_nl,Miss G's,,,,,city to check
+kometenbrood,following,ronniecoffeeshop,RONNIE,cafe,,,,city to check
+kometenbrood,following,bar.raket,Bar Raket,bar,,,,city to check
+kometenbrood,following,cometa_popup,Cometa Pop-up,pop-up,,,,city to check
+kometenbrood,following,alfbakery,ALF Bakery,bakery,,,,city to check
+kometenbrood,following,barboeket,Bar Boeket,bar,,,,city to check
+kometenbrood,following,broodfabrique,Brood Fabrique,bakery,,,,city to check
+kometenbrood,following,noorderpark_cafe,Noorderpark Café,cafe,,,,city to check
+kometenbrood,following,sisters_bakery_and_kitchen.nl,Sisters Bakery & Kitchen,bakery,,,,city to check

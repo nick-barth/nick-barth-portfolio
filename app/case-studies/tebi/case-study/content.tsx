@@ -5,6 +5,9 @@ import type { AuditPrompt } from "./audit-table";
 // Both written by `bun run audit` (scripts/ai-audit); the summary only by complete runs
 import auditData from "./audit-data.json";
 import auditSummary from "./audit-summary.json";
+// Written by `bun scripts/ig-graph/build.ts` from the hand-collected Instagram lists
+import igGraph from "./ig-graph.json";
+import { VenueGraph, type VenueGraphData } from "./venue-graph";
 
 const audit = auditData as AuditPrompt[];
 
@@ -143,6 +146,79 @@ function TrackContent() {
   );
 }
 
+/* ---------- 02 Untapped acquisition: pop-ups ---------- */
+
+function PopupMerchant() {
+  return (
+    <div className="space-y-2">
+      <p>Pop-ups, new openings and weekend-only or seasonal venues in Amsterdam&apos;s scene.</p>
+      <p className="text-espresso/70">Right now: a run to plan, a host to find, a till that&apos;s cheap when it&apos;s quiet.</p>
+      <p className="text-espresso/70">Attention: Instagram, and the venues that host them.</p>
+    </div>
+  );
+}
+
+function PopupChannel() {
+  return (
+    <div className="space-y-2">
+      <p>Instagram DMs from Tebi, sent by hand by an intern.</p>
+      <p className="text-espresso/70">
+        Targets come from the network above: who Tebi&apos;s customers follow and mention, filtered to venues that run a till.
+      </p>
+      <p className="text-espresso/70">Competitors buy ads. Nobody DMs the pop-up.</p>
+    </div>
+  );
+}
+
+function PopupMessage() {
+  return (
+    <div className="space-y-2">
+      <p className="font-display text-lg font-medium leading-snug tracking-[-0.02em]">
+        “Zag dat Kantine Kees in the making is 👀 Barracuda draait op Tebi. Geen contract, gewoon je iPad, en €0 per maand
+        onder €10K omzet. Zin om te zien hoe?”
+      </p>
+      <p className="text-sm text-espresso/60">
+        Saw Kantine Kees is in the making. Barracuda runs on Tebi. No contract, just your iPad, €0 a month under €10K. Want
+        to see how?
+      </p>
+    </div>
+  );
+}
+
+function PopupLaunch() {
+  return (
+    <ul className="space-y-1.5">
+      <li><strong>Week 1:</strong> target list from the network, checked against Tebi&apos;s CRM; DM templates signed off by product marketing</li>
+      <li><strong>Week 2:</strong> intern sends 10 DMs a day, each with its own demo link</li>
+      <li><strong>Week 3:</strong> follow-ups, sales runs the demos</li>
+    </ul>
+  );
+}
+
+function PopupSuccess() {
+  return (
+    <div className="space-y-3">
+      <p className="text-espresso/70">First pass, from 5 customers&apos; profiles: 15 till leads.</p>
+      <ul className="space-y-1.5">
+        <li>15 DMs, 5+ replies, 3 demos, 1 live</li>
+        <li>Then the customers&apos; followers lists: 150 DMs, 10 demos, 3 live</li>
+      </ul>
+    </div>
+  );
+}
+
+/* ---------- 02 Backup plan: Sligro ---------- */
+
+function SligroBackup() {
+  return (
+    <p>
+      Ads at Sligro&apos;s Amsterdam checkouts, plus a stand on busy mornings: only businesses shop there, and owners are in
+      buying mode. Message: “Je weet wat je hier betaalt. Weet je ook wat het je oplevert?” If Sligro won&apos;t sell space
+      inside, try car-park banners and trolley ads, or Bidfood. Success is demos from the Sligro QR code at under €600 each.
+    </p>
+  );
+}
+
 export type Part = {
   label: string;
   /** What the brief asks for here, shown as a placeholder until `content` is set */
@@ -197,13 +273,15 @@ export const sections: Section[] = [
     tone: "wine",
     num: "02",
     title: "Untapped acquisition opportunity",
-    intro: "One type of operator in one market, reached through a channel competitors aren't using.",
+    intro: "Pop-ups and part-time venues in Amsterdam, found through Tebi's own customers on Instagram.",
     parts: [
-      { label: "The merchant", ask: "Who they are, what's on their mind this month, and where their attention goes.", content: null },
-      { label: "The channel", ask: "Where you'd reach them, and why it's an untapped opportunity.", content: null },
-      { label: "The message", ask: "What you'd say, in their words: the actual headline or first line.", content: null },
-      { label: "The launch", ask: "Who you'd work with across product marketing, design, sales or local teams, and how it goes live in 2–3 weeks.", content: null },
-      { label: "Success", ask: "What would tell you it's working after 30 days.", content: null },
+      { label: "The network", ask: "", content: <VenueGraph data={igGraph as VenueGraphData} />, wide: true },
+      { label: "The merchant", ask: "Who they are, what's on their mind this month, and where their attention goes.", content: <PopupMerchant /> },
+      { label: "The channel", ask: "Where you'd reach them, and why it's an untapped opportunity.", content: <PopupChannel /> },
+      { label: "The message", ask: "What you'd say, in their words: the actual headline or first line.", content: <PopupMessage /> },
+      { label: "The launch", ask: "Who you'd work with across product marketing, design, sales or local teams, and how it goes live in 2–3 weeks.", content: <PopupLaunch /> },
+      { label: "Success", ask: "What would tell you it's working after 30 days.", content: <PopupSuccess /> },
+      { label: "Backup plan", ask: "", content: <SligroBackup />, wide: true },
     ],
   },
   {
