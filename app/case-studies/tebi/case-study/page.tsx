@@ -58,7 +58,7 @@ export default function CaseStudyPage() {
           <section
             key={s.id}
             id={s.id}
-            className={`scroll-mt-28 rounded-3xl p-6 text-cream md:p-[50px] ${tones[s.tone]} ${i === 0 ? "mt-[90px]" : "mt-5"} ${i === sections.length - 1 ? "mb-[90px]" : ""}`}
+            className={`scroll-mt-28 rounded-3xl p-6 text-cream md:p-[50px] ${tones[s.tone]} ${i === 0 ? "mt-[90px]" : "mt-5"}`}
           >
             <div className="flex items-start gap-4">
               {s.num && (
@@ -82,6 +82,10 @@ export default function CaseStudyPage() {
           </section>
         ))}
 
+        {/* Sign-off */}
+        <section id="thanks" className="mb-[90px] mt-5 scroll-mt-28 rounded-3xl bg-butter p-6 text-espresso md:p-[50px]">
+          <h2 className={h2}>Thanks for paying attention (?), gang</h2>
+        </section>
       </main>
       <Footer />
     </>

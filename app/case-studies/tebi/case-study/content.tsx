@@ -213,7 +213,7 @@ const launchWeeks: { week: string; title: string; steps: { team: string; task: s
     steps: [
       { team: "Sales", task: "Load the leads into HubSpot, skip venues already on Tebi" },
       { team: "Account managers", task: "Get the OK from the 5 customers to be named in DMs" },
-      { team: "Product marketing", task: "Sign off the Dutch DM copy and the claims (€0 under €10K, no contract)" },
+      { team: "Product marketing", task: "Sign off the Dutch DM copy and the claims (pay for what you earn, no contract)" },
       { team: "Design (optional)", task: "A simple pop-up landing page with a demo link per DM" },
     ],
   },
@@ -355,7 +355,7 @@ const experiments: Record<"tools" | "referral" | "openings", Experiment> = {
       ["Cost", "€0 for the data, a day to set up the scraperino."],
       ["Double down", "1 in 5 new applications books a demo. Then add Rotterdam, Utrecht and The Hague."],
       ["Stop", "Most applications turn out to be takeovers that keep their POS, or chains that buy centrally."],
-      ["Team", "Me, Sales."],
+      ["Team", "Marketing and sales."],
     ],
   },
 };
