@@ -118,5 +118,125 @@
       }
     },
     "costUsd": 3.092033349999999
+  },
+  {
+    "date": "2026-11-09",
+    "generatedAt": "2026-11-09T13:00:00.907Z",
+    "runsPerPrompt": 1,
+    "prompts": 45,
+    "answers": 135,
+    "tebiMentioned": 0.08148148148148149,
+    "engines": {
+      "chatgpt": {
+        "mentioned": 0.08888888888888889,
+        "namedFirst": 0,
+        "cited": 0
+      },
+      "perplexity": {
+        "mentioned": 0.022222222222222223,
+        "namedFirst": 0,
+        "cited": 0.022222222222222223
+      },
+      "gemini": {
+        "mentioned": 0.13333333333333333,
+        "namedFirst": 0.044444444444444446,
+        "cited": 0.06666666666666667
+      }
+    },
+    "markets": {
+      "All": {
+        "tebi": 0.08148148148148149,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.562962962962963
+        }
+      },
+      "NL": {
+        "tebi": 0.24444444444444444,
+        "tebiRank": 5,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.7111111111111111
+        }
+      },
+      "ES": {
+        "tebi": 0,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Revo",
+          "share": 0.4444444444444444
+        }
+      },
+      "DE": {
+        "tebi": 0,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.6444444444444445
+        }
+      }
+    },
+    "costUsd": 2.9965056000000008
+  },
+  {
+    "date": "2026-11-10",
+    "generatedAt": "2026-11-10T10:02:05.757Z",
+    "runsPerPrompt": 1,
+    "prompts": 45,
+    "answers": 135,
+    "tebiMentioned": 0.05925925925925926,
+    "engines": {
+      "chatgpt": {
+        "mentioned": 0.06666666666666667,
+        "namedFirst": 0,
+        "cited": 0
+      },
+      "perplexity": {
+        "mentioned": 0.022222222222222223,
+        "namedFirst": 0,
+        "cited": 0.022222222222222223
+      },
+      "gemini": {
+        "mentioned": 0.08888888888888889,
+        "namedFirst": 0.022222222222222223,
+        "cited": 0.044444444444444446
+      }
+    },
+    "markets": {
+      "All": {
+        "tebi": 0.05925925925925926,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.5555555555555556
+        }
+      },
+      "NL": {
+        "tebi": 0.17777777777777778,
+        "tebiRank": 7,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.6888888888888889
+        }
+      },
+      "ES": {
+        "tebi": 0,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Square",
+          "share": 0.4444444444444444
+        }
+      },
+      "DE": {
+        "tebi": 0,
+        "tebiRank": 13,
+        "leader": {
+          "brand": "Lightspeed",
+          "share": 0.6
+        }
+      }
+    },
+    "costUsd": 3.104752850000001
   }
 ]

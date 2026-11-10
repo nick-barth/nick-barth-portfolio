@@ -13,49 +13,48 @@
           "Lightspeed",
           "SumUp",
           "Zettle",
-          "Square",
-          "MplusKASSA"
+          "Toast"
         ],
         "sources": [
-          "softwarewatcher.nl",
           "techradar.com",
-          "theretailexec.com",
-          "mpluskassa.nl",
-          "bedrijfssoftwaregids.nl"
+          "marketingdev.touchbistro.com",
+          "portano.nl",
+          "actifood.nl",
+          "kassamatch.nl"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "MplusKASSA",
           "Lightspeed",
-          "unTill"
+          "Twelve",
+          "MplusKASSA"
         ],
         "sources": [
-          "shiftbase.com",
-          "toprpay.com",
-          "mpluskassa.nl",
-          "mollie.com",
-          "lightspeedhq.nl"
+          "aigrow.gg",
+          "workforce.com",
+          "revenuebase.ai",
+          "qrkassasysteem.nl",
+          "taptouchpos.com"
         ]
       },
       "gemini": {
-        "tebiMentioned": false,
-        "mentionRate": 0,
+        "tebiMentioned": true,
+        "mentionRate": 1,
         "recommended": [
-          "Formitable",
           "Lightspeed",
-          "SevenRooms",
-          "Eijsink",
-          "Booq"
+          "Tebi",
+          "unTill",
+          "Formitable",
+          "TheFork"
         ],
         "sources": [
-          "splitty.nl",
-          "eijsink.nl",
-          "mpluskassa.nl",
-          "lightspeedhq.nl",
-          "kassavergelijk.nl"
+          "bedrijfssoftwaregids.nl",
+          "dashmote.com",
+          "tijdvooreensite.nl",
+          "foodinspiration.com",
+          "softwarewatcher.nl"
         ]
       }
     }
@@ -72,17 +71,17 @@
         "mentionRate": 1,
         "recommended": [
           "Lightspeed",
-          "unTill",
-          "Tebi",
           "SumUp",
-          "Zettle"
+          "Zettle",
+          "unTill",
+          "MplusKASSA"
         ],
         "sources": [
-          "belastingdienst.nl",
-          "techradar.com",
-          "bedrijfssoftwaregids.nl",
-          "kassamatch.nl",
-          "softwarewatcher.nl"
+          "lightspeedhq.nl",
+          "sumup.com",
+          "en.wikipedia.org",
+          "portano.nl",
+          "bedrijfssoftwaregids.nl"
         ]
       },
       "perplexity": {
@@ -93,29 +92,29 @@
           "MplusKASSA"
         ],
         "sources": [
-          "klearly.eu",
-          "lightspeedhq.nl",
-          "shiftbase.com",
-          "appwiki.nl",
-          "shopify.com"
+          "aigrow.gg",
+          "elioplus.com",
+          "revenuebase.ai",
+          "sorank.com",
+          "lightspeedhq.com"
         ]
       },
       "gemini": {
         "tebiMentioned": true,
         "mentionRate": 1,
         "recommended": [
-          "Tebi",
           "Lightspeed",
           "Formitable",
           "Zenchef",
-          "Booq"
+          "unTill",
+          "MplusKASSA"
         ],
         "sources": [
-          "bestekassasysteem.nl",
+          "20tabs.nl",
+          "kassasystemen.nl",
           "kassazaak.nl",
-          "tijdvooreensite.nl",
-          "adyen.com",
-          "kassavoorhoreca.com"
+          "twelve.eu",
+          "lightspeedhq.nl"
         ]
       }
     }
@@ -135,27 +134,26 @@
           "MplusKASSA",
           "Tebi",
           "unTill",
-          "Zettle"
+          "SumUp"
         ],
         "sources": [
           "dashmote.com",
-          "mpluskassa.nl"
+          "softwarewatcher.nl"
         ]
       },
       "perplexity": {
-        "tebiMentioned": true,
-        "mentionRate": 1,
+        "tebiMentioned": false,
+        "mentionRate": 0,
         "recommended": [
           "Lightspeed",
-          "MplusKASSA",
-          "Tebi"
+          "MplusKASSA"
         ],
         "sources": [
-          "dashmote.com",
-          "bedrijfssoftwaregids.nl",
-          "mpluskassa.nl",
-          "platevio.com",
-          "shiftbase.com"
+          "aigrow.gg",
+          "revenuebase.ai",
+          "workforce.com",
+          "taptouchpos.com",
+          "twelve.eu"
         ]
       },
       "gemini": {
@@ -163,16 +161,16 @@
         "mentionRate": 0,
         "recommended": [
           "Lightspeed",
-          "unTill",
-          "MplusKASSA",
           "Formitable",
-          "TheFork"
+          "TheFork",
+          "unTill",
+          "Booq"
         ],
         "sources": [
-          "nl.mobiletransaction.org",
+          "lightspeedhq.nl",
           "kassazaak.nl",
-          "untill.nl",
-          "mpluskassa.nl",
+          "derestaurantkrant.nl",
+          "mijnkassasysteem.nl",
           "eijsink.nl"
         ]
       }
@@ -186,17 +184,20 @@
     "gloss": "Good Lightspeed alternative for hospitality, without a contract?",
     "results": {
       "chatgpt": {
-        "tebiMentioned": false,
-        "mentionRate": 0,
+        "tebiMentioned": true,
+        "mentionRate": 1,
         "recommended": [
           "Lightspeed",
-          "SumUp"
+          "SumUp",
+          "Zettle",
+          "Tebi",
+          "unTill"
         ],
         "sources": [
           "bedrijfssoftwaregids.nl",
+          "kassamatch.nl",
+          "welkkassasysteem.nl",
           "20tabs.nl",
-          "finandoo.nl",
-          "carianhorecakassa.nl",
           "spont.nl"
         ]
       },
@@ -208,29 +209,28 @@
           "unTill"
         ],
         "sources": [
-          "menubly.com",
+          "workforce.com",
           "bedrijfssoftwaregids.nl",
-          "capterra.com",
-          "opklopper.nl",
+          "conciar.com",
+          "theretailexec.com",
           "flatlineagency.com"
         ]
       },
       "gemini": {
-        "tebiMentioned": false,
-        "mentionRate": 0,
+        "tebiMentioned": true,
+        "mentionRate": 1,
         "recommended": [
           "Lightspeed",
-          "Square",
+          "Tebi",
           "Loyverse",
-          "SumUp",
-          "Zettle"
+          "SumUp"
         ],
         "sources": [
-          "spont.nl",
-          "conciar.com",
-          "tabres.com",
-          "carianhorecakassa.nl",
-          "jankassa.nl"
+          "atlaspos.nl",
+          "reddit.com",
+          "welkkassasysteem.nl",
+          "tebi.com",
+          "getapp.nl"
         ]
       }
     }
@@ -245,40 +245,49 @@
       "chatgpt": {
         "tebiMentioned": false,
         "mentionRate": 0,
-        "recommended": [],
-        "sources": []
-      },
-      "perplexity": {
-        "tebiMentioned": false,
-        "mentionRate": 0,
         "recommended": [
-          "Jimani",
-          "Xootle"
+          "Lightspeed",
+          "TheFork"
         ],
         "sources": [
-          "horecawebservice.nl",
+          "lightspeedhq.nl",
+          "touchbistro.com",
+          "rezvion.nl",
+          "mesacentral.com",
+          "smartposapp.nl"
+        ]
+      },
+      "perplexity": {
+        "tebiMentioned": true,
+        "mentionRate": 1,
+        "recommended": [
+          "Jimani",
+          "Tebi"
+        ],
+        "sources": [
+          "workforce.com",
           "jimani.online",
-          "unitouch.eu",
-          "get-sides.de",
-          "kardopos.com"
+          "tebi.com",
+          "horecawebservice.nl",
+          "unitouch.eu"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Lightspeed",
+          "DISH POS",
           "Booq",
           "Eijsink",
-          "unTill",
-          "MplusKASSA"
+          "gastronovi",
+          "Zenchef"
         ],
         "sources": [
-          "untill.nl",
-          "lightspeedhq.nl",
           "guestit.nl",
-          "bizzcloud.nl",
-          "leza.nl"
+          "eijsink.nl",
+          "help.zenchef.com",
+          "dish.co",
+          "untill.nl"
         ]
       }
     }
@@ -293,29 +302,19 @@
       "chatgpt": {
         "tebiMentioned": false,
         "mentionRate": 0,
-        "recommended": [
-          "SumUp",
-          "unTill",
-          "Lightspeed"
-        ],
-        "sources": [
-          "tabres.com",
-          "sumup.com",
-          "softwarewatcher.nl",
-          "lightspeedhq.nl",
-          "flowpos.nl"
-        ]
+        "recommended": [],
+        "sources": []
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [],
         "sources": [
-          "paysafe.com",
-          "merchants.doordash.com",
-          "retailpresso.com",
+          "horecaflix.com",
           "bedrijfssoftwaregids.nl",
-          "horecatweepuntnul.nl"
+          "horecatweepuntnul.nl",
+          "welkkassasysteem.nl",
+          "roxpay.eu"
         ]
       },
       "gemini": {
@@ -323,16 +322,16 @@
         "mentionRate": 0,
         "recommended": [
           "Lightspeed",
+          "Twelve",
           "Eijsink",
-          "MplusKASSA",
-          "CCV",
-          "SumUp"
+          "unTill",
+          "CCV"
         ],
         "sources": [
-          "bedrijfssoftwaregids.nl",
-          "winstonpos.com",
           "eijsink.nl",
-          "v7.nl",
+          "tabres.com",
+          "winstonpos.com",
+          "nl.mobiletransaction.org",
           "lightspeedhq.nl"
         ]
       }
@@ -357,26 +356,27 @@
         "recommended": [],
         "sources": [
           "klearly.eu",
-          "kutlerri.ai",
-          "alacarte.direct",
-          "merchants.doordash.com",
-          "restaurantware.com"
+          "tabres.com",
+          "topfood.app",
+          "abchoreca.com",
+          "smallbusinessact.com"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "SumUp",
           "Zettle",
-          "CCV"
+          "SumUp",
+          "CCV",
+          "unTill"
         ],
         "sources": [
           "eijsink.nl",
-          "procent.com",
-          "klearly.eu",
-          "derestaurantkrant.nl",
-          "easypayments.nl"
+          "leza.nl",
+          "ccv.eu",
+          "boekhouder.nl",
+          "khn.nl"
         ]
       }
     }
@@ -389,57 +389,51 @@
     "gloss": "Opening a café in Amsterdam — which POS and card terminal do I need?",
     "results": {
       "chatgpt": {
-        "tebiMentioned": true,
-        "mentionRate": 1,
+        "tebiMentioned": false,
+        "mentionRate": 0,
         "recommended": [
           "SumUp",
           "Zettle",
           "Lightspeed",
-          "unTill",
-          "Tebi"
+          "CCV",
+          "MplusKASSA"
         ],
-        "sources": [
-          "belastingdienst.nl",
-          "theforkmanager.com",
-          "techguide.nl",
-          "welkkassasysteem.nl",
-          "ccv.eu"
-        ]
+        "sources": []
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Lightspeed",
-          "Twelve",
           "MplusKASSA",
-          "CCV",
-          "Buckaroo"
+          "Lightspeed",
+          "unTill",
+          "Twelve",
+          "Eijsink"
         ],
         "sources": [
+          "workforce.com",
           "boekhouder.nl",
+          "lunixpos.com",
           "buckaroo.nl",
-          "platevio.com",
-          "rabobank.nl",
-          "mypos.com"
+          "rabobank.nl"
         ]
       },
       "gemini": {
         "tebiMentioned": true,
         "mentionRate": 1,
         "recommended": [
+          "Tebi",
           "Lightspeed",
+          "Twelve",
           "unTill",
-          "Booq",
-          "Eijsink",
-          "Twelve"
+          "MplusKASSA"
         ],
         "sources": [
-          "bedrijfssoftwaregids.nl",
-          "twelve.eu",
-          "unitouch.eu",
-          "kassazaak.nl",
-          "lightspeedhq.nl"
+          "klearly.eu",
+          "pindirect.nl",
+          "adnamics.nl",
+          "kassavergelijk.nl",
+          "kassazaak.nl"
         ]
       }
     }
@@ -457,12 +451,12 @@
         "recommended": [
           "Lightspeed",
           "MplusKASSA",
-          "Toast"
+          "Square"
         ],
         "sources": [
           "lightspeedhq.nl",
-          "mpluskassa.nl",
-          "theretailexec.com",
+          "bakkerijsoftware.com",
+          "paydesk.nl",
           "techradar.com",
           "x-series-support.lightspeedhq.com"
         ]
@@ -471,16 +465,13 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "MplusKASSA",
-          "Lightspeed",
-          "unTill",
-          "Vectron"
+          "MplusKASSA"
         ],
         "sources": [
           "cikam.nl",
-          "jamezz.com",
-          "bedrijfssoftwaregids.nl",
-          "gastrosystem.app",
+          "lunixpos.com",
+          "twelve.eu",
+          "elioplus.com",
           "sorank.com"
         ]
       },
@@ -488,16 +479,15 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Vectron",
           "MplusKASSA",
-          "Lightspeed"
+          "Vectron"
         ],
         "sources": [
+          "spont.nl",
+          "weka-kassasystemen.nl",
           "kassamaat.nl",
-          "bedrijfssoftwaregids.nl",
           "bakkersinbedrijf.nl",
-          "vectron-systems.com",
-          "mpluskassa.nl"
+          "compadone.com"
         ]
       }
     }
@@ -513,35 +503,32 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Lightspeed",
-          "SumUp",
-          "DISH POS",
-          "Vectron"
+          "Lightspeed"
         ],
         "sources": [
-          "resto-support.lightspeedhq.com",
-          "sumup.com",
-          "dish.co",
-          "orderli.com",
-          "caspeco.com"
+          "menuthere.com",
+          "caspeco.com",
+          "stakpos.com",
+          "taptouchpos.com",
+          "waiterr.app"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
+          "Lightspeed",
           "DISH POS",
           "Vectron",
-          "Lightspeed",
           "unTill",
           "MplusKASSA"
         ],
         "sources": [
-          "oktopos.com",
-          "jamezz.com",
+          "zenchef.com",
           "gastrosystem.app",
-          "tonit.nl",
-          "dish.co"
+          "jamezz.com",
+          "dish.co",
+          "rabobank.nl"
         ]
       },
       "gemini": {
@@ -551,15 +538,15 @@
           "Lightspeed",
           "Booq",
           "Eijsink",
-          "DISH POS",
+          "Twelve",
           "MplusKASSA"
         ],
         "sources": [
-          "mpluskassa.nl",
-          "kassazaak.nl",
+          "vanduijnenhoreca.nl",
           "lightspeedhq.nl",
-          "untill.nl",
-          "i-butler.nl"
+          "eijsink.nl",
+          "twelve.eu",
+          "mpluskassa.nl"
         ]
       }
     }
@@ -575,15 +562,15 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "OpenTable",
-          "TheFork"
+          "Zenchef",
+          "Formitable"
         ],
         "sources": [
-          "table-flow.app",
-          "forkseat.com",
-          "boekeerlijk.nl",
-          "jesdi.nl",
-          "tafelplek.nl"
+          "pro.resengo.com",
+          "reserveatable.nl",
+          "waiteros.com",
+          "tafelplek.nl",
+          "vrodex.com"
         ]
       },
       "perplexity": {
@@ -593,11 +580,10 @@
           "Resos"
         ],
         "sources": [
+          "i-reserve.io",
           "resos.com",
-          "restaurantbookingsystem.com",
-          "trudystable.com",
-          "trykitchenhub.com",
-          "sevenrooms.com"
+          "boekeerlijk.nl",
+          "kimisuite.com"
         ]
       },
       "gemini": {
@@ -615,7 +601,7 @@
           "resos.com",
           "reserverenhoreca.nl",
           "derestaurantkrant.nl",
-          "islandplan.nl"
+          "vrodex.com"
         ]
       }
     }
@@ -632,15 +618,15 @@
         "mentionRate": 0,
         "recommended": [
           "Lightspeed",
-          "Orderbird",
-          "SumUp"
+          "SumUp",
+          "Zettle"
         ],
         "sources": [
-          "lightspeedhq.nl",
+          "o-series-support.lightspeedhq.com",
+          "marketingdev.touchbistro.com",
+          "gotab.com",
           "bedrijfssoftwaregids.nl",
-          "sumup.com",
-          "resto-support.lightspeedhq.com",
-          "softwarewatcher.nl"
+          "backofhousetech.com"
         ]
       },
       "perplexity": {
@@ -648,32 +634,32 @@
         "mentionRate": 0,
         "recommended": [
           "DISH POS",
-          "Twelve"
+          "Lightspeed"
         ],
         "sources": [
-          "dish.co",
-          "theretailexec.com",
-          "thehotelgm.com",
           "twelve.eu",
-          "snelstart.nl"
+          "softwarewatcher.com",
+          "count-it.eu",
+          "qrkassasysteem.nl",
+          "zimbio.com"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "unTill",
           "Lightspeed",
+          "unTill",
           "Twelve",
           "MplusKASSA",
           "Booq"
         ],
         "sources": [
+          "20tabs.nl",
           "platevio.com",
-          "twelve.eu",
+          "bizzcloud.nl",
           "lightspeedhq.nl",
-          "kassazaak.nl",
-          "bizzcloud.nl"
+          "mpluskassa.nl"
         ]
       }
     }
@@ -690,32 +676,30 @@
         "mentionRate": 0,
         "recommended": [
           "Lightspeed",
-          "unTill",
           "MplusKASSA",
-          "SumUp"
+          "unTill",
+          "Gastrofix"
         ],
         "sources": [
+          "softwarewatcher.nl",
+          "support.apicbase.com",
           "bedrijfssoftwaregids.nl",
-          "capterra.nl",
-          "kassazaak.nl",
           "mpluskassa.nl",
-          "culinarycloud.nl"
+          "untill.nl"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "MplusKASSA",
-          "Lightspeed",
-          "unTill"
+          "Lightspeed"
         ],
         "sources": [
+          "workforce.com",
           "bedrijfssoftwaregids.nl",
           "appwiki.nl",
           "thehotelgm.com",
-          "kassazaak.nl",
-          "theretailexec.com"
+          "shiftbase.com"
         ]
       },
       "gemini": {
@@ -723,17 +707,17 @@
         "mentionRate": 0,
         "recommended": [
           "Lightspeed",
-          "MplusKASSA",
           "unTill",
+          "DISH POS",
           "Booq",
           "Eijsink"
         ],
         "sources": [
-          "get.apicbase.com",
-          "exact.com",
-          "support.konacom.nl",
+          "kassazaak.nl",
           "k-series-support.lightspeedhq.com",
-          "appwiki.nl"
+          "dinnerpos.nl",
+          "lightspeedhq.nl",
+          "kassavoorhoreca.com"
         ]
       }
     }
@@ -750,14 +734,15 @@
         "mentionRate": 0,
         "recommended": [
           "Lightspeed",
-          "SumUp"
+          "Zettle",
+          "Orderbird"
         ],
         "sources": [
-          "k-series-support.lightspeedhq.com",
-          "horecamenu.nl",
-          "softwarewatcher.nl",
-          "nl.mobiletransaction.org",
-          "kassazaak.nl"
+          "lightspeedhq.nl",
+          "zettle.com",
+          "shopify.com",
+          "static.orderbird.com",
+          "apps.apple.com"
         ]
       },
       "perplexity": {
@@ -768,11 +753,11 @@
           "DISH POS"
         ],
         "sources": [
-          "bedrijfssoftwaregids.nl",
-          "unipage.be",
+          "workforce.com",
           "platevio.com",
-          "derestaurantkrant.nl",
-          "appwiki.nl"
+          "drweb.de",
+          "lightspeedhq.com",
+          "lightspeedhq.fr"
         ]
       },
       "gemini": {
@@ -780,17 +765,17 @@
         "mentionRate": 0,
         "recommended": [
           "Lightspeed",
+          "Formitable",
+          "Zenchef",
           "unTill",
-          "Booq",
-          "Eijsink",
-          "Zettle"
+          "DISH POS"
         ],
         "sources": [
-          "lightspeedhq.nl",
           "kassazaak.nl",
           "connectatwork.eu",
-          "nappkin.nl",
-          "capterra.nl"
+          "help.air.untill.com",
+          "capterra.nl",
+          "nappkin.nl"
         ]
       }
     }
@@ -814,26 +799,25 @@
         "recommended": [],
         "sources": [
           "foodnu.nl",
-          "fandbos.com",
-          "sumup.com",
-          "menusifu.com",
-          "gastrosystem.app"
+          "mpluskassa.nl",
+          "mihok-kassensysteme.de",
+          "klearly.eu",
+          "get-sides.de"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "CCV",
           "Formitable",
           "TheFork"
         ],
         "sources": [
+          "tabres.com",
           "spont.nl",
-          "povis.nl",
-          "fooddomain.nl",
-          "sitedish.nl",
-          "tabres.com"
+          "bedrijfssoftwaregids.nl",
+          "kassacompany.nl",
+          "dish.co"
         ]
       }
     }
@@ -850,17 +834,17 @@
         "mentionRate": 0,
         "recommended": [
           "SumUp",
-          "Loyverse",
+          "Square",
           "Revo",
-          "Mesero",
-          "Glop"
+          "Glop",
+          "Hosteltáctil"
         ],
         "sources": [
-          "blog.platomico.com",
-          "help.loyverse.com",
-          "softabase.com",
+          "negociosypymes.es",
           "fos.consulting",
-          "huffingtonpost.es"
+          "softabase.com",
+          "pulsotpv.es",
+          "hackceleration.com"
         ]
       },
       "perplexity": {
@@ -868,17 +852,15 @@
         "mentionRate": 0,
         "recommended": [
           "Ágora",
-          "Square",
-          "Last.app",
-          "Revo",
-          "Lightspeed"
+          "Lightspeed",
+          "SumUp"
         ],
         "sources": [
           "makro.es",
-          "bouzondigital.com",
           "hackceleration.com",
-          "fos.consulting",
-          "blog.platomico.com"
+          "sumup.com",
+          "blog.platomico.com",
+          "rankia.com"
         ]
       },
       "gemini": {
@@ -887,16 +869,15 @@
         "recommended": [
           "Ágora",
           "Revo",
-          "CoverManager",
           "Last.app",
-          "Glop"
+          "Glop",
+          "Hiopos"
         ],
         "sources": [
-          "gesmule.com",
           "hitsystems.es",
-          "comercialtpv.com",
-          "lymon.es",
-          "ingenieriademenu.com"
+          "gesmule.com",
+          "ingenieriademenu.com",
+          "youtube.com"
         ]
       }
     }
@@ -912,18 +893,17 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "SumUp",
-          "Loyverse",
           "Glop",
+          "Lightspeed",
           "Revo",
+          "Ágora",
           "Hiopos"
         ],
         "sources": [
-          "negociosypymes.es",
-          "mesero-tpv.es",
-          "taipricebook.es",
-          "fortexiberia.es",
-          "foodyservice.com"
+          "comparasoft.es",
+          "blog.platomico.com",
+          "softabase.com",
+          "elpais.com"
         ]
       },
       "perplexity": {
@@ -934,28 +914,28 @@
         ],
         "sources": [
           "bbva.es",
-          "finantres.com",
           "tableview.com",
           "squareup.com",
-          "tpvcenter.com"
+          "finantres.com",
+          "blog.platomico.com"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
+          "Lightspeed",
           "Revo",
-          "Ágora",
-          "Square",
           "Glop",
-          "Last.app"
+          "Last.app",
+          "Square"
         ],
         "sources": [
-          "sipos.ai",
-          "ingenieriademenu.com",
           "glop.es",
-          "tavola.app",
-          "bouzondigital.com"
+          "youtube.com",
+          "stelorder.com",
+          "topsoftwaretpv.com",
+          "lightspeedhq.com"
         ]
       }
     }
@@ -971,48 +951,52 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Lightspeed",
-          "Ágora",
           "SumUp",
-          "Qamarero"
+          "Zettle",
+          "Revo",
+          "Lightspeed",
+          "Hiopos"
         ],
         "sources": [
-          "rockstardata.ai",
           "hackceleration.com",
-          "tpvnews.es",
-          "guiafacturacion.es"
+          "softabase.com",
+          "mordorintelligence.ar"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Square"
+          "Ágora",
+          "Last.app",
+          "Square",
+          "SumUp",
+          "Lightspeed"
         ],
         "sources": [
           "makro.es",
+          "resos.com",
+          "blog.platomico.com",
           "getnet.net",
-          "foodlus.com",
-          "bbva.es",
-          "ticnegocios.camaramadrid.es"
+          "bbva.es"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Ágora",
-          "Glop",
           "Revo",
           "Last.app",
-          "Tipsi TPV"
+          "Tipsi TPV",
+          "Ágora",
+          "Hosteltáctil"
         ],
         "sources": [
-          "hitsystems.es",
-          "tpvmadrid.es",
-          "madridnorte24horas.com",
+          "gesmule.com",
           "comercialtpv.com",
-          "lymon.es"
+          "hitsystems.es",
+          "lymon.es",
+          "tpvmadrid.es"
         ]
       }
     }
@@ -1029,15 +1013,16 @@
         "mentionRate": 0,
         "recommended": [
           "Lightspeed",
-          "SumUp",
-          "Loyverse",
-          "Revo",
-          "Glop"
+          "Hiopos",
+          "Square",
+          "SumUp"
         ],
         "sources": [
-          "comparasoft.es",
-          "softabase.com",
-          "techradar.com"
+          "pos.do",
+          "muuvea.com",
+          "eurofic.com",
+          "seisoftcloud.com",
+          "squareup.com"
         ]
       },
       "perplexity": {
@@ -1045,14 +1030,15 @@
         "mentionRate": 0,
         "recommended": [
           "Square",
-          "Ágora"
+          "Ágora",
+          "SumUp"
         ],
         "sources": [
-          "menubly.com",
-          "chowly.com",
-          "ayyes.com",
+          "workforce.com",
           "hackceleration.com",
-          "sevenrooms.com"
+          "vino-smart.com",
+          "blog.platomico.com",
+          "menumigo.com"
         ]
       },
       "gemini": {
@@ -1062,15 +1048,15 @@
           "Lightspeed",
           "Square",
           "Last.app",
-          "Loyverse",
-          "Ágora"
+          "Glop",
+          "Loyverse"
         ],
         "sources": [
-          "conciar.com",
-          "tableview.com",
-          "squareup.com",
-          "sincomisiones.org",
-          "apps.apple.com"
+          "lymon.es",
+          "hitsystems.es",
+          "mygestion.com",
+          "glop.es",
+          "stelorder.com"
         ]
       }
     }
@@ -1085,44 +1071,47 @@
       "chatgpt": {
         "tebiMentioned": false,
         "mentionRate": 0,
-        "recommended": [],
+        "recommended": [
+          "Glop",
+          "Mesero"
+        ],
         "sources": [
-          "idovio.com",
-          "erp.belairetech.com",
-          "tablerly.com",
           "tpvrest.com",
-          "smartbar.io"
+          "idovio.com",
+          "tablerly.com",
+          "smartbar.io",
+          "glop.es"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
+          "Revo",
           "Qamarero"
         ],
         "sources": [
           "cegid.com",
-          "blog.platomico.com",
           "qamarero.com",
-          "shopify.com"
+          "platevio.com",
+          "blog.platomico.com"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Last.app",
           "Revo",
-          "Cuiner",
           "Ágora",
-          "Toast"
+          "Toast",
+          "Lightspeed"
         ],
         "sources": [
-          "last.app",
-          "stelorder.com",
           "cegid.com",
-          "youtube.com",
-          "appvizer.es"
+          "restauranttools.ai",
+          "tpvcenter.com",
+          "agorapos.com",
+          "iceonline.es"
         ]
       }
     }
@@ -1137,30 +1126,28 @@
       "chatgpt": {
         "tebiMentioned": false,
         "mentionRate": 0,
-        "recommended": [
-          "SumUp",
-          "Zettle"
-        ],
+        "recommended": [],
         "sources": [
-          "help.sumup.com",
-          "vantaris.es",
-          "itaula.es",
-          "taipricebook.es",
-          "foodtic.com"
+          "zeniapartners.com",
+          "globalpayments.es",
+          "hitsystems.es",
+          "gastrosabor.app",
+          "verifactpv.es"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Square"
+          "Square",
+          "SumUp"
         ],
         "sources": [
-          "squareup.com",
-          "bancsabadell.com",
           "vfactu.com",
+          "squareup.com",
           "gloriafood-pos.com",
-          "bouzondigital.com"
+          "doiser.com",
+          "sumup.com"
         ]
       },
       "gemini": {
@@ -1168,16 +1155,15 @@
         "mentionRate": 0,
         "recommended": [
           "Square",
-          "Loyverse",
-          "Lightspeed",
+          "OfiBarman",
           "SumUp"
         ],
         "sources": [
+          "clienty.es",
+          "deisoft.es",
+          "sincomisiones.org",
           "squareup.com",
-          "tabres.com",
-          "davosalestax.com",
-          "foodtic.com",
-          "foodeo.es"
+          "foodtic.com"
         ]
       }
     }
@@ -1201,10 +1187,10 @@
         "recommended": [],
         "sources": [
           "chejefe.com",
-          "monumentpayments.com",
-          "hostmerchantservices.com",
           "gotab.com",
-          "pos.toasttab.com"
+          "olaclick.com",
+          "squareup.com",
+          "consumer-action.org"
         ]
       },
       "gemini": {
@@ -1212,14 +1198,15 @@
         "mentionRate": 0,
         "recommended": [
           "SumUp",
-          "Square"
+          "Square",
+          "Zettle"
         ],
         "sources": [
+          "hostelmarkt.com",
+          "restaurantowner.com",
+          "cervion.com",
           "limelightpayments.com",
-          "barharbor.bank",
-          "deisoft.es",
-          "uschamber.com",
-          "lkbitronic.com"
+          "deisoft.es"
         ]
       }
     }
@@ -1238,15 +1225,15 @@
           "SumUp",
           "Zettle",
           "Loyverse",
-          "Square",
-          "Revo"
+          "Revo",
+          "Glop"
         ],
         "sources": [
+          "mise.ws",
           "telcomdis.com",
-          "squareup.com",
-          "getnetworld.com",
-          "zettle.com",
-          "contrataciondelestado.es"
+          "blog.platomico.com",
+          "softabase.com",
+          "getnet.net"
         ]
       },
       "perplexity": {
@@ -1256,8 +1243,8 @@
         "sources": [
           "sede.comunidad.madrid",
           "bbva.es",
-          "caixabank.es",
           "unicajabanco.es",
+          "rankia.com",
           "bancsabadell.com"
         ]
       },
@@ -1266,17 +1253,17 @@
         "mentionRate": 0,
         "recommended": [
           "Square",
-          "Loyverse",
-          "Glop",
           "Ágora",
-          "Revo"
+          "Glop",
+          "Tipsi TPV",
+          "SumUp"
         ],
         "sources": [
-          "glop.es",
-          "lymon.es",
-          "ingenieriademenu.com",
-          "hitsystems.es",
-          "gotpv.es"
+          "consultoraprincipado.com",
+          "leyfacturaelectronica.com",
+          "catinfog.com",
+          "reixmor.com",
+          "hitsystems.es"
         ]
       }
     }
@@ -1292,33 +1279,32 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
+          "Glop",
           "SumUp",
-          "Square",
-          "Lightspeed",
-          "Revo",
-          "Glop"
+          "Zettle",
+          "Loyverse",
+          "Lightspeed"
         ],
         "sources": [
-          "pulsotpv.es",
-          "gestionobrador.com",
-          "digablopos.com",
-          "mygestion.com",
-          "lightspeedhq.com"
+          "glop.es",
+          "csoft.es",
+          "tipivi.es",
+          "hackceleration.com",
+          "cincodias.elpais.com"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Lightspeed",
-          "Revo"
+          "Lightspeed"
         ],
         "sources": [
-          "digablopos.fr",
-          "sorank.com",
-          "lightspeedhq.com",
+          "digablopos.com",
           "sumup.com",
-          "theretailexec.com"
+          "lightspeedhq.com",
+          "theretailexec.com",
+          "bancocooperativo.es"
         ]
       },
       "gemini": {
@@ -1326,15 +1312,16 @@
         "mentionRate": 0,
         "recommended": [
           "Ágora",
+          "ICG",
           "Hiopos",
           "Glop"
         ],
         "sources": [
           "hitsystems.es",
-          "softwarelkb.com",
-          "astarteinformatica.com",
-          "albaibs.es",
-          "hackceleration.com"
+          "lymon.es",
+          "icg.es",
+          "enterglobalsystem.com",
+          "icgargentina.com.ar"
         ]
       }
     }
@@ -1349,37 +1336,25 @@
       "chatgpt": {
         "tebiMentioned": false,
         "mentionRate": 0,
-        "recommended": [
-          "Hiopos",
-          "TPVHostel",
-          "Ágora",
-          "Lightspeed",
-          "Revo"
-        ],
-        "sources": [
-          "hiopos.online",
-          "waiterr.app",
-          "smartbar.io",
-          "tpvhostel.com",
-          "agorapos.com"
-        ]
+        "recommended": [],
+        "sources": []
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
           "Qamarero",
-          "TPVHostel",
-          "Mesero",
           "Square",
-          "Lymon"
+          "Lightspeed",
+          "Lymon",
+          "Revo"
         ],
         "sources": [
-          "bouzondigital.com",
-          "qamarero.com",
           "lymon.es",
+          "qamarero.com",
+          "tpv.net",
           "foodlus.com",
-          "tpvhostel.com"
+          "squareup.com"
         ]
       },
       "gemini": {
@@ -1387,17 +1362,17 @@
         "mentionRate": 0,
         "recommended": [
           "Last.app",
-          "Ágora",
           "Lightspeed",
           "Square",
-          "Revo"
+          "Revo",
+          "Ágora"
         ],
         "sources": [
-          "agorapos.com",
-          "sipos.ai",
-          "foodlus.com",
+          "checkqrpay.com",
+          "softwaredoit.es",
           "last.app",
-          "help.last.app"
+          "lightspeedhq.com",
+          "squareup.com"
         ]
       }
     }
@@ -1412,13 +1387,16 @@
       "chatgpt": {
         "tebiMentioned": false,
         "mentionRate": 0,
-        "recommended": [],
+        "recommended": [
+          "Kitking",
+          "TheFork"
+        ],
         "sources": [
-          "taula.ai",
-          "comandia.es",
-          "campago.es",
+          "mandil.app",
+          "qomanda.es",
           "mesa4u.es",
-          "qomanda.es"
+          "campago.es",
+          "libando.app"
         ]
       },
       "perplexity": {
@@ -1426,14 +1404,15 @@
         "mentionRate": 0,
         "recommended": [
           "Resos",
-          "resmio"
+          "resmio",
+          "Zenchef"
         ],
         "sources": [
-          "resos.com",
-          "resmio.com",
+          "topfood.app",
           "restroworks.com",
           "restaurantbookingsystem.com",
-          "vrodex.com"
+          "resmio.com",
+          "resos.com"
         ]
       },
       "gemini": {
@@ -1443,15 +1422,15 @@
           "TheFork",
           "OpenTable",
           "CoverManager",
-          "SevenRooms",
-          "Resy"
+          "Zenchef",
+          "resmio"
         ],
         "sources": [
-          "resos.com",
-          "skaicrm.com",
-          "socialplangroup.com",
-          "reserbar.app",
-          "resmio.com"
+          "hackceleration.com",
+          "automahawk.com",
+          "btomarket.com",
+          "covermanager.com",
+          "resos.com"
         ]
       }
     }
@@ -1468,17 +1447,17 @@
         "mentionRate": 0,
         "recommended": [
           "SumUp",
-          "Zettle",
           "Square",
-          "Loyverse",
-          "Lightspeed"
+          "Glop",
+          "Ágora",
+          "Last.app"
         ],
         "sources": [
           "blog.platomico.com",
-          "lightspeedhq.com",
-          "comercialtpv.com",
-          "rankiabusiness.com",
-          "elpais.com"
+          "easybyte.es",
+          "tpvclaro.es",
+          "pulsotpv.es",
+          "consumiblestpv.com"
         ]
       },
       "perplexity": {
@@ -1486,14 +1465,15 @@
         "mentionRate": 0,
         "recommended": [
           "Revo",
+          "Square",
           "Lightspeed"
         ],
         "sources": [
           "qamarero.com",
+          "easybyte.es",
+          "blog.platomico.com",
           "rankiabusiness.com",
-          "mise.ws",
-          "roxpay.eu",
-          "squareup.com"
+          "roxpay.eu"
         ]
       },
       "gemini": {
@@ -1504,14 +1484,14 @@
           "Square",
           "Glop",
           "Revo",
-          "Numier"
+          "Last.app"
         ],
         "sources": [
-          "takemyorder.es",
           "gotpv.es",
-          "sipos.ai",
-          "lymon.es",
-          "comercialtpv.com"
+          "hitsystems.es",
+          "comercialtpv.com",
+          "zonatpv.com",
+          "lymon.es"
         ]
       }
     }
@@ -1527,48 +1507,50 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Qamarero",
           "Glop",
-          "Revo"
+          "Revo",
+          "Hiopos",
+          "Qamarero"
         ],
         "sources": [
-          "elpais.com",
-          "comparasoft.es",
-          "taipricebook.es",
-          "hackceleration.com",
-          "gestionomie.com"
+          "glop.es",
+          "revo.works",
+          "eurofic.com",
+          "kooby.io",
+          "tarongeta.net"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
+          "Ágora",
           "Qamarero"
         ],
         "sources": [
           "qamarero.com",
-          "foodyservice.com",
-          "tuapppara.com",
-          "foodeo.es",
-          "agorapos.com"
+          "agorapos.com",
+          "rankiabusiness.com",
+          "lymon.es",
+          "tuapppara.com"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Glop",
           "Ágora",
+          "Glop",
           "Revo",
           "Hiopos",
           "ICG"
         ],
         "sources": [
-          "lymon.es",
+          "gesmule.com",
+          "hitsystems.es",
+          "ayerdi.net",
           "comercialtpv.com",
-          "agorapos.com",
-          "ingenieriademenu.com",
-          "foodeo.es"
+          "glop.es"
         ]
       }
     }
@@ -1584,18 +1566,18 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Revo",
-          "Lightspeed",
-          "Square",
           "Loyverse",
+          "Lightspeed",
+          "Revo",
+          "Glop",
           "Hiopos"
         ],
         "sources": [
+          "help.prod.site.loyverse.com",
+          "comparasoft.es",
+          "softabase.com",
           "comercialtpv.com",
-          "hackceleration.com",
-          "squareup.com",
-          "loyverse.com",
-          "softabase.com"
+          "apps.apple.com"
         ]
       },
       "perplexity": {
@@ -1612,8 +1594,8 @@
           "blog.platomico.com",
           "cegid.com",
           "sumup.com",
-          "lightspeedhq.com",
-          "shopify.com"
+          "shopify.com",
+          "squareup.com"
         ]
       },
       "gemini": {
@@ -1621,16 +1603,16 @@
         "mentionRate": 0,
         "recommended": [
           "Revo",
-          "Lightspeed",
-          "Gastrofix",
           "Square",
-          "SumUp"
+          "Lightspeed",
+          "OpenTable",
+          "TheFork"
         ],
         "sources": [
           "econocomps.es",
-          "tillersystems.com",
-          "x-series-support.lightspeedhq.com",
-          "sumup.com",
+          "ingenieriademenu.com",
+          "squareup.com",
+          "lymon.es",
           "apps.apple.com"
         ]
       }
@@ -1655,10 +1637,10 @@
         "recommended": [],
         "sources": [
           "kontora.es",
-          "foodlus.com",
-          "tableneeds.com",
           "qamarero.com",
-          "agorapos.com"
+          "tableneeds.com",
+          "agorapos.com",
+          "bancsabadell.com"
         ]
       },
       "gemini": {
@@ -1666,11 +1648,11 @@
         "mentionRate": 0,
         "recommended": [],
         "sources": [
+          "smartbar.io",
+          "pospararestaurante.com",
           "tableneeds.com",
-          "comercialtpv.com",
-          "gestiontpv.com",
-          "agorapos.com",
-          "smartbar.io"
+          "glop.es",
+          "leyfacturaelectronica.com"
         ]
       }
     }
@@ -1688,33 +1670,32 @@
         "recommended": [
           "Orderbird",
           "Lightspeed",
-          "Gastrofix",
+          "Tillhub",
           "SumUp",
-          "Vectron"
+          "ready2order"
         ],
         "sources": [
-          "kassen-software-vergleich.de",
+          "de.wikipedia.org",
+          "dehoga-berlin.de",
+          "kassario.de",
           "fuer-gruender.de",
-          "kassensystem-experten.de",
-          "zahlungskompass.de",
-          "techradar.com"
+          "get-sides.de"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Lightspeed",
           "Orderbird",
-          "ready2order",
-          "SumUp"
+          "Lightspeed",
+          "ready2order"
         ],
         "sources": [
+          "berliner-sparkasse.de",
           "get-sides.de",
           "suitapp.de",
-          "orderbird.com",
-          "vectron-systems.com",
-          "fuer-gruender.de"
+          "fuer-gruender.de",
+          "tradingtwins.com"
         ]
       },
       "gemini": {
@@ -1722,17 +1703,17 @@
         "mentionRate": 0,
         "recommended": [
           "Lightspeed",
-          "OpenTable",
-          "SevenRooms",
+          "Gastrofix",
           "Orderbird",
-          "gastronovi"
+          "gastronovi",
+          "ready2order"
         ],
         "sources": [
           "kassensystemevergleich.de",
-          "orderbird.com",
-          "ordio.com",
-          "tillhub.de",
-          "gastrorocket.de"
+          "de.mobiletransaction.org",
+          "gruenderkueche.de",
+          "fuer-gruender.de",
+          "omr.com"
         ]
       }
     }
@@ -1750,16 +1731,16 @@
         "recommended": [
           "Orderbird",
           "Lightspeed",
-          "Gastrofix",
           "SumUp",
+          "Zettle",
           "Vectron"
         ],
         "sources": [
-          "consilia.de",
-          "kassen-software-vergleich.de",
-          "unzer.com",
-          "kassensystem-experten.de",
-          "orderbird.com"
+          "orderbird.com",
+          "lightspeedhq.de",
+          "cheftipps.de",
+          "de.wikipedia.org",
+          "gastrorocket.de"
         ]
       },
       "perplexity": {
@@ -1771,10 +1752,10 @@
           "SumUp"
         ],
         "sources": [
+          "tradingtwins.com",
           "orderbird.com",
           "fuer-gruender.de",
           "kassensystemevergleich.de",
-          "barbrain.com",
           "dish.co"
         ]
       },
@@ -1782,18 +1763,18 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Orderbird",
           "Lightspeed",
-          "OpenTable",
-          "SevenRooms",
-          "ready2order"
+          "gastronovi",
+          "ready2order",
+          "Orderbird",
+          "SumUp"
         ],
         "sources": [
           "kassensystemevergleich.de",
-          "ordio.com",
-          "super44.ai",
-          "gastrorocket.de",
-          "flatpay.com"
+          "fuer-gruender.de",
+          "de.mobiletransaction.org",
+          "gastronovi.com",
+          "ready2order.com"
         ]
       }
     }
@@ -1813,13 +1794,12 @@
           "Lightspeed",
           "Gastrofix",
           "Vectron",
-          "gastronovi"
+          "SumUp"
         ],
         "sources": [
-          "static.orderbird.com",
-          "presseportal.de",
-          "group.vectron-systems.com",
-          "hagel-it.de"
+          "orderbird.com",
+          "fnp.de",
+          "group.vectron-systems.com"
         ]
       },
       "perplexity": {
@@ -1835,9 +1815,9 @@
         "sources": [
           "find-your-software.de",
           "de.mobiletransaction.org",
-          "get-sides.de",
           "barbrain.com",
-          "ordio.com"
+          "ordio.com",
+          "wlw.de"
         ]
       },
       "gemini": {
@@ -1847,15 +1827,15 @@
           "Orderbird",
           "Lightspeed",
           "Gastrofix",
-          "gastronovi",
-          "Vectron"
+          "ready2order",
+          "SumUp"
         ],
         "sources": [
-          "tageskarte.io",
-          "ready2order.com",
-          "fuer-gruender.de",
-          "de.mobiletransaction.org",
-          "flatpay.com"
+          "ordio.com",
+          "tabres.com",
+          "orderbird.com",
+          "ckc-kassen.de",
+          "kassensystemevergleich.com"
         ]
       }
     }
@@ -1874,30 +1854,29 @@
           "Lightspeed",
           "SumUp",
           "Zettle",
-          "Orderbird",
+          "Loyverse",
           "ready2order"
         ],
         "sources": [
-          "zahlungskompass.de",
-          "kassenvergleicher.de",
-          "static.orderbird.com",
+          "assets.ctfassets.net",
+          "handelsblatt.com",
           "unzer.com",
-          "de.mobiletransaction.org"
+          "orderbird.com"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "ready2order",
-          "SumUp"
+          "SumUp",
+          "Lightspeed"
         ],
         "sources": [
           "ordio.com",
-          "menubly.com",
+          "omr.com",
           "orderbird.com",
-          "vino-smart.com",
-          "gastrorocket.de"
+          "super44.ai",
+          "vino-smart.com"
         ]
       },
       "gemini": {
@@ -1906,15 +1885,15 @@
         "recommended": [
           "Lightspeed",
           "ready2order",
-          "SumUp",
-          "Square"
+          "Square",
+          "SumUp"
         ],
         "sources": [
           "kassensystemevergleich.de",
-          "de.mobiletransaction.org",
-          "kassensystemegastro.de",
-          "restaurant-kasse.de",
-          "bistro-cash.de"
+          "ready2order.com",
+          "tradingtwins.com",
+          "fuer-gruender.de",
+          "kassen-nuernberg.de"
         ]
       }
     }
@@ -1930,31 +1909,30 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "gastronovi",
-          "Orderbird",
           "Lightspeed",
-          "Loyverse"
+          "Orderbird",
+          "resmio",
+          "Toast",
+          "Square"
         ],
         "sources": [
-          "gastronovi.com",
-          "orderbird.com",
           "lightspeedhq.de",
-          "loyverse.com"
+          "orderbird.com",
+          "marketingdev.touchbistro.com"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "gastronovi",
-          "Vectron"
+          "gastronovi"
         ],
         "sources": [
-          "find-your-software.de",
           "kappino.com",
           "kassensystem-experten.de",
           "gastrosystem.app",
-          "kassensystemevergleich.de"
+          "find-your-software.de",
+          "mihok-kassensysteme.de"
         ]
       },
       "gemini": {
@@ -1964,15 +1942,15 @@
           "gastronovi",
           "Lightspeed",
           "OpenTable",
-          "TheFork",
-          "Hypersoft"
+          "SevenRooms",
+          "resmio"
         ],
         "sources": [
-          "gastronovi.com",
-          "lina.de",
           "xn--kchendisplay-dlb.de",
-          "lightspeedhq.de",
-          "k-series-support.lightspeedhq.com"
+          "lina.de",
+          "baldegger.epaper.pro",
+          "gastronovi.com",
+          "jimani.online"
         ]
       }
     }
@@ -1987,39 +1965,48 @@
       "chatgpt": {
         "tebiMentioned": false,
         "mentionRate": 0,
-        "recommended": [],
-        "sources": []
+        "recommended": [
+          "ready2order",
+          "SumUp",
+          "Zettle",
+          "Orderbird",
+          "Lightspeed"
+        ],
+        "sources": [
+          "omr.com",
+          "checkout.ready2order.com",
+          "orderbird.com",
+          "techradar.com",
+          "lfl.bayern.de"
+        ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
-        "recommended": [
-          "ready2order"
-        ],
+        "recommended": [],
         "sources": [
-          "ordio.com",
-          "paysafe.com",
           "ready2order.com",
-          "merchants.doordash.com",
-          "payone.com"
+          "payone.com",
+          "nexi.de",
+          "ordio.com",
+          "kassensystemevergleich.de"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "SumUp",
-          "Orderbird",
           "ready2order",
           "gastronovi",
-          "Lightspeed"
+          "Lightspeed",
+          "Orderbird"
         ],
         "sources": [
-          "fuer-gruender.de",
-          "orderbird.com",
-          "de.mobiletransaction.org",
+          "gruenderlexikon.de",
           "kassensystemevergleich.de",
-          "ready2order.com"
+          "tradingtwins.com",
+          "ready2order.com",
+          "gastronovi.com"
         ]
       }
     }
@@ -2034,24 +2021,19 @@
       "chatgpt": {
         "tebiMentioned": false,
         "mentionRate": 0,
-        "recommended": [
-          "SumUp"
-        ],
-        "sources": [
-          "europa.eu",
-          "einzelhandel.de"
-        ]
+        "recommended": [],
+        "sources": []
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [],
         "sources": [
-          "upmenu.com",
-          "chowbus.com",
           "restaurant-einsunternull.de",
-          "smartrestaurantowner.com",
-          "lavu.com"
+          "hotelier.de",
+          "bezahlexperten.de",
+          "whk-controlling.de",
+          "gastgewerbe-magazin.de"
         ]
       },
       "gemini": {
@@ -2062,11 +2044,11 @@
           "Zettle"
         ],
         "sources": [
-          "kartenkosten.de",
           "future-payments.de",
-          "degaso.de",
-          "hospello.de",
-          "pxp.io"
+          "kartenkosten.de",
+          "rollingpin.com",
+          "paylindo.de",
+          "roxpay.eu"
         ]
       }
     }
@@ -2083,17 +2065,17 @@
         "mentionRate": 0,
         "recommended": [
           "SumUp",
-          "Zettle",
+          "ready2order",
           "Orderbird",
           "Lightspeed",
           "Gastrofix"
         ],
         "sources": [
-          "de.wikipedia.org",
-          "zettle.com",
-          "orderbird.com",
+          "kommunsense.de",
           "fuer-gruender.de",
-          "tmv-deutschland.de"
+          "menunow.de",
+          "branchen-software.de",
+          "unzer.com"
         ]
       },
       "perplexity": {
@@ -2101,33 +2083,32 @@
         "mentionRate": 0,
         "recommended": [
           "SumUp",
-          "Orderbird",
-          "ready2order"
+          "Orderbird"
         ],
         "sources": [
-          "ordio.com",
           "flatpay.com",
           "sumup.com",
-          "nexi.de",
-          "orderbird.com"
+          "wlw.de",
+          "mypos.com",
+          "nexi.de"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Orderbird",
           "ready2order",
+          "Orderbird",
           "SumUp",
           "Lightspeed",
           "Zettle"
         ],
         "sources": [
-          "kassensystemevergleich.de",
           "fuer-gruender.de",
+          "kassensystemevergleich.de",
+          "flatpay.com",
           "de.mobiletransaction.org",
-          "kassa-pro.de",
-          "omr.com"
+          "tradingtwins.com"
         ]
       }
     }
@@ -2143,33 +2124,32 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Vectron",
+          "Tillhub",
           "ready2order",
           "Lightspeed",
-          "Gastrofix",
-          "Orderbird"
+          "Hiopos"
         ],
         "sources": [
-          "zahlungskompass.de",
-          "cheftipps.de",
           "kassensystem-experten.de",
-          "gesetze-im-internet.de",
-          "group.vectron-systems.com"
+          "kassensystemevergleich.de",
+          "cheftipps.de",
+          "de.wikipedia.org",
+          "serviceselector.de"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Vectron",
-          "Tillhub"
+          "Tillhub",
+          "Vectron"
         ],
         "sources": [
           "flatpay.com",
           "jarivision.com",
           "kassensystem-experten.de",
-          "payone.com",
-          "taptouchpos.com"
+          "unzer.com",
+          "payone.com"
         ]
       },
       "gemini": {
@@ -2181,10 +2161,10 @@
         ],
         "sources": [
           "kassensystemevergleich.de",
-          "tradingtwins.com",
-          "vectron-systems.com",
-          "kassensystem-experten.de",
-          "fuer-gruender.de"
+          "celler-presse.de",
+          "posbill.com",
+          "copago.de",
+          "kassensysteme-mueller.de"
         ]
       }
     }
@@ -2200,16 +2180,17 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
+          "Orderbird",
           "SumUp",
-          "Lightspeed",
-          "Gastrofix"
+          "gastronovi",
+          "Vectron"
         ],
         "sources": [
+          "orderbird.com",
           "sumup.com",
-          "lightspeedhq.de",
-          "gastro.liefersoft.de",
-          "deliverect.com",
-          "yoordi.com"
+          "gastronovi.com",
+          "help.flipdish.com",
+          "timm-kassen.de"
         ]
       },
       "perplexity": {
@@ -2217,34 +2198,34 @@
         "mentionRate": 0,
         "recommended": [
           "SumUp",
-          "Lightspeed",
           "DISH POS",
-          "gastronovi"
+          "gastronovi",
+          "Lightspeed"
         ],
         "sources": [
           "sumup.com",
-          "fuer-gruender.de",
+          "workforce.com",
           "ready2order.com",
-          "dish.co",
-          "wlw.de"
+          "fuer-gruender.de",
+          "dish.co"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Orderbird",
           "gastronovi",
           "Lightspeed",
+          "Orderbird",
           "Vectron",
-          "resmio"
+          "Hypersoft"
         ],
         "sources": [
-          "resmio.com",
-          "so-use.de",
+          "dish.co",
+          "orderbird.com",
           "sjef.app",
-          "flixorder.de",
-          "kassensystemevergleich.de"
+          "leaf-systems.eu",
+          "flixorder.de"
         ]
       }
     }
@@ -2261,47 +2242,48 @@
         "mentionRate": 0,
         "recommended": [
           "resmio",
-          "SevenRooms",
-          "OpenTable",
           "TheFork",
-          "Quandoo"
+          "OpenTable"
         ],
         "sources": [
+          "resmio.de",
           "bookete.com",
-          "onboardos.de",
-          "opentable.de"
+          "onboardos.de"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "resmio"
+          "Resos",
+          "resmio",
+          "DISH POS",
+          "GloriaFood"
         ],
         "sources": [
-          "trykitchenhub.com",
-          "trudystable.com",
-          "resmio.com",
-          "sevenrooms.com",
-          "restaurant.eatapp.co"
+          "resos.com",
+          "gloriafood.com",
+          "dish.co",
+          "omr.com",
+          "resmio.com"
         ]
       },
       "gemini": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "OpenTable",
           "TheFork",
+          "OpenTable",
+          "Quandoo",
           "resmio",
-          "aleno",
-          "Formitable"
+          "Zenchef"
         ],
         "sources": [
           "teburio.de",
           "hotelier.de",
           "resmio.com",
-          "table4u.de",
-          "online-tischreservierung.de"
+          "guestplan.com",
+          "restaurant.eatapp.co"
         ]
       }
     }
@@ -2320,16 +2302,10 @@
           "Orderbird",
           "Lightspeed",
           "Gastrofix",
-          "Vectron",
-          "ready2order"
+          "ready2order",
+          "SumUp"
         ],
-        "sources": [
-          "orderbird.com",
-          "lightspeedhq.de",
-          "vectron-systems.com",
-          "new.ready2order.com",
-          "theracon.eu"
-        ]
+        "sources": []
       },
       "perplexity": {
         "tebiMentioned": false,
@@ -2340,10 +2316,10 @@
         ],
         "sources": [
           "kassensystem-experten.de",
-          "orderbird.com",
           "kassensystemevergleich.de",
           "ready2order.com",
-          "ordio.com"
+          "fuer-gruender.de",
+          "barbrain.com"
         ]
       },
       "gemini": {
@@ -2354,14 +2330,14 @@
           "Gastrofix",
           "Orderbird",
           "ready2order",
-          "Vectron"
+          "Hypersoft"
         ],
         "sources": [
-          "kassensystemevergleich.de",
           "flatpay.com",
-          "de.mobiletransaction.org",
+          "kassensystem-experten.de",
+          "issuu.com",
           "fuer-gruender.de",
-          "quickbon.com"
+          "de.mobiletransaction.org"
         ]
       }
     }
@@ -2378,31 +2354,31 @@
         "mentionRate": 0,
         "recommended": [
           "gastronovi",
+          "Orderbird",
           "Lightspeed",
           "Gastrofix",
           "Vectron"
         ],
         "sources": [
-          "gastronovi.com",
-          "foodnotify.com",
-          "datev.de",
-          "filotax.de",
-          "support.gastronovi.com"
+          "gastrofuxx.com",
+          "menunow.de",
+          "orderbird.com",
+          "ordio.com",
+          "kassensystemevergleich.de"
         ]
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [
-          "Lightspeed",
           "gastronovi"
         ],
         "sources": [
-          "ordio.com",
           "barbrain.com",
-          "foodnotify.com",
+          "ordio.com",
           "gastrorocket.de",
-          "kassensystem-experten.de"
+          "foodnotify.com",
+          "fuer-gruender.de"
         ]
       },
       "gemini": {
@@ -2411,15 +2387,16 @@
         "recommended": [
           "gastronovi",
           "Hypersoft",
+          "Gastro-MIS",
           "Lightspeed",
           "Vectron"
         ],
         "sources": [
-          "ordio.com",
-          "kassenschmiede.de",
           "kassegastro.de",
+          "foodnotify.com",
+          "dokumentation.hypersoft.de",
           "service.transgourmet.de",
-          "dokumentation.hypersoft.de"
+          "ordio.com"
         ]
       }
     }
@@ -2438,15 +2415,15 @@
           "Orderbird",
           "Lightspeed",
           "Gastrofix",
-          "gastronovi",
-          "ready2order"
+          "SumUp",
+          "Square"
         ],
         "sources": [
-          "static.orderbird.com",
-          "support.gastrofix.com",
-          "unzer.com",
-          "kassensystemwahl.de",
-          "get-sides.de"
+          "apps.apple.com",
+          "resto-support.lightspeedhq.com",
+          "touchbistro.com",
+          "help.sumup.com",
+          "techradar.com"
         ]
       },
       "perplexity": {
@@ -2459,11 +2436,11 @@
           "gastronovi"
         ],
         "sources": [
-          "ordio.com",
           "kassensystem-experten.de",
           "gastrosystem.app",
+          "drweb.de",
           "orderbird.com",
-          "de.mobiletransaction.org"
+          "ordio.com"
         ]
       },
       "gemini": {
@@ -2478,9 +2455,9 @@
         ],
         "sources": [
           "kassensystemevergleich.com",
-          "orderbird.com",
-          "kassensystemevergleich.de",
           "tillhub.de",
+          "de.mobiletransaction.org",
+          "orderbird.com",
           "fuer-gruender.de"
         ]
       }
@@ -2497,24 +2474,18 @@
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [],
-        "sources": [
-          "gesetze-im-internet.de",
-          "ihk-muenchen.de",
-          "ihk-bonn.de",
-          "mihok-kassensysteme.de",
-          "hwk-berlin.de"
-        ]
+        "sources": []
       },
       "perplexity": {
         "tebiMentioned": false,
         "mentionRate": 0,
         "recommended": [],
         "sources": [
-          "pos.toasttab.com",
-          "sumup.com",
+          "zimbio.com",
           "get-sides.de",
-          "barbrain.com",
-          "menusifu.com"
+          "get-sides.ch",
+          "sumup.com",
+          "workforce.com"
         ]
       },
       "gemini": {
@@ -2523,10 +2494,10 @@
         "recommended": [],
         "sources": [
           "hobex.at",
+          "payone.com",
+          "fuer-gruender.de",
           "ready2order.com",
-          "locafox.de",
-          "posbill.com",
-          "sapelectronic.ch"
+          "hotelier.de"
         ]
       }
     }

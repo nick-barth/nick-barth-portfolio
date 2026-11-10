@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { AuditTable, type AuditPrompt } from "./audit-table";
+import { AuditTrend, type AuditHistoryEntry } from "./audit-trend";
 
 /*
  * Results of the AI-answer audit (scripts/ai-audit): headline tiles, share of voice and
@@ -119,7 +120,7 @@ function Bar({ name, value, highlight, tooltip, segments }: {
   );
 }
 
-export function AuditResults({ summary, prompts }: { summary: AuditSummary; prompts: AuditPrompt[] }) {
+export function AuditResults({ summary, prompts, history = [] }: { summary: AuditSummary; prompts: AuditPrompt[]; history?: AuditHistoryEntry[] }) {
   const [market, setMarket] = useState(summary.markets[0]?.market ?? "NL");
   const [engine, setEngine] = useState<"all" | EngineKey>("all");
   const m = summary.markets.find((x) => x.market === market) ?? summary.markets[0];
@@ -271,6 +272,8 @@ export function AuditResults({ summary, prompts }: { summary: AuditSummary; prom
           </div>
         ))}
       </div>
+
+      <AuditTrend history={history} />
     </div>
   );
 }

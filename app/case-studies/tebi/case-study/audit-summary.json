@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-08T13:26:42.224Z",
+  "generatedAt": "2026-11-10T10:02:05.757Z",
   "runsPerPrompt": 1,
   "prompts": 45,
   "answers": 135,
-  "tebiMentioned": 0.044444444444444446,
+  "tebiMentioned": 0.05925925925925926,
   "engines": [
     {
       "id": "chatgpt",
@@ -21,26 +21,26 @@
       "answers": 45,
       "mentioned": 0.022222222222222223,
       "namedFirst": 0,
-      "cited": 0
+      "cited": 0.022222222222222223
     },
     {
       "id": "gemini",
       "label": "Gemini",
       "model": "gemini-3.8-flash",
       "answers": 45,
-      "mentioned": 0.044444444444444446,
+      "mentioned": 0.08888888888888889,
       "namedFirst": 0.022222222222222223,
-      "cited": 0.022222222222222223
+      "cited": 0.044444444444444446
     }
   ],
   "geminiSearchedUnprompted": 0.28888888888888886,
   "cost": {
-    "totalUsd": 3.092033349999999,
+    "totalUsd": 3.104752850000001,
     "pricedAnswers": 135,
     "byEngine": {
-      "chatgpt": 0.5670383499999999,
-      "perplexity": 0.08165,
-      "gemini": 2.4433450000000003
+      "chatgpt": 0.5492510999999999,
+      "perplexity": 0.07675000000000001,
+      "gemini": 2.4787517499999994
     }
   },
   "markets": [
@@ -50,63 +50,63 @@
       "brands": [
         {
           "brand": "Lightspeed",
-          "all": 0.5481481481481482,
+          "all": 0.5555555555555556,
           "byEngine": {
-            "chatgpt": 0.6666666666666666,
-            "perplexity": 0.37777777777777777,
-            "gemini": 0.6
+            "chatgpt": 0.6222222222222222,
+            "perplexity": 0.4222222222222222,
+            "gemini": 0.6222222222222222
           },
           "split": {
             "all": {
               "NL": 0.22962962962962963,
-              "ES": 0.11851851851851852,
+              "ES": 0.1259259259259259,
               "DE": 0.2
             },
             "chatgpt": {
               "NL": 0.24444444444444444,
-              "ES": 0.17777777777777778,
+              "ES": 0.13333333333333333,
               "DE": 0.24444444444444444
             },
             "perplexity": {
               "NL": 0.17777777777777778,
-              "ES": 0.08888888888888889,
+              "ES": 0.13333333333333333,
               "DE": 0.1111111111111111
             },
             "gemini": {
               "NL": 0.26666666666666666,
-              "ES": 0.08888888888888889,
+              "ES": 0.1111111111111111,
               "DE": 0.24444444444444444
             }
           }
         },
         {
           "brand": "SumUp",
-          "all": 0.3925925925925926,
+          "all": 0.37037037037037035,
           "byEngine": {
-            "chatgpt": 0.6222222222222222,
-            "perplexity": 0.17777777777777778,
-            "gemini": 0.37777777777777777
+            "chatgpt": 0.5333333333333333,
+            "perplexity": 0.24444444444444444,
+            "gemini": 0.3333333333333333
           },
           "split": {
             "all": {
-              "NL": 0.11851851851851852,
-              "ES": 0.1037037037037037,
-              "DE": 0.17037037037037037
+              "NL": 0.08148148148148149,
+              "ES": 0.13333333333333333,
+              "DE": 0.15555555555555556
             },
             "chatgpt": {
-              "NL": 0.2,
-              "ES": 0.2,
+              "NL": 0.13333333333333333,
+              "ES": 0.17777777777777778,
               "DE": 0.2222222222222222
             },
             "perplexity": {
               "NL": 0.022222222222222223,
-              "ES": 0.022222222222222223,
-              "DE": 0.13333333333333333
+              "ES": 0.1111111111111111,
+              "DE": 0.1111111111111111
             },
             "gemini": {
-              "NL": 0.13333333333333333,
-              "ES": 0.08888888888888889,
-              "DE": 0.15555555555555556
+              "NL": 0.08888888888888889,
+              "ES": 0.1111111111111111,
+              "DE": 0.13333333333333333
             }
           }
         },
@@ -114,20 +114,20 @@
           "brand": "Square",
           "all": 0.1925925925925926,
           "byEngine": {
-            "chatgpt": 0.13333333333333333,
+            "chatgpt": 0.15555555555555556,
             "perplexity": 0.15555555555555556,
-            "gemini": 0.28888888888888886
+            "gemini": 0.26666666666666666
           },
           "split": {
             "all": {
               "NL": 0.022222222222222223,
-              "ES": 0.16296296296296298,
-              "DE": 0.007407407407407408
+              "ES": 0.14814814814814814,
+              "DE": 0.022222222222222223
             },
             "chatgpt": {
-              "NL": 0.022222222222222223,
-              "ES": 0.1111111111111111,
-              "DE": 0
+              "NL": 0.044444444444444446,
+              "ES": 0.06666666666666667,
+              "DE": 0.044444444444444446
             },
             "perplexity": {
               "NL": 0,
@@ -135,7 +135,7 @@
               "DE": 0
             },
             "gemini": {
-              "NL": 0.044444444444444446,
+              "NL": 0.022222222222222223,
               "ES": 0.2222222222222222,
               "DE": 0.022222222222222223
             }
@@ -143,9 +143,9 @@
         },
         {
           "brand": "Orderbird",
-          "all": 0.17777777777777778,
+          "all": 0.1925925925925926,
           "byEngine": {
-            "chatgpt": 0.2222222222222222,
+            "chatgpt": 0.26666666666666666,
             "perplexity": 0.13333333333333333,
             "gemini": 0.17777777777777778
           },
@@ -153,12 +153,12 @@
             "all": {
               "NL": 0.007407407407407408,
               "ES": 0,
-              "DE": 0.17037037037037037
+              "DE": 0.18518518518518517
             },
             "chatgpt": {
               "NL": 0.022222222222222223,
               "ES": 0,
-              "DE": 0.2
+              "DE": 0.24444444444444444
             },
             "perplexity": {
               "NL": 0,
@@ -173,64 +173,64 @@
           }
         },
         {
-          "brand": "ready2order",
-          "all": 0.17037037037037037,
+          "brand": "Zettle",
+          "all": 0.17777777777777778,
           "byEngine": {
-            "chatgpt": 0.15555555555555556,
-            "perplexity": 0.17777777777777778,
+            "chatgpt": 0.37777777777777777,
+            "perplexity": 0,
+            "gemini": 0.15555555555555556
+          },
+          "split": {
+            "all": {
+              "NL": 0.07407407407407407,
+              "ES": 0.044444444444444446,
+              "DE": 0.05925925925925926
+            },
+            "chatgpt": {
+              "NL": 0.15555555555555556,
+              "ES": 0.1111111111111111,
+              "DE": 0.1111111111111111
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0.06666666666666667,
+              "ES": 0.022222222222222223,
+              "DE": 0.06666666666666667
+            }
+          }
+        },
+        {
+          "brand": "ready2order",
+          "all": 0.15555555555555556,
+          "byEngine": {
+            "chatgpt": 0.17777777777777778,
+            "perplexity": 0.1111111111111111,
             "gemini": 0.17777777777777778
           },
           "split": {
             "all": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.17037037037037037
-            },
-            "chatgpt": {
-              "NL": 0,
-              "ES": 0,
               "DE": 0.15555555555555556
             },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.17777777777777778
-            },
-            "gemini": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.17777777777777778
-            }
-          }
-        },
-        {
-          "brand": "Revo",
-          "all": 0.16296296296296298,
-          "byEngine": {
-            "chatgpt": 0.2,
-            "perplexity": 0.08888888888888889,
-            "gemini": 0.2
-          },
-          "split": {
-            "all": {
-              "NL": 0,
-              "ES": 0.16296296296296298,
-              "DE": 0
-            },
             "chatgpt": {
               "NL": 0,
-              "ES": 0.2,
-              "DE": 0
+              "ES": 0,
+              "DE": 0.17777777777777778
             },
             "perplexity": {
               "NL": 0,
-              "ES": 0.08888888888888889,
-              "DE": 0
+              "ES": 0,
+              "DE": 0.1111111111111111
             },
             "gemini": {
               "NL": 0,
-              "ES": 0.2,
-              "DE": 0
+              "ES": 0,
+              "DE": 0.17777777777777778
             }
           }
         },
@@ -239,8 +239,8 @@
           "all": 0.14814814814814814,
           "byEngine": {
             "chatgpt": 0.1111111111111111,
-            "perplexity": 0.15555555555555556,
-            "gemini": 0.17777777777777778
+            "perplexity": 0.13333333333333333,
+            "gemini": 0.2
           },
           "split": {
             "all": {
@@ -254,45 +254,14 @@
               "DE": 0
             },
             "perplexity": {
-              "NL": 0.15555555555555556,
+              "NL": 0.13333333333333333,
               "ES": 0,
               "DE": 0
             },
             "gemini": {
-              "NL": 0.17777777777777778,
+              "NL": 0.2,
               "ES": 0,
               "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "Vectron",
-          "all": 0.14814814814814814,
-          "byEngine": {
-            "chatgpt": 0.2,
-            "perplexity": 0.1111111111111111,
-            "gemini": 0.13333333333333333
-          },
-          "split": {
-            "all": {
-              "NL": 0.02962962962962963,
-              "ES": 0,
-              "DE": 0.11851851851851852
-            },
-            "chatgpt": {
-              "NL": 0.022222222222222223,
-              "ES": 0,
-              "DE": 0.17777777777777778
-            },
-            "perplexity": {
-              "NL": 0.044444444444444446,
-              "ES": 0,
-              "DE": 0.06666666666666667
-            },
-            "gemini": {
-              "NL": 0.022222222222222223,
-              "ES": 0,
-              "DE": 0.1111111111111111
             }
           }
         },
@@ -300,9 +269,9 @@
           "brand": "unTill",
           "all": 0.14074074074074075,
           "byEngine": {
-            "chatgpt": 0.13333333333333333,
-            "perplexity": 0.1111111111111111,
-            "gemini": 0.17777777777777778
+            "chatgpt": 0.08888888888888889,
+            "perplexity": 0.06666666666666667,
+            "gemini": 0.26666666666666666
           },
           "split": {
             "all": {
@@ -311,40 +280,102 @@
               "DE": 0
             },
             "chatgpt": {
-              "NL": 0.13333333333333333,
+              "NL": 0.08888888888888889,
               "ES": 0,
               "DE": 0
             },
             "perplexity": {
-              "NL": 0.1111111111111111,
+              "NL": 0.06666666666666667,
               "ES": 0,
               "DE": 0
             },
             "gemini": {
-              "NL": 0.17777777777777778,
+              "NL": 0.26666666666666666,
               "ES": 0,
               "DE": 0
             }
           }
         },
         {
-          "brand": "gastronovi",
-          "all": 0.14074074074074075,
+          "brand": "Revo",
+          "all": 0.13333333333333333,
           "byEngine": {
             "chatgpt": 0.13333333333333333,
+            "perplexity": 0.08888888888888889,
+            "gemini": 0.17777777777777778
+          },
+          "split": {
+            "all": {
+              "NL": 0,
+              "ES": 0.13333333333333333,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0.13333333333333333,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0.08888888888888889,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0,
+              "ES": 0.17777777777777778,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "Ágora",
+          "all": 0.1259259259259259,
+          "byEngine": {
+            "chatgpt": 0.08888888888888889,
+            "perplexity": 0.1111111111111111,
+            "gemini": 0.17777777777777778
+          },
+          "split": {
+            "all": {
+              "NL": 0,
+              "ES": 0.1259259259259259,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0.08888888888888889,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0.1111111111111111,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0,
+              "ES": 0.17777777777777778,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "gastronovi",
+          "all": 0.1259259259259259,
+          "byEngine": {
+            "chatgpt": 0.08888888888888889,
             "perplexity": 0.08888888888888889,
             "gemini": 0.2
           },
           "split": {
             "all": {
-              "NL": 0,
+              "NL": 0.007407407407407408,
               "ES": 0,
-              "DE": 0.14074074074074075
+              "DE": 0.11851851851851852
             },
             "chatgpt": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.13333333333333333
+              "DE": 0.08888888888888889
             },
             "perplexity": {
               "NL": 0,
@@ -352,40 +383,9 @@
               "DE": 0.08888888888888889
             },
             "gemini": {
-              "NL": 0,
+              "NL": 0.022222222222222223,
               "ES": 0,
-              "DE": 0.2
-            }
-          }
-        },
-        {
-          "brand": "Zettle",
-          "all": 0.1259259259259259,
-          "byEngine": {
-            "chatgpt": 0.24444444444444444,
-            "perplexity": 0,
-            "gemini": 0.13333333333333333
-          },
-          "split": {
-            "all": {
-              "NL": 0.05185185185185185,
-              "ES": 0.02962962962962963,
-              "DE": 0.044444444444444446
-            },
-            "chatgpt": {
-              "NL": 0.08888888888888889,
-              "ES": 0.08888888888888889,
-              "DE": 0.06666666666666667
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0.06666666666666667,
-              "ES": 0,
-              "DE": 0.06666666666666667
+              "DE": 0.17777777777777778
             }
           }
         },
@@ -422,15 +422,15 @@
         },
         {
           "brand": "Tebi",
-          "all": 0.044444444444444446,
+          "all": 0.05925925925925926,
           "byEngine": {
             "chatgpt": 0.06666666666666667,
             "perplexity": 0.022222222222222223,
-            "gemini": 0.044444444444444446
+            "gemini": 0.08888888888888889
           },
           "split": {
             "all": {
-              "NL": 0.044444444444444446,
+              "NL": 0.05925925925925926,
               "ES": 0,
               "DE": 0
             },
@@ -445,7 +445,7 @@
               "DE": 0
             },
             "gemini": {
-              "NL": 0.044444444444444446,
+              "NL": 0.08888888888888889,
               "ES": 0,
               "DE": 0
             }
@@ -457,11 +457,10 @@
           "page": "kassazaak.nl/horeca",
           "url": "https://www.kassazaak.nl/horeca/",
           "note": "POS comparison page for hospitality",
-          "answers": 0.05185185185185185,
-          "count": 7,
+          "answers": 0.044444444444444446,
+          "count": 6,
           "engines": [
             "chatgpt",
-            "perplexity",
             "gemini"
           ]
         },
@@ -469,10 +468,9 @@
           "page": "lightspeedhq.nl/kassasysteem/amsterdam",
           "url": "https://www.lightspeedhq.nl/kassasysteem/amsterdam/",
           "note": "Lightspeed's own Amsterdam landing page",
-          "answers": 0.022222222222222223,
-          "count": 3,
+          "answers": 0.014814814814814815,
+          "count": 2,
           "engines": [
-            "perplexity",
             "gemini"
           ]
         },
@@ -480,26 +478,17 @@
           "page": "bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026",
           "url": "https://bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026/",
           "note": "Lightspeed vs unTill comparison article",
-          "answers": 0,
-          "count": 0,
-          "engines": []
+          "answers": 0.007407407407407408,
+          "count": 1,
+          "engines": [
+            "gemini"
+          ]
         }
       ],
       "topPages": [
         {
           "page": "fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/gastronomie",
           "url": "https://www.fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/gastronomie/?utm_source=openai",
-          "answers": 0.1037037037037037,
-          "count": 14,
-          "engines": [
-            "chatgpt",
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-voor-kleine-horeca-in-2026-vergelijk-de-7-populairste-systemen",
-          "url": "https://www.mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-voor-kleine-horeca-in-2026-vergelijk-de-7-populairste-systemen?utm_source=openai",
           "answers": 0.0962962962962963,
           "count": 13,
           "engines": [
@@ -509,10 +498,30 @@
           ]
         },
         {
-          "page": "de.mobiletransaction.org/kassensysteme-fuer-gastronomie",
-          "url": "https://de.mobiletransaction.org/kassensysteme-fuer-gastronomie/?utm_source=openai",
+          "page": "workforce.com/buyers-guides/pos-restaurants",
+          "url": "https://www.workforce.com/buyers-guides/pos-restaurants",
           "answers": 0.08148148148148149,
           "count": 11,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "orderbird.com/de/blog/kassensystem-gastronomie-vergleich",
+          "url": "https://www.orderbird.com/de/blog/kassensystem-gastronomie-vergleich?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 9,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem",
+          "url": "https://www.fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem/?utm_source=openai",
+          "answers": 0.05925925925925926,
+          "count": 8,
           "engines": [
             "chatgpt",
             "perplexity",
@@ -522,8 +531,8 @@
         {
           "page": "ordio.com/insights/ratgeber/kassensystem-gastronomie-vergleich",
           "url": "https://www.ordio.com/insights/ratgeber/kassensystem-gastronomie-vergleich?utm_source=openai",
-          "answers": 0.08148148148148149,
-          "count": 11,
+          "answers": 0.05925925925925926,
+          "count": 8,
           "engines": [
             "chatgpt",
             "perplexity",
@@ -531,63 +540,49 @@
           ]
         },
         {
-          "page": "orderbird.com/de/blog/kassensystem-gastronomie-vergleich",
-          "url": "https://www.orderbird.com/de/blog/kassensystem-gastronomie-vergleich?utm_source=openai",
-          "answers": 0.07407407407407407,
-          "count": 10,
-          "engines": [
-            "chatgpt",
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "bedrijfssoftwaregids.nl/blog/beste-kassasysteem-horeca",
-          "url": "https://bedrijfssoftwaregids.nl/blog/beste-kassasysteem-horeca/?utm_source=openai",
-          "answers": 0.06666666666666667,
-          "count": 9,
+          "page": "blog.platomico.com/mejor-tpv-restaurantes-espana",
+          "url": "https://blog.platomico.com/mejor-tpv-restaurantes-espana?utm_source=openai",
+          "answers": 0.05925925925925926,
+          "count": 8,
           "engines": [
             "chatgpt",
             "perplexity"
           ]
         },
         {
-          "page": "fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem",
-          "url": "https://www.fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem/",
-          "answers": 0.06666666666666667,
-          "count": 9,
+          "page": "hitsystems.es/blog/Los-10-Mejores-TPV-para-Hosteler%C3%ADa-en-Espa%C3%B1a-2025",
+          "url": "https://hitsystems.es/blog/Los-10-Mejores-TPV-para-Hosteler%C3%ADa-en-Espa%C3%B1a-2025/",
+          "answers": 0.05925925925925926,
+          "count": 8,
           "engines": [
-            "perplexity",
             "gemini"
+          ]
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/blog/beste-kassasysteem-horeca",
+          "url": "https://bedrijfssoftwaregids.nl/blog/beste-kassasysteem-horeca/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 6,
+          "engines": [
+            "chatgpt",
+            "perplexity"
           ]
         },
         {
           "page": "kassazaak.nl/horeca",
           "url": "https://www.kassazaak.nl/horeca/?utm_source=openai",
-          "answers": 0.05185185185185185,
-          "count": 7,
+          "answers": 0.044444444444444446,
+          "count": 6,
           "engines": [
             "chatgpt",
-            "perplexity",
             "gemini"
           ]
         },
         {
-          "page": "nl.mobiletransaction.org/kassasystemen-voor-horeca",
-          "url": "https://nl.mobiletransaction.org/kassasystemen-voor-horeca/?utm_source=openai",
-          "answers": 0.05185185185185185,
-          "count": 7,
-          "engines": [
-            "chatgpt",
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "twelve.eu/blog/kassasysteem-horeca",
-          "url": "https://www.twelve.eu/blog/kassasysteem-horeca",
-          "answers": 0.05185185185185185,
-          "count": 7,
+          "page": "de.mobiletransaction.org/kassensysteme-fuer-gastronomie",
+          "url": "https://de.mobiletransaction.org/kassensysteme-fuer-gastronomie/",
+          "answers": 0.044444444444444446,
+          "count": 6,
           "engines": [
             "perplexity",
             "gemini"
@@ -596,26 +591,6 @@
         {
           "page": "kassensystemevergleich.de/gastronomie-registrierkassen-und-kassensysteme",
           "url": "https://www.kassensystemevergleich.de/gastronomie-registrierkassen-und-kassensysteme/",
-          "answers": 0.05185185185185185,
-          "count": 7,
-          "engines": [
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "comercialtpv.com/blog/2022/06/28/cual-es-el-mejor-tpv-para-hosteleria",
-          "url": "https://www.comercialtpv.com/blog/2022/06/28/cual-es-el-mejor-tpv-para-hosteleria/?utm_source=openai",
-          "answers": 0.044444444444444446,
-          "count": 6,
-          "engines": [
-            "chatgpt",
-            "gemini"
-          ]
-        },
-        {
-          "page": "lightspeedhq.nl/kassasysteem/restaurant",
-          "url": "https://www.lightspeedhq.nl/kassasysteem/restaurant/",
           "answers": 0.044444444444444446,
           "count": 6,
           "engines": [
@@ -624,48 +599,66 @@
           ]
         },
         {
-          "page": "bedrijfssoftwaregids.nl/categories/kassasystemen",
-          "url": "https://bedrijfssoftwaregids.nl/categories/kassasystemen/?utm_source=openai",
-          "answers": 0.037037037037037035,
-          "count": 5,
-          "engines": [
-            "chatgpt",
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "ordio.com/insights/ratgeber/warenwirtschaftssystem-gastronomie-vergleich",
-          "url": "https://www.ordio.com/insights/ratgeber/warenwirtschaftssystem-gastronomie-vergleich?utm_source=openai",
-          "answers": 0.037037037037037035,
-          "count": 5,
-          "engines": [
-            "chatgpt",
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "techradar.com/news/the-best-pos-system-for-restaurants",
-          "url": "https://www.techradar.com/news/the-best-pos-system-for-restaurants?utm_source=openai",
-          "answers": 0.037037037037037035,
-          "count": 5,
+          "page": "softabase.com/es/guides/best-pos-system-small-business",
+          "url": "https://softabase.com/es/guides/best-pos-system-small-business?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 6,
           "engines": [
             "chatgpt"
           ]
         },
         {
-          "page": "shiftbase.com/nl/blog/beste-kassasysteem",
-          "url": "https://www.shiftbase.com/nl/blog/beste-kassasysteem",
+          "page": "lymon.es/blog/tpv-ranking",
+          "url": "https://www.lymon.es/blog/tpv-ranking",
+          "answers": 0.044444444444444446,
+          "count": 6,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "hackceleration.com/es/labs/mejor/tpv-restaurantes",
+          "url": "https://www.hackceleration.com/es/labs/mejor/tpv-restaurantes?utm_source=openai",
           "answers": 0.037037037037037035,
           "count": 5,
           "engines": [
+            "chatgpt",
             "perplexity"
           ]
         },
         {
+          "page": "comercialtpv.com/blog/2022/06/28/cual-es-el-mejor-tpv-para-hosteleria",
+          "url": "https://www.comercialtpv.com/blog/2022/06/28/cual-es-el-mejor-tpv-para-hosteleria/?utm_source=openai",
+          "answers": 0.037037037037037035,
+          "count": 5,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "nl.mobiletransaction.org/kassasystemen-voor-horeca",
+          "url": "https://nl.mobiletransaction.org/kassasystemen-voor-horeca/",
+          "answers": 0.037037037037037035,
+          "count": 5,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "barbrain.com/blog/kassensystem-gastronomie-vergleich",
+          "url": "https://www.barbrain.com/blog/kassensystem-gastronomie-vergleich",
+          "answers": 0.037037037037037035,
+          "count": 5,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
           "page": "qamarero.com/blog/mejores-tpv-restaurantes",
-          "url": "https://qamarero.com/blog/mejores-tpv-restaurantes/?motion=reduce",
+          "url": "https://www.qamarero.com/blog/mejores-tpv-restaurantes/",
           "answers": 0.037037037037037035,
           "count": 5,
           "engines": [
@@ -682,8 +675,8 @@
           ]
         },
         {
-          "page": "hitsystems.es/blog/Los-10-Mejores-TPV-para-Hosteler%C3%ADa-en-Espa%C3%B1a-2025",
-          "url": "https://hitsystems.es/blog/Los-10-Mejores-TPV-para-Hosteler%C3%ADa-en-Espa%C3%B1a-2025/",
+          "page": "twelve.eu/blog/kassasysteem-horeca",
+          "url": "https://www.twelve.eu/blog/kassasysteem-horeca",
           "answers": 0.037037037037037035,
           "count": 5,
           "engines": [
@@ -691,17 +684,8 @@
           ]
         },
         {
-          "page": "lymon.es/blog/tpv-ranking",
-          "url": "https://www.lymon.es/blog/tpv-ranking",
-          "answers": 0.037037037037037035,
-          "count": 5,
-          "engines": [
-            "gemini"
-          ]
-        },
-        {
-          "page": "lightspeedhq.nl/kassasysteem/restaurant/prijzen",
-          "url": "https://www.lightspeedhq.nl/kassasysteem/restaurant/prijzen/?utm_source=openai",
+          "page": "bedrijfssoftwaregids.nl/categories/kassasystemen",
+          "url": "https://bedrijfssoftwaregids.nl/categories/kassasystemen/?utm_source=openai",
           "answers": 0.02962962962962963,
           "count": 4,
           "engines": [
@@ -711,8 +695,30 @@
           ]
         },
         {
-          "page": "theforkmanager.com/nl/blog/de-8-beste-restaurant-pos-systemen-voor-nederland",
-          "url": "https://www.theforkmanager.com/nl/blog/de-8-beste-restaurant-pos-systemen-voor-nederland?utm_source=openai",
+          "page": "comparasoft.es/categoria/tpv-hosteleria",
+          "url": "https://comparasoft.es/categoria/tpv-hosteleria?utm_source=openai",
+          "answers": 0.02962962962962963,
+          "count": 4,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "gastrorocket.de/die-10-besten-kassensysteme-fuer-die-gastronomie-im-vergleich",
+          "url": "https://gastrorocket.de/die-10-besten-kassensysteme-fuer-die-gastronomie-im-vergleich?utm_source=openai",
+          "answers": 0.02962962962962963,
+          "count": 4,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "bbva.es/empresas/productos/tpv/tpv-hosteleria.html",
+          "url": "https://www.bbva.es/empresas/productos/tpv/tpv-hosteleria.html?utm_source=openai",
           "answers": 0.02962962962962963,
           "count": 4,
           "engines": [
@@ -721,62 +727,34 @@
           ]
         },
         {
-          "page": "hackceleration.com/es/labs/mejor/tpv-restaurantes",
-          "url": "https://www.hackceleration.com/es/labs/mejor/tpv-restaurantes?utm_source=openai",
+          "page": "omr.com/de/reviews/contenthub/kassensysteme-gastronomie",
+          "url": "https://omr.com/de/reviews/contenthub/kassensysteme-gastronomie?utm_source=openai",
           "answers": 0.02962962962962963,
           "count": 4,
           "engines": [
             "chatgpt",
-            "perplexity"
-          ]
-        },
-        {
-          "page": "unzer.com/de/knowledge/articles/besten-kassenloesungen-gastro",
-          "url": "https://www.unzer.com/de/knowledge/articles/besten-kassenloesungen-gastro/?utm_source=openai",
-          "answers": 0.02962962962962963,
-          "count": 4,
-          "engines": [
-            "chatgpt",
-            "perplexity"
+            "gemini"
           ]
         }
       ],
       "sources": {
         "all": [
           {
-            "domain": "mpluskassa.nl",
-            "answers": 0.15555555555555556,
+            "domain": "fuer-gruender.de",
+            "answers": 0.13333333333333333,
             "split": {
-              "NL": 0.15555555555555556,
+              "NL": 0,
               "ES": 0,
-              "DE": 0
+              "DE": 0.13333333333333333
             }
           },
           {
             "domain": "orderbird.com",
-            "answers": 0.14814814814814814,
+            "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.14814814814814814
-            }
-          },
-          {
-            "domain": "fuer-gruender.de",
-            "answers": 0.14074074074074075,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.14074074074074075
-            }
-          },
-          {
-            "domain": "lightspeedhq.nl",
-            "answers": 0.1259259259259259,
-            "split": {
-              "NL": 0.1259259259259259,
-              "ES": 0,
-              "DE": 0
+              "DE": 0.13333333333333333
             }
           },
           {
@@ -789,63 +767,90 @@
             }
           },
           {
+            "domain": "lightspeedhq.com",
+            "answers": 0.1111111111111111,
+            "split": {
+              "NL": 0.05185185185185185,
+              "ES": 0.05185185185185185,
+              "DE": 0.007407407407407408
+            }
+          },
+          {
+            "domain": "dish.co",
+            "answers": 0.1111111111111111,
+            "split": {
+              "NL": 0.06666666666666667,
+              "ES": 0,
+              "DE": 0.044444444444444446
+            }
+          },
+          {
             "domain": "bedrijfssoftwaregids.nl",
-            "answers": 0.1111111111111111,
+            "answers": 0.1037037037037037,
             "split": {
-              "NL": 0.1111111111111111,
+              "NL": 0.1037037037037037,
               "ES": 0,
               "DE": 0
-            }
-          },
-          {
-            "domain": "squareup.com",
-            "answers": 0.1111111111111111,
-            "split": {
-              "NL": 0,
-              "ES": 0.1111111111111111,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "ordio.com",
-            "answers": 0.1111111111111111,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.1111111111111111
             }
           },
           {
             "domain": "sumup.com",
-            "answers": 0.1037037037037037,
+            "answers": 0.0962962962962963,
             "split": {
-              "NL": 0.02962962962962963,
-              "ES": 0.037037037037037035,
+              "NL": 0.007407407407407408,
+              "ES": 0.05185185185185185,
               "DE": 0.037037037037037035
             }
           },
           {
-            "domain": "lightspeedhq.com",
-            "answers": 0.08888888888888889,
+            "domain": "mpluskassa.nl",
+            "answers": 0.0962962962962963,
+            "split": {
+              "NL": 0.0962962962962963,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "lightspeedhq.nl",
+            "answers": 0.08148148148148149,
+            "split": {
+              "NL": 0.08148148148148149,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "blog.platomico.com",
+            "answers": 0.08148148148148149,
             "split": {
               "NL": 0,
-              "ES": 0.07407407407407407,
-              "DE": 0.014814814814814815
+              "ES": 0.08148148148148149,
+              "DE": 0
             }
           }
         ],
         "chatgpt": [
           {
-            "domain": "bedrijfssoftwaregids.nl",
+            "domain": "orderbird.com",
+            "answers": 0.17777777777777778,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.17777777777777778
+            }
+          },
+          {
+            "domain": "softabase.com",
             "answers": 0.13333333333333333,
             "split": {
-              "NL": 0.13333333333333333,
-              "ES": 0,
+              "NL": 0,
+              "ES": 0.13333333333333333,
               "DE": 0
             }
           },
           {
-            "domain": "softwarewatcher.nl",
+            "domain": "bedrijfssoftwaregids.nl",
             "answers": 0.1111111111111111,
             "split": {
               "NL": 0.1111111111111111,
@@ -858,21 +863,12 @@
             "answers": 0.1111111111111111,
             "split": {
               "NL": 0.06666666666666667,
-              "ES": 0.022222222222222223,
-              "DE": 0.022222222222222223
+              "ES": 0,
+              "DE": 0.044444444444444446
             }
           },
           {
-            "domain": "comparasoft.es",
-            "answers": 0.1111111111111111,
-            "split": {
-              "NL": 0,
-              "ES": 0.1111111111111111,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "mpluskassa.nl",
+            "domain": "lightspeedhq.nl",
             "answers": 0.08888888888888889,
             "split": {
               "NL": 0.08888888888888889,
@@ -881,25 +877,7 @@
             }
           },
           {
-            "domain": "theretailexec.com",
-            "answers": 0.08888888888888889,
-            "split": {
-              "NL": 0.044444444444444446,
-              "ES": 0.044444444444444446,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "sumup.com",
-            "answers": 0.08888888888888889,
-            "split": {
-              "NL": 0.06666666666666667,
-              "ES": 0,
-              "DE": 0.022222222222222223
-            }
-          },
-          {
-            "domain": "softabase.com",
+            "domain": "hackceleration.com",
             "answers": 0.08888888888888889,
             "split": {
               "NL": 0,
@@ -908,7 +886,16 @@
             }
           },
           {
-            "domain": "zahlungskompass.de",
+            "domain": "blog.platomico.com",
+            "answers": 0.08888888888888889,
+            "split": {
+              "NL": 0,
+              "ES": 0.08888888888888889,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "de.wikipedia.org",
             "answers": 0.08888888888888889,
             "split": {
               "NL": 0,
@@ -917,59 +904,59 @@
             }
           },
           {
-            "domain": "orderbird.com",
-            "answers": 0.08888888888888889,
+            "domain": "marketingdev.touchbistro.com",
+            "answers": 0.06666666666666667,
             "split": {
-              "NL": 0,
+              "NL": 0.044444444444444446,
               "ES": 0,
-              "DE": 0.08888888888888889
+              "DE": 0.022222222222222223
+            }
+          },
+          {
+            "domain": "apps.apple.com",
+            "answers": 0.06666666666666667,
+            "split": {
+              "NL": 0.022222222222222223,
+              "ES": 0.022222222222222223,
+              "DE": 0.022222222222222223
             }
           }
         ],
         "perplexity": [
           {
-            "domain": "ordio.com",
-            "answers": 0.2222222222222222,
+            "domain": "lightspeedhq.com",
+            "answers": 0.26666666666666666,
             "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.2222222222222222
+              "NL": 0.13333333333333333,
+              "ES": 0.1111111111111111,
+              "DE": 0.022222222222222223
             }
           },
           {
-            "domain": "orderbird.com",
+            "domain": "workforce.com",
+            "answers": 0.24444444444444444,
+            "split": {
+              "NL": 0.15555555555555556,
+              "ES": 0.022222222222222223,
+              "DE": 0.06666666666666667
+            }
+          },
+          {
+            "domain": "sumup.com",
             "answers": 0.2,
             "split": {
               "NL": 0,
-              "ES": 0,
-              "DE": 0.2
+              "ES": 0.13333333333333333,
+              "DE": 0.06666666666666667
             }
           },
           {
-            "domain": "mpluskassa.nl",
+            "domain": "dish.co",
             "answers": 0.17777777777777778,
             "split": {
-              "NL": 0.17777777777777778,
+              "NL": 0.08888888888888889,
               "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "squareup.com",
-            "answers": 0.17777777777777778,
-            "split": {
-              "NL": 0,
-              "ES": 0.17777777777777778,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "fuer-gruender.de",
-            "answers": 0.17777777777777778,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.17777777777777778
+              "DE": 0.08888888888888889
             }
           },
           {
@@ -982,50 +969,68 @@
             }
           },
           {
-            "domain": "dish.co",
+            "domain": "blog.platomico.com",
             "answers": 0.15555555555555556,
             "split": {
-              "NL": 0.08888888888888889,
-              "ES": 0,
-              "DE": 0.06666666666666667
-            }
-          },
-          {
-            "domain": "gastrosystem.app",
-            "answers": 0.15555555555555556,
-            "split": {
-              "NL": 0.06666666666666667,
-              "ES": 0,
-              "DE": 0.08888888888888889
-            }
-          },
-          {
-            "domain": "sumup.com",
-            "answers": 0.15555555555555556,
-            "split": {
-              "NL": 0.022222222222222223,
-              "ES": 0.06666666666666667,
-              "DE": 0.06666666666666667
-            }
-          },
-          {
-            "domain": "lightspeedhq.nl",
-            "answers": 0.13333333333333333,
-            "split": {
-              "NL": 0.13333333333333333,
-              "ES": 0,
+              "NL": 0,
+              "ES": 0.15555555555555556,
               "DE": 0
+            }
+          },
+          {
+            "domain": "qamarero.com",
+            "answers": 0.15555555555555556,
+            "split": {
+              "NL": 0,
+              "ES": 0.15555555555555556,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "squareup.com",
+            "answers": 0.15555555555555556,
+            "split": {
+              "NL": 0,
+              "ES": 0.15555555555555556,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "fuer-gruender.de",
+            "answers": 0.15555555555555556,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.15555555555555556
+            }
+          },
+          {
+            "domain": "ordio.com",
+            "answers": 0.15555555555555556,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.15555555555555556
             }
           }
         ],
         "gemini": [
           {
             "domain": "kassensystemevergleich.de",
-            "answers": 0.24444444444444444,
+            "answers": 0.2222222222222222,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.24444444444444444
+              "DE": 0.2222222222222222
+            }
+          },
+          {
+            "domain": "eijsink.nl",
+            "answers": 0.2,
+            "split": {
+              "NL": 0.2,
+              "ES": 0,
+              "DE": 0
             }
           },
           {
@@ -1038,7 +1043,7 @@
             }
           },
           {
-            "domain": "eijsink.nl",
+            "domain": "untill.nl",
             "answers": 0.17777777777777778,
             "split": {
               "NL": 0.17777777777777778,
@@ -1047,11 +1052,11 @@
             }
           },
           {
-            "domain": "lightspeedhq.nl",
+            "domain": "hitsystems.es",
             "answers": 0.17777777777777778,
             "split": {
-              "NL": 0.17777777777777778,
-              "ES": 0,
+              "NL": 0,
+              "ES": 0.17777777777777778,
               "DE": 0
             }
           },
@@ -1074,39 +1079,30 @@
             }
           },
           {
-            "domain": "untill.nl",
+            "domain": "dish.co",
             "answers": 0.15555555555555556,
             "split": {
-              "NL": 0.15555555555555556,
+              "NL": 0.1111111111111111,
+              "ES": 0,
+              "DE": 0.044444444444444446
+            }
+          },
+          {
+            "domain": "lightspeedhq.nl",
+            "answers": 0.13333333333333333,
+            "split": {
+              "NL": 0.13333333333333333,
               "ES": 0,
               "DE": 0
             }
           },
           {
-            "domain": "ingenieriademenu.com",
-            "answers": 0.15555555555555556,
+            "domain": "twelve.eu",
+            "answers": 0.13333333333333333,
             "split": {
-              "NL": 0,
-              "ES": 0.15555555555555556,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "youtube.com",
-            "answers": 0.15555555555555556,
-            "split": {
-              "NL": 0,
-              "ES": 0.06666666666666667,
-              "DE": 0.08888888888888889
-            }
-          },
-          {
-            "domain": "de.mobiletransaction.org",
-            "answers": 0.15555555555555556,
-            "split": {
-              "NL": 0,
+              "NL": 0.13333333333333333,
               "ES": 0,
-              "DE": 0.15555555555555556
+              "DE": 0
             }
           }
         ]
@@ -1152,8 +1148,8 @@
           "all": 0.4444444444444444,
           "byEngine": {
             "chatgpt": 0.3333333333333333,
-            "perplexity": 0.4666666666666667,
-            "gemini": 0.5333333333333333
+            "perplexity": 0.4,
+            "gemini": 0.6
           },
           "split": {
             "all": {
@@ -1167,12 +1163,12 @@
               "DE": 0
             },
             "perplexity": {
-              "NL": 0.4666666666666667,
+              "NL": 0.4,
               "ES": 0,
               "DE": 0
             },
             "gemini": {
-              "NL": 0.5333333333333333,
+              "NL": 0.6,
               "ES": 0,
               "DE": 0
             }
@@ -1182,168 +1178,13 @@
           "brand": "unTill",
           "all": 0.4222222222222222,
           "byEngine": {
-            "chatgpt": 0.4,
-            "perplexity": 0.3333333333333333,
-            "gemini": 0.5333333333333333
+            "chatgpt": 0.26666666666666666,
+            "perplexity": 0.2,
+            "gemini": 0.8
           },
           "split": {
             "all": {
               "NL": 0.4222222222222222,
-              "ES": 0,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0.4,
-              "ES": 0,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0.3333333333333333,
-              "ES": 0,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0.5333333333333333,
-              "ES": 0,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "SumUp",
-          "all": 0.35555555555555557,
-          "byEngine": {
-            "chatgpt": 0.6,
-            "perplexity": 0.06666666666666667,
-            "gemini": 0.4
-          },
-          "split": {
-            "all": {
-              "NL": 0.35555555555555557,
-              "ES": 0,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0.6,
-              "ES": 0,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0.06666666666666667,
-              "ES": 0,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0.4,
-              "ES": 0,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "Eijsink",
-          "all": 0.24444444444444444,
-          "byEngine": {
-            "chatgpt": 0,
-            "perplexity": 0,
-            "gemini": 0.7333333333333333
-          },
-          "split": {
-            "all": {
-              "NL": 0.24444444444444444,
-              "ES": 0,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0.7333333333333333,
-              "ES": 0,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "Booq",
-          "all": 0.2,
-          "byEngine": {
-            "chatgpt": 0,
-            "perplexity": 0,
-            "gemini": 0.6
-          },
-          "split": {
-            "all": {
-              "NL": 0.2,
-              "ES": 0,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0.6,
-              "ES": 0,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "CCV",
-          "all": 0.17777777777777778,
-          "byEngine": {
-            "chatgpt": 0.13333333333333333,
-            "perplexity": 0.06666666666666667,
-            "gemini": 0.3333333333333333
-          },
-          "split": {
-            "all": {
-              "NL": 0.17777777777777778,
-              "ES": 0,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0.13333333333333333,
-              "ES": 0,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0.06666666666666667,
-              "ES": 0,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0.3333333333333333,
-              "ES": 0,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "Zettle",
-          "all": 0.15555555555555556,
-          "byEngine": {
-            "chatgpt": 0.26666666666666666,
-            "perplexity": 0,
-            "gemini": 0.2
-          },
-          "split": {
-            "all": {
-              "NL": 0.15555555555555556,
               "ES": 0,
               "DE": 0
             },
@@ -1353,12 +1194,105 @@
               "DE": 0
             },
             "perplexity": {
+              "NL": 0.2,
+              "ES": 0,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0.8,
+              "ES": 0,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "SumUp",
+          "all": 0.24444444444444444,
+          "byEngine": {
+            "chatgpt": 0.4,
+            "perplexity": 0.06666666666666667,
+            "gemini": 0.26666666666666666
+          },
+          "split": {
+            "all": {
+              "NL": 0.24444444444444444,
+              "ES": 0,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0.4,
+              "ES": 0,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0.06666666666666667,
+              "ES": 0,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0.26666666666666666,
+              "ES": 0,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "Zettle",
+          "all": 0.2222222222222222,
+          "byEngine": {
+            "chatgpt": 0.4666666666666667,
+            "perplexity": 0,
+            "gemini": 0.2
+          },
+          "split": {
+            "all": {
+              "NL": 0.2222222222222222,
+              "ES": 0,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0.4666666666666667,
+              "ES": 0,
+              "DE": 0
+            },
+            "perplexity": {
               "NL": 0,
               "ES": 0,
               "DE": 0
             },
             "gemini": {
               "NL": 0.2,
+              "ES": 0,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "Eijsink",
+          "all": 0.2,
+          "byEngine": {
+            "chatgpt": 0.06666666666666667,
+            "perplexity": 0.06666666666666667,
+            "gemini": 0.4666666666666667
+          },
+          "split": {
+            "all": {
+              "NL": 0.2,
+              "ES": 0,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0.06666666666666667,
+              "ES": 0,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0.06666666666666667,
+              "ES": 0,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0.4666666666666667,
               "ES": 0,
               "DE": 0
             }
@@ -1366,87 +1300,25 @@
         },
         {
           "brand": "Tebi",
-          "all": 0.13333333333333333,
+          "all": 0.17777777777777778,
           "byEngine": {
             "chatgpt": 0.2,
             "perplexity": 0.06666666666666667,
-            "gemini": 0.13333333333333333
-          },
-          "split": {
-            "all": {
-              "NL": 0.13333333333333333,
-              "ES": 0,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0.2,
-              "ES": 0,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0.06666666666666667,
-              "ES": 0,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0.13333333333333333,
-              "ES": 0,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "DISH POS",
-          "all": 0.13333333333333333,
-          "byEngine": {
-            "chatgpt": 0.06666666666666667,
-            "perplexity": 0.2,
-            "gemini": 0.13333333333333333
-          },
-          "split": {
-            "all": {
-              "NL": 0.13333333333333333,
-              "ES": 0,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0.06666666666666667,
-              "ES": 0,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0.2,
-              "ES": 0,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0.13333333333333333,
-              "ES": 0,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "Twelve",
-          "all": 0.13333333333333333,
-          "byEngine": {
-            "chatgpt": 0,
-            "perplexity": 0.13333333333333333,
             "gemini": 0.26666666666666666
           },
           "split": {
             "all": {
-              "NL": 0.13333333333333333,
+              "NL": 0.17777777777777778,
               "ES": 0,
               "DE": 0
             },
             "chatgpt": {
-              "NL": 0,
+              "NL": 0.2,
               "ES": 0,
               "DE": 0
             },
             "perplexity": {
-              "NL": 0.13333333333333333,
+              "NL": 0.06666666666666667,
               "ES": 0,
               "DE": 0
             },
@@ -1459,20 +1331,20 @@
         },
         {
           "brand": "Formitable",
-          "all": 0.13333333333333333,
+          "all": 0.17777777777777778,
           "byEngine": {
-            "chatgpt": 0,
+            "chatgpt": 0.06666666666666667,
             "perplexity": 0,
-            "gemini": 0.4
+            "gemini": 0.4666666666666667
           },
           "split": {
             "all": {
-              "NL": 0.13333333333333333,
+              "NL": 0.17777777777777778,
               "ES": 0,
               "DE": 0
             },
             "chatgpt": {
-              "NL": 0,
+              "NL": 0.06666666666666667,
               "ES": 0,
               "DE": 0
             },
@@ -1482,7 +1354,131 @@
               "DE": 0
             },
             "gemini": {
-              "NL": 0.4,
+              "NL": 0.4666666666666667,
+              "ES": 0,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "Twelve",
+          "all": 0.15555555555555556,
+          "byEngine": {
+            "chatgpt": 0,
+            "perplexity": 0.13333333333333333,
+            "gemini": 0.3333333333333333
+          },
+          "split": {
+            "all": {
+              "NL": 0.15555555555555556,
+              "ES": 0,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0.13333333333333333,
+              "ES": 0,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0.3333333333333333,
+              "ES": 0,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "DISH POS",
+          "all": 0.15555555555555556,
+          "byEngine": {
+            "chatgpt": 0,
+            "perplexity": 0.2,
+            "gemini": 0.26666666666666666
+          },
+          "split": {
+            "all": {
+              "NL": 0.15555555555555556,
+              "ES": 0,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0.2,
+              "ES": 0,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0.26666666666666666,
+              "ES": 0,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "Zenchef",
+          "all": 0.13333333333333333,
+          "byEngine": {
+            "chatgpt": 0.06666666666666667,
+            "perplexity": 0,
+            "gemini": 0.3333333333333333
+          },
+          "split": {
+            "all": {
+              "NL": 0.13333333333333333,
+              "ES": 0,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0.06666666666666667,
+              "ES": 0,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0.3333333333333333,
+              "ES": 0,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "TheFork",
+          "all": 0.1111111111111111,
+          "byEngine": {
+            "chatgpt": 0.06666666666666667,
+            "perplexity": 0,
+            "gemini": 0.26666666666666666
+          },
+          "split": {
+            "all": {
+              "NL": 0.1111111111111111,
+              "ES": 0,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0.06666666666666667,
+              "ES": 0,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0.26666666666666666,
               "ES": 0,
               "DE": 0
             }
@@ -1494,11 +1490,10 @@
           "page": "kassazaak.nl/horeca",
           "url": "https://www.kassazaak.nl/horeca/",
           "note": "POS comparison page for hospitality",
-          "answers": 0.15555555555555556,
-          "count": 7,
+          "answers": 0.13333333333333333,
+          "count": 6,
           "engines": [
             "chatgpt",
-            "perplexity",
             "gemini"
           ]
         },
@@ -1506,10 +1501,9 @@
           "page": "lightspeedhq.nl/kassasysteem/amsterdam",
           "url": "https://www.lightspeedhq.nl/kassasysteem/amsterdam/",
           "note": "Lightspeed's own Amsterdam landing page",
-          "answers": 0.06666666666666667,
-          "count": 3,
+          "answers": 0.044444444444444446,
+          "count": 2,
           "engines": [
-            "perplexity",
             "gemini"
           ]
         },
@@ -1517,28 +1511,28 @@
           "page": "bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026",
           "url": "https://bedrijfssoftwaregids.nl/blog/lightspeed-vs-untill-2026/",
           "note": "Lightspeed vs unTill comparison article",
-          "answers": 0,
-          "count": 0,
-          "engines": []
+          "answers": 0.022222222222222223,
+          "count": 1,
+          "engines": [
+            "gemini"
+          ]
         }
       ],
       "topPages": [
         {
-          "page": "mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-voor-kleine-horeca-in-2026-vergelijk-de-7-populairste-systemen",
-          "url": "https://www.mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-voor-kleine-horeca-in-2026-vergelijk-de-7-populairste-systemen?utm_source=openai",
-          "answers": 0.28888888888888886,
-          "count": 13,
+          "page": "workforce.com/buyers-guides/pos-restaurants",
+          "url": "https://www.workforce.com/buyers-guides/pos-restaurants",
+          "answers": 0.15555555555555556,
+          "count": 7,
           "engines": [
-            "chatgpt",
-            "perplexity",
-            "gemini"
+            "perplexity"
           ]
         },
         {
           "page": "bedrijfssoftwaregids.nl/blog/beste-kassasysteem-horeca",
           "url": "https://bedrijfssoftwaregids.nl/blog/beste-kassasysteem-horeca/?utm_source=openai",
-          "answers": 0.2,
-          "count": 9,
+          "answers": 0.13333333333333333,
+          "count": 6,
           "engines": [
             "chatgpt",
             "perplexity"
@@ -1547,21 +1541,19 @@
         {
           "page": "kassazaak.nl/horeca",
           "url": "https://www.kassazaak.nl/horeca/?utm_source=openai",
-          "answers": 0.15555555555555556,
-          "count": 7,
+          "answers": 0.13333333333333333,
+          "count": 6,
           "engines": [
             "chatgpt",
-            "perplexity",
             "gemini"
           ]
         },
         {
           "page": "nl.mobiletransaction.org/kassasystemen-voor-horeca",
-          "url": "https://nl.mobiletransaction.org/kassasystemen-voor-horeca/?utm_source=openai",
-          "answers": 0.15555555555555556,
-          "count": 7,
+          "url": "https://nl.mobiletransaction.org/kassasystemen-voor-horeca/",
+          "answers": 0.1111111111111111,
+          "count": 5,
           "engines": [
-            "chatgpt",
             "perplexity",
             "gemini"
           ]
@@ -1569,28 +1561,17 @@
         {
           "page": "twelve.eu/blog/kassasysteem-horeca",
           "url": "https://www.twelve.eu/blog/kassasysteem-horeca",
-          "answers": 0.15555555555555556,
-          "count": 7,
+          "answers": 0.1111111111111111,
+          "count": 5,
           "engines": [
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "lightspeedhq.nl/kassasysteem/restaurant",
-          "url": "https://www.lightspeedhq.nl/kassasysteem/restaurant/",
-          "answers": 0.13333333333333333,
-          "count": 6,
-          "engines": [
-            "perplexity",
             "gemini"
           ]
         },
         {
           "page": "bedrijfssoftwaregids.nl/categories/kassasystemen",
           "url": "https://bedrijfssoftwaregids.nl/categories/kassasystemen/?utm_source=openai",
-          "answers": 0.1111111111111111,
-          "count": 5,
+          "answers": 0.08888888888888889,
+          "count": 4,
           "engines": [
             "chatgpt",
             "perplexity",
@@ -1598,211 +1579,220 @@
           ]
         },
         {
-          "page": "shiftbase.com/nl/blog/beste-kassasysteem",
-          "url": "https://www.shiftbase.com/nl/blog/beste-kassasysteem",
-          "answers": 0.1111111111111111,
-          "count": 5,
+          "page": "mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-voor-kleine-horeca-in-2026-vergelijk-de-7-populairste-systemen",
+          "url": "https://www.mpluskassa.nl/nieuws/wat-is-het-beste-kassasysteem-voor-kleine-horeca-in-2026-vergelijk-de-7-populairste-systemen",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "twelve.eu/en/product/pos-register",
+          "url": "https://www.twelve.eu/en/product/pos-register",
+          "answers": 0.08888888888888889,
+          "count": 4,
           "engines": [
             "perplexity"
           ]
         },
         {
-          "page": "lightspeedhq.nl/kassasysteem/restaurant/prijzen",
-          "url": "https://www.lightspeedhq.nl/kassasysteem/restaurant/prijzen/?utm_source=openai",
-          "answers": 0.08888888888888889,
-          "count": 4,
+          "page": "aigrow.gg/index/restaurant-pos/netherlands",
+          "url": "https://aigrow.gg/index/restaurant-pos/netherlands",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "elioplus.com/europe/netherlands/channel-partners/pos",
+          "url": "https://elioplus.com/europe/netherlands/channel-partners/pos",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "lunixpos.com/nl",
+          "url": "https://lunixpos.com/nl/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "shiftbase.com/nl/blog/beste-kassasysteem",
+          "url": "https://www.shiftbase.com/nl/blog/beste-kassasysteem",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "zimbio.com/how-small-businesses-can-simplify-sales-and-payments-with-a-modern-pos-system",
+          "url": "https://www.zimbio.com/how-small-businesses-can-simplify-sales-and-payments-with-a-modern-pos-system/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "dashmote.com/restaurant-technology/netherlands/amsterdam",
+          "url": "https://dashmote.com/restaurant-technology/netherlands/amsterdam?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
           "engines": [
             "chatgpt",
-            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "bedrijfssoftwaregids.nl/blog/square-kassa-review",
+          "url": "https://bedrijfssoftwaregids.nl/blog/square-kassa-review/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
             "gemini"
           ]
         },
         {
           "page": "theforkmanager.com/nl/blog/de-8-beste-restaurant-pos-systemen-voor-nederland",
           "url": "https://www.theforkmanager.com/nl/blog/de-8-beste-restaurant-pos-systemen-voor-nederland?utm_source=openai",
-          "answers": 0.08888888888888889,
-          "count": 4,
+          "answers": 0.044444444444444446,
+          "count": 2,
           "engines": [
             "chatgpt",
-            "perplexity"
-          ]
-        },
-        {
-          "page": "softwarewatcher.nl/kassasysteem-horeca",
-          "url": "https://www.softwarewatcher.nl/kassasysteem-horeca/?utm_source=openai",
-          "answers": 0.08888888888888889,
-          "count": 4,
-          "engines": [
-            "chatgpt"
-          ]
-        },
-        {
-          "page": "eijsink.nl/kassasysteem-amsterdam",
-          "url": "https://www.eijsink.nl/kassasysteem-amsterdam",
-          "answers": 0.08888888888888889,
-          "count": 4,
-          "engines": [
             "gemini"
           ]
         },
         {
-          "page": "bedrijfssoftwaregids.nl/blog/beste-restaurantsoftware",
-          "url": "https://bedrijfssoftwaregids.nl/blog/beste-restaurantsoftware/?utm_source=openai",
-          "answers": 0.06666666666666667,
-          "count": 3,
+          "page": "support.apicbase.com/nl/help/nl-welke-kassasystemen-pos-kan-je-linken-met-apicbase",
+          "url": "https://support.apicbase.com/nl/help/nl-welke-kassasystemen-pos-kan-je-linken-met-apicbase?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
           "engines": [
             "chatgpt",
-            "perplexity"
+            "gemini"
+          ]
+        },
+        {
+          "page": "mpluskassa.nl/koppelingen/apicbase",
+          "url": "https://www.mpluskassa.nl/koppelingen/apicbase?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
           ]
         },
         {
           "page": "klearly.eu/nl/hoe-kies-je-een-kassasysteem-voor-horeca",
           "url": "https://klearly.eu/nl/hoe-kies-je-een-kassasysteem-voor-horeca/",
-          "answers": 0.06666666666666667,
-          "count": 3,
+          "answers": 0.044444444444444446,
+          "count": 2,
           "engines": [
             "perplexity",
             "gemini"
           ]
         },
         {
-          "page": "lightspeedhq.nl/kassasysteem/amsterdam",
-          "url": "https://www.lightspeedhq.nl/kassasysteem/amsterdam/",
-          "answers": 0.06666666666666667,
-          "count": 3,
+          "page": "boekhouder.nl/pinapparaat/horeca",
+          "url": "https://www.boekhouder.nl/pinapparaat/horeca",
+          "answers": 0.044444444444444446,
+          "count": 2,
           "engines": [
             "perplexity",
             "gemini"
           ]
         },
         {
-          "page": "techradar.com/news/the-best-pos-system-for-restaurants",
-          "url": "https://www.techradar.com/news/the-best-pos-system-for-restaurants?utm_source=openai",
-          "answers": 0.06666666666666667,
-          "count": 3,
+          "page": "lightspeedhq.nl/kassasysteem/restaurant/prijzen",
+          "url": "https://www.lightspeedhq.nl/kassasysteem/restaurant/prijzen/",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "jamezz.com/nl/qr-bestellen",
+          "url": "https://jamezz.com/nl/qr-bestellen",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "dish.co/NL/nl/ipad-kassa",
+          "url": "https://www.dish.co/NL/nl/ipad-kassa/",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "klearly.eu/nl/overstappen-naar-nieuw-kassasysteem-zonder-stilstand",
+          "url": "https://klearly.eu/nl/overstappen-naar-nieuw-kassasysteem-zonder-stilstand/",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "softwarewatcher.nl/kassasysteem-horeca",
+          "url": "https://www.softwarewatcher.nl/kassasysteem-horeca/?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
           "engines": [
             "chatgpt"
-          ]
-        },
-        {
-          "page": "shopify.com/nl/blog/beste-kassa-systeem-voor-kleine-bedrijven",
-          "url": "https://www.shopify.com/nl/blog/beste-kassa-systeem-voor-kleine-bedrijven",
-          "answers": 0.06666666666666667,
-          "count": 3,
-          "engines": [
-            "perplexity"
-          ]
-        },
-        {
-          "page": "appwiki.nl/kassa/systeem",
-          "url": "https://appwiki.nl/kassa/systeem",
-          "answers": 0.06666666666666667,
-          "count": 3,
-          "engines": [
-            "perplexity"
-          ]
-        },
-        {
-          "page": "platevio.com/nl",
-          "url": "https://www.platevio.com/nl/",
-          "answers": 0.06666666666666667,
-          "count": 3,
-          "engines": [
-            "perplexity"
-          ]
-        },
-        {
-          "page": "atlaspos.nl/kassasysteem-horeca-vergelijken.html",
-          "url": "https://atlaspos.nl/kassasysteem-horeca-vergelijken.html?utm_source=openai",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "chatgpt",
-            "gemini"
-          ]
-        },
-        {
-          "page": "20tabs.nl/prijzen",
-          "url": "https://20tabs.nl/prijzen/?utm_source=openai",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "chatgpt",
-            "gemini"
-          ]
-        },
-        {
-          "page": "dish.co/NL/nl/faq",
-          "url": "https://www.dish.co/NL/nl/faq/?utm_source=openai",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "chatgpt",
-            "perplexity"
-          ]
-        },
-        {
-          "page": "theretailexec.com/nl/tools/beste-bakkerij-kassasysteem",
-          "url": "https://theretailexec.com/nl/tools/beste-bakkerij-kassasysteem/?utm_source=openai",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "chatgpt",
-            "perplexity"
-          ]
-        },
-        {
-          "page": "boekeerlijk.nl",
-          "url": "https://www.boekeerlijk.nl/?utm_source=openai",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "chatgpt",
-            "perplexity"
-          ]
-        },
-        {
-          "page": "lightspeedhq.nl/kassasysteem/restaurant/bar-en-club",
-          "url": "https://www.lightspeedhq.nl/kassasysteem/restaurant/bar-en-club/?utm_source=openai",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "chatgpt",
-            "gemini"
           ]
         }
       ],
       "sources": {
         "all": [
           {
-            "domain": "mpluskassa.nl",
-            "answers": 0.4666666666666667,
+            "domain": "bedrijfssoftwaregids.nl",
+            "answers": 0.3111111111111111,
             "split": {
-              "NL": 0.4666666666666667,
+              "NL": 0.3111111111111111,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "mpluskassa.nl",
+            "answers": 0.28888888888888886,
+            "split": {
+              "NL": 0.28888888888888886,
               "ES": 0,
               "DE": 0
             }
           },
           {
             "domain": "lightspeedhq.nl",
-            "answers": 0.37777777777777777,
+            "answers": 0.24444444444444444,
             "split": {
-              "NL": 0.37777777777777777,
+              "NL": 0.24444444444444444,
               "ES": 0,
               "DE": 0
             }
           },
           {
-            "domain": "bedrijfssoftwaregids.nl",
-            "answers": 0.3333333333333333,
-            "split": {
-              "NL": 0.3333333333333333,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "kassazaak.nl",
+            "domain": "twelve.eu",
             "answers": 0.2222222222222222,
             "split": {
               "NL": 0.2222222222222222,
@@ -1811,7 +1801,7 @@
             }
           },
           {
-            "domain": "klearly.eu",
+            "domain": "untill.nl",
             "answers": 0.2,
             "split": {
               "NL": 0.2,
@@ -1820,25 +1810,25 @@
             }
           },
           {
-            "domain": "twelve.eu",
-            "answers": 0.17777777777777778,
+            "domain": "dish.co",
+            "answers": 0.2,
             "split": {
-              "NL": 0.17777777777777778,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "untill.nl",
-            "answers": 0.17777777777777778,
-            "split": {
-              "NL": 0.17777777777777778,
+              "NL": 0.2,
               "ES": 0,
               "DE": 0
             }
           },
           {
             "domain": "eijsink.nl",
+            "answers": 0.2,
+            "split": {
+              "NL": 0.2,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "kassazaak.nl",
             "answers": 0.17777777777777778,
             "split": {
               "NL": 0.17777777777777778,
@@ -1847,7 +1837,7 @@
             }
           },
           {
-            "domain": "nl.mobiletransaction.org",
+            "domain": "lightspeedhq.com",
             "answers": 0.15555555555555556,
             "split": {
               "NL": 0.15555555555555556,
@@ -1856,10 +1846,10 @@
             }
           },
           {
-            "domain": "dish.co",
-            "answers": 0.13333333333333333,
+            "domain": "workforce.com",
+            "answers": 0.15555555555555556,
             "split": {
-              "NL": 0.13333333333333333,
+              "NL": 0.15555555555555556,
               "ES": 0,
               "DE": 0
             }
@@ -1868,15 +1858,6 @@
         "chatgpt": [
           {
             "domain": "bedrijfssoftwaregids.nl",
-            "answers": 0.4,
-            "split": {
-              "NL": 0.4,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "softwarewatcher.nl",
             "answers": 0.3333333333333333,
             "split": {
               "NL": 0.3333333333333333,
@@ -1885,7 +1866,7 @@
             }
           },
           {
-            "domain": "mpluskassa.nl",
+            "domain": "lightspeedhq.nl",
             "answers": 0.26666666666666666,
             "split": {
               "NL": 0.26666666666666666,
@@ -1903,55 +1884,64 @@
             }
           },
           {
-            "domain": "theforkmanager.com",
-            "answers": 0.2,
+            "domain": "softwarewatcher.nl",
+            "answers": 0.13333333333333333,
             "split": {
-              "NL": 0.2,
+              "NL": 0.13333333333333333,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "portano.nl",
+            "answers": 0.13333333333333333,
+            "split": {
+              "NL": 0.13333333333333333,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "marketingdev.touchbistro.com",
+            "answers": 0.13333333333333333,
+            "split": {
+              "NL": 0.13333333333333333,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "kassamatch.nl",
+            "answers": 0.13333333333333333,
+            "split": {
+              "NL": 0.13333333333333333,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "welkkassasysteem.nl",
+            "answers": 0.13333333333333333,
+            "split": {
+              "NL": 0.13333333333333333,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "dashmote.com",
+            "answers": 0.06666666666666667,
+            "split": {
+              "NL": 0.06666666666666667,
               "ES": 0,
               "DE": 0
             }
           },
           {
             "domain": "sumup.com",
-            "answers": 0.2,
+            "answers": 0.06666666666666667,
             "split": {
-              "NL": 0.2,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "lightspeedhq.nl",
-            "answers": 0.2,
-            "split": {
-              "NL": 0.2,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "theretailexec.com",
-            "answers": 0.13333333333333333,
-            "split": {
-              "NL": 0.13333333333333333,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "keurmerkafrekensystemen.nl",
-            "answers": 0.13333333333333333,
-            "split": {
-              "NL": 0.13333333333333333,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "belastingdienst.nl",
-            "answers": 0.13333333333333333,
-            "split": {
-              "NL": 0.13333333333333333,
+              "NL": 0.06666666666666667,
               "ES": 0,
               "DE": 0
             }
@@ -1959,16 +1949,16 @@
         ],
         "perplexity": [
           {
-            "domain": "mpluskassa.nl",
-            "answers": 0.5333333333333333,
+            "domain": "workforce.com",
+            "answers": 0.4666666666666667,
             "split": {
-              "NL": 0.5333333333333333,
+              "NL": 0.4666666666666667,
               "ES": 0,
               "DE": 0
             }
           },
           {
-            "domain": "lightspeedhq.nl",
+            "domain": "lightspeedhq.com",
             "answers": 0.4,
             "split": {
               "NL": 0.4,
@@ -1977,28 +1967,10 @@
             }
           },
           {
-            "domain": "bedrijfssoftwaregids.nl",
-            "answers": 0.4,
+            "domain": "twelve.eu",
+            "answers": 0.26666666666666666,
             "split": {
-              "NL": 0.4,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "shiftbase.com",
-            "answers": 0.3333333333333333,
-            "split": {
-              "NL": 0.3333333333333333,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "appwiki.nl",
-            "answers": 0.3333333333333333,
-            "split": {
-              "NL": 0.3333333333333333,
+              "NL": 0.26666666666666666,
               "ES": 0,
               "DE": 0
             }
@@ -2013,7 +1985,34 @@
             }
           },
           {
-            "domain": "shopify.com",
+            "domain": "aigrow.gg",
+            "answers": 0.2,
+            "split": {
+              "NL": 0.2,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "revenuebase.ai",
+            "answers": 0.2,
+            "split": {
+              "NL": 0.2,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "elioplus.com",
+            "answers": 0.2,
+            "split": {
+              "NL": 0.2,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "lunixpos.com",
             "answers": 0.2,
             "split": {
               "NL": 0.2,
@@ -2031,16 +2030,7 @@
             }
           },
           {
-            "domain": "platevio.com",
-            "answers": 0.2,
-            "split": {
-              "NL": 0.2,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "jamezz.com",
+            "domain": "shiftbase.com",
             "answers": 0.2,
             "split": {
               "NL": 0.2,
@@ -2051,6 +2041,15 @@
         ],
         "gemini": [
           {
+            "domain": "eijsink.nl",
+            "answers": 0.6,
+            "split": {
+              "NL": 0.6,
+              "ES": 0,
+              "DE": 0
+            }
+          },
+          {
             "domain": "mpluskassa.nl",
             "answers": 0.6,
             "split": {
@@ -2060,16 +2059,7 @@
             }
           },
           {
-            "domain": "eijsink.nl",
-            "answers": 0.5333333333333333,
-            "split": {
-              "NL": 0.5333333333333333,
-              "ES": 0,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "lightspeedhq.nl",
+            "domain": "untill.nl",
             "answers": 0.5333333333333333,
             "split": {
               "NL": 0.5333333333333333,
@@ -2087,10 +2077,10 @@
             }
           },
           {
-            "domain": "untill.nl",
-            "answers": 0.4666666666666667,
+            "domain": "lightspeedhq.nl",
+            "answers": 0.4,
             "split": {
-              "NL": 0.4666666666666667,
+              "NL": 0.4,
               "ES": 0,
               "DE": 0
             }
@@ -2105,7 +2095,7 @@
             }
           },
           {
-            "domain": "klearly.eu",
+            "domain": "bedrijfssoftwaregids.nl",
             "answers": 0.4,
             "split": {
               "NL": 0.4,
@@ -2114,7 +2104,7 @@
             }
           },
           {
-            "domain": "nl.mobiletransaction.org",
+            "domain": "dish.co",
             "answers": 0.3333333333333333,
             "split": {
               "NL": 0.3333333333333333,
@@ -2123,19 +2113,19 @@
             }
           },
           {
-            "domain": "bedrijfssoftwaregids.nl",
-            "answers": 0.2,
+            "domain": "nl.mobiletransaction.org",
+            "answers": 0.26666666666666666,
             "split": {
-              "NL": 0.2,
+              "NL": 0.26666666666666666,
               "ES": 0,
               "DE": 0
             }
           },
           {
-            "domain": "unitouch.eu",
-            "answers": 0.2,
+            "domain": "spont.nl",
+            "answers": 0.26666666666666666,
             "split": {
-              "NL": 0.2,
+              "NL": 0.26666666666666666,
               "ES": 0,
               "DE": 0
             }
@@ -2148,53 +2138,22 @@
       "answers": 45,
       "brands": [
         {
-          "brand": "Revo",
-          "all": 0.4888888888888889,
-          "byEngine": {
-            "chatgpt": 0.6,
-            "perplexity": 0.26666666666666666,
-            "gemini": 0.6
-          },
-          "split": {
-            "all": {
-              "NL": 0,
-              "ES": 0.4888888888888889,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0,
-              "ES": 0.6,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0.26666666666666666,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0,
-              "ES": 0.6,
-              "DE": 0
-            }
-          }
-        },
-        {
           "brand": "Square",
-          "all": 0.4888888888888889,
+          "all": 0.4444444444444444,
           "byEngine": {
-            "chatgpt": 0.3333333333333333,
+            "chatgpt": 0.2,
             "perplexity": 0.4666666666666667,
             "gemini": 0.6666666666666666
           },
           "split": {
             "all": {
               "NL": 0,
-              "ES": 0.4888888888888889,
+              "ES": 0.4444444444444444,
               "DE": 0
             },
             "chatgpt": {
               "NL": 0,
-              "ES": 0.3333333333333333,
+              "ES": 0.2,
               "DE": 0
             },
             "perplexity": {
@@ -2205,6 +2164,130 @@
             "gemini": {
               "NL": 0,
               "ES": 0.6666666666666666,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "SumUp",
+          "all": 0.4,
+          "byEngine": {
+            "chatgpt": 0.5333333333333333,
+            "perplexity": 0.3333333333333333,
+            "gemini": 0.3333333333333333
+          },
+          "split": {
+            "all": {
+              "NL": 0,
+              "ES": 0.4,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0.5333333333333333,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0.3333333333333333,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0,
+              "ES": 0.3333333333333333,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "Revo",
+          "all": 0.4,
+          "byEngine": {
+            "chatgpt": 0.4,
+            "perplexity": 0.26666666666666666,
+            "gemini": 0.5333333333333333
+          },
+          "split": {
+            "all": {
+              "NL": 0,
+              "ES": 0.4,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0.4,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0.26666666666666666,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0,
+              "ES": 0.5333333333333333,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "Lightspeed",
+          "all": 0.37777777777777777,
+          "byEngine": {
+            "chatgpt": 0.4,
+            "perplexity": 0.4,
+            "gemini": 0.3333333333333333
+          },
+          "split": {
+            "all": {
+              "NL": 0,
+              "ES": 0.37777777777777777,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0.4,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0.4,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0,
+              "ES": 0.3333333333333333,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "Ágora",
+          "all": 0.37777777777777777,
+          "byEngine": {
+            "chatgpt": 0.26666666666666666,
+            "perplexity": 0.3333333333333333,
+            "gemini": 0.5333333333333333
+          },
+          "split": {
+            "all": {
+              "NL": 0,
+              "ES": 0.37777777777777777,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0.26666666666666666,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0.3333333333333333,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0,
+              "ES": 0.5333333333333333,
               "DE": 0
             }
           }
@@ -2241,53 +2324,22 @@
           }
         },
         {
-          "brand": "Lightspeed",
-          "all": 0.35555555555555557,
+          "brand": "Last.app",
+          "all": 0.24444444444444444,
           "byEngine": {
-            "chatgpt": 0.5333333333333333,
-            "perplexity": 0.26666666666666666,
-            "gemini": 0.26666666666666666
-          },
-          "split": {
-            "all": {
-              "NL": 0,
-              "ES": 0.35555555555555557,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0,
-              "ES": 0.5333333333333333,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0.26666666666666666,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0,
-              "ES": 0.26666666666666666,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "Ágora",
-          "all": 0.35555555555555557,
-          "byEngine": {
-            "chatgpt": 0.26666666666666666,
+            "chatgpt": 0.13333333333333333,
             "perplexity": 0.13333333333333333,
-            "gemini": 0.6666666666666666
+            "gemini": 0.4666666666666667
           },
           "split": {
             "all": {
               "NL": 0,
-              "ES": 0.35555555555555557,
+              "ES": 0.24444444444444444,
               "DE": 0
             },
             "chatgpt": {
               "NL": 0,
-              "ES": 0.26666666666666666,
+              "ES": 0.13333333333333333,
               "DE": 0
             },
             "perplexity": {
@@ -2297,33 +2349,33 @@
             },
             "gemini": {
               "NL": 0,
-              "ES": 0.6666666666666666,
+              "ES": 0.4666666666666667,
               "DE": 0
             }
           }
         },
         {
-          "brand": "SumUp",
-          "all": 0.3111111111111111,
+          "brand": "Hiopos",
+          "all": 0.24444444444444444,
           "byEngine": {
-            "chatgpt": 0.6,
-            "perplexity": 0.06666666666666667,
+            "chatgpt": 0.4666666666666667,
+            "perplexity": 0,
             "gemini": 0.26666666666666666
           },
           "split": {
             "all": {
               "NL": 0,
-              "ES": 0.3111111111111111,
+              "ES": 0.24444444444444444,
               "DE": 0
             },
             "chatgpt": {
               "NL": 0,
-              "ES": 0.6,
+              "ES": 0.4666666666666667,
               "DE": 0
             },
             "perplexity": {
               "NL": 0,
-              "ES": 0.06666666666666667,
+              "ES": 0,
               "DE": 0
             },
             "gemini": {
@@ -2335,78 +2387,47 @@
         },
         {
           "brand": "Loyverse",
-          "all": 0.2222222222222222,
-          "byEngine": {
-            "chatgpt": 0.4,
-            "perplexity": 0.06666666666666667,
-            "gemini": 0.2
-          },
-          "split": {
-            "all": {
-              "NL": 0,
-              "ES": 0.2222222222222222,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0,
-              "ES": 0.4,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0.06666666666666667,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0,
-              "ES": 0.2,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "Last.app",
-          "all": 0.2,
-          "byEngine": {
-            "chatgpt": 0.06666666666666667,
-            "perplexity": 0.13333333333333333,
-            "gemini": 0.4
-          },
-          "split": {
-            "all": {
-              "NL": 0,
-              "ES": 0.2,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0,
-              "ES": 0.06666666666666667,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0.13333333333333333,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0,
-              "ES": 0.4,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "Hiopos",
           "all": 0.15555555555555556,
           "byEngine": {
-            "chatgpt": 0.3333333333333333,
-            "perplexity": 0,
+            "chatgpt": 0.26666666666666666,
+            "perplexity": 0.06666666666666667,
             "gemini": 0.13333333333333333
           },
           "split": {
             "all": {
               "NL": 0,
               "ES": 0.15555555555555556,
+              "DE": 0
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0.26666666666666666,
+              "DE": 0
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0.06666666666666667,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0,
+              "ES": 0.13333333333333333,
+              "DE": 0
+            }
+          }
+        },
+        {
+          "brand": "Zettle",
+          "all": 0.13333333333333333,
+          "byEngine": {
+            "chatgpt": 0.3333333333333333,
+            "perplexity": 0,
+            "gemini": 0.06666666666666667
+          },
+          "split": {
+            "all": {
+              "NL": 0,
+              "ES": 0.13333333333333333,
               "DE": 0
             },
             "chatgpt": {
@@ -2421,23 +2442,23 @@
             },
             "gemini": {
               "NL": 0,
-              "ES": 0.13333333333333333,
+              "ES": 0.06666666666666667,
               "DE": 0
             }
           }
         },
         {
-          "brand": "Qamarero",
-          "all": 0.1111111111111111,
+          "brand": "Hosteltáctil",
+          "all": 0.08888888888888889,
           "byEngine": {
             "chatgpt": 0.13333333333333333,
-            "perplexity": 0.2,
-            "gemini": 0
+            "perplexity": 0.06666666666666667,
+            "gemini": 0.06666666666666667
           },
           "split": {
             "all": {
               "NL": 0,
-              "ES": 0.1111111111111111,
+              "ES": 0.08888888888888889,
               "DE": 0
             },
             "chatgpt": {
@@ -2447,22 +2468,22 @@
             },
             "perplexity": {
               "NL": 0,
-              "ES": 0.2,
+              "ES": 0.06666666666666667,
               "DE": 0
             },
             "gemini": {
               "NL": 0,
-              "ES": 0,
+              "ES": 0.06666666666666667,
               "DE": 0
             }
           }
         },
         {
-          "brand": "Zettle",
+          "brand": "Qamarero",
           "all": 0.08888888888888889,
           "byEngine": {
-            "chatgpt": 0.26666666666666666,
-            "perplexity": 0,
+            "chatgpt": 0.06666666666666667,
+            "perplexity": 0.2,
             "gemini": 0
           },
           "split": {
@@ -2473,43 +2494,12 @@
             },
             "chatgpt": {
               "NL": 0,
-              "ES": 0.26666666666666666,
-              "DE": 0
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0
-            }
-          }
-        },
-        {
-          "brand": "Mesero",
-          "all": 0.044444444444444446,
-          "byEngine": {
-            "chatgpt": 0.06666666666666667,
-            "perplexity": 0.06666666666666667,
-            "gemini": 0
-          },
-          "split": {
-            "all": {
-              "NL": 0,
-              "ES": 0.044444444444444446,
-              "DE": 0
-            },
-            "chatgpt": {
-              "NL": 0,
               "ES": 0.06666666666666667,
               "DE": 0
             },
             "perplexity": {
               "NL": 0,
-              "ES": 0.06666666666666667,
+              "ES": 0.2,
               "DE": 0
             },
             "gemini": {
@@ -2579,38 +2569,38 @@
       ],
       "topPages": [
         {
-          "page": "comercialtpv.com/blog/2022/06/28/cual-es-el-mejor-tpv-para-hosteleria",
-          "url": "https://www.comercialtpv.com/blog/2022/06/28/cual-es-el-mejor-tpv-para-hosteleria/?utm_source=openai",
-          "answers": 0.13333333333333333,
-          "count": 6,
+          "page": "blog.platomico.com/mejor-tpv-restaurantes-espana",
+          "url": "https://blog.platomico.com/mejor-tpv-restaurantes-espana?utm_source=openai",
+          "answers": 0.17777777777777778,
+          "count": 8,
           "engines": [
             "chatgpt",
-            "gemini"
-          ]
-        },
-        {
-          "page": "qamarero.com/blog/mejores-tpv-restaurantes",
-          "url": "https://qamarero.com/blog/mejores-tpv-restaurantes/?motion=reduce",
-          "answers": 0.1111111111111111,
-          "count": 5,
-          "engines": [
             "perplexity"
           ]
         },
         {
           "page": "hitsystems.es/blog/Los-10-Mejores-TPV-para-Hosteler%C3%ADa-en-Espa%C3%B1a-2025",
           "url": "https://hitsystems.es/blog/Los-10-Mejores-TPV-para-Hosteler%C3%ADa-en-Espa%C3%B1a-2025/",
-          "answers": 0.1111111111111111,
-          "count": 5,
+          "answers": 0.17777777777777778,
+          "count": 8,
           "engines": [
             "gemini"
           ]
         },
         {
+          "page": "softabase.com/es/guides/best-pos-system-small-business",
+          "url": "https://softabase.com/es/guides/best-pos-system-small-business?utm_source=openai",
+          "answers": 0.13333333333333333,
+          "count": 6,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
           "page": "lymon.es/blog/tpv-ranking",
           "url": "https://www.lymon.es/blog/tpv-ranking",
-          "answers": 0.1111111111111111,
-          "count": 5,
+          "answers": 0.13333333333333333,
+          "count": 6,
           "engines": [
             "gemini"
           ]
@@ -2618,6 +2608,46 @@
         {
           "page": "hackceleration.com/es/labs/mejor/tpv-restaurantes",
           "url": "https://www.hackceleration.com/es/labs/mejor/tpv-restaurantes?utm_source=openai",
+          "answers": 0.1111111111111111,
+          "count": 5,
+          "engines": [
+            "chatgpt",
+            "perplexity"
+          ]
+        },
+        {
+          "page": "comercialtpv.com/blog/2022/06/28/cual-es-el-mejor-tpv-para-hosteleria",
+          "url": "https://www.comercialtpv.com/blog/2022/06/28/cual-es-el-mejor-tpv-para-hosteleria/?utm_source=openai",
+          "answers": 0.1111111111111111,
+          "count": 5,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "qamarero.com/blog/mejores-tpv-restaurantes",
+          "url": "https://www.qamarero.com/blog/mejores-tpv-restaurantes/",
+          "answers": 0.1111111111111111,
+          "count": 5,
+          "engines": [
+            "perplexity"
+          ]
+        },
+        {
+          "page": "comparasoft.es/categoria/tpv-hosteleria",
+          "url": "https://comparasoft.es/categoria/tpv-hosteleria?utm_source=openai",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "bbva.es/empresas/productos/tpv/tpv-hosteleria.html",
+          "url": "https://www.bbva.es/empresas/productos/tpv/tpv-hosteleria.html?utm_source=openai",
           "answers": 0.08888888888888889,
           "count": 4,
           "engines": [
@@ -2636,17 +2666,8 @@
           ]
         },
         {
-          "page": "softabase.com/es/guides/best-pos-system-small-business",
-          "url": "https://softabase.com/es/guides/best-pos-system-small-business?utm_source=openai",
-          "answers": 0.08888888888888889,
-          "count": 4,
-          "engines": [
-            "chatgpt"
-          ]
-        },
-        {
-          "page": "bbva.es/empresas/productos/tpv/tpv-hosteleria.html",
-          "url": "https://www.bbva.es/empresas/productos/tpv/tpv-hosteleria.html",
+          "page": "sumup.com/es-es/tpv-software",
+          "url": "https://www.sumup.com/es-es/tpv-software/",
           "answers": 0.08888888888888889,
           "count": 4,
           "engines": [
@@ -2654,30 +2675,36 @@
           ]
         },
         {
+          "page": "gesmule.com/blog/mejor-tpv-restaurantes-guia-definitiva",
+          "url": "https://www.gesmule.com/blog/mejor-tpv-restaurantes-guia-definitiva",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "ingenieriademenu.com/software-tpv-hosteleria",
+          "url": "https://ingenieriademenu.com/software-tpv-hosteleria/",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "blog.platomico.com/tpv-bar",
+          "url": "https://blog.platomico.com/tpv-bar?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt",
+            "perplexity"
+          ]
+        },
+        {
           "page": "mygestion.com/blog/mejores-programas-tpv",
-          "url": "https://www.mygestion.com/blog/mejores-programas-tpv?utm_source=openai",
-          "answers": 0.06666666666666667,
-          "count": 3,
-          "engines": [
-            "chatgpt",
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "bouzondigital.com/es/blog/mejores-tpv-restaurantes-espana",
-          "url": "https://www.bouzondigital.com/es/blog/mejores-tpv-restaurantes-espana/?utm_source=openai",
-          "answers": 0.06666666666666667,
-          "count": 3,
-          "engines": [
-            "chatgpt",
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "squareup.com/es/es/point-of-sale/restaurants",
-          "url": "https://squareup.com/es/es/point-of-sale/restaurants",
+          "url": "https://www.mygestion.com/blog/mejores-programas-tpv",
           "answers": 0.06666666666666667,
           "count": 3,
           "engines": [
@@ -2686,12 +2713,21 @@
           ]
         },
         {
-          "page": "comparasoft.es/blog/mejor-tpv-hosteleria-2026",
-          "url": "https://comparasoft.es/blog/mejor-tpv-hosteleria-2026?utm_source=openai",
+          "page": "rankia.com/blog/autonomos-y-emprendedores/5995482-guia-completa-tpv-como-elegir-mejor-terminal-punto-venta-para-negocio",
+          "url": "https://www.rankia.com/blog/autonomos-y-emprendedores/5995482-guia-completa-tpv-como-elegir-mejor-terminal-punto-venta-para-negocio",
           "answers": 0.06666666666666667,
           "count": 3,
           "engines": [
-            "chatgpt"
+            "perplexity"
+          ]
+        },
+        {
+          "page": "bancsabadell.com/bsnacional/es/blog/como-elegir-el-tpv-para-tu-negocio-y-aceptar-pagos-con-tarjeta",
+          "url": "https://www.bancsabadell.com/bsnacional/es/blog/como-elegir-el-tpv-para-tu-negocio-y-aceptar-pagos-con-tarjeta/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
           ]
         },
         {
@@ -2704,8 +2740,8 @@
           ]
         },
         {
-          "page": "ingenieriademenu.com/software-tpv-hosteleria",
-          "url": "https://ingenieriademenu.com/software-tpv-hosteleria/",
+          "page": "youtube.com/watch?v=mSYSr6m5CbA",
+          "url": "https://www.youtube.com/watch?v=mSYSr6m5CbA",
           "answers": 0.06666666666666667,
           "count": 3,
           "engines": [
@@ -2713,8 +2749,17 @@
           ]
         },
         {
-          "page": "fos.consulting/comparativas/mejores-tpv-restaurantes",
-          "url": "https://fos.consulting/comparativas/mejores-tpv-restaurantes?utm_source=openai",
+          "page": "glop.es/elegir-el-mejor-tpv-para-hosteleria-guia-definitiva",
+          "url": "https://www.glop.es/elegir-el-mejor-tpv-para-hosteleria-guia-definitiva/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "gemini"
+          ]
+        },
+        {
+          "page": "mise.ws/es/guias/tpv-para-hosteleria.html",
+          "url": "https://www.mise.ws/es/guias/tpv-para-hosteleria.html?utm_source=openai",
           "answers": 0.044444444444444446,
           "count": 2,
           "engines": [
@@ -2723,8 +2768,8 @@
           ]
         },
         {
-          "page": "foodyservice.com/comparativa-tpv-hosteleria",
-          "url": "https://foodyservice.com/comparativa-tpv-hosteleria?utm_source=openai",
+          "page": "getnet.net/es/tu-negocio/sectores/tpv-para-hosteleria",
+          "url": "https://www.getnet.net/es/tu-negocio/sectores/tpv-para-hosteleria?utm_source=openai",
           "answers": 0.044444444444444446,
           "count": 2,
           "engines": [
@@ -2733,18 +2778,8 @@
           ]
         },
         {
-          "page": "foodtic.com/precios",
-          "url": "https://foodtic.com/precios/?utm_source=openai",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "chatgpt",
-            "gemini"
-          ]
-        },
-        {
-          "page": "tpvhostel.com",
-          "url": "https://tpvhostel.com/?utm_source=openai",
+          "page": "digablopos.com/es/blog/software-tpv-para-panaderia-guia-comparativa",
+          "url": "https://digablopos.com/es/blog/software-tpv-para-panaderia-guia-comparativa?utm_source=openai",
           "answers": 0.044444444444444446,
           "count": 2,
           "engines": [
@@ -2753,8 +2788,8 @@
           ]
         },
         {
-          "page": "lightspeedhq.com/es/tpv/restaurant/cafeteria",
-          "url": "https://www.lightspeedhq.com/es/tpv/restaurant/cafeteria/?utm_source=openai",
+          "page": "easybyte.es/blog/mejor-tpv-para-hosteleria",
+          "url": "https://easybyte.es/blog/mejor-tpv-para-hosteleria/?utm_source=openai",
           "answers": 0.044444444444444446,
           "count": 2,
           "engines": [
@@ -2763,62 +2798,12 @@
           ]
         },
         {
-          "page": "rankiabusiness.com/tpv-hosteleria",
-          "url": "https://rankiabusiness.com/tpv-hosteleria/?utm_source=openai",
+          "page": "glop.es/manuales/Manual-stock-basico.pdf",
+          "url": "https://www.glop.es/manuales/Manual-stock-basico.pdf?utm_source=openai",
           "answers": 0.044444444444444446,
           "count": 2,
           "engines": [
             "chatgpt",
-            "perplexity"
-          ]
-        },
-        {
-          "page": "squareup.com/es/es/point-of-sale/retail/liquor-wine-brewery",
-          "url": "https://squareup.com/es/es/point-of-sale/retail/liquor-wine-brewery",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "qamarero.com/blog/mejores-pantallas-cocina-kds-restaurantes",
-          "url": "https://qamarero.com/blog/mejores-pantallas-cocina-kds-restaurantes/",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "sincomisiones.org/datafonos/mejores-datafonos",
-          "url": "https://sincomisiones.org/datafonos/mejores-datafonos",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "resmio.com/es",
-          "url": "https://www.resmio.com/es/",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "foodeo.es",
-          "url": "https://foodeo.es/",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "perplexity",
             "gemini"
           ]
         }
@@ -2826,25 +2811,52 @@
       "sources": {
         "all": [
           {
-            "domain": "squareup.com",
-            "answers": 0.3333333333333333,
+            "domain": "blog.platomico.com",
+            "answers": 0.24444444444444444,
             "split": {
               "NL": 0,
-              "ES": 0.3333333333333333,
+              "ES": 0.24444444444444444,
               "DE": 0
             }
           },
           {
-            "domain": "lightspeedhq.com",
-            "answers": 0.2222222222222222,
+            "domain": "squareup.com",
+            "answers": 0.24444444444444444,
             "split": {
               "NL": 0,
-              "ES": 0.2222222222222222,
+              "ES": 0.24444444444444444,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "glop.es",
+            "answers": 0.2,
+            "split": {
+              "NL": 0,
+              "ES": 0.2,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "hitsystems.es",
+            "answers": 0.2,
+            "split": {
+              "NL": 0,
+              "ES": 0.2,
               "DE": 0
             }
           },
           {
             "domain": "qamarero.com",
+            "answers": 0.17777777777777778,
+            "split": {
+              "NL": 0,
+              "ES": 0.17777777777777778,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "lymon.es",
             "answers": 0.17777777777777778,
             "split": {
               "NL": 0,
@@ -2862,7 +2874,7 @@
             }
           },
           {
-            "domain": "agorapos.com",
+            "domain": "sumup.com",
             "answers": 0.15555555555555556,
             "split": {
               "NL": 0,
@@ -2871,7 +2883,7 @@
             }
           },
           {
-            "domain": "comercialtpv.com",
+            "domain": "lightspeedhq.com",
             "answers": 0.15555555555555556,
             "split": {
               "NL": 0,
@@ -2880,34 +2892,7 @@
             }
           },
           {
-            "domain": "hitsystems.es",
-            "answers": 0.15555555555555556,
-            "split": {
-              "NL": 0,
-              "ES": 0.15555555555555556,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "ingenieriademenu.com",
-            "answers": 0.15555555555555556,
-            "split": {
-              "NL": 0,
-              "ES": 0.15555555555555556,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "bancsabadell.com",
-            "answers": 0.13333333333333333,
-            "split": {
-              "NL": 0,
-              "ES": 0.13333333333333333,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "lymon.es",
+            "domain": "softabase.com",
             "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
@@ -2918,16 +2903,16 @@
         ],
         "chatgpt": [
           {
-            "domain": "comparasoft.es",
-            "answers": 0.3333333333333333,
+            "domain": "softabase.com",
+            "answers": 0.4,
             "split": {
               "NL": 0,
-              "ES": 0.3333333333333333,
+              "ES": 0.4,
               "DE": 0
             }
           },
           {
-            "domain": "softabase.com",
+            "domain": "hackceleration.com",
             "answers": 0.26666666666666666,
             "split": {
               "NL": 0,
@@ -2936,7 +2921,16 @@
             }
           },
           {
-            "domain": "hackceleration.com",
+            "domain": "blog.platomico.com",
+            "answers": 0.26666666666666666,
+            "split": {
+              "NL": 0,
+              "ES": 0.26666666666666666,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "glop.es",
             "answers": 0.2,
             "split": {
               "NL": 0,
@@ -2945,25 +2939,16 @@
             }
           },
           {
-            "domain": "taipricebook.es",
-            "answers": 0.2,
+            "domain": "negociosypymes.es",
+            "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
-              "ES": 0.2,
+              "ES": 0.13333333333333333,
               "DE": 0
             }
           },
           {
             "domain": "pulsotpv.es",
-            "answers": 0.2,
-            "split": {
-              "NL": 0,
-              "ES": 0.2,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "blog.platomico.com",
             "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
@@ -2972,7 +2957,7 @@
             }
           },
           {
-            "domain": "huffingtonpost.es",
+            "domain": "elpais.com",
             "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
@@ -2981,7 +2966,7 @@
             }
           },
           {
-            "domain": "theretailexec.com",
+            "domain": "comparasoft.es",
             "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
@@ -2990,7 +2975,7 @@
             }
           },
           {
-            "domain": "smartbar.io",
+            "domain": "eurofic.com",
             "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
@@ -2999,7 +2984,7 @@
             }
           },
           {
-            "domain": "squareup.com",
+            "domain": "comercialtpv.com",
             "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
@@ -3010,25 +2995,34 @@
         ],
         "perplexity": [
           {
-            "domain": "squareup.com",
-            "answers": 0.5333333333333333,
+            "domain": "blog.platomico.com",
+            "answers": 0.4666666666666667,
             "split": {
               "NL": 0,
-              "ES": 0.5333333333333333,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "bancsabadell.com",
-            "answers": 0.4,
-            "split": {
-              "NL": 0,
-              "ES": 0.4,
+              "ES": 0.4666666666666667,
               "DE": 0
             }
           },
           {
             "domain": "qamarero.com",
+            "answers": 0.4666666666666667,
+            "split": {
+              "NL": 0,
+              "ES": 0.4666666666666667,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "squareup.com",
+            "answers": 0.4666666666666667,
+            "split": {
+              "NL": 0,
+              "ES": 0.4666666666666667,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "sumup.com",
             "answers": 0.4,
             "split": {
               "NL": 0,
@@ -3046,16 +3040,7 @@
             }
           },
           {
-            "domain": "bbva.es",
-            "answers": 0.3333333333333333,
-            "split": {
-              "NL": 0,
-              "ES": 0.3333333333333333,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "cegid.com",
+            "domain": "bancsabadell.com",
             "answers": 0.26666666666666666,
             "split": {
               "NL": 0,
@@ -3064,7 +3049,16 @@
             }
           },
           {
-            "domain": "bouzondigital.com",
+            "domain": "bbva.es",
+            "answers": 0.26666666666666666,
+            "split": {
+              "NL": 0,
+              "ES": 0.26666666666666666,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "rankia.com",
             "answers": 0.2,
             "split": {
               "NL": 0,
@@ -3073,7 +3067,7 @@
             }
           },
           {
-            "domain": "blog.platomico.com",
+            "domain": "cegid.com",
             "answers": 0.2,
             "split": {
               "NL": 0,
@@ -3082,36 +3076,27 @@
             }
           },
           {
-            "domain": "foodlus.com",
-            "answers": 0.2,
+            "domain": "makro.es",
+            "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
-              "ES": 0.2,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "sumup.com",
-            "answers": 0.2,
-            "split": {
-              "NL": 0,
-              "ES": 0.2,
+              "ES": 0.13333333333333333,
               "DE": 0
             }
           }
         ],
         "gemini": [
           {
-            "domain": "ingenieriademenu.com",
-            "answers": 0.4666666666666667,
+            "domain": "hitsystems.es",
+            "answers": 0.5333333333333333,
             "split": {
               "NL": 0,
-              "ES": 0.4666666666666667,
+              "ES": 0.5333333333333333,
               "DE": 0
             }
           },
           {
-            "domain": "hitsystems.es",
+            "domain": "ingenieriademenu.com",
             "answers": 0.4,
             "split": {
               "NL": 0,
@@ -3120,34 +3105,43 @@
             }
           },
           {
-            "domain": "comercialtpv.com",
-            "answers": 0.3333333333333333,
+            "domain": "glop.es",
+            "answers": 0.4,
             "split": {
               "NL": 0,
-              "ES": 0.3333333333333333,
+              "ES": 0.4,
               "DE": 0
             }
           },
           {
             "domain": "lymon.es",
-            "answers": 0.3333333333333333,
+            "answers": 0.4,
             "split": {
               "NL": 0,
-              "ES": 0.3333333333333333,
+              "ES": 0.4,
               "DE": 0
             }
           },
           {
-            "domain": "squareup.com",
-            "answers": 0.3333333333333333,
+            "domain": "gesmule.com",
+            "answers": 0.26666666666666666,
             "split": {
               "NL": 0,
-              "ES": 0.3333333333333333,
+              "ES": 0.26666666666666666,
               "DE": 0
             }
           },
           {
-            "domain": "agorapos.com",
+            "domain": "youtube.com",
+            "answers": 0.26666666666666666,
+            "split": {
+              "NL": 0,
+              "ES": 0.26666666666666666,
+              "DE": 0
+            }
+          },
+          {
+            "domain": "comercialtpv.com",
             "answers": 0.26666666666666666,
             "split": {
               "NL": 0,
@@ -3165,7 +3159,7 @@
             }
           },
           {
-            "domain": "sipos.ai",
+            "domain": "squareup.com",
             "answers": 0.2,
             "split": {
               "NL": 0,
@@ -3174,16 +3168,7 @@
             }
           },
           {
-            "domain": "glop.es",
-            "answers": 0.2,
-            "split": {
-              "NL": 0,
-              "ES": 0.2,
-              "DE": 0
-            }
-          },
-          {
-            "domain": "sincomisiones.org",
+            "domain": "foodtic.com",
             "answers": 0.2,
             "split": {
               "NL": 0,
@@ -3231,9 +3216,9 @@
         },
         {
           "brand": "Orderbird",
-          "all": 0.5111111111111111,
+          "all": 0.5555555555555556,
           "byEngine": {
-            "chatgpt": 0.6,
+            "chatgpt": 0.7333333333333333,
             "perplexity": 0.4,
             "gemini": 0.5333333333333333
           },
@@ -3241,12 +3226,12 @@
             "all": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.5111111111111111
+              "DE": 0.5555555555555556
             },
             "chatgpt": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.6
+              "DE": 0.7333333333333333
             },
             "perplexity": {
               "NL": 0,
@@ -3262,17 +3247,17 @@
         },
         {
           "brand": "SumUp",
-          "all": 0.5111111111111111,
+          "all": 0.4666666666666667,
           "byEngine": {
             "chatgpt": 0.6666666666666666,
-            "perplexity": 0.4,
-            "gemini": 0.4666666666666667
+            "perplexity": 0.3333333333333333,
+            "gemini": 0.4
           },
           "split": {
             "all": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.5111111111111111
+              "DE": 0.4666666666666667
             },
             "chatgpt": {
               "NL": 0,
@@ -3282,38 +3267,38 @@
             "perplexity": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.4
+              "DE": 0.3333333333333333
             },
             "gemini": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.4666666666666667
+              "DE": 0.4
             }
           }
         },
         {
           "brand": "ready2order",
-          "all": 0.5111111111111111,
+          "all": 0.4666666666666667,
           "byEngine": {
-            "chatgpt": 0.4666666666666667,
-            "perplexity": 0.5333333333333333,
+            "chatgpt": 0.5333333333333333,
+            "perplexity": 0.3333333333333333,
             "gemini": 0.5333333333333333
           },
           "split": {
             "all": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.5111111111111111
+              "DE": 0.4666666666666667
             },
             "chatgpt": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.4666666666666667
+              "DE": 0.5333333333333333
             },
             "perplexity": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.5333333333333333
+              "DE": 0.3333333333333333
             },
             "gemini": {
               "NL": 0,
@@ -3324,42 +3309,11 @@
         },
         {
           "brand": "gastronovi",
-          "all": 0.4222222222222222,
-          "byEngine": {
-            "chatgpt": 0.4,
-            "perplexity": 0.26666666666666666,
-            "gemini": 0.6
-          },
-          "split": {
-            "all": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.4222222222222222
-            },
-            "chatgpt": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.4
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.26666666666666666
-            },
-            "gemini": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.6
-            }
-          }
-        },
-        {
-          "brand": "Vectron",
           "all": 0.35555555555555557,
           "byEngine": {
-            "chatgpt": 0.5333333333333333,
-            "perplexity": 0.2,
-            "gemini": 0.3333333333333333
+            "chatgpt": 0.26666666666666666,
+            "perplexity": 0.26666666666666666,
+            "gemini": 0.5333333333333333
           },
           "split": {
             "all": {
@@ -3370,12 +3324,43 @@
             "chatgpt": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.5333333333333333
+              "DE": 0.26666666666666666
             },
             "perplexity": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.2
+              "DE": 0.26666666666666666
+            },
+            "gemini": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.5333333333333333
+            }
+          }
+        },
+        {
+          "brand": "Vectron",
+          "all": 0.28888888888888886,
+          "byEngine": {
+            "chatgpt": 0.4,
+            "perplexity": 0.13333333333333333,
+            "gemini": 0.3333333333333333
+          },
+          "split": {
+            "all": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.28888888888888886
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.4
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.13333333333333333
             },
             "gemini": {
               "NL": 0,
@@ -3386,9 +3371,40 @@
         },
         {
           "brand": "Gastrofix",
-          "all": 0.26666666666666666,
+          "all": 0.2,
           "byEngine": {
-            "chatgpt": 0.6,
+            "chatgpt": 0.3333333333333333,
+            "perplexity": 0,
+            "gemini": 0.26666666666666666
+          },
+          "split": {
+            "all": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.2
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.3333333333333333
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0
+            },
+            "gemini": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.26666666666666666
+            }
+          }
+        },
+        {
+          "brand": "Zettle",
+          "all": 0.17777777777777778,
+          "byEngine": {
+            "chatgpt": 0.3333333333333333,
             "perplexity": 0,
             "gemini": 0.2
           },
@@ -3396,12 +3412,12 @@
             "all": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.26666666666666666
+              "DE": 0.17777777777777778
             },
             "chatgpt": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.6
+              "DE": 0.3333333333333333
             },
             "perplexity": {
               "NL": 0,
@@ -3417,9 +3433,9 @@
         },
         {
           "brand": "Tillhub",
-          "all": 0.13333333333333333,
+          "all": 0.15555555555555556,
           "byEngine": {
-            "chatgpt": 0.2,
+            "chatgpt": 0.26666666666666666,
             "perplexity": 0.06666666666666667,
             "gemini": 0.13333333333333333
           },
@@ -3427,12 +3443,12 @@
             "all": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.13333333333333333
+              "DE": 0.15555555555555556
             },
             "chatgpt": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.2
+              "DE": 0.26666666666666666
             },
             "perplexity": {
               "NL": 0,
@@ -3447,11 +3463,11 @@
           }
         },
         {
-          "brand": "Zettle",
+          "brand": "resmio",
           "all": 0.13333333333333333,
           "byEngine": {
-            "chatgpt": 0.2,
-            "perplexity": 0,
+            "chatgpt": 0.13333333333333333,
+            "perplexity": 0.06666666666666667,
             "gemini": 0.2
           },
           "split": {
@@ -3463,7 +3479,38 @@
             "chatgpt": {
               "NL": 0,
               "ES": 0,
+              "DE": 0.13333333333333333
+            },
+            "perplexity": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.06666666666666667
+            },
+            "gemini": {
+              "NL": 0,
+              "ES": 0,
               "DE": 0.2
+            }
+          }
+        },
+        {
+          "brand": "Square",
+          "all": 0.06666666666666667,
+          "byEngine": {
+            "chatgpt": 0.13333333333333333,
+            "perplexity": 0,
+            "gemini": 0.06666666666666667
+          },
+          "split": {
+            "all": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.06666666666666667
+            },
+            "chatgpt": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.13333333333333333
             },
             "perplexity": {
               "NL": 0,
@@ -3473,74 +3520,12 @@
             "gemini": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.2
+              "DE": 0.06666666666666667
             }
           }
         },
         {
           "brand": "OpenTable",
-          "all": 0.1111111111111111,
-          "byEngine": {
-            "chatgpt": 0.06666666666666667,
-            "perplexity": 0,
-            "gemini": 0.26666666666666666
-          },
-          "split": {
-            "all": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.1111111111111111
-            },
-            "chatgpt": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.06666666666666667
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0
-            },
-            "gemini": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.26666666666666666
-            }
-          }
-        },
-        {
-          "brand": "resmio",
-          "all": 0.08888888888888889,
-          "byEngine": {
-            "chatgpt": 0.06666666666666667,
-            "perplexity": 0.06666666666666667,
-            "gemini": 0.13333333333333333
-          },
-          "split": {
-            "all": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.08888888888888889
-            },
-            "chatgpt": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.06666666666666667
-            },
-            "perplexity": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.06666666666666667
-            },
-            "gemini": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.13333333333333333
-            }
-          }
-        },
-        {
-          "brand": "SevenRooms",
           "all": 0.06666666666666667,
           "byEngine": {
             "chatgpt": 0.06666666666666667,
@@ -3632,30 +3617,8 @@
         {
           "page": "fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/gastronomie",
           "url": "https://www.fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/gastronomie/?utm_source=openai",
-          "answers": 0.3111111111111111,
-          "count": 14,
-          "engines": [
-            "chatgpt",
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "de.mobiletransaction.org/kassensysteme-fuer-gastronomie",
-          "url": "https://de.mobiletransaction.org/kassensysteme-fuer-gastronomie/?utm_source=openai",
-          "answers": 0.24444444444444444,
-          "count": 11,
-          "engines": [
-            "chatgpt",
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "ordio.com/insights/ratgeber/kassensystem-gastronomie-vergleich",
-          "url": "https://www.ordio.com/insights/ratgeber/kassensystem-gastronomie-vergleich?utm_source=openai",
-          "answers": 0.24444444444444444,
-          "count": 11,
+          "answers": 0.28888888888888886,
+          "count": 13,
           "engines": [
             "chatgpt",
             "perplexity",
@@ -3665,8 +3628,8 @@
         {
           "page": "orderbird.com/de/blog/kassensystem-gastronomie-vergleich",
           "url": "https://www.orderbird.com/de/blog/kassensystem-gastronomie-vergleich?utm_source=openai",
-          "answers": 0.2222222222222222,
-          "count": 10,
+          "answers": 0.2,
+          "count": 9,
           "engines": [
             "chatgpt",
             "perplexity",
@@ -3675,9 +3638,31 @@
         },
         {
           "page": "fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem",
-          "url": "https://www.fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem/",
-          "answers": 0.2,
-          "count": 9,
+          "url": "https://www.fuer-gruender.de/wissen/unternehmen-fuehren/buchhaltung/kasse/kassensystem/?utm_source=openai",
+          "answers": 0.17777777777777778,
+          "count": 8,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "ordio.com/insights/ratgeber/kassensystem-gastronomie-vergleich",
+          "url": "https://www.ordio.com/insights/ratgeber/kassensystem-gastronomie-vergleich?utm_source=openai",
+          "answers": 0.17777777777777778,
+          "count": 8,
+          "engines": [
+            "chatgpt",
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "de.mobiletransaction.org/kassensysteme-fuer-gastronomie",
+          "url": "https://de.mobiletransaction.org/kassensysteme-fuer-gastronomie/",
+          "answers": 0.13333333333333333,
+          "count": 6,
           "engines": [
             "perplexity",
             "gemini"
@@ -3686,20 +3671,19 @@
         {
           "page": "kassensystemevergleich.de/gastronomie-registrierkassen-und-kassensysteme",
           "url": "https://www.kassensystemevergleich.de/gastronomie-registrierkassen-und-kassensysteme/",
-          "answers": 0.15555555555555556,
-          "count": 7,
+          "answers": 0.13333333333333333,
+          "count": 6,
           "engines": [
             "perplexity",
             "gemini"
           ]
         },
         {
-          "page": "ordio.com/insights/ratgeber/warenwirtschaftssystem-gastronomie-vergleich",
-          "url": "https://www.ordio.com/insights/ratgeber/warenwirtschaftssystem-gastronomie-vergleich?utm_source=openai",
+          "page": "barbrain.com/blog/kassensystem-gastronomie-vergleich",
+          "url": "https://www.barbrain.com/blog/kassensystem-gastronomie-vergleich",
           "answers": 0.1111111111111111,
           "count": 5,
           "engines": [
-            "chatgpt",
             "perplexity",
             "gemini"
           ]
@@ -3714,23 +3698,43 @@
           ]
         },
         {
-          "page": "unzer.com/de/knowledge/articles/besten-kassenloesungen-gastro",
-          "url": "https://www.unzer.com/de/knowledge/articles/besten-kassenloesungen-gastro/?utm_source=openai",
+          "page": "gastrorocket.de/die-10-besten-kassensysteme-fuer-die-gastronomie-im-vergleich",
+          "url": "https://gastrorocket.de/die-10-besten-kassensysteme-fuer-die-gastronomie-im-vergleich?utm_source=openai",
           "answers": 0.08888888888888889,
           "count": 4,
           "engines": [
             "chatgpt",
-            "perplexity"
+            "perplexity",
+            "gemini"
           ]
         },
         {
-          "page": "gastrorocket.de/die-10-besten-kassensysteme-fuer-die-gastronomie-im-vergleich",
-          "url": "https://gastrorocket.de/die-10-besten-kassensysteme-fuer-die-gastronomie-im-vergleich",
+          "page": "omr.com/de/reviews/contenthub/kassensysteme-gastronomie",
+          "url": "https://omr.com/de/reviews/contenthub/kassensysteme-gastronomie?utm_source=openai",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "tradingtwins.com/de/kassensystem/vergleich",
+          "url": "https://www.tradingtwins.com/de/kassensystem/vergleich",
           "answers": 0.08888888888888889,
           "count": 4,
           "engines": [
             "perplexity",
             "gemini"
+          ]
+        },
+        {
+          "page": "omr.com/de/reviews/contenthub/beste-kassensysteme-8-tools-die-wirklich-kassieren",
+          "url": "https://omr.com/de/reviews/contenthub/beste-kassensysteme-8-tools-die-wirklich-kassieren",
+          "answers": 0.08888888888888889,
+          "count": 4,
+          "engines": [
+            "perplexity"
           ]
         },
         {
@@ -3765,16 +3769,6 @@
           ]
         },
         {
-          "page": "kassensystem-experten.de/kassensystem/branche/restaurant",
-          "url": "https://kassensystem-experten.de/kassensystem/branche/restaurant/?utm_source=openai",
-          "answers": 0.06666666666666667,
-          "count": 3,
-          "engines": [
-            "chatgpt",
-            "perplexity"
-          ]
-        },
-        {
           "page": "get-sides.de/blog/vergleich-kassensystem-gastronomie-2026",
           "url": "https://www.get-sides.de/blog/vergleich-kassensystem-gastronomie-2026?utm_source=openai",
           "answers": 0.06666666666666667,
@@ -3785,31 +3779,13 @@
           ]
         },
         {
-          "page": "ready2order.com/de/kassensystem-cafe",
-          "url": "https://ready2order.com/de/kassensystem-cafe/",
+          "page": "unzer.com/de/knowledge/articles/besten-kassenloesungen-gastro",
+          "url": "https://www.unzer.com/de/knowledge/articles/besten-kassenloesungen-gastro/?utm_source=openai",
           "answers": 0.06666666666666667,
           "count": 3,
           "engines": [
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "group.vectron-systems.com/fileadmin/Content/Unternehmen/PR-IR/UN-Kalender_Berichte/2025/Gemeinsamer_Vertragsbericht_293a_mit_Bewertungsgutachten.pdf",
-          "url": "https://group.vectron-systems.com/fileadmin/Content/Unternehmen/PR-IR/UN-Kalender_Berichte/2025/Gemeinsamer_Vertragsbericht_293a_mit_Bewertungsgutachten.pdf?utm_source=openai",
-          "answers": 0.06666666666666667,
-          "count": 3,
-          "engines": [
-            "chatgpt"
-          ]
-        },
-        {
-          "page": "gesetze-im-internet.de/kassensichv/BJNR351500017.html",
-          "url": "https://www.gesetze-im-internet.de/kassensichv/BJNR351500017.html?path=%2F&utm_source=openai",
-          "answers": 0.06666666666666667,
-          "count": 3,
-          "engines": [
-            "chatgpt"
+            "chatgpt",
+            "perplexity"
           ]
         },
         {
@@ -3818,17 +3794,46 @@
           "answers": 0.06666666666666667,
           "count": 3,
           "engines": [
+            "perplexity",
             "gemini"
           ]
         },
         {
-          "page": "lightspeedhq.de/kassensystem/restaurant/reservations",
-          "url": "https://www.lightspeedhq.de/kassensystem/restaurant/reservations/?utm_source=openai",
-          "answers": 0.044444444444444446,
-          "count": 2,
+          "page": "kassensystemevergleich.de/kassensysteme-cafes",
+          "url": "https://www.kassensystemevergleich.de/kassensysteme-cafes/",
+          "answers": 0.06666666666666667,
+          "count": 3,
           "engines": [
-            "chatgpt",
+            "perplexity",
             "gemini"
+          ]
+        },
+        {
+          "page": "ready2order.com/de/kassensysteme-gastronomie",
+          "url": "https://ready2order.com/de/kassensysteme-gastronomie/",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity",
+            "gemini"
+          ]
+        },
+        {
+          "page": "de.wikipedia.org/wiki/Kassensystem",
+          "url": "https://de.wikipedia.org/wiki/Kassensystem?utm_source=openai",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "chatgpt"
+          ]
+        },
+        {
+          "page": "workforce.com/buyers-guides/pos-restaurants",
+          "url": "https://www.workforce.com/buyers-guides/pos-restaurants",
+          "answers": 0.06666666666666667,
+          "count": 3,
+          "engines": [
+            "perplexity"
           ]
         },
         {
@@ -3842,64 +3847,44 @@
           ]
         },
         {
-          "page": "shopify.com/de/blog/kassensystem-vergleich",
-          "url": "https://www.shopify.com/de/blog/kassensystem-vergleich?utm_source=openai",
+          "page": "orderbird.com/de/qr-code-bestellsystem",
+          "url": "https://www.orderbird.com/de/qr-code-bestellsystem?utm_source=openai",
+          "answers": 0.044444444444444446,
+          "count": 2,
+          "engines": [
+            "chatgpt",
+            "gemini"
+          ]
+        },
+        {
+          "page": "sumup.com/de-de/order-and-pay",
+          "url": "https://www.sumup.com/de-de/order-and-pay/?gh_src=a452496f2&utm_source=openai",
           "answers": 0.044444444444444446,
           "count": 2,
           "engines": [
             "chatgpt",
             "perplexity"
-          ]
-        },
-        {
-          "page": "foodnotify.com/de/blog/warenwirtschaftssysteme-gastronomie",
-          "url": "https://www.foodnotify.com/de/blog/warenwirtschaftssysteme-gastronomie?utm_source=openai",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "chatgpt",
-            "perplexity"
-          ]
-        },
-        {
-          "page": "super44.ai/de/blog/bestes-kassensystem-gastronomie",
-          "url": "https://super44.ai/de/blog/bestes-kassensystem-gastronomie",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "perplexity",
-            "gemini"
-          ]
-        },
-        {
-          "page": "tradingtwins.com/de/kassensystem/vergleich",
-          "url": "https://www.tradingtwins.com/de/kassensystem/vergleich",
-          "answers": 0.044444444444444446,
-          "count": 2,
-          "engines": [
-            "perplexity",
-            "gemini"
           ]
         }
       ],
       "sources": {
         "all": [
           {
-            "domain": "orderbird.com",
-            "answers": 0.4444444444444444,
+            "domain": "fuer-gruender.de",
+            "answers": 0.4,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.4444444444444444
+              "DE": 0.4
             }
           },
           {
-            "domain": "fuer-gruender.de",
-            "answers": 0.4222222222222222,
+            "domain": "orderbird.com",
+            "answers": 0.4,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.4222222222222222
+              "DE": 0.4
             }
           },
           {
@@ -3912,16 +3897,7 @@
             }
           },
           {
-            "domain": "ordio.com",
-            "answers": 0.3333333333333333,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.3333333333333333
-            }
-          },
-          {
-            "domain": "de.mobiletransaction.org",
+            "domain": "omr.com",
             "answers": 0.24444444444444444,
             "split": {
               "NL": 0,
@@ -3930,6 +3906,15 @@
             }
           },
           {
+            "domain": "ordio.com",
+            "answers": 0.2222222222222222,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.2222222222222222
+            }
+          },
+          {
             "domain": "kassensystem-experten.de",
             "answers": 0.2,
             "split": {
@@ -3939,7 +3924,16 @@
             }
           },
           {
-            "domain": "flatpay.com",
+            "domain": "barbrain.com",
+            "answers": 0.2,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.2
+            }
+          },
+          {
+            "domain": "ready2order.com",
             "answers": 0.2,
             "split": {
               "NL": 0,
@@ -3949,67 +3943,40 @@
           },
           {
             "domain": "gastronovi.com",
-            "answers": 0.17777777777777778,
+            "answers": 0.15555555555555556,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.17777777777777778
+              "DE": 0.15555555555555556
             }
           },
           {
-            "domain": "barbrain.com",
-            "answers": 0.17777777777777778,
+            "domain": "tradingtwins.com",
+            "answers": 0.15555555555555556,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.17777777777777778
-            }
-          },
-          {
-            "domain": "ready2order.com",
-            "answers": 0.17777777777777778,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.17777777777777778
+              "DE": 0.15555555555555556
             }
           }
         ],
         "chatgpt": [
           {
-            "domain": "zahlungskompass.de",
-            "answers": 0.26666666666666666,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.26666666666666666
-            }
-          },
-          {
             "domain": "orderbird.com",
+            "answers": 0.5333333333333333,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.5333333333333333
+            }
+          },
+          {
+            "domain": "de.wikipedia.org",
             "answers": 0.26666666666666666,
             "split": {
               "NL": 0,
               "ES": 0,
               "DE": 0.26666666666666666
-            }
-          },
-          {
-            "domain": "lightspeedhq.de",
-            "answers": 0.26666666666666666,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.26666666666666666
-            }
-          },
-          {
-            "domain": "kassen-software-vergleich.de",
-            "answers": 0.2,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.2
             }
           },
           {
@@ -4031,70 +3998,61 @@
             }
           },
           {
+            "domain": "lightspeedhq.de",
+            "answers": 0.2,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.2
+            }
+          },
+          {
+            "domain": "cheftipps.de",
+            "answers": 0.13333333333333333,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.13333333333333333
+            }
+          },
+          {
+            "domain": "gastrorocket.de",
+            "answers": 0.13333333333333333,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.13333333333333333
+            }
+          },
+          {
             "domain": "unzer.com",
-            "answers": 0.2,
+            "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.2
+              "DE": 0.13333333333333333
             }
           },
           {
-            "domain": "group.vectron-systems.com",
-            "answers": 0.2,
+            "domain": "omr.com",
+            "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.2
+              "DE": 0.13333333333333333
             }
           },
           {
-            "domain": "static.orderbird.com",
-            "answers": 0.2,
+            "domain": "techradar.com",
+            "answers": 0.13333333333333333,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.2
-            }
-          },
-          {
-            "domain": "gastronovi.com",
-            "answers": 0.2,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.2
+              "DE": 0.13333333333333333
             }
           }
         ],
         "perplexity": [
-          {
-            "domain": "ordio.com",
-            "answers": 0.6666666666666666,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.6666666666666666
-            }
-          },
-          {
-            "domain": "orderbird.com",
-            "answers": 0.6,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.6
-            }
-          },
-          {
-            "domain": "fuer-gruender.de",
-            "answers": 0.5333333333333333,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.5333333333333333
-            }
-          },
           {
             "domain": "barbrain.com",
             "answers": 0.5333333333333333,
@@ -4105,7 +4063,43 @@
             }
           },
           {
-            "domain": "kassensystem-experten.de",
+            "domain": "fuer-gruender.de",
+            "answers": 0.4666666666666667,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.4666666666666667
+            }
+          },
+          {
+            "domain": "ordio.com",
+            "answers": 0.4666666666666667,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.4666666666666667
+            }
+          },
+          {
+            "domain": "omr.com",
+            "answers": 0.4,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.4
+            }
+          },
+          {
+            "domain": "orderbird.com",
+            "answers": 0.4,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.4
+            }
+          },
+          {
+            "domain": "ready2order.com",
             "answers": 0.3333333333333333,
             "split": {
               "NL": 0,
@@ -4114,16 +4108,7 @@
             }
           },
           {
-            "domain": "omr.com",
-            "answers": 0.26666666666666666,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.26666666666666666
-            }
-          },
-          {
-            "domain": "flatpay.com",
+            "domain": "tradingtwins.com",
             "answers": 0.26666666666666666,
             "split": {
               "NL": 0,
@@ -4133,6 +4118,15 @@
           },
           {
             "domain": "kassensystemevergleich.de",
+            "answers": 0.26666666666666666,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.26666666666666666
+            }
+          },
+          {
+            "domain": "dish.co",
             "answers": 0.26666666666666666,
             "split": {
               "NL": 0,
@@ -4148,25 +4142,16 @@
               "ES": 0,
               "DE": 0.26666666666666666
             }
-          },
-          {
-            "domain": "ready2order.com",
-            "answers": 0.26666666666666666,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.26666666666666666
-            }
           }
         ],
         "gemini": [
           {
             "domain": "kassensystemevergleich.de",
-            "answers": 0.7333333333333333,
+            "answers": 0.6666666666666666,
             "split": {
               "NL": 0,
               "ES": 0,
-              "DE": 0.7333333333333333
+              "DE": 0.6666666666666666
             }
           },
           {
@@ -4180,29 +4165,20 @@
           },
           {
             "domain": "de.mobiletransaction.org",
-            "answers": 0.4666666666666667,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.4666666666666667
-            }
-          },
-          {
-            "domain": "orderbird.com",
-            "answers": 0.4666666666666667,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.4666666666666667
-            }
-          },
-          {
-            "domain": "flatpay.com",
             "answers": 0.3333333333333333,
             "split": {
               "NL": 0,
               "ES": 0,
               "DE": 0.3333333333333333
+            }
+          },
+          {
+            "domain": "orderbird.com",
+            "answers": 0.26666666666666666,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.26666666666666666
             }
           },
           {
@@ -4215,7 +4191,7 @@
             }
           },
           {
-            "domain": "tradingtwins.com",
+            "domain": "gastronovi.com",
             "answers": 0.26666666666666666,
             "split": {
               "NL": 0,
@@ -4224,16 +4200,7 @@
             }
           },
           {
-            "domain": "youtube.com",
-            "answers": 0.26666666666666666,
-            "split": {
-              "NL": 0,
-              "ES": 0,
-              "DE": 0.26666666666666666
-            }
-          },
-          {
-            "domain": "ordio.com",
+            "domain": "kassensystemevergleich.com",
             "answers": 0.2,
             "split": {
               "NL": 0,
@@ -4242,7 +4209,25 @@
             }
           },
           {
-            "domain": "gruenderkueche.de",
+            "domain": "omr.com",
+            "answers": 0.2,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.2
+            }
+          },
+          {
+            "domain": "tradingtwins.com",
+            "answers": 0.2,
+            "split": {
+              "NL": 0,
+              "ES": 0,
+              "DE": 0.2
+            }
+          },
+          {
+            "domain": "payone.com",
             "answers": 0.2,
             "split": {
               "NL": 0,

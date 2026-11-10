@@ -1,14 +1,18 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { AuditResults, type AuditSummary } from "./audit-results";
+import type { AuditHistoryEntry } from "./audit-trend";
 import type { AuditPrompt } from "./audit-table";
 // Both written by `bun run audit` (scripts/ai-audit); the summary only by complete runs
 import auditData from "./audit-data.json";
 import auditSummary from "./audit-summary.json";
+import auditHistory from "./audit-history.json";
 // Written by `bun scripts/ig-graph/build.ts` from the hand-collected Instagram lists
 import igGraph from "./ig-graph.json";
 import { suggestedDm, suggestedDmEn } from "./dm";
 import { VenueGraph, type VenueGraphData } from "./venue-graph";
+import { SmoothLink } from "./smooth-link";
+import { toolPath } from "../tools/tools";
 
 const audit = auditData as AuditPrompt[];
 
@@ -132,7 +136,11 @@ function TrackContent() {
   return (
     <ul className="space-y-3">
       <li>
-        <strong>Run the AI audit daily.</strong> The same 45 questions in ChatGPT, Perplexity and Gemini.
+        <strong>Run the AI audit daily.</strong> The same 45 questions in ChatGPT, Perplexity and Gemini.{" "}
+        <SmoothLink href="#audit-trend" className="border-b border-espresso/40 hover:border-espresso">
+          See the trend so far
+        </SmoothLink>
+        .
       </li>
       <li>
         <strong>UTM source.</strong> ChatGPT tags its links (<code className="font-mono text-sm">utm_source=chatgpt.com</code> /{" "}
@@ -262,18 +270,18 @@ function PopupSuccess() {
 const sligroPlan = [
   {
     q: "Why Sligro",
-    a: "Business-only wholesaler. Independent owners still do their own stock run, with costs on their mind, and no POS brand is in the store.",
+    a: "Business only wholesaler.  People in there are horeca buyers, and are diy.  That's icp.",
   },
   { q: "The merchant", a: "Independent cafés and restaurants in Amsterdam that shop at Sligro themselves." },
   { q: "The channel", a: "A stand at the Amsterdam Sligro checkouts on busy mornings. Bidfood if Sligro says no." },
   {
     q: "The message",
-    a: "“Je weet wat je hier betaalt. Weet je ook wat het je oplevert?” Scan your receipt, get a free cost check per dish.",
+    a: "“Je weet wat je hier betaalt. Weet je ook wat het je oplevert?” Scan your receipt, get a cost check on dish. HELP ME (?)",
   },
   { q: "The launch", a: "Two mornings at one store, me and one sales rep. Every scan and demo logged in HubSpot." },
   {
     q: "Success",
-    a: "50 scans, 10 demos, 2 live. The pooled, anonymous prices become an Amsterdam horeca price index for Tebi to publish.",
+    a: "50 scans, 10 demos, 2 live.",
   },
 ];
 
@@ -290,18 +298,40 @@ function SligroBackup() {
   );
 }
 
-type Experiment = { links?: { label: string; href: string }[]; rows: [string, string][] };
+// The Build row's list, each linking to its calculator (see toolPath)
+const calculatorLinks = [
+  ["seasonal subscription", "seizoen"],
+  ["card fees", "pinkosten"],
+  ["POS cost", "kassakosten"],
+  ["POS chooser", "kassakeuze"],
+  ["cost per dish", "gerecht"],
+  ["break-even", "break-even"],
+  ["labour cost", "personeelskosten"],
+  ["prime cost", "prime-cost"],
+  ["profit margin", "winstmarge"],
+  ["tip split", "fooi"],
+] as const;
+
+type Experiment = { rows: [string, ReactNode][] };
 
 const experiments: Record<"tools" | "referral" | "openings", Experiment> = {
   tools: {
-    links: [
-      { label: "Rustige maand? Dan betaal je niks.", href: "/case-studies/tebi/tools/seizoen" },
-      { label: "Wat kost pinnen je echt?", href: "/case-studies/tebi/tools/pinkosten" },
-      { label: "Wat kost je gerecht?", href: "/case-studies/tebi/tools/gerecht" },
-    ],
     rows: [
       ["Hypothesis", "People who care about money will prompt for tools.  This means they are almost always going to be ICP."],
-      ["Build", "10 calculators, matching what Toast, Lightspeed and Bedrijfssoftwaregids offer: seasonal subscription, card fees, POS cost, POS chooser, cost per dish, break-even, labour cost, prime cost, profit margin, tip split. "],
+      [
+        "Build",
+        <>
+          10 calculators, matching what Toast, Lightspeed and Bedrijfssoftwaregids offer:{" "}
+          {calculatorLinks.map(([label, slug], i) => (
+            <span key={slug}>
+              <Link href={toolPath(slug)} className="border-b border-espresso/40 hover:border-espresso">
+                {label}
+              </Link>
+              {i < calculatorLinks.length - 1 ? ", " : "."}
+            </span>
+          ))}
+        </>,
+      ],
       ["Cost", "15 minutes of design & content eyeballs 👁️👄👁️. Two days implementation time."],
       ["Double down", "1,000 uses, or AEO saturation."],
       ["Stop", "Can't stop, won't stop"],
@@ -330,18 +360,9 @@ const experiments: Record<"tools" | "referral" | "openings", Experiment> = {
   },
 };
 
-function ExperimentCard({ links, rows }: Experiment) {
+function ExperimentCard({ rows }: Experiment) {
   return (
     <div className="space-y-5">
-      {links && (
-        <div className="flex flex-wrap gap-2">
-          {links.map((l) => (
-            <Link key={l.href} href={l.href} className="rounded-lg bg-cream px-3 py-1.5 text-sm font-medium hover:bg-stone">
-              {l.label} →
-            </Link>
-          ))}
-        </div>
-      )}
       <dl className="grid gap-x-6 gap-y-4 md:grid-cols-3">
         {rows.map(([k, v]) => (
           <div key={k}>
@@ -387,7 +408,7 @@ export const sections: Section[] = [
     num: "01",
     title: "Get found in AI answers",
     parts: [
-      { label: "AI Audit", ask: "10–15 questions a restaurant owner would really ask, in at least two markets and languages, run in ChatGPT, Perplexity, Gemini and Google AI Overviews. Who gets recommended, and which sources are cited?", content: audit.length ? <AuditResults summary={auditSummary as AuditSummary} prompts={audit} /> : null, wide: true },
+      { label: "AI Audit", ask: "10–15 questions a restaurant owner would really ask, in at least two markets and languages, run in ChatGPT, Perplexity, Gemini and Google AI Overviews. Who gets recommended, and which sources are cited?", content: audit.length ? <AuditResults summary={auditSummary as AuditSummary} prompts={audit} history={auditHistory as AuditHistoryEntry[]} /> : null, wide: true },
       { label: "Act", ask: "The 3 things you'd ship in the first 30 days: pages, content, listings, reviews or third-party sources.", content: <ActContent />, double: true },
       { label: "Track", ask: "How you'd measure progress when analytics don't separate AI traffic yet.", content: <TrackContent /> },
     ],
