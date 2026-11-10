@@ -332,27 +332,33 @@ const experiments: Record<"tools" | "referral" | "openings", Experiment> = {
           ))}
         </>,
       ],
-      ["Cost", "15 minutes of design & content eyeballs 👁️👄👁️. Two days implementation time."],
+      ["Cost", "Building is the quick part. Most of the time goes into checking every rate and claim with experts, plus design & content eyeballs 👁️👄👁️."],
       ["Double down", "1,000 uses, or AEO saturation."],
       ["Stop", "Can't stop, won't stop"],
-      ["Team", "Marketing"],
+      ["Team", "Marketing and SMEs."],
     ],
   },
   referral: {
     rows: [
-      ["Hypothesis", "Tebi already has a strong referral programme, and it works (?). Most customers just don't think to share their code. A nudge and a ready Instagram DM would get more of them to do it."],
-      ["Build", "Each customer gets a short list of venues from their own Instagram network that aren't on Tebi, with their code and a ready Instagram DM. Sent after a strong week, by email or by their account manager."],
-      ["Cost", "The existing rewards, nothing new. A day to pull each customer's venue list, a day to set up the email."],
-      ["Double down", "Twice as many referrals a month as before the nudge."],
-      ["Stop", "No more referrals than usual after 6 weeks."],
-      ["Team", "Account managers, Sales."],
+      [
+        "Hypothesis",
+        <>
+          Referrals are working, but the <em>flow</em> is a tad clunky. Introduce streamlined referral buttons for WhatsApp, QR
+          code or Instagram.
+        </>,
+      ],
+      ["Build", "Share buttons for WhatsApp and Instagram, plus a generated QR code, in the Tebi app and Back Office."],
+      ["Cost", "The real cost is finding out how referrals flow today and getting a slot on the product roadmap, if necessary."],
+      ["Double down", "We see an uptick in \"intent to refer\" button clicks."],
+      ["Stop", "Can't stop, won't stop"],
+      ["Team", "Marketing, Product."],
     ],
   },
   openings: {
     rows: [
       ["Hypothesis", "A new operating permit application means a venue is weeks from opening and hasn't committed to software yet.  We will likely be the first to reach them, and their inbox won't be red very often, so having an encouraging message from Tebi is hype."],
       ["Build", "A daily scrape of Amsterdam's new permit applications in the Gemeenteblad. Each address gets matched to the venue's Instagram, then an Instagram DM from Tebi (same flow as challenge 02), logged in HubSpot."],
-      ["Cost", "€0 for the data, a day to set up the scraperino."],
+      ["Cost", "The scraperino is a day and the data is free. The real cost is checking with legal that we can contact applicants, and agreeing the handoff with Sales."],
       ["Double down", "1 in 5 new applications books a demo. Then add Rotterdam, Utrecht and The Hague."],
       ["Stop", "Most applications turn out to be takeovers that keep their POS, or chains that buy centrally."],
       ["Team", "Marketing and sales."],
@@ -433,11 +439,10 @@ export const sections: Section[] = [
     tone: "olive",
     num: "03",
     title: "Your first 60 days",
-    intro: "AEO tools, a referral push, and venues about to open.",
     parts: [
-      { label: "AEO Tools", ask: experiment, content: <ExperimentCard {...experiments.tools} />, wide: true },
-      { label: "Referral push", ask: experiment, content: <ExperimentCard {...experiments.referral} />, wide: true },
-      { label: "Venues about to open", ask: experiment, content: <ExperimentCard {...experiments.openings} />, wide: true },
+      { label: "1. AEO Tools", ask: experiment, content: <ExperimentCard {...experiments.tools} />, wide: true },
+      { label: "2. Streamline referrals", ask: experiment, content: <ExperimentCard {...experiments.referral} />, wide: true },
+      { label: "3. Venues about to open", ask: experiment, content: <ExperimentCard {...experiments.openings} />, wide: true },
     ],
   },
 ];
