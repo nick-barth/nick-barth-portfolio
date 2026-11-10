@@ -84,7 +84,7 @@ export default function CaseStudyPage() {
 
         {/* Sign-off */}
         <section id="thanks" className="mb-[90px] mt-5 scroll-mt-28 rounded-3xl bg-butter p-6 text-espresso md:p-[50px]">
-          <h2 className={h2}>Thanks for paying attention (?), gang</h2>
+          <h2 className={h2}>Thanks, hope y&apos;all had fun :)</h2>
         </section>
       </main>
       <Footer />
