@@ -149,7 +149,13 @@ export function AuditResults({ summary, prompts, history = [] }: { summary: Audi
   const sources = m.sources[engine] ?? [];
   const tebiRank = brands.findIndex((b) => b.brand === "Tebi") + 1;
   const tebiValue = brands.find((b) => b.brand === "Tebi")?.value ?? 0;
-  const date = new Date(summary.generatedAt).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  const fmt = (d: string | number, opts: Intl.DateTimeFormatOptions) => new Date(d).toLocaleDateString("en-GB", opts);
+  // A combined summary covers every audit day in the history, so show the range
+  const days = history.map((h) => h.date).sort();
+  const date =
+    summary.runsPerPrompt > 1 && days.length > 1
+      ? `${fmt(days[0], { day: "numeric", month: "short" })} – ${fmt(days[days.length - 1], { day: "numeric", month: "short", year: "numeric" })}`
+      : fmt(summary.generatedAt, { day: "numeric", month: "long", year: "numeric" });
 
   return (
     <div className="space-y-12">
@@ -238,7 +244,7 @@ export function AuditResults({ summary, prompts, history = [] }: { summary: Audi
 
       {/* Detail: the table view */}
       <div>
-        <AuditTable prompts={prompts} runsPerPrompt={summary.runsPerPrompt} />
+        <AuditTable prompts={prompts} runsPerPrompt={summary.runsPerPrompt} market={market} engine={engine} />
       </div>
 
       {/* Headline: Tebi's visibility overall, then per engine */}

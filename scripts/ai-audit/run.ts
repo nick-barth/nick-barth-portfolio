@@ -11,12 +11,14 @@
  *       # run only DE, then combine with an earlier run so totals cover every market
  *   bun scripts/ai-audit/run.ts --runs=3 --merge=results/<timestamp> --only-missing
  *       # run only prompts the earlier run doesn't have yet, then combine
+ *   bun scripts/ai-audit/run.ts --combine=all
+ *       # every day's complete run as one sample: the page's tables and bars cover all days
  *
  * Writes scripts/ai-audit/results/<timestamp>/{raw.json,summary.md} and refreshes
  * app/case-studies/tebi/case-study/audit-data.json for the case study page.
  */
 
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { setTimeout as sleep } from "node:timers/promises";
 import { join, resolve } from "node:path";
 import { detectBrands, unmatchedCapitalised } from "./brands";
@@ -40,7 +42,36 @@ const args = Object.fromEntries(
 const runs = Number(args.runs ?? 1);
 const list = (v?: string) => (v ? v.split(",").map((s) => s.trim()) : undefined);
 
-const saved = args.rescore ? await readJson(resolve(DIR, args.rescore, "raw.json")) : null;
+/**
+ * --combine=all: the latest complete result of each day (later ones on a day are rescores of
+ * the same answers), each day counted as one run. Treated like a rescore: no API calls, and
+ * no new point in the time series. Combined results are marked so they're never re-combined.
+ */
+async function loadCombined() {
+  const promptCount = (await readJson(join(DIR, "prompts.json"))).length;
+  const byDay = new Map<string, { dir: string; raw: any }>();
+  for (const dir of (await readdir(join(DIR, "results"))).sort()) {
+    const raw = await readJson(join(DIR, "results", dir, "raw.json")).catch(() => null);
+    const complete = raw && !raw.combined && raw.prompts.length === promptCount && raw.engines.length === engines.length;
+    if (complete) byDay.set(dir.slice(0, 10), { dir, raw });
+  }
+  const days = [...byDay.values()];
+  if (!days.length) throw new Error("--combine found no complete runs in results/");
+  console.log(`Combining ${days.length} day(s): ${days.map((d) => d.dir).join(", ")}`);
+  return {
+    combined: true,
+    prompts: days[days.length - 1].raw.prompts,
+    engines: engines.map((e) => e.id),
+    runs: days.length,
+    rows: days.flatMap((d, i) => d.raw.rows.map((r: { run: number }) => ({ ...r, run: i + 1 }))),
+  };
+}
+
+const saved = args.rescore
+  ? await readJson(resolve(DIR, args.rescore, "raw.json"))
+  : args.combine
+    ? await loadCombined()
+    : null;
 
 const allPrompts: Prompt[] = saved?.prompts ?? (await readJson(join(DIR, "prompts.json")));
 let prompts = allPrompts.filter(
@@ -76,7 +107,7 @@ let active = saved
   : selected.filter((e) => process.env[e.keyVar]);
 const skipped = saved ? [] : selected.filter((e) => !process.env[e.keyVar]);
 
-console.log(saved ? `Rescoring ${args.rescore}` : `Prompts: ${prompts.length} · runs each: ${runs}`);
+console.log(saved ? `Rescoring ${args.rescore ?? `${saved.runs} combined days`}` : `Prompts: ${prompts.length} · runs each: ${runs}`);
 console.log(`Engines: ${active.map((e) => e.label).join(", ") || "none"}`);
 for (const e of skipped) console.log(`  skipping ${e.label} — set ${e.keyVar} in .env`);
 if (!active.length) {
@@ -285,6 +316,29 @@ const pageData = allPrompts
     lang: p.lang,
     prompt: p.prompt,
     gloss: p.gloss,
+    answers: ok.filter((r) => r.promptId === p.id).length,
+    // Share of voice for this one prompt: top brands across every engine and run, plus Tebi
+    brands: (() => {
+      const rs = ok.filter((r) => r.promptId === p.id);
+      const share = (sub: Row[], b: string) => (sub.length ? sub.filter((r) => r.brands.includes(b)).length / sub.length : 0);
+      const names = count(rs.flatMap((r) => [...new Set(r.brands)])).slice(0, 8).map(([b]) => b);
+      if (!names.includes("Tebi")) names.push("Tebi");
+      return names.map((brand) => ({
+        brand,
+        all: share(rs, brand),
+        byEngine: Object.fromEntries(engineIds.map((id) => [id, share(rs.filter((r) => r.engine === id), brand)])),
+        // One flag per answer, by engine then run (null = no answer), for the waffle grid
+        hits: Object.fromEntries(
+          engineIds.map((id) => [
+            id,
+            Array.from({ length: runsUsed }, (_, i) => {
+              const r = rs.find((x) => x.engine === id && x.run === i + 1);
+              return r ? r.brands.includes(brand) : null;
+            }),
+          ]),
+        ),
+      }));
+    })(),
     results: Object.fromEntries(
       engineIds.map((id) => {
         const rs = ok.filter((r) => r.promptId === p.id && r.engine === id);
@@ -391,7 +445,7 @@ if (candidates.length) {
 
 const outDir = join(DIR, "results", stamp);
 await mkdir(outDir, { recursive: true });
-await writeFile(join(outDir, "raw.json"), JSON.stringify({ prompts, runs: runsUsed, engines: active.map((e) => e.id), rows }, null, 2));
+await writeFile(join(outDir, "raw.json"), JSON.stringify({ combined: !!saved?.combined, prompts, runs: runsUsed, engines: active.map((e) => e.id), rows }, null, 2));
 await writeFile(join(outDir, "summary.md"), lines.join("\n"));
 // Merge into the existing page data so runs of different engines (or prompts) add up
 // instead of overwriting each other: this run replaces only the engines it ran.
@@ -430,7 +484,8 @@ if (complete) {
       return {
         id: e.id,
         label: e.label,
-        model: rs[0]?.model ?? null,
+        // Latest model: a combined summary spans days that may have used different ones
+        model: rs[rs.length - 1]?.model ?? null,
         answers: rs.length,
         mentioned: rate(rs, (r) => r.tebiMentioned),
         namedFirst: rate(rs, (r) => r.tebiRank === 1),
